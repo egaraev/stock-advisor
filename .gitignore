@@ -1,0 +1,7 @@
+config.py
+old
+*out
+data
+images
+*pyc
+*.idea*
