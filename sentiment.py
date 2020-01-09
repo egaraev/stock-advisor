@@ -138,7 +138,7 @@ def tw():
                 tweets = api.get_tweets(query=query)
 
                 print (symbol, (" Number of tweets extracted: {}.\n".format(len(tweets))))
-                #print tweets
+#                print (tweets)
 
                 # picking positive tweets from tweets
                 ptweets = [tweet for tweet in tweets if tweet['sentiment'] == 'positive']
