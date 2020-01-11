@@ -37,13 +37,8 @@ def nasdaq_news():
           name=symbol_full_name(symbol, 3)
           print (symbol)
           stock = yf.Ticker(symbol)
-#          print (si.get_live_price(symbol))
           hist = stock.history(period="1d")
           df = pd.DataFrame(hist)
-#          print (df['Open'].tolist())
-#          print (df['Close'].tolist())
-#          print (df['Low'].tolist())
-#          print (df['High'].tolist())
           stock_news_urls  = scrape_all_articles(symbol , 100)
           all_news_urls = list(set(stock_news_urls))
           all_titles = [scrape_news_title(news_url) for news_url in all_news_urls]
