@@ -93,7 +93,8 @@ class TwitterClient(object):
             marketcount=market_count()
 #            print (marketcount)
 
-            max_tweets=1200/marketcount
+#            max_tweets=1200/marketcount
+            max_tweets=1200
 
             fetched_tweets = [status for status in tweepy.Cursor(self.api.search, q=query).items(max_tweets)]
 
@@ -150,33 +151,35 @@ def tw():
                 negative=(100 * len(ntweets) / len(tweets))
                 # percentage of negative tweets
                 print("Negative tweets percentage: {} %".format(100 * len(ntweets) / len(tweets)))
-                printed=market, "Positive tweets percentage: {} %".format(100 * len(ptweets) / len(tweets)), "Negative tweets percentage: {} %".format(100 * len(ntweets) / len(tweets))
-#                try:
-#                    db = MySQLdb.connect("database-service", "cryptouser", "123456", "cryptodb")
-#                    cursor = db.cursor()
-#                    cursor.execute("update markets set positive_sentiments = %s, negative_sentiments =%s  where market = %s",(positive, negative, market))
-#                    cursor.execute('insert into logs(date, log_entry) values("%s", "%s")' % (currenttime, printed))
-#                    db.commit()
-#                except MySQLdb.Error, e:
-#                    print "Error %d: %s" % (e.args[0], e.args[1])
-#                    sys.exit(1)
-#                finally:
-#                    db.close()
+#                printed=market, "Positive tweets percentage: {} %".format(100 * len(ptweets) / len(tweets)), "Negative tweets percentage: {} %".format(100 * len(ntweets) / len(tweets))
+
+                try:
+                    db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
+                    cursor = db.cursor()
+                    cursor.execute('update symbols set positive_sentiments = %s, negative_sentiments =%s where symbol=%s',(positive, negative, symbol))
+                    db.commit()
+                except pymysql.Error as e:
+                    print ("Error %d: %s" % (e.args[0], e.args[1]))
+                    sys.exit(1)
+                finally:
+                    db.close()
+
+
                 # percentage of neutral tweets
                 print ("Neutral tweets percentage: {} %".format(
                     100 * (len(tweets) - len(ntweets) - len(ptweets)) / len(tweets)))
 
                 # printing first 5 positive tweets
-                print("\n\nPositive tweets:")
-                for tweet in ptweets[:10]:
-                    print(tweet['text'])
+#                print("\n\nPositive tweets:")
+#                for tweet in ptweets[:10]:
+#                    print(tweet['text'])
 
                 # printing first 5 negative tweets
-                print("\n\nNegative tweets:")
-                for tweet in ntweets[:10]:
-                    print(tweet['text'])
+#                print("\n\nNegative tweets:")
+#                for tweet in ntweets[:10]:
+#                    print(tweet['text'])
 
-                time.sleep(5)
+                time.sleep(600)
 
 
 

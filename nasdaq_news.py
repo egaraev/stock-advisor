@@ -3,8 +3,6 @@ import os
 import re
 import pymysql
 import pandas as pd
-import yfinance as yf
-from yahoo_fin import stock_info as si
 from dateutil import parser
 import requests
 from bs4 import BeautifulSoup
@@ -36,9 +34,6 @@ def nasdaq_news():
           symbol=(symbol[0])
           name=symbol_full_name(symbol, 3)
           print (symbol)
-          stock = yf.Ticker(symbol)
-          hist = stock.history(period="1d")
-          df = pd.DataFrame(hist)
           stock_news_urls  = scrape_all_articles(symbol , 100)
           all_news_urls = list(set(stock_news_urls))
           all_titles = [scrape_news_title(news_url) for news_url in all_news_urls]
@@ -48,25 +43,81 @@ def nasdaq_news():
           stock_urls = [all_news_urls[w] for w in title_indices]
           stock_dates = [scrape_news_date(mainsite+news_url)  for news_url in stock_urls]
           stock_articles = [scrape_news_text(mainsite+news_url) for news_url in stock_urls]
+
+
+
            ## save it for further use
           stock_articles = pd.DataFrame(stock_articles)
           stock_titles = pd.DataFrame(stock_titles)
           stock_dates = pd.DataFrame(stock_dates)
           stock_urls = pd.DataFrame(stock_urls)
-          stock_articles.to_csv(f'csvs/{symbol}_articles.csv', index = None, header=True)
-          stock_titles.to_csv(f'csvs/{symbol}_titles.csv', index = None, header=True)
-          stock_dates.to_csv(f'csvs/{symbol}_dates.csv', index = None, header=True)
-          stock_urls.to_csv(f'csvs/{symbol}_urls.csv', index = None, header=True)
 
-          print (stock_urls)
-          print (stock_dates)
-          print (stock_titles)
-          print (stock_articles)
+          # Export data to csv
+#          stock_articles.to_csv(f'csvs/{symbol}_articles.csv', index = None, header=True)
+#          stock_titles.to_csv(f'csvs/{symbol}_titles.csv', index = None, header=True)
+#          stock_dates.to_csv(f'csvs/{symbol}_dates.csv', index = None, header=True)
+#          stock_urls.to_csv(f'csvs/{symbol}_urls.csv', index = None, header=True)
 
-          time.sleep(60)
+
+          # Import data back
+
+#          stock_articles = pd.read_csv(r"csvs/{symbol}_articles.csv") 
+#          stock_titles = pd.read_csv(r'csvs/{symbol}_titles.csv')
+#          stock_dates = pd.read_csv(r'csvs/{symbol}_dates.csv')
+
+
+          stock_titles.columns = ['stock_titles']
+          stock_titles = stock_titles['stock_titles'].tolist()
+          stock_articles.columns = ['stock_articles']
+          stock_articles = stock_articles['stock_articles'].tolist()
+
+
+
+
+          stock_dates.columns = ['stock_dates']
+          stock_dates = stock_dates['stock_dates'].tolist()
+          stock_urls.columns = ['stock_urls']
+          stock_urls = stock_urls['stock_urls'].tolist()
+
+
+
+          open("csvs/tmp-sql.txt", "w").close()
+          for i in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]:
+             if i != "": 
+                f = open("csvs/tmp-sql.txt", "a")
+                print(stock_titles[i], file=f)
+                print(stock_dates[i], file=f)
+                print(stock_articles[i][:-3110], file=f)
+                print(mainsite+stock_urls[i], file=f)
+                print ('\n', file=f)
+                f.close()
+             f = open("csvs/tmp-sql.txt", "r")
+             news= (f.read())
+             try:
+                 db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
+                 cursor = db.cursor()
+                 cursor.execute('update symbols set news = %s where symbol=%s',(news, symbol))
+                 db.commit()
+             except pymysql.Error as e:
+                 print ("Error %d: %s" % (e.args[0], e.args[1]))
+                 sys.exit(1)
+             finally:
+                 db.close()
+
+             f.close()
+#             time.sleep(60)
+
+
+
 
         except:
             continue
+
+
+
+
+
+
 
 
 ## for extracting news date

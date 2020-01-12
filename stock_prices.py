@@ -162,7 +162,9 @@ def prices():
           try:
               db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
               cursor = db.cursor()
-              cursor.execute('update symbols set current_price=%s, heikin_ashi=%s, candle_direction=%s where symbol=%s',(last, had_trend, day_candle, symbol))
+#              sql = "update symbols set current_price=%s, heikin_ashi=%s, candle_direction=%s where symbol=%s"
+#              cursor.execute(sql, (last, had_trend, day_candle, symbol))
+              cursor.execute("update symbols set current_price='%s', heikin_ashi='%s', candle_direction='%s'  where symbol='%s'" % (last, had_trend, day_candle, symbol)) 
               db.commit()
           except pymysql.Error as e:
               print ("Error %d: %s" % (e.args[0], e.args[1]))
