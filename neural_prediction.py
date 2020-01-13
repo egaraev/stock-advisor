@@ -31,7 +31,7 @@ symbols=cursor.fetchall()
 # Window size or the sequence length
 N_STEPS = 100
 # Lookup step, 1 is the next day
-LOOKUP_STEP = 90
+LOOKUP_STEP = 10
 # test ratio size, 0.2 is 20%
 TEST_SIZE = 0.2
 # features to use
@@ -51,7 +51,7 @@ DROPOUT = 0.4
 LOSS = "mse"
 OPTIMIZER = "rmsprop"
 BATCH_SIZE = 64
-EPOCHS = 10
+EPOCHS =300 
 
 
 
@@ -74,7 +74,6 @@ def neural():
           if not os.path.isdir("data"):
              os.mkdir("data")
 
-          # Apple stock market
           ticker = symbol
           ticker_data_filename = os.path.join("data", f"{ticker}_{date_now}.csv")
           # model name to save
@@ -127,6 +126,19 @@ def neural():
           print("Mean Absolute Error:", mean_absolute_error)
           # predict the future price
           future_price = predict(model, data)
+          print (future_price)
+          try:
+              db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
+              cursor = db.cursor()
+              #cursor.execute('update symbols set predicted_price = %s where symbol=%s',(future_price, symbol))
+              cursor.execute("update symbols set predicted_price='%s'  where symbol='%s'" % (future_price, symbol)) 
+              db.commit()
+          except pymysql.Error as e:
+              print ("Error %d: %s" % (e.args[0], e.args[1]))
+              sys.exit(1)
+          finally:
+              db.close()
+
           print(f"Future price after {LOOKUP_STEP} days is {future_price:.2f}$")
           print("Accuracy Score:", get_accuracy(model, data))
           plot_graph(model, data)
