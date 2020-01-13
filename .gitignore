@@ -3,6 +3,8 @@ old
 *out
 data
 images
+logs
+results
 *pyc
 *.idea*
 csvs
