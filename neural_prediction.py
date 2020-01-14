@@ -1,3 +1,6 @@
+import os
+import glob
+import shutil
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense, Dropout
 from tensorflow.keras.callbacks import ModelCheckpoint, TensorBoard
@@ -11,7 +14,6 @@ import matplotlib.pyplot as plt
 import random
 import time
 import sys
-import os
 import re
 import pymysql
 import pandas as pd
@@ -31,7 +33,7 @@ symbols=cursor.fetchall()
 # Window size or the sequence length
 N_STEPS = 100
 # Lookup step, 1 is the next day
-LOOKUP_STEP = 10
+LOOKUP_STEP = 90
 # test ratio size, 0.2 is 20%
 TEST_SIZE = 0.2
 # features to use
@@ -51,7 +53,7 @@ DROPOUT = 0.4
 LOSS = "mse"
 OPTIMIZER = "rmsprop"
 BATCH_SIZE = 64
-EPOCHS =300 
+EPOCHS =1 
 
 
 
@@ -82,7 +84,7 @@ def neural():
 
 
 
-          # load the CSV file from disk (dataset) if it already exists (without downloading)
+#          # load the CSV file from disk (dataset) if it already exists (without downloading)
           if os.path.isfile(ticker_data_filename):
               ticker = pd.read_csv(ticker_data_filename)
 
@@ -130,7 +132,6 @@ def neural():
           try:
               db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
               cursor = db.cursor()
-              #cursor.execute('update symbols set predicted_price = %s where symbol=%s',(future_price, symbol))
               cursor.execute("update symbols set predicted_price='%s'  where symbol='%s'" % (future_price, symbol)) 
               db.commit()
           except pymysql.Error as e:
@@ -142,6 +143,22 @@ def neural():
           print(f"Future price after {LOOKUP_STEP} days is {future_price:.2f}$")
           print("Accuracy Score:", get_accuracy(model, data))
           plot_graph(model, data)
+          newfilename=("{}_result.png".format(symbol))
+          my_path = "images/results.png"
+          new_name = os.path.join(os.path.dirname(my_path), newfilename)
+          os.rename(my_path, new_name)
+          src_dir = "images"
+          dst_dir = "/var/www/html/images/"
+          for pngfile in glob.iglob(os.path.join(src_dir, "*.png")):
+            shutil.copy(pngfile, dst_dir)
+
+          files = glob.glob('results/*')
+          for f in files:
+            os.remove(f)
+
+          files2 = glob.glob('logs/*')
+          for f in files2:
+            os.remove(f)
 
 
         except:
@@ -157,12 +174,14 @@ def plot_graph(model, data):
     y_pred = model.predict(X_test)
     y_test = np.squeeze(data["column_scaler"]["adjclose"].inverse_transform(np.expand_dims(y_test, axis=0)))
     y_pred = np.squeeze(data["column_scaler"]["adjclose"].inverse_transform(y_pred))
+    plt.close()
     plt.plot(y_test[-200:], c='b')
     plt.plot(y_pred[-200:], c='r')
     plt.xlabel("Days")
     plt.ylabel("Price")
     plt.legend(["Actual Price", "Predicted Price"])
-    plt.show()
+    plt.savefig('/root/PycharmProjects/stock-advisor/images/results.png')
+#    plt.show()
 
 
 def get_accuracy(model, data):
@@ -192,8 +211,7 @@ def predict(model, data, classification=False):
     return predicted_price
 
 
-def create_model(input_length, units=256, cell=LSTM, n_layers=2, dropout=0.3,
-                loss="mean_absolute_error", optimizer="rmsprop"):
+def create_model(input_length, units=256, cell=LSTM, n_layers=2, dropout=0.3, loss="mean_absolute_error", optimizer="rmsprop"):
     model = Sequential()
     for i in range(n_layers):
         if i == 0:
@@ -216,8 +234,7 @@ def create_model(input_length, units=256, cell=LSTM, n_layers=2, dropout=0.3,
 
 
 
-def load_data(ticker, n_steps=50, scale=True, shuffle=True, lookup_step=1, 
-                test_size=0.2, feature_columns=['adjclose', 'volume', 'open', 'high', 'low']):
+def load_data(ticker, n_steps=50, scale=True, shuffle=True, lookup_step=1, test_size=0.2, feature_columns=['adjclose', 'volume', 'open', 'high', 'low']):
     """
     Loads data from Yahoo Finance source, as well as scaling, shuffling, normalizing and splitting.
     Params:
@@ -300,8 +317,7 @@ def load_data(ticker, n_steps=50, scale=True, shuffle=True, lookup_step=1,
     X = X.reshape((X.shape[0], X.shape[2], X.shape[1]))
     
     # split the dataset
-    result["X_train"], result["X_test"], result["y_train"], result["y_test"] = train_test_split(X, y, 
-                                                                                test_size=test_size, shuffle=shuffle)
+    result["X_train"], result["X_test"], result["y_train"], result["y_test"] = train_test_split(X, y, test_size=test_size, shuffle=shuffle)
     # return the result
     return result
 
