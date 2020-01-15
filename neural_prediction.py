@@ -53,7 +53,7 @@ DROPOUT = 0.4
 LOSS = "mse"
 OPTIMIZER = "rmsprop"
 BATCH_SIZE = 64
-EPOCHS = 300 
+EPOCHS = 3
 
 
 
@@ -77,7 +77,7 @@ def neural():
              os.mkdir("/root/PycharmProjects/stock-advisor/data")
 
           ticker = symbol
-          ticker_data_filename = os.path.join("data", f"{ticker}_{date_now}.csv")
+          ticker_data_filename = os.path.join("/root/PycharmProjects/stock-advisor/data", f"{ticker}_{date_now}.csv")
           # model name to save
           model_name = f"{date_now}_{ticker}-{LOSS}-{CELL.__name__}-seq-{N_STEPS}-step-{LOOKUP_STEP}-layers-{N_LAYERS}-units-{UNITS}"
 
@@ -99,8 +99,8 @@ def neural():
           model = create_model(N_STEPS, loss=LOSS, units=UNITS, cell=CELL, n_layers=N_LAYERS, dropout=DROPOUT, optimizer=OPTIMIZER)
 
           # some tensorflow callbacks
-          checkpointer = ModelCheckpoint(os.path.join("results", model_name), save_weights_only=True, save_best_only=True, verbose=1)
-          tensorboard = TensorBoard(log_dir=os.path.join("logs", model_name))
+          checkpointer = ModelCheckpoint(os.path.join("/root/PycharmProjects/stock-advisor/results", model_name), save_weights_only=True, save_best_only=True, verbose=1)
+          tensorboard = TensorBoard(log_dir=os.path.join("/root/PycharmProjects/stock-advisor/logs", model_name))
 
           history = model.fit(data["X_train"], data["y_train"],
                     batch_size=BATCH_SIZE,
@@ -109,7 +109,7 @@ def neural():
                     callbacks=[checkpointer, tensorboard],
                     verbose=1)
 
-          model.save(os.path.join("results", model_name) + ".h5")
+          model.save(os.path.join("/root/PycharmProjects/stock-advisor/results", model_name) + ".h5")
           print ("Model trained")
 
           # load the data
@@ -118,7 +118,7 @@ def neural():
           # construct the model
           model = create_model(N_STEPS, loss=LOSS, units=UNITS, cell=CELL, n_layers=N_LAYERS, dropout=DROPOUT, optimizer=OPTIMIZER)
 
-          model_path = os.path.join("results", model_name) + ".h5"
+          model_path = os.path.join("/root/PycharmProjects/stock-advisor/results", model_name) + ".h5"
           model.load_weights(model_path)
 
           # evaluate the model
@@ -152,13 +152,13 @@ def neural():
           for pngfile in glob.iglob(os.path.join(src_dir, "*.png")):
             shutil.copy(pngfile, dst_dir)
 
-          files = glob.glob('/root/PycharmProjects/stock-advisor/results/*')
-          for f in files:
-            os.remove(f)
+#          files = glob.glob('/root/PycharmProjects/stock-advisor/results/*')
+#          for f in files:
+#            os.remove(f)
 
-          files2 = glob.glob('/root/PycharmProjects/stock-advisor/logs/*')
-          for f in files2:
-            os.remove(f)
+#          files2 = glob.glob('/root/PycharmProjects/stock-advisor/logs/*')
+#          for f in files2:
+#            os.remove(f)
           return symbol
 
         except:

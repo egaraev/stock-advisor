@@ -10,6 +10,7 @@ import json
 import urllib
 from urllib.request import urlopen
 import time
+import datetime
 ###
 db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
 cursor = db.cursor()
@@ -19,8 +20,6 @@ symbols=cursor.fetchall()
 mainsite='http://www.nasdaq.com'
 user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246'
 headers = {'User-Agent': user_agent}
-
-
 
 def main():
     print('Starting nasdaq-news module')
@@ -33,17 +32,23 @@ def nasdaq_news():
         try:
           symbol=(symbol[0])
           name=symbol_full_name(symbol, 3)
+          stock=(symbol+'|'+name)
           print (symbol)
-          stock_news_urls  = scrape_all_articles(symbol , 20)
-          all_news_urls = list(set(stock_news_urls))
+          print (stock)
+          stock_news_urls  = scrape_all_articles(symbol, 1)
+#          print (stock_news_urls)
+          all_news_urls = list(stock_news_urls)
+          all_news_urls = all_news_urls[:10]
+          print (all_news_urls)
           all_titles = [scrape_news_title(news_url) for news_url in all_news_urls]
-          all_stock_titles = [re.search(name, w) for w in all_titles]
+#          all_stock_titles = all_titles
+          all_stock_titles = [re.search(stock, w) for w in all_titles]
           title_indices = [all_stock_titles.index(w) for w in all_stock_titles if w is not None]
           stock_titles = [all_titles[w] for w in title_indices]
           stock_urls = [all_news_urls[w] for w in title_indices]
-          stock_dates = [scrape_news_date(mainsite+news_url)  for news_url in stock_urls]
+          stock_dates = [scrape_news_date(mainsite+news_url) for news_url in stock_urls]
           stock_articles = [scrape_news_text(mainsite+news_url) for news_url in stock_urls]
-
+          print (stock_dates, stock_titles)
 
 
            ## save it for further use
@@ -83,17 +88,19 @@ def nasdaq_news():
 
           open("csvs/tmp-sql.txt", "w").close()
           for i in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]:
-             if i != "": 
-                f = open("csvs/tmp-sql.txt", "a")
-                print(stock_titles[i], file=f)
+             if i != "":
+#                 print (stock_dates[i]) 
+               if stock_dates[i] != None:
+                 f = open("/root/PycharmProjects/stock-advisor/csvs/tmp-sql.txt", "a")
+                 print(stock_titles[i], file=f)
 #                print ('\n', file=f)
-                print(stock_dates[i], file=f)
+                 print(stock_dates[i], file=f)
 #                print ('\n', file=f)
 #                print(stock_articles[i][:-3110], file=f)
-                print(mainsite+stock_urls[i], file=f)
-                print ('\n', file=f)
-                f.close()
-             f = open("csvs/tmp-sql.txt", "r", newline="\n")
+                 print(mainsite+stock_urls[i], file=f)
+                 print ('\n', file=f)
+                 f.close()
+             f = open("/root/PycharmProjects/stock-advisor/csvs/tmp-sql.txt", "r", newline="\n")
              news= (f.read())
              try:
                  db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
@@ -126,6 +133,10 @@ def nasdaq_news():
 def scrape_news_date(news_url):
     try:
 #        news_html = urlopen(news_url)
+        date_now = time.strftime("%A, %d/%m/%Y - %H:%M")
+        newdate = datetime.datetime.strptime(date_now, "%A, %d/%m/%Y - %H:%M")
+        currentdate = newdate.date().strftime("%Y-%m")
+
         url = (news_url)
         news_html = requests.get(url, headers=headers).content
         news_soup = BeautifulSoup(news_html , 'html.parser')
@@ -142,9 +153,14 @@ def scrape_news_date(news_url):
         jsondict = json.loads( show_data )
         news_date = (jsondict['@graph'][2]['datePublished'])
 
-        return news_date
+        stringdate=datetime.datetime.strptime(news_date, "%a, %m/%d/%Y - %H:%M")
+        newstringdate= stringdate.date().strftime("%Y-%m")
+        if currentdate == newstringdate:
+           return news_date
+
+#        return news_date
     except:
-        return 'No date'
+        return '0'
 
 ## for extracting news title
 def scrape_news_title(news_url):
@@ -177,7 +193,7 @@ def get_news_urls(links_site):
     return news_urls
 
 def scrape_all_articles(ticker , page_limit):
-    website = 'http://www.nasdaq.com/symbol/' + ticker + '/news-headlines'
+    website = 'http://www.nasdaq.com/market-activity/stocks/' + ticker + '/news-headlines'
     all_news_urls = get_news_urls(website)
 
     ind = 2
@@ -189,7 +205,7 @@ def scrape_all_articles(ticker , page_limit):
         ind += 1
     return all_news_urls
 
-def scape_all_info(all_news_urls):
+def scrape_all_info(all_news_urls):
     all_news_urls = list(set(all_news_urls))
     all_articles = [scrape_news_text(news_url) for news_url in all_news_urls]
     all_titles = [scrape_news_title(news_url) for news_url in all_news_urls]
