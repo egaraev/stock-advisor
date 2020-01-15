@@ -34,7 +34,7 @@ def nasdaq_news():
           symbol=(symbol[0])
           name=symbol_full_name(symbol, 3)
           print (symbol)
-          stock_news_urls  = scrape_all_articles(symbol , 100)
+          stock_news_urls  = scrape_all_articles(symbol , 20)
           all_news_urls = list(set(stock_news_urls))
           all_titles = [scrape_news_title(news_url) for news_url in all_news_urls]
           all_stock_titles = [re.search(name, w) for w in all_titles]
@@ -86,12 +86,14 @@ def nasdaq_news():
              if i != "": 
                 f = open("csvs/tmp-sql.txt", "a")
                 print(stock_titles[i], file=f)
+#                print ('\n', file=f)
                 print(stock_dates[i], file=f)
-                print(stock_articles[i][:-3110], file=f)
+#                print ('\n', file=f)
+#                print(stock_articles[i][:-3110], file=f)
                 print(mainsite+stock_urls[i], file=f)
                 print ('\n', file=f)
                 f.close()
-             f = open("csvs/tmp-sql.txt", "r")
+             f = open("csvs/tmp-sql.txt", "r", newline="\n")
              news= (f.read())
              try:
                  db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")

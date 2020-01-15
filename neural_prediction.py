@@ -53,7 +53,7 @@ DROPOUT = 0.4
 LOSS = "mse"
 OPTIMIZER = "rmsprop"
 BATCH_SIZE = 64
-EPOCHS =1 
+EPOCHS = 300 
 
 
 
@@ -69,12 +69,12 @@ def neural():
           symbol=(symbol[0])
           name=symbol_full_name(symbol, 3)
         # create these folders if they does not exist
-          if not os.path.isdir("results"):
-             os.mkdir("results")
-          if not os.path.isdir("logs"):
-             os.mkdir("logs")
-          if not os.path.isdir("data"):
-             os.mkdir("data")
+          if not os.path.isdir("/root/PycharmProjects/stock-advisor/results"):
+             os.mkdir("/root/PycharmProjects/stock-advisor/results")
+          if not os.path.isdir("/root/PycharmProjects/stock-advisor/logs"):
+             os.mkdir("/root/PycharmProjects/stock-advisor/logs")
+          if not os.path.isdir("/root/PycharmProjects/stock-advisor/data"):
+             os.mkdir("/root/PycharmProjects/stock-advisor/data")
 
           ticker = symbol
           ticker_data_filename = os.path.join("data", f"{ticker}_{date_now}.csv")
@@ -142,24 +142,24 @@ def neural():
 
           print(f"Future price after {LOOKUP_STEP} days is {future_price:.2f}$")
           print("Accuracy Score:", get_accuracy(model, data))
-          plot_graph(model, data)
+          plot_graph(model, data, name)
           newfilename=("{}_result.png".format(symbol))
-          my_path = "images/results.png"
+          my_path = "/root/PycharmProjects/stock-advisor/images/results.png"
           new_name = os.path.join(os.path.dirname(my_path), newfilename)
           os.rename(my_path, new_name)
-          src_dir = "images"
+          src_dir = "/root/PycharmProjects/stock-advisor/images/"
           dst_dir = "/var/www/html/images/"
           for pngfile in glob.iglob(os.path.join(src_dir, "*.png")):
             shutil.copy(pngfile, dst_dir)
 
-          files = glob.glob('results/*')
+          files = glob.glob('/root/PycharmProjects/stock-advisor/results/*')
           for f in files:
             os.remove(f)
 
-          files2 = glob.glob('logs/*')
+          files2 = glob.glob('/root/PycharmProjects/stock-advisor/logs/*')
           for f in files2:
             os.remove(f)
-
+          return symbol
 
         except:
             continue
@@ -168,7 +168,7 @@ def neural():
 
 
 
-def plot_graph(model, data):
+def plot_graph(model, data, name):
     y_test = data["y_test"]
     X_test = data["X_test"]
     y_pred = model.predict(X_test)
@@ -177,6 +177,7 @@ def plot_graph(model, data):
     plt.close()
     plt.plot(y_test[-200:], c='b')
     plt.plot(y_pred[-200:], c='r')
+    plt.title(name)
     plt.xlabel("Days")
     plt.ylabel("Price")
     plt.legend(["Actual Price", "Predicted Price"])
