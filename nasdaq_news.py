@@ -97,7 +97,7 @@ def nasdaq_news():
                  print(stock_dates[i], file=f)
 #                print ('\n', file=f)
 #                print(stock_articles[i][:-3110], file=f)
-                 print(mainsite+stock_urls[i], file=f)
+                 print('<a href="'+mainsite+stock_urls[i]+'">'+mainsite+stock_urls[i]+'</a>', file=f)
                  print ('\n', file=f)
                  f.close()
              f = open("/root/PycharmProjects/stock-advisor/csvs/tmp-sql.txt", "r", newline="\n")
