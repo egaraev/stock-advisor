@@ -34,12 +34,12 @@ def nasdaq_news():
           name=symbol_full_name(symbol, 3)
           stock=(symbol+'|'+name)
           print (symbol)
-          print (stock)
+#          print (stock)
           stock_news_urls  = scrape_all_articles(symbol, 1)
 #          print (stock_news_urls)
           all_news_urls = list(stock_news_urls)
           all_news_urls = all_news_urls[:10]
-          print (all_news_urls)
+#          print (all_news_urls)
           all_titles = [scrape_news_title(news_url) for news_url in all_news_urls]
 #          all_stock_titles = all_titles
           all_stock_titles = [re.search(stock, w) for w in all_titles]
