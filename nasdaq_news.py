@@ -14,7 +14,7 @@ import datetime
 ###
 db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
 cursor = db.cursor()
-cursor.execute("SELECT symbol FROM symbols WHERE active=1")
+cursor.execute("SELECT * FROM symbols WHERE active=1")
 symbols=cursor.fetchall()
 ###
 mainsite='http://www.nasdaq.com'
@@ -30,7 +30,8 @@ def main():
 def nasdaq_news():
     for symbol in symbols: #Loop trough the stock summary
         try:
-          symbol=(symbol[0])
+          symbol=(symbol[1])
+          symbol_id=(symbol[0])
           name=symbol_full_name(symbol, 3)
           stock=(symbol+'|'+name)
           print (symbol)
@@ -86,22 +87,69 @@ def nasdaq_news():
 
 
 
+          open("csvs/tmp-sql-2.txt", "w").close()
           open("csvs/tmp-sql.txt", "w").close()
           for i in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]:
              if i != "":
 #                 print (stock_dates[i]) 
                if stock_dates[i] != None:
                  f = open("/root/PycharmProjects/stock-advisor/csvs/tmp-sql.txt", "a")
-                 print(stock_titles[i], file=f)
-#                print ('\n', file=f)
-                 print(stock_dates[i], file=f)
-#                print ('\n', file=f)
                  print(stock_articles[i][:-3110], file=f)
-#                 print(stock_articles[i][:1000], file=f)
-                 print('<a href="'+mainsite+stock_urls[i]+'">'+mainsite+stock_urls[i]+'</a>', file=f)
+                 print ('\n', file=f)
+                 print ('#############', file=f)
                  print ('\n', file=f)
                  f.close()
              f = open("/root/PycharmProjects/stock-advisor/csvs/tmp-sql.txt", "r", newline="\n")
+             news_text= (f.read())
+             try:
+                 db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
+                 cursor = db.cursor()
+                 cursor.execute('update symbols set news_text = %s where symbol=%s',(news_text, symbol))
+                 db.commit()
+             except pymysql.Error as e:
+                 print ("Error %d: %s" % (e.args[0], e.args[1]))
+                 sys.exit(1)
+             finally:
+                 db.close()
+
+             if i != "":
+               if stock_dates[i] != None:
+                 f2 = open("/root/PycharmProjects/stock-advisor/csvs/tmp-sql-2.txt", "a")
+                 print(stock_titles[i], file=f2)
+                 print(stock_dates[i], file=f2)
+                 print('<a href="'+mainsite+stock_urls[i]+'">'+mainsite+stock_urls[i]+'</a>', file=f2)
+                 print ('\n', file=f2)
+                 f2.close()
+             f2 = open("/root/PycharmProjects/stock-advisor/csvs/tmp-sql-2.txt", "r", newline="\n")
+             news= (f2.read())
+             try:
+                 db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
+                 cursor = db.cursor()
+                 cursor.execute('update symbols set news = %s where symbol=%s',(news, symbol))
+                 db.commit()
+             except pymysql.Error as e:
+                 print ("Error %d: %s" % (e.args[0], e.args[1]))
+                 sys.exit(1)
+             finally:
+                 db.close()
+
+
+
+             f2.close()
+             f.close()
+
+
+          open("csvs/tmp-sql-2.txt", "w").close()
+          for i in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]:
+             if i != "":
+               if stock_dates[i] != None:
+                 f = open("/root/PycharmProjects/stock-advisor/csvs/tmp-sql-2.txt", "a")
+                 print(stock_titles[i], file=f)
+                 print(stock_dates[i], file=f)
+                 print('<a href="'+mainsite+stock_urls[i]+'">'+mainsite+stock_urls[i]+'</a>', file=f)
+                 print ('\n', file=f)
+                 f.close()
+             f = open("/root/PycharmProjects/stock-advisor/csvs/tmp-sql-2.txt", "r", newline="\n")
              news= (f.read())
              try:
                  db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
@@ -115,6 +163,11 @@ def nasdaq_news():
                  db.close()
 
              f.close()
+
+
+
+
+
 #             time.sleep(60)
 
 
