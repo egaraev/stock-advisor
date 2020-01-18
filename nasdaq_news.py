@@ -96,7 +96,7 @@ def nasdaq_news():
                  f = open("/root/PycharmProjects/stock-advisor/csvs/tmp-sql.txt", "a")
                  print(stock_articles[i][:-3110], file=f)
                  print ('\n', file=f)
-                 print ('#############', file=f)
+                 print ('######################################################', file=f)
                  print ('\n', file=f)
                  f.close()
              f = open("/root/PycharmProjects/stock-advisor/csvs/tmp-sql.txt", "r", newline="\n")
