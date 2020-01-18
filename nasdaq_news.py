@@ -38,7 +38,7 @@ def nasdaq_news():
           stock_news_urls  = scrape_all_articles(symbol, 1)
 #          print (stock_news_urls)
           all_news_urls = list(stock_news_urls)
-          all_news_urls = all_news_urls[:10]
+          all_news_urls = all_news_urls[:5]
 #          print (all_news_urls)
           all_titles = [scrape_news_title(news_url) for news_url in all_news_urls]
 #          all_stock_titles = all_titles
@@ -96,7 +96,8 @@ def nasdaq_news():
 #                print ('\n', file=f)
                  print(stock_dates[i], file=f)
 #                print ('\n', file=f)
-#                print(stock_articles[i][:-3110], file=f)
+                 print(stock_articles[i][:-3110], file=f)
+#                 print(stock_articles[i][:1000], file=f)
                  print('<a href="'+mainsite+stock_urls[i]+'">'+mainsite+stock_urls[i]+'</a>', file=f)
                  print ('\n', file=f)
                  f.close()

@@ -27,7 +27,7 @@ cursor = db.cursor()
 cursor.execute("SELECT symbol FROM symbols WHERE active=1")
 symbols=cursor.fetchall()
 #date_now = time.strftime("%Y-%m-%d")
-
+from PIL import Image, ExifTags
 
 
 def main():
@@ -65,16 +65,16 @@ def neural():
           # predict the future price
           future_price = predict(model, data)
           print (future_price)
-          try:
-              db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
-              cursor = db.cursor()
-              cursor.execute("update symbols set predicted_price='%s'  where symbol='%s'" % (future_price, symbol)) 
-              db.commit()
-          except pymysql.Error as e:
-              print ("Error %d: %s" % (e.args[0], e.args[1]))
-              sys.exit(1)
-          finally:
-              db.close()
+#          try:
+#              db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
+#              cursor = db.cursor()
+#              cursor.execute("update symbols set predicted_price='%s'  where symbol='%s'" % (future_price, symbol)) 
+#              db.commit()
+#          except pymysql.Error as e:
+#              print ("Error %d: %s" % (e.args[0], e.args[1]))
+#              sys.exit(1)
+#          finally:
+#              db.close()
 
           print(f"Future price after {LOOKUP_STEP} days is {future_price:.2f}$")
           print("Accuracy Score:", get_accuracy(model, data))
@@ -83,19 +83,32 @@ def neural():
           my_path = "/root/PycharmProjects/stock-advisor/images/results.png"
           new_name = os.path.join(os.path.dirname(my_path), newfilename)
           os.rename(my_path, new_name)
+
+          print (new_name)
+          img=Image.open(new_name)
+#          with open(f'{new_name}') as f:
+#             img = f.read()
+          print (img)
+
+          try:
+              db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
+              cursor = db.cursor()
+              cursor.execute("update symbols set predicted_price='%s', ai_predicted_image='%s'  where symbol='%s'" % (future_price, img, symbol))
+              db.commit()
+          except pymysql.Error as e:
+              print ("Error %d: %s" % (e.args[0], e.args[1]))
+              sys.exit(1)
+          finally:
+              db.close()
+
+
+
           src_dir = "/root/PycharmProjects/stock-advisor/images/"
           dst_dir = "/var/www/html/images/"
           for pngfile in glob.iglob(os.path.join(src_dir, "*.png")):
             shutil.copy(pngfile, dst_dir)
 
-#          files = glob.glob('/root/PycharmProjects/stock-advisor/results/*')
-#          for f in files:
-#            os.remove(f)
 
-#          files2 = glob.glob('/root/PycharmProjects/stock-advisor/logs/*')
-#          for f in files2:
-#            os.remove(f)
-#          return symbol
 
         except:
             continue
