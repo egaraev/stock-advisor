@@ -138,36 +138,6 @@ def nasdaq_news():
              f2.close()
              f.close()
 
-
-          open("csvs/tmp-sql-2.txt", "w").close()
-          for i in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]:
-             if i != "":
-               if stock_dates[i] != None:
-                 f = open("/root/PycharmProjects/stock-advisor/csvs/tmp-sql-2.txt", "a")
-                 print(stock_titles[i], file=f)
-                 print(stock_dates[i], file=f)
-                 print('<a href="'+mainsite+stock_urls[i]+'">'+mainsite+stock_urls[i]+'</a>', file=f)
-                 print ('\n', file=f)
-                 f.close()
-             f = open("/root/PycharmProjects/stock-advisor/csvs/tmp-sql-2.txt", "r", newline="\n")
-             news= (f.read())
-             try:
-                 db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
-                 cursor = db.cursor()
-                 cursor.execute('update symbols set news = %s where symbol=%s',(news, symbol))
-                 db.commit()
-             except pymysql.Error as e:
-                 print ("Error %d: %s" % (e.args[0], e.args[1]))
-                 sys.exit(1)
-             finally:
-                 db.close()
-
-             f.close()
-
-
-
-
-
 #             time.sleep(60)
 
 
