@@ -77,7 +77,7 @@ echo "<td>" . $row['current_price'] . "</td>";
 echo "<td>" . $row['positive_sentiments'] . "</td>";
 echo "<td>" . $row['negative_sentiments'] . "</td>";
 echo "<td><b>" . $row['predicted_price'] . "</b></td>";
-echo "<td><img src='images/". $row['symbol'] ."_result.png' width='250px' height='250px'></td>";
+echo "<td><a href='images/". $row['symbol'] ."_result.png'><img src='images/". $row['symbol'] ."_result.png' width='250px' height='250px'></td>";
 echo "<td>" . $row['heikin_ashi'] . "</td>";
 echo "<td>" . $row['candle_direction'] . "</td>";
 echo "<td><pre>" . $row['news'] . "</pre></td>";
