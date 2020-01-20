@@ -81,23 +81,18 @@ echo "<td><a href='images/". $row['symbol'] ."_result.png'><img src='images/". $
 echo "<td>" . $row['heikin_ashi'] . "</td>";
 echo "<td>" . $row['candle_direction'] . "</td>";
 echo "<td><pre>" . $row['news'] . "</pre></td>";
-echo "<td><pre><p><a href='#". $row['name'] ."' rel='modal:open'>Open details</a></p></pre></td>";
+echo "<td><pre><p><a href='#". $row['symbol'] ."' rel='modal:open'>Open details</a></p></pre></td>";
 echo "</tr>";
 }
 echo "</table>";
 $result2 = mysqli_query($con,"SELECT * FROM symbols where active = 1");
 while($row = mysqli_fetch_array($result2))
 {
-	echo'<div id="'.$row['name'].'" class="modal">'.
+	echo'<div id="'.$row['symbol'].'" class="modal">'.
   $row['news_text'].'
   <a href="#" rel="modal:close">Close</a>
 </div>';
 }
-
-
-
-
-
 
 
 
