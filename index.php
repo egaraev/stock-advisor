@@ -59,6 +59,7 @@ echo "<table border='1'>
 <tr>
 <th>Stock name</th>
 <th>Current price</th>
+<th>Two weeks chart</th>
 <th>Positive sentiments %</th>
 <th>Negative sentiments %</th>
 <th>Predicted price</th>
@@ -74,6 +75,7 @@ while($row = mysqli_fetch_array($result2))
 echo "<tr>";
 echo "<td>" . $row['name'] . "</td>";
 echo "<td>" . $row['current_price'] . "</td>";
+echo "<td><a href='images/". $row['symbol'] ."_chart.png'><img src='images/". $row['symbol'] ."_chart.png' width='300px' height='250px'></td>";
 echo "<td>" . $row['positive_sentiments'] . "</td>";
 echo "<td>" . $row['negative_sentiments'] . "</td>";
 echo "<td><b>" . $row['predicted_price'] . "</b></td>";

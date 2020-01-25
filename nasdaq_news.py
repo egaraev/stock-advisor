@@ -39,7 +39,7 @@ def nasdaq_news():
           stock_news_urls  = scrape_all_articles(symbol, 1)
           print (stock_news_urls)
           all_news_urls = list(stock_news_urls)
-          all_news_urls = all_news_urls[:3]
+          all_news_urls = all_news_urls[:2]
 #          print (all_news_urls)
           all_titles = [scrape_news_title(news_url) for news_url in all_news_urls]
           all_stock_titles = all_titles

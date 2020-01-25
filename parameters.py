@@ -6,7 +6,7 @@ from tensorflow.keras.layers import LSTM
 # Window size or the sequence length
 N_STEPS = 100
 # Lookup step, 1 is the next day
-LOOKUP_STEP = 90
+LOOKUP_STEP = 5
 
 # test ratio size, 0.2 is 20%
 TEST_SIZE = 0.2

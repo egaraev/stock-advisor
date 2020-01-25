@@ -39,7 +39,7 @@ def prices():
           stock = yf.Ticker(symbol)
           hist = stock.history(period="{}d".format(days))
           df = pd.DataFrame(hist)
-#          print (df)
+          print (df)
           last= (get_live_price(symbol))
           daycurrentopen = (df['Open'][2].tolist())
           daycurrentclose = (df['Close'][2].tolist())
