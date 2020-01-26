@@ -14,14 +14,21 @@ import urllib
 from urllib.request import urlopen
 import time
 import numpy
-
+import matplotlib.dates as mdates
+from mpl_finance import candlestick_ohlc
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+import glob
+import shutil
+import warnings
+warnings.filterwarnings('ignore')
 
 ###
 db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
 cursor = db.cursor()
 cursor.execute("SELECT symbol FROM symbols WHERE active=1")
 symbols=cursor.fetchall()
-days=3
+days=5
 
 def main():
     print('Starting stock-prices module')
@@ -35,25 +42,51 @@ def prices():
     for symbol in symbols: #Loop trough the stock summary
         try:
           symbol=(symbol[0])
+          name=symbol_full_name(symbol, 3)
 #          print (symbol)
           stock = yf.Ticker(symbol)
           hist = stock.history(period="{}d".format(days))
           df = pd.DataFrame(hist)
           print (df)
           last= (get_live_price(symbol))
-          daycurrentopen = (df['Open'][2].tolist())
-          daycurrentclose = (df['Close'][2].tolist())
-          daycurrentlow = (df['Low'][2].tolist())
-          daycurrenthigh = (df['High'][2].tolist())
-          dayprevlow = (df['Low'][1].tolist())
-          dayprevhigh = (df['High'][1].tolist())
-          dayprevopen = (df['Open'][1].tolist())
-          dayprevclose = (df['Close'][1].tolist())
-          dayprevlow2 = (df['Low'][0].tolist())
-          dayprevhigh2 = (df['High'][0].tolist())
-          dayprevopen2 = (df['Open'][0].tolist())
-          dayprevclose2 = (df['Close'][0].tolist())
+          daycurrentopen = (df['Open'][4].tolist())
+          daycurrentclose = (df['Close'][4].tolist())
+          daycurrentlow = (df['Low'][4].tolist())
+          daycurrenthigh = (df['High'][4].tolist())
+          dayprevlow = (df['Low'][3].tolist())
+          dayprevhigh = (df['High'][3].tolist())
+          dayprevopen = (df['Open'][3].tolist())
+          dayprevclose = (df['Close'][3].tolist())
+          dayprevlow2 = (df['Low'][2].tolist())
+          dayprevhigh2 = (df['High'][2].tolist())
+          dayprevopen2 = (df['Open'][2].tolist())
+          dayprevclose2 = (df['Close'][2].tolist())
+          dayprevlow3 = (df['Low'][1].tolist())
+          dayprevhigh3 = (df['High'][1].tolist())
+          dayprevopen3 = (df['Open'][1].tolist())
+          dayprevclose3 = (df['Close'][1].tolist())
+          dayprevlow4 = (df['Low'][0].tolist())
+          dayprevhigh4 = (df['High'][0].tolist())
+          dayprevopen4 = (df['Open'][0].tolist())
+          dayprevclose4 = (df['Close'][0].tolist())
+		  
+		  
+          df = df.reset_index(level=['Date'])
 
+          
+          daycurrentdate = (df['Date'][4]).date()
+          dayprevdate = (df['Date'][3]).date()
+          dayprevdate2 = (df['Date'][2]).date()
+          dayprevdate3 = (df['Date'][1]).date()
+          dayprevdate4 = (df['Date'][0]).date()
+          print (df)	  
+          
+		  
+	  
+		  
+		  
+		  
+          
 
           day_candle = 'NONE'
           prevday_candle = 'NONE'
@@ -78,11 +111,26 @@ def prices():
           
 
 ###############
-          HAD_PREV_Close2 = (dayprevopen2 + dayprevhigh2 + dayprevlow2 + dayprevclose2) / 4
-          HAD_PREV_Open2 = (dayprevopen2 + dayprevclose2) / 2
-          HAD_PREV_Low2 = dayprevlow2
-          HAD_PREV_High2 = dayprevhigh2
 
+
+
+
+          HAD_PREV_Close4 = (dayprevopen4 + dayprevhigh4 + dayprevlow4 + dayprevclose4) / 4
+          HAD_PREV_Open4 = (dayprevopen4 + dayprevclose4) / 2
+          HAD_PREV_Low4 = dayprevlow4
+          HAD_PREV_High4 = dayprevhigh4
+		  
+          HAD_PREV_Close3 = (dayprevopen3 + dayprevhigh3 + dayprevlow3 + dayprevclose3) / 4
+          HAD_PREV_Open3 = (HAD_PREV_Open4 + HAD_PREV_Close4) / 2
+          elements3 = numpy.array([dayprevhigh3, dayprevlow3, HAD_PREV_Open4, HAD_PREV_Close4])
+          HAD_PREV_High3 = elements3.max(0)
+          HAD_PREV_Low3 = elements3.min(0)
+
+          HAD_PREV_Close2 = (dayprevopen2 + dayprevhigh2 + dayprevlow2 + dayprevclose2) / 4
+          HAD_PREV_Open2 = (HAD_PREV_Open3 + HAD_PREV_Close3) / 2
+          elements2 = numpy.array([dayprevhigh2, dayprevlow2, HAD_PREV_Open3, HAD_PREV_Close3])
+          HAD_PREV_High2 = elements2.max(0)
+          HAD_PREV_Low2 = elements2.min(0)
 
           HAD_PREV_Close = (dayprevopen + dayprevhigh + dayprevlow + dayprevclose) / 4
           HAD_PREV_Open = (HAD_PREV_Open2 + HAD_PREV_Close2) / 2
@@ -95,6 +143,52 @@ def prices():
           elements0 = numpy.array([daycurrenthigh, daycurrentlow, HAD_Open, HAD_Close])
           HAD_High = elements0.max(0)
           HAD_Low = elements0.min(0)
+		  
+		  
+		  
+		  
+		  
+          d = {'Date': [dayprevdate4, dayprevdate3, dayprevdate2, dayprevdate, daycurrentdate], 'Open': [HAD_PREV_Open4, HAD_PREV_Open3, HAD_PREV_Open2, HAD_PREV_Open, HAD_Open], 'High': [HAD_PREV_High4, HAD_PREV_High3, HAD_PREV_High2, HAD_PREV_High, HAD_High], 'Low': [HAD_PREV_Low4, HAD_PREV_Low3, HAD_PREV_Low2, HAD_PREV_Low, HAD_Low], 'Close': [HAD_PREV_Close4, HAD_PREV_Close3, HAD_PREV_Close2, HAD_PREV_Close, HAD_Close]}
+          dfha = pd.DataFrame(data=d)
+          ohlc_df = dfha.copy()
+
+          ohlc_df = ohlc_df[['Date', 'Open', 'High', 'Low', 'Close']]
+          print (ohlc_df)
+
+
+         # Converting dates column to float values
+          ohlc_df['Date'] = ohlc_df['Date'].map(mdates.date2num)
+
+          fig, ax = plt.subplots(figsize=(8, 4))
+          # Converts raw mdate numbers to dates
+          ax.xaxis_date()
+          plt.xlabel("Date")
+
+		 
+          # Making candlestick plot
+          candlestick_ohlc(ax, ohlc_df.values, width = 0.8, colorup = 'g', colordown = 'r', alpha = 0.8)
+          plt.ylabel("Price")
+          plt.title(name)
+          #plt.plot(ohlc_df['Date'], ohlc_df['Close'], linestyle = '--', linewidth = 1, c='black')
+          plt.grid()
+          plt.savefig('/root/PycharmProjects/stock-advisor/images/hacharts.png')
+		  
+          newfilename=("{}_hachart.png".format(symbol))
+          my_path = "/root/PycharmProjects/stock-advisor/images/hacharts.png"
+          new_name = os.path.join(os.path.dirname(my_path), newfilename)
+          os.rename(my_path, new_name)
+
+          print (new_name)
+
+          src_dir = "/root/PycharmProjects/stock-advisor/images/"
+          dst_dir = "/var/www/html/images/"
+          for pngfile in glob.iglob(os.path.join(src_dir, "*.png")):
+            shutil.copy(pngfile, dst_dir)	   
+		  
+		  
+		  
+		  
+		  
 #############
           HAD_trend = "NONE"
 #############
