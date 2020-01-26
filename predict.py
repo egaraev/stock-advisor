@@ -21,6 +21,9 @@ import pymysql
 import pandas as pd
 from dateutil import parser
 import requests
+import datetime
+now = datetime.datetime.now()
+currenttime = now.strftime("%Y-%m-%d %H:%M")
 ###
 db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
 cursor = db.cursor()
@@ -65,10 +68,12 @@ def neural():
           # predict the future price
           future_price = predict(model, data)
           print (future_price)
+          printed = (symbol, f"Future price after {LOOKUP_STEP} days is {future_price:.2f}$")
           try:
               db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
               cursor = db.cursor()
-              cursor.execute("update symbols set predicted_price='%s'  where symbol='%s'" % (future_price, symbol)) 
+              cursor.execute("update symbols set predicted_price='%s'  where symbol='%s'" % (future_price, symbol))
+              cursor.execute('insert into logs(date, entry) values("%s", "%s")', (currenttime, printed))			  
               db.commit()
           except pymysql.Error as e:
               print ("Error %d: %s" % (e.args[0], e.args[1]))

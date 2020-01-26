@@ -11,6 +11,8 @@ import urllib
 from urllib.request import urlopen
 import time
 import datetime
+now = datetime.datetime.now()
+currenttime = now.strftime("%Y-%m-%d %H:%M")
 
 import nltk
 import warnings
@@ -49,7 +51,7 @@ def nasdaq_news():
           stock_news_urls  = scrape_all_articles(symbol, 1)
           print (stock_news_urls)
           all_news_urls = list(stock_news_urls)
-          all_news_urls = all_news_urls[:2]
+          all_news_urls = all_news_urls[:3]
 #          print (all_news_urls)
           all_titles = [scrape_news_title(news_url) for news_url in all_news_urls]
           all_stock_titles = all_titles
@@ -130,17 +132,20 @@ def nasdaq_news():
                  print(stock_dates[i], file=f2)
 #                 print (stock_articles[i][:-3110])
                  passage=(stock_articles[i][:-3110])
-                 print ("Sentiment Score: ", sia.polarity_scores(passage)['compound'], file=f2)
+                 print ("Sentiment Score: ", round(sia.polarity_scores(passage)['compound'], 2), file=f2)
 				 
                  print('<a href="'+mainsite+stock_urls[i]+'">'+mainsite+stock_urls[i]+'</a>', file=f2)
                  print ('\n', file=f2)
                  f2.close()
              f2 = open("/root/PycharmProjects/stock-advisor/csvs/tmp-sql-2.txt", "r", newline="\n")
              news= (f2.read())
+             printed = (symbol, stock_titles[i])
+
              try:
                  db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
                  cursor = db.cursor()
                  cursor.execute('update symbols set news = %s where symbol=%s',(news, symbol))
+                 cursor.execute('insert into logs(date, entry) values("%s", "%s")', (currenttime, printed))
                  db.commit()
              except pymysql.Error as e:
                  print ("Error %d: %s" % (e.args[0], e.args[1]))

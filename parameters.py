@@ -6,7 +6,7 @@ from tensorflow.keras.layers import LSTM
 # Window size or the sequence length
 N_STEPS = 100
 # Lookup step, 1 is the next day
-LOOKUP_STEP = 5
+LOOKUP_STEP = 7
 
 # test ratio size, 0.2 is 20%
 TEST_SIZE = 0.2
@@ -31,4 +31,4 @@ DROPOUT = 0.4
 LOSS = "mse"
 OPTIMIZER = "rmsprop"
 BATCH_SIZE = 64
-EPOCHS = 300 
+EPOCHS = 300

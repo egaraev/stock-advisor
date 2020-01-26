@@ -17,6 +17,13 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 import glob
 import shutil
+import nltk
+import warnings
+warnings.filterwarnings('ignore')
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+#nltk.download('vader_lexicon')
+sia = SentimentIntensityAnalyzer()
+
 db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
 cursor = db.cursor()
 cursor.execute("SELECT symbol FROM symbols WHERE active=1")
@@ -152,6 +159,7 @@ def tw():
           for symbol in symbols: #Loop trough the stock summary
             try:
                 symbol=(symbol[0])
+                				
                 # creating object of TwitterClient Class
                 api = TwitterClient()
                 name=symbol_full_name(symbol, 3)
@@ -177,7 +185,11 @@ def tw():
 #                print (neutral)
                 tweets_score = [tweet for tweet in tweets if tweet['score'] != 'neutral']
                 tweet_score= [ sub['score'] for sub in tweets_score ]
-#                print (symbol, tweet_score)
+                tweet_texts= [ sub['text'] for sub in tweets_score ]
+                passage = str(tweet_texts)
+                nltk_score= round(sia.polarity_scores(passage)['compound'], 2)
+                print ("Sentiment Score: ", round(sia.polarity_scores(passage)['compound'], 2))
+                #print (str(tweet_texts))
                 average = sum(tweet_score) / len(tweet_score)
                 average= round(average, 2)
 #                print(symbol, "Average of the list =", average) 
@@ -189,7 +201,7 @@ def tw():
                 try:
                     db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
                     cursor = db.cursor()
-                    cursor.execute('update symbols set positive_sentiments = %s, negative_sentiments =%s, tweeter_score =%s where symbol=%s',(positive, negative, average, symbol))
+                    cursor.execute('update symbols set positive_sentiments = %s, negative_sentiments =%s, tweeter_polarity =%s, tweeter_text=%s, tweeter_score=%s where symbol=%s',(positive, negative, average, str(tweet_texts), nltk_score, symbol))
                     cursor.execute('insert into logs(date, entry) values("%s", "%s")' % (currenttime, printed))
                     db.commit()
                 except pymysql.Error as e:
@@ -204,11 +216,11 @@ def tw():
 #                    100 * (len(tweets) - len(ntweets) - len(ptweets)) / len(tweets)))
 					
                 neutral= (100 - negative - positive)
-                labels = 'Neutral', 'Positive', 'Negative'
+                labels = 'Neutral', 'Negative', 'Positive' 
                 print (neutral, negative, positive)
                 sizes = (neutral, negative, positive)
-                colors = ["#1f77b4",  "#2ca02c", "#fe2d00"]				
-                explode = (0, 0, 0.1)  # only "explode" the 2nd slice (i.e. 'Hogs')
+                colors = ["#1f77b4",  "#fe2d00", "#2ca02c"]				
+                explode = (0, 0.1, 0)  
                 
                 fig1, ax1 = plt.subplots()
                 
@@ -216,7 +228,7 @@ def tw():
                 ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
                 plt.grid()
                 plt.title(name, bbox={'facecolor':'0.8', 'pad':5}, fontsize=18)
-                plt.xlabel("Average NLTK Score is: {} ".format(average), fontsize=18)
+                plt.xlabel("Polarity is: {} ".format(average)+" NLTK Score is: {} ".format(nltk_score), fontsize=18)
                 #plt.ylabel("Unit")
                 plt.show()					
                 plt.savefig('/root/PycharmProjects/stock-advisor/images/tweets.png', bbox_inches = 'tight', pad_inches = 0)

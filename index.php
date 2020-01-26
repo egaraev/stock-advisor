@@ -42,7 +42,7 @@ while($row = mysqli_fetch_array($result))
 {
 echo "<tr>";
 echo "<td>" . $row['date'] . "</td>";
-echo "<td>" . $row['entry'] . "</td>";
+echo "<td><pre>" . $row['entry'] . "</pre></td>";
 echo "</tr>";
 }
 echo "</table>";
