@@ -18,7 +18,7 @@ echo "Failed to connect to MySQL: " . mysqli_connect_error();
 
 
 
-$result = mysqli_query($con,"SELECT * FROM logs order by log_id desc limit 10");
+$result = mysqli_query($con,"SELECT * FROM logs order by id desc limit 10");
 echo "<html><head><title>Stock advisor</title></head>
 <style>
 table, th, td {
@@ -42,7 +42,7 @@ while($row = mysqli_fetch_array($result))
 {
 echo "<tr>";
 echo "<td>" . $row['date'] . "</td>";
-echo "<td>" . $row['log_entry'] . "</td>";
+echo "<td>" . $row['entry'] . "</td>";
 echo "</tr>";
 }
 echo "</table>";
@@ -60,12 +60,10 @@ echo "<table border='1'>
 <th>Stock name</th>
 <th>Current price</th>
 <th>Two weeks chart</th>
-<th>Positive sentiments %</th>
-<th>Negative sentiments %</th>
+<th>Tweeter sentiments</th>
 <th>Predicted price</th>
 <th>Predicted chart</th>
 <th>Heikin_ashi direction</th>
-<th>Daily candle direction</th>
 <th>News</th>
 <th></th>
 </tr>";
@@ -76,12 +74,10 @@ echo "<tr>";
 echo "<td>" . $row['name'] . "</td>";
 echo "<td>" . $row['current_price'] . "</td>";
 echo "<td><a href='images/". $row['symbol'] ."_chart.png'><img src='images/". $row['symbol'] ."_chart.png' width='300px' height='250px'></td>";
-echo "<td>" . $row['positive_sentiments'] . "</td>";
-echo "<td>" . $row['negative_sentiments'] . "</td>";
+echo "<td><a href='images/". $row['symbol'] ."_tweets.png'><img src='images/". $row['symbol'] ."_tweets.png' width='250px' height='250px'></td>";
 echo "<td><b>" . $row['predicted_price'] . "</b></td>";
 echo "<td><a href='images/". $row['symbol'] ."_result.png'><img src='images/". $row['symbol'] ."_result.png' width='250px' height='250px'></td>";
 echo "<td>" . $row['heikin_ashi'] . "</td>";
-echo "<td>" . $row['candle_direction'] . "</td>";
 echo "<td><pre>" . $row['news'] . "</pre></td>";
 echo "<td><pre><p><a href='#". $row['symbol'] ."' rel='modal:open'>Open details</a></p></pre></td>";
 echo "</tr>";

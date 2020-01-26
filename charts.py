@@ -61,10 +61,13 @@ def prices():
           ax.xaxis_date()
           plt.xlabel("Date")
 
+		  
+		  
           # Making candlestick plot
           candlestick_ohlc(ax, ohlc_df.values, width = 0.8, colorup = 'g', colordown = 'r', alpha = 0.8)
           plt.ylabel("Price")
           plt.title(name)
+          plt.plot(ohlc_df['Date'], ohlc_df['Close'], linestyle = '--', linewidth = 1, c='black')
           plt.grid()
           plt.savefig('/root/PycharmProjects/stock-advisor/images/charts.png')
 		  

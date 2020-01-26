@@ -11,6 +11,16 @@ import urllib
 from urllib.request import urlopen
 import time
 import datetime
+
+import nltk
+import warnings
+warnings.filterwarnings('ignore')
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+#nltk.download('vader_lexicon')
+sia = SentimentIntensityAnalyzer()
+
+
+
 ###
 db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
 cursor = db.cursor()
@@ -76,6 +86,7 @@ def nasdaq_news():
           stock_titles = stock_titles['stock_titles'].tolist()
           stock_articles.columns = ['stock_articles']
           stock_articles = stock_articles['stock_articles'].tolist()
+          
 
 
 
@@ -117,6 +128,10 @@ def nasdaq_news():
                  f2 = open("/root/PycharmProjects/stock-advisor/csvs/tmp-sql-2.txt", "a")
                  print(stock_titles[i], file=f2)
                  print(stock_dates[i], file=f2)
+#                 print (stock_articles[i][:-3110])
+                 passage=(stock_articles[i][:-3110])
+                 print ("Sentiment Score: ", sia.polarity_scores(passage)['compound'], file=f2)
+				 
                  print('<a href="'+mainsite+stock_urls[i]+'">'+mainsite+stock_urls[i]+'</a>', file=f2)
                  print ('\n', file=f2)
                  f2.close()

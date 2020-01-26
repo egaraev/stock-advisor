@@ -3,6 +3,7 @@ import config
 import sys
 import datetime
 import re
+import os
 import tweepy
 from tweepy import OAuthHandler
 from textblob import TextBlob
@@ -12,6 +13,10 @@ import yfinance as yf
 import pymysql
 import pandas as pd
 from yahoo_fin import stock_info as si
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+import glob
+import shutil
 db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
 cursor = db.cursor()
 cursor.execute("SELECT symbol FROM symbols WHERE active=1")
@@ -78,6 +83,20 @@ class TwitterClient(object):
             return 'negative'
 
 
+			
+    def get_tweet_score(self, tweet):
+        '''
+        Utility function to classify sentiment of passed tweet
+        using textblob's sentiment method
+        '''
+        # create TextBlob object of passed tweet text
+        analysis = TextBlob(self.clean_tweet(tweet))
+        # set sentiment
+        if analysis.sentiment.polarity != 0:
+            return analysis.sentiment.polarity			
+        else:
+            return 'neutral'			
+
 
 
     def get_tweets(self, query):
@@ -107,6 +126,9 @@ class TwitterClient(object):
                 parsed_tweet['text'] = tweet.text
                 # saving sentiment of tweet
                 parsed_tweet['sentiment'] = self.get_tweet_sentiment(tweet.text)
+				
+				
+                parsed_tweet['score'] = self.get_tweet_score(tweet.text)
 
                 # appending parsed tweet to tweets list
                 if tweet.retweet_count > 0:
@@ -132,7 +154,7 @@ def tw():
                 symbol=(symbol[0])
                 # creating object of TwitterClient Class
                 api = TwitterClient()
-
+                name=symbol_full_name(symbol, 3)
 
                 query = symbol_func(symbol, 4)
                 # calling function to get tweets
@@ -144,19 +166,31 @@ def tw():
                 # picking positive tweets from tweets
                 ptweets = [tweet for tweet in tweets if tweet['sentiment'] == 'positive']
                 # percentage of positive tweets
-                print("Positive tweets percentage: {} %".format(100 * len(ptweets) / len(tweets)))
-                positive=(100 * len(ptweets) / len(tweets))
+#                print("Positive tweets percentage: {} %".format(100 * len(ptweets) / len(tweets)))
+                positive=round(100 * len(ptweets) / len(tweets), 2)
                 # picking negative tweets from tweets
                 ntweets = [tweet for tweet in tweets if tweet['sentiment'] == 'negative']
-                negative=(100 * len(ntweets) / len(tweets))
+                negative= round(100 * len(ntweets) / len(tweets), 2)
                 # percentage of negative tweets
-                print("Negative tweets percentage: {} %".format(100 * len(ntweets) / len(tweets)))
-#                printed=market, "Positive tweets percentage: {} %".format(100 * len(ptweets) / len(tweets)), "Negative tweets percentage: {} %".format(100 * len(ntweets) / len(tweets))
+#                print("Negative tweets percentage: {} %".format(100 * len(ntweets) / len(tweets)))
+                
+#                print (neutral)
+                tweets_score = [tweet for tweet in tweets if tweet['score'] != 'neutral']
+                tweet_score= [ sub['score'] for sub in tweets_score ]
+#                print (symbol, tweet_score)
+                average = sum(tweet_score) / len(tweet_score)
+                average= round(average, 2)
+#                print(symbol, "Average of the list =", average) 
+                printed = (symbol, "Positive tweets percentage: {} %".format(positive), "Negative tweets percentage: {} %".format(negative), "Average NLTK Score is: {} ".format(average))
+                print (printed)
+
+
 
                 try:
                     db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
                     cursor = db.cursor()
-                    cursor.execute('update symbols set positive_sentiments = %s, negative_sentiments =%s where symbol=%s',(positive, negative, symbol))
+                    cursor.execute('update symbols set positive_sentiments = %s, negative_sentiments =%s, tweeter_score =%s where symbol=%s',(positive, negative, average, symbol))
+                    cursor.execute('insert into logs(date, entry) values("%s", "%s")' % (currenttime, printed))
                     db.commit()
                 except pymysql.Error as e:
                     print ("Error %d: %s" % (e.args[0], e.args[1]))
@@ -166,8 +200,39 @@ def tw():
 
 
                 # percentage of neutral tweets
-                print ("Neutral tweets percentage: {} %".format(
-                    100 * (len(tweets) - len(ntweets) - len(ptweets)) / len(tweets)))
+#                print ("Neutral tweets percentage: {} %".format(
+#                    100 * (len(tweets) - len(ntweets) - len(ptweets)) / len(tweets)))
+					
+                neutral= (100 - negative - positive)
+                labels = 'Neutral', 'Positive', 'Negative'
+                print (neutral, negative, positive)
+                sizes = (neutral, negative, positive)
+                colors = ["#1f77b4",  "#2ca02c", "#fe2d00"]				
+                explode = (0, 0, 0.1)  # only "explode" the 2nd slice (i.e. 'Hogs')
+                
+                fig1, ax1 = plt.subplots()
+                
+                ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%', colors=colors, shadow=True, startangle=90)
+                ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+                plt.grid()
+                plt.title(name, bbox={'facecolor':'0.8', 'pad':5}, fontsize=18)
+                plt.xlabel("Average NLTK Score is: {} ".format(average), fontsize=18)
+                #plt.ylabel("Unit")
+                plt.show()					
+                plt.savefig('/root/PycharmProjects/stock-advisor/images/tweets.png', bbox_inches = 'tight', pad_inches = 0)
+                newfilename=("{}_tweets.png".format(symbol))
+                my_path = "/root/PycharmProjects/stock-advisor/images/tweets.png"
+                new_name = os.path.join(os.path.dirname(my_path), newfilename)
+                os.rename(my_path, new_name)
+
+#                print (new_name)
+
+                src_dir = "/root/PycharmProjects/stock-advisor/images/"
+                dst_dir = "/var/www/html/images/"
+                for pngfile in glob.iglob(os.path.join(src_dir, "*.png")):
+                  shutil.copy(pngfile, dst_dir)				
+
+					
 
                 # printing first 5 positive tweets
 #                print("\n\nPositive tweets:")
@@ -211,5 +276,18 @@ def market_count():
         return row[0]
     return 0
 
+def symbol_full_name(symbolname, value):
+    db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
+    cursor = db.cursor()
+    symbol = symbolname
+    cursor.execute("SELECT * FROM symbols WHERE symbol = '%s'" % symbol)
+    r = cursor.fetchall()
+    for row in r:
+        if row[1] == symbolname:
+            return row[value]
+
+    return False	
+	
+	
 if __name__ == "__main__":
     main()
