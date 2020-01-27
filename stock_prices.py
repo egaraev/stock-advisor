@@ -28,7 +28,7 @@ db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
 cursor = db.cursor()
 cursor.execute("SELECT symbol FROM symbols WHERE active=1")
 symbols=cursor.fetchall()
-days=5
+days=10
 
 def main():
     print('Starting stock-prices module')
@@ -74,12 +74,23 @@ def prices():
           df = df.reset_index(level=['Date'])
 
           
-          daycurrentdate = (df['Date'][4]).date()
-          dayprevdate = (df['Date'][3]).date()
-          dayprevdate2 = (df['Date'][2]).date()
-          dayprevdate3 = (df['Date'][1]).date()
-          dayprevdate4 = (df['Date'][0]).date()
-          print (df)	  
+          daycurrentdate = (df['Date'][9]).date()
+          dayprevdate = (df['Date'][8]).date()
+          dayprevdate2 = (df['Date'][7]).date()
+          dayprevdate3 = (df['Date'][6]).date()
+          dayprevdate4 = (df['Date'][5]).date()
+          dayprevdate5 = (df['Date'][4]).date()
+          dayprevdate6 = (df['Date'][3]).date()
+          dayprevdate7 = (df['Date'][2]).date()          
+          dayprevdate8 = (df['Date'][1]).date()
+          dayprevdate9 = (df['Date'][0]).date()	  
+		  
+		  
+		  
+		  
+#          print (df)
+          heikin_ashi_df = heikin_ashi(df)
+	  
           
 		  
 	  
@@ -150,7 +161,12 @@ def prices():
 		  
           d = {'Date': [dayprevdate4, dayprevdate3, dayprevdate2, dayprevdate, daycurrentdate], 'Open': [HAD_PREV_Open4, HAD_PREV_Open3, HAD_PREV_Open2, HAD_PREV_Open, HAD_Open], 'High': [HAD_PREV_High4, HAD_PREV_High3, HAD_PREV_High2, HAD_PREV_High, HAD_High], 'Low': [HAD_PREV_Low4, HAD_PREV_Low3, HAD_PREV_Low2, HAD_PREV_Low, HAD_Low], 'Close': [HAD_PREV_Close4, HAD_PREV_Close3, HAD_PREV_Close2, HAD_PREV_Close, HAD_Close]}
           dfha = pd.DataFrame(data=d)
-          ohlc_df = dfha.copy()
+		  
+#          ohlc_df = dfha.copy()
+          ohlc_df = heikin_ashi_df.copy()
+          date=[dayprevdate9, dayprevdate8, dayprevdate7, dayprevdate6, dayprevdate5, dayprevdate4, dayprevdate3, dayprevdate2, dayprevdate, daycurrentdate]	
+          ohlc_df['Date']=date
+          		  
 
           ohlc_df = ohlc_df[['Date', 'Open', 'High', 'Low', 'Close']]
           print (ohlc_df)
@@ -160,16 +176,12 @@ def prices():
           ohlc_df['Date'] = ohlc_df['Date'].map(mdates.date2num)
 
           fig, ax = plt.subplots(figsize=(8, 4))
-          # Converts raw mdate numbers to dates
-          ax.xaxis_date()
-          plt.xlabel("Date")
+
 
 		 
           # Making candlestick plot
           candlestick_ohlc(ax, ohlc_df.values, width = 0.8, colorup = 'g', colordown = 'r', alpha = 0.8)
-          plt.ylabel("Price")
           plt.title(name)
-          #plt.plot(ohlc_df['Date'], ohlc_df['Close'], linestyle = '--', linewidth = 1, c='black')
           plt.grid()
           plt.savefig('/root/PycharmProjects/stock-advisor/images/hacharts.png')
 		  
@@ -271,7 +283,22 @@ def prices():
             continue
 
 
-
+def heikin_ashi(df):
+    heikin_ashi_df = pd.DataFrame(index=df.index.values, columns=['Open', 'High', 'Low', 'Close'])
+    
+    heikin_ashi_df['Close'] = (df['Open'] + df['High'] + df['Low'] + df['Close']) / 4
+    
+    for i in range(len(df)):
+        if i == 0:
+            heikin_ashi_df.iat[0, 0] = df['Open'].iloc[0]
+        else:
+            heikin_ashi_df.iat[i, 0] = (heikin_ashi_df.iat[i-1, 0] + heikin_ashi_df.iat[i-1, 3]) / 2
+        
+    heikin_ashi_df['High'] = heikin_ashi_df.loc[:, ['Open', 'Close']].join(df['High']).max(axis=1)
+    
+    heikin_ashi_df['Low'] = heikin_ashi_df.loc[:, ['Open', 'Close']].join(df['Low']).min(axis=1)
+    
+    return heikin_ashi_df
 
 
 def symbol_full_name(symbolname, value):

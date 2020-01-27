@@ -62,7 +62,7 @@ echo "<table border='1'>
 <th>Two weeks chart</th>
 <th>Tweeter sentiments</th>
 <th>Predicted price</th>
-<th>Predicted chart</th>
+<th>AI Predicted chart for 1 week</th>
 <th>Heikin_ashi direction</th>
 <th>News</th>
 <th></th>
@@ -77,7 +77,7 @@ echo "<td><a href='images/". $row['symbol'] ."_chart.png'><img src='images/". $r
 echo "<td><a href='images/". $row['symbol'] ."_tweets.png'><img src='images/". $row['symbol'] ."_tweets.png' width='250px' height='250px'></td>";
 echo "<td><b>" . $row['predicted_price'] . "</b></td>";
 echo "<td><a href='images/". $row['symbol'] ."_result.png'><img src='images/". $row['symbol'] ."_result.png' width='250px' height='250px'></td>";
-echo "<td>" . $row['heikin_ashi'] . "</td>";
+echo "<td><a href='images/". $row['symbol'] ."_hachart.png'><img src='images/". $row['symbol'] ."_hachart.png' width='280px' height='250px'></td>";
 echo "<td><pre>" . $row['news'] . "</pre></td>";
 echo "<td><pre><p><a href='#". $row['symbol'] ."' rel='modal:open'>Open details</a></p></pre></td>";
 echo "</tr>";
