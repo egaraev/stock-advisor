@@ -28,7 +28,7 @@ db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
 cursor = db.cursor()
 cursor.execute("SELECT symbol FROM symbols WHERE active=1")
 symbols=cursor.fetchall()
-days=10
+days=15
 
 def main():
     print('Starting stock-prices module')
@@ -74,16 +74,21 @@ def prices():
           df = df.reset_index(level=['Date'])
 
           
-          daycurrentdate = (df['Date'][9]).date()
-          dayprevdate = (df['Date'][8]).date()
-          dayprevdate2 = (df['Date'][7]).date()
-          dayprevdate3 = (df['Date'][6]).date()
-          dayprevdate4 = (df['Date'][5]).date()
-          dayprevdate5 = (df['Date'][4]).date()
-          dayprevdate6 = (df['Date'][3]).date()
-          dayprevdate7 = (df['Date'][2]).date()          
-          dayprevdate8 = (df['Date'][1]).date()
-          dayprevdate9 = (df['Date'][0]).date()	  
+          daycurrentdate = (df['Date'][14]).date()
+          dayprevdate = (df['Date'][13]).date()
+          dayprevdate2 = (df['Date'][12]).date()
+          dayprevdate3 = (df['Date'][11]).date()
+          dayprevdate4 = (df['Date'][10]).date()
+          dayprevdate5 = (df['Date'][9]).date()
+          dayprevdate6 = (df['Date'][8]).date()
+          dayprevdate7 = (df['Date'][7]).date()          
+          dayprevdate8 = (df['Date'][6]).date()
+          dayprevdate9 = (df['Date'][5]).date()
+          dayprevdate10 = (df['Date'][4]).date()
+          dayprevdate11 = (df['Date'][3]).date()
+          dayprevdate12 = (df['Date'][2]).date()          
+          dayprevdate13 = (df['Date'][1]).date()
+          dayprevdate14 = (df['Date'][0]).date()		  
 		  
 		  
 		  
@@ -164,7 +169,7 @@ def prices():
 		  
 #          ohlc_df = dfha.copy()
           ohlc_df = heikin_ashi_df.copy()
-          date=[dayprevdate9, dayprevdate8, dayprevdate7, dayprevdate6, dayprevdate5, dayprevdate4, dayprevdate3, dayprevdate2, dayprevdate, daycurrentdate]	
+          date=[dayprevdate14, dayprevdate13, dayprevdate12, dayprevdate11, dayprevdate10, dayprevdate9, dayprevdate8, dayprevdate7, dayprevdate6, dayprevdate5, dayprevdate4, dayprevdate3, dayprevdate2, dayprevdate, daycurrentdate]	
           ohlc_df['Date']=date
           		  
 
