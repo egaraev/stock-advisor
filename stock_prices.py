@@ -22,6 +22,11 @@ import glob
 import shutil
 import warnings
 warnings.filterwarnings('ignore')
+import time
+import datetime
+now = datetime.datetime.now()
+currenttime = now.strftime("%Y-%m-%d %H:%M")
+currentdate = now.strftime("%Y-%m-%d")
 
 ###
 db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
@@ -275,7 +280,8 @@ def prices():
               cursor = db.cursor()
 #              sql = "update symbols set current_price=%s, heikin_ashi=%s, candle_direction=%s where symbol=%s"
 #              cursor.execute(sql, (last, had_trend, day_candle, symbol))
-              cursor.execute("update symbols set current_price='%s', heikin_ashi='%s', candle_direction='%s'  where symbol='%s'" % (last, had_trend, day_candle, symbol)) 
+              cursor.execute("update symbols set current_price='%s', heikin_ashi='%s', candle_direction='%s'  where symbol='%s'" % (last, had_trend, day_candle, symbol))
+              cursor.execute("update history set open_price='%s', close_price='%s', low_price='%s', high_price='%s' where symbol='%s' and date='%s'" % (daycurrentopen, daycurrentclose, daycurrentlow, daycurrenthigh, symbol, currentdate))			  
               db.commit()
           except pymysql.Error as e:
               print ("Error %d: %s" % (e.args[0], e.args[1]))

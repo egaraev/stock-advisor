@@ -23,6 +23,11 @@ warnings.filterwarnings('ignore')
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 #nltk.download('vader_lexicon')
 sia = SentimentIntensityAnalyzer()
+import time
+import datetime
+now = datetime.datetime.now()
+currenttime = now.strftime("%Y-%m-%d %H:%M")
+currentdate = now.strftime("%Y-%m-%d")
 
 db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
 cursor = db.cursor()
@@ -203,6 +208,7 @@ def tw():
                     cursor = db.cursor()
                     cursor.execute('update symbols set positive_sentiments = %s, negative_sentiments =%s, tweeter_polarity =%s, tweeter_text=%s, tweeter_score=%s where symbol=%s',(positive, negative, average, str(tweet_texts), nltk_score, symbol))
                     cursor.execute('insert into logs(date, entry) values("%s", "%s")' % (currenttime, printed))
+                    cursor.execute("update history set twitter_polarity ='%s', twitter_score='%s'  where symbol='%s' and date='%s'" % (average, nltk_score, symbol, currentdate))
                     db.commit()
                 except pymysql.Error as e:
                     print ("Error %d: %s" % (e.args[0], e.args[1]))
