@@ -125,7 +125,7 @@ class TwitterClient(object):
 #            print (marketcount)
 
 #            max_tweets=1200/marketcount
-            max_tweets=1200
+            max_tweets=12
 
             fetched_tweets = [status for status in tweepy.Cursor(self.api.search, q=query).items(max_tweets)]
 

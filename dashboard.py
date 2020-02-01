@@ -37,7 +37,7 @@ def SL():
           else:
               pass
 
-          print ('OK')	  
+          	  
 			  
 
         except:

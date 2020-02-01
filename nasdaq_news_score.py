@@ -14,6 +14,8 @@ import datetime
 now = datetime.datetime.now()
 currenttime = now.strftime("%Y-%m-%d %H:%M")
 currentdate = now.strftime("%Y-%m-%d")
+import numpy as np
+import statistics
 
 import nltk
 import warnings
@@ -52,7 +54,7 @@ def nasdaq_news():
           stock_news_urls  = scrape_all_articles(symbol, 1)
 #          print (stock_news_urls)
           all_news_urls = list(stock_news_urls)
-          all_news_urls = all_news_urls[:3]
+          all_news_urls = all_news_urls[:10]
 #          print (all_news_urls)
           all_titles = [scrape_news_title(news_url) for news_url in all_news_urls]
           all_stock_titles = all_titles
@@ -71,28 +73,11 @@ def nasdaq_news():
           stock_dates = pd.DataFrame(stock_dates)
           stock_urls = pd.DataFrame(stock_urls)
 
-          # Export data to csv
-#          stock_articles.to_csv(f'csvs/{symbol}_articles.csv', index = None, header=True)
-#          stock_titles.to_csv(f'csvs/{symbol}_titles.csv', index = None, header=True)
-#          stock_dates.to_csv(f'csvs/{symbol}_dates.csv', index = None, header=True)
-#          stock_urls.to_csv(f'csvs/{symbol}_urls.csv', index = None, header=True)
-
-
-          # Import data back
-
-#          stock_articles = pd.read_csv(r"csvs/{symbol}_articles.csv") 
-#          stock_titles = pd.read_csv(r'csvs/{symbol}_titles.csv')
-#          stock_dates = pd.read_csv(r'csvs/{symbol}_dates.csv')
-
-
           stock_titles.columns = ['stock_titles']
           stock_titles = stock_titles['stock_titles'].tolist()
           stock_articles.columns = ['stock_articles']
           stock_articles = stock_articles['stock_articles'].tolist()
           
-
-
-
 
           stock_dates.columns = ['stock_dates']
           stock_dates = stock_dates['stock_dates'].tolist()
@@ -100,79 +85,46 @@ def nasdaq_news():
           stock_urls = stock_urls['stock_urls'].tolist()
 
 
+          open("csvs/tmp-score.txt", "w").close()
 
-          open("csvs/tmp-sql-2.txt", "w").close()
-          open("csvs/tmp-sql.txt", "w").close()
           for i in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]:
              if i != "":
-#                 print (stock_dates[i]) 
                if stock_dates[i] != None:
-                 f = open("/root/PycharmProjects/stock-advisor/csvs/tmp-sql.txt", "a")
-                 print(stock_articles[i][:-3110], file=f)
-                 print ('\n', file=f)
-                 print ('######################################################', file=f)
-                 print ('\n', file=f)
-                 f.close()
-			 
-             f = open("/root/PycharmProjects/stock-advisor/csvs/tmp-sql.txt", "r", newline="\n")
-             news_text= (f.read())
-             try:
-                 db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
-                 cursor = db.cursor()
-                 cursor.execute('update symbols set news_text = %s where symbol=%s',(news_text, symbol))
-                 db.commit()
-             except pymysql.Error as e:
-                 print ("Error %d: %s" % (e.args[0], e.args[1]))
-                 sys.exit(1)
-             finally:
-                 db.close()
-
-             if i != "":
-               if stock_dates[i] != None:
-                 f2 = open("/root/PycharmProjects/stock-advisor/csvs/tmp-sql-2.txt", "a")
-                 print(stock_titles[i], file=f2)
-                 print(stock_dates[i], file=f2)
-#                 print (stock_articles[i][:-3110])
                  passage=(stock_articles[i][:-3110])
-                 print ("Sentiment Score: ", round(sia.polarity_scores(passage)['compound'], 2), file=f2) 
-                 print('<a href="'+mainsite+stock_urls[i]+'">'+mainsite+stock_urls[i]+'</a>', file=f2)
-                 print ('\n', file=f2)
-                 f2.close()
-             f2 = open("/root/PycharmProjects/stock-advisor/csvs/tmp-sql-2.txt", "r", newline="\n")
-             news= (f2.read())
-             printed = (symbol, stock_titles[i])
+                 f1 = open("/root/PycharmProjects/stock-advisor/csvs/tmp-score.txt", "a")
+                 print (round(sia.polarity_scores(passage)['compound'], 2), file=f1)
+                 f1.close()
+             f1 = open("/root/PycharmProjects/stock-advisor/csvs/tmp-score.txt", "r", newline="\n")
+             scores= (f1.readlines())
+
+
+             f1.close()
+#             print (scores)
+             scores2 = [x.replace('\n', '') for x in scores]
+             lenght= (len(scores2))
+             new_list =sum(float(t) for t in scores2)
+             average=new_list/lenght
+#             print (new_list)
+#             minimal_score=(min(scores))
+#             print (average, lenght)
 
              
              try:
                  db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
                  cursor = db.cursor()
-                 cursor.execute('update symbols set news = %s where symbol=%s',(news, symbol))
-                 cursor.execute('insert into logs(date, entry) values("%s", "%s")', (currenttime, printed))
+                 cursor.execute("update history set news_score='%s'  where symbol='%s' and date='%s'" % (average, symbol, currentdate))
                  db.commit()
              except pymysql.Error as e:
                  print ("Error %d: %s" % (e.args[0], e.args[1]))
                  sys.exit(1)
              finally:
                  db.close()
-
-
-
-             f2.close()
-             f.close()
-
-
 				 
 #             time.sleep(60)
 
 
-
-
         except:
             continue
-
-
-
-
 
 
 
@@ -183,7 +135,7 @@ def scrape_news_date(news_url):
 #        news_html = urlopen(news_url)
         date_now = time.strftime("%A, %d/%m/%Y - %H:%M")
         newdate = datetime.datetime.strptime(date_now, "%A, %d/%m/%Y - %H:%M")
-        currentdate = newdate.date().strftime("%Y-%m")
+        currentdate = newdate.date().strftime("%Y-%m-%d")
 
         url = (news_url)
         news_html = requests.get(url, headers=headers).content
@@ -202,7 +154,7 @@ def scrape_news_date(news_url):
         news_date = (jsondict['@graph'][2]['datePublished'])
 
         stringdate=datetime.datetime.strptime(news_date, "%a, %m/%d/%Y - %H:%M")
-        newstringdate= stringdate.date().strftime("%Y-%m")
+        newstringdate= stringdate.date().strftime("%Y-%m-%d")
         if currentdate == newstringdate:
            return news_date
 

@@ -23,7 +23,11 @@ from dateutil import parser
 import requests
 import datetime
 now = datetime.datetime.now()
+from datetime import timedelta, date
 currenttime = now.strftime("%Y-%m-%d %H:%M")
+currentdate = now.strftime("%Y-%m-%d")
+futuredate = date.today() + timedelta(days=7)
+
 ###
 db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
 cursor = db.cursor()
@@ -46,7 +50,7 @@ def neural():
           name=symbol_full_name(symbol, 3)
           ticker= symbol
           print ("Now lets test the model")
-          print (ticker)
+          print (ticker, futuredate)
           ticker_data_filename = os.path.join("/root/PycharmProjects/stock-advisor/data", f"{ticker}_{date_now}.csv")
           print ("model name to save")
           model_name = f"{date_now}_{ticker}-{LOSS}-{CELL.__name__}-seq-{N_STEPS}-step-{LOOKUP_STEP}-layers-{N_LAYERS}-units-{UNITS}"
@@ -73,7 +77,8 @@ def neural():
               db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
               cursor = db.cursor()
               cursor.execute("update symbols set predicted_price='%s'  where symbol='%s'" % (future_price, symbol))
-              cursor.execute('insert into logs(date, entry) values("%s", "%s")', (currenttime, printed))			  
+              cursor.execute('insert into logs(date, entry) values("%s", "%s")', (currenttime, printed))
+              cursor.execute('insert into history(predicted_price, date, symbol) values(%s, %s, %s)', (future_price, futuredate, symbol))			  
               db.commit()
           except pymysql.Error as e:
               print ("Error %d: %s" % (e.args[0], e.args[1]))
@@ -102,6 +107,7 @@ def neural():
             continue
 
 
+					
 
 
 
