@@ -32,11 +32,11 @@ def SL():
           print (symbol)
           db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
           cursor = db.cursor()
-          cursor.execute("SELECT date, twitter_polarity, twitter_score, news_score, price, predicted_price FROM history WHERE symbol='%s'" % symbol)
+          cursor.execute("SELECT date, twitter_polarity, twitter_score, news_score, price, predicted_price, positive_tweets, negative_tweets FROM history WHERE symbol='%s'" % symbol)
           data=cursor.fetchall()
 
           df = pd.DataFrame(data)
-          df.columns = ['date', 'twitter_polarity', 'twitter_score', 'news_score', 'price', 'predicted_price']
+          df.columns = ['date', 'twitter_polarity', 'twitter_score', 'news_score', 'price', 'predicted_price', 'positive_tweets', 'negative_tweets']
 
           rc('mathtext', default='regular')
 
@@ -46,13 +46,15 @@ def SL():
 
           lns1 = ax.plot(df['date'], df['price'], '-', linewidth = 3, label = 'Price')
           lns2 = ax.plot(df['date'], df['predicted_price'], '-', c='blue', linestyle = '--', linewidth = 3, label = 'Prediction')
+          lns3 = ax.plot(df['date'], df['positive_tweets'], '-', c='magenta', linewidth = 3, label = 'Positive tweets')
+          lns4 = ax.plot(df['date'], df['negative_tweets'], '-', c='sienna', linewidth = 3, label = 'Negative tweets')
           ax2 = ax.twinx()
-          lns3 = ax2.plot(df['date'], df['news_score'], '-r', c='green', linewidth = 3, label = 'News score')
-          lns4 = ax2.plot(df['date'], df['twitter_score'], '', c='red', linewidth = 3, label = 'Twitter score')
-          lns5 = ax2.plot(df['date'], df['twitter_polarity'], '-', c='orange', linewidth = 3, label = 'Twitter polarity')
+          lns5 = ax2.plot(df['date'], df['news_score'], '-r', c='green', linewidth = 3, label = 'News score')
+          lns6 = ax2.plot(df['date'], df['twitter_score'], '', c='red', linewidth = 3, label = 'Twitter score')
+          lns7 = ax2.plot(df['date'], df['twitter_polarity'], '-', c='orange', linewidth = 3, label = 'Twitter polarity')
 
           # added these three lines
-          lns = lns1+lns2+lns3+lns4+lns5
+          lns = lns1+lns2+lns3+lns4+lns5+lns6+lns7
           labs = [l.get_label() for l in lns]
           ax.legend(lns, labs, loc=0)
 
