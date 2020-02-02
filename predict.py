@@ -20,6 +20,8 @@ import re
 import pymysql
 import pandas as pd
 from dateutil import parser
+import warnings
+warnings.filterwarnings('ignore')
 import requests
 import datetime
 now = datetime.datetime.now()
@@ -71,20 +73,34 @@ def neural():
           print("Mean Absolute Error:", mean_absolute_error)
           # predict the future price
           future_price = predict(model, data)
-          print (future_price)
+          print (future_price, futuredate)
           printed = (symbol, f"Future price after {LOOKUP_STEP} days is {future_price:.2f}$")
           try:
               db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
               cursor = db.cursor()
               cursor.execute("update symbols set predicted_price='%s'  where symbol='%s'" % (future_price, symbol))
-              cursor.execute('insert into logs(date, entry) values("%s", "%s")', (currenttime, printed))
-              cursor.execute('insert into history(predicted_price, date, symbol) values(%s, %s, %s)', (future_price, futuredate, symbol))			  
+              cursor.execute('insert into logs(date, entry) values("%s", "%s")', (currenttime, printed))			  
               db.commit()
           except pymysql.Error as e:
               print ("Error %d: %s" % (e.args[0], e.args[1]))
               sys.exit(1)
           finally:
               db.close()
+			  
+          if date_exist(symbol, currentdate) != 1:
+             try:
+                 db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
+                 cursor = db.cursor()
+                 cursor.execute('insert into history(predicted_price, date, symbol) values("%s", "%s", "%s")' % (future_price, futuredate, symbol))
+                 db.commit()
+             except pymysql.Error as e:
+                 print ("Error %d: %s" % (e.args[0], e.args[1]))
+                 sys.exit(1)
+             finally:
+                 db.close()
+          else:
+              pass			  
+
 
           print(f"Future price after {LOOKUP_STEP} days is {future_price:.2f}$")
           print("Accuracy Score:", get_accuracy(model, data))
@@ -108,7 +124,18 @@ def neural():
 
 
 					
+def date_exist(symbolname, currentdate):
+    db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
+    cursor = db.cursor()
+    symbol = symbolname
+    cursor.execute("SELECT * FROM history WHERE symbol = '%s' and date='%s'" % (symbol, currentdate))
+    r = cursor.fetchall()
+    for row in r:
+        if row[0] is not None:
+            return 1
 
+        else:
+            return 0
 
 
 def plot_graph(model, data, name):

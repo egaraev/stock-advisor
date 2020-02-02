@@ -58,6 +58,7 @@ echo "<br><b>Current stocks</b><br>";
 echo "<table border='1'>
 <tr>
 <th>Stock name</th>
+<th>Advise</th>
 <th>Current price</th>
 <th>Two weeks chart</th>
 <th>Tweeter sentiments</th>
@@ -72,6 +73,7 @@ while($row = mysqli_fetch_array($result2))
 {
 echo "<tr>";
 echo "<td>" . $row['name'] . "</td>";
+echo "<td>" . $row['advise'] . "</td>";
 echo "<td>" . $row['current_price'] . "</td>";
 echo "<td><a href='images/". $row['symbol'] ."_chart.png'><img src='images/". $row['symbol'] ."_chart.png' width='300px' height='250px'></td>";
 echo "<td><a href='images/". $row['symbol'] ."_tweets.png'><img src='images/". $row['symbol'] ."_tweets.png' width='250px' height='250px'></td>";
