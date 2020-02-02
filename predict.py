@@ -87,7 +87,9 @@ def neural():
           finally:
               db.close()
 			  
-          if date_exist(symbol, currentdate) != 1:
+          print (date_exist(symbol, futuredate))
+		  
+          if date_exist(symbol, futuredate) != 1:
              try:
                  db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
                  cursor = db.cursor()
@@ -98,8 +100,7 @@ def neural():
                  sys.exit(1)
              finally:
                  db.close()
-          else:
-              pass			  
+		  
 
 
           print(f"Future price after {LOOKUP_STEP} days is {future_price:.2f}$")
@@ -124,11 +125,11 @@ def neural():
 
 
 					
-def date_exist(symbolname, currentdate):
+def date_exist(symbolname, futuredate):
     db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
     cursor = db.cursor()
     symbol = symbolname
-    cursor.execute("SELECT * FROM history WHERE symbol = '%s' and date='%s'" % (symbol, currentdate))
+    cursor.execute("SELECT * FROM history WHERE symbol = '%s' and date='%s'" % (symbol, futuredate))
     r = cursor.fetchall()
     for row in r:
         if row[0] is not None:
