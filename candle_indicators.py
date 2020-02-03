@@ -48,41 +48,57 @@ def prices():
           ohlc_df = ohlc_df[['Date', 'Open', 'High', 'Low', 'Close']]
 		  
           df=candle_df(df)
-          print (df)
+          #print (df)
         
           buy_df = df.copy() 
           candle_scored_buy= buy_df[(buy_df['candle_score'] > 0)]
           #print (symbol, candle_scored_buy)
           candle_scored_sell= df[(df['candle_score'] < 0)]		  
-          labels_buy=(buy_df['candle_pattern'])
-		  			 
+          labels_buy=(candle_scored_buy['candle_pattern'].tolist())
+          labels_sell=(candle_scored_sell['candle_pattern'].tolist())		 
 		     
-		  
-		  
           #print (ohlc_df)
          # Converting dates column to float values
           ohlc_df['Date'] = ohlc_df['Date'].map(mdates.date2num)
-
           fig, ax = plt.subplots(figsize=(8, 4))
           # Converts raw mdate numbers to dates
           ax.xaxis_date()
-          plt.xlabel("Date")
-
-		  
+          plt.xlabel("Date")	  
           # Making candlestick plot
           candlestick_ohlc(ax, ohlc_df.values, width = 0.8, colorup = 'g', colordown = 'r', alpha = 0.8)
           plt.ylabel("Price")
-          plt.title(name)
-		  
-		  
+          plt.title(name) 	  
           ax2 = ax.twinx()
-          #plt.plot(ohlc_df['Date'], ohlc_df['Close'], linestyle = '--', linewidth = 1, c='black')
-          ax2.plot(candle_scored_buy['Date'], candle_scored_buy['candle_score'],  '^', markersize=15)
-          ax2.plot(candle_scored_sell['Date'], candle_scored_sell['candle_score'], 'v', markersize=15)
+		  
+		  
+          candle_scored_buy['Date'] = ohlc_df['Date']
+          x=candle_scored_buy['Date'].tolist()
+          y=candle_scored_buy['candle_score'].tolist()
+          n = labels_buy
+      
+          #fig, ax2 = plt.subplots()
+          ax2.scatter(x, y, c='g', marker="^", s=120)
 
-#          ax2 = df.plot(kind='scatter',x=candle_scored_buy['Date'],y=candle_scored_buy['candle_score'])
-#          buy_df[['Date','candle_score','candle_pattern']].apply(lambda row: ax2.text(*row),axis=1);
-          #ax2.set_ylim(-4, 4)
+          for i, txt in enumerate(n):
+            ax2.annotate(txt, (x[i], y[i]))
+
+
+          x1=candle_scored_sell['Date'].tolist()
+          y1=candle_scored_sell['candle_score'].tolist()
+          n1 = labels_sell
+      
+          #fig, ax2 = plt.subplots()
+          ax2.scatter(x1, y1, c='r', marker="v", s=120)
+
+          for a, txt1 in enumerate(n1):
+            ax2.annotate(txt1, (x1[a], y1[a]))			
+		
+
+		  	  
+## working config		  
+          #ax2.plot(x, y,  '^', markersize=15)
+          #ax2.plot(candle_scored_sell['Date'], candle_scored_sell['candle_score'], 'v', markersize=15)
+##working config
 		  
           plt.gcf().autofmt_xdate()   # Beautify the x-labels
           plt.autoscale(tight=True)
@@ -107,8 +123,7 @@ def prices():
             continue
 
 
-
-			
+		
 			
 			
 
