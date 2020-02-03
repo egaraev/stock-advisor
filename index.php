@@ -1,11 +1,12 @@
 <html>
 <head>
 <title>
-Eldar's great page
+Stock Advisor
 </title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 </head>
 <body>
+<a href="stat.php">Link to STAT Page</a>
 
 
 <?php

@@ -68,6 +68,8 @@ def prices():
           plt.ylabel("Price")
           plt.title(name)
           plt.plot(ohlc_df['Date'], ohlc_df['Close'], linestyle = '--', linewidth = 1, c='black')
+          plt.gcf().autofmt_xdate()   # Beautify the x-labels
+          plt.autoscale(tight=True)
           plt.grid()
           plt.savefig('/root/PycharmProjects/stock-advisor/images/charts.png')
 		  
