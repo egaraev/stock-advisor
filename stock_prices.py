@@ -186,12 +186,14 @@ def prices():
           ohlc_df['Date'] = ohlc_df['Date'].map(mdates.date2num)
 
           fig, ax = plt.subplots(figsize=(8, 4))
-
+          ax.xaxis_date()
 
 		 
           # Making candlestick plot
           candlestick_ohlc(ax, ohlc_df.values, width = 0.8, colorup = 'g', colordown = 'r', alpha = 0.8)
           plt.title(name)
+          plt.gcf().autofmt_xdate()   # Beautify the x-labels
+          plt.autoscale(tight=True)
           plt.grid()
           plt.savefig('/root/PycharmProjects/stock-advisor/images/hacharts.png')
 		  
