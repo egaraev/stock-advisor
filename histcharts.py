@@ -80,14 +80,14 @@ def SL():
 
 		  
 
-          lns1 = ax.plot(df['date'][s1mask], series1[s1mask], '-', linewidth = 3, label = 'Price')
-          lns2 = ax.plot(df['date'][s2mask], series2[s2mask], '-', c='blue', linestyle = '--', linewidth = 3, label = 'Prediction')
-          lns3 = ax.plot(df['date'][s3mask], series3[s3mask], '-', c='magenta', linewidth = 3, label = 'Positive tweets')
-          lns4 = ax.plot(df['date'][s4mask], series4[s4mask], '-', c='sienna', linewidth = 3, label = 'Negative tweets')
+          lns1 = ax.plot(df['date'][s1mask], series1[s1mask], linewidth = 3, label = 'Price')
+          lns2 = ax.plot(df['date'][s2mask], series2[s2mask], c='blue', linestyle = '--', linewidth = 3, label = 'Prediction')
+          lns3 = ax.plot(df['date'][s3mask], series3[s3mask], c='magenta', linewidth = 3, label = 'Positive tweets')
+          lns4 = ax.plot(df['date'][s4mask], series4[s4mask], c='sienna', linewidth = 3, label = 'Negative tweets')
           ax2 = ax.twinx()
-          lns5 = ax2.plot(df['date'][s5mask], series5[s5mask], '-r', c='green', linewidth = 3, label = 'News score')
-          lns6 = ax2.plot(df['date'][s6mask], series6[s6mask], '', c='red', linewidth = 3, label = 'Twitter score')
-          lns7 = ax2.plot(df['date'][s7mask], series7[s7mask], '-', c='orange', linewidth = 3, label = 'Twitter polarity')
+          lns5 = ax2.plot(df['date'][s5mask], series5[s5mask], c='green', linestyle = ':', linewidth = 6, label = 'News score')
+          lns6 = ax2.plot(df['date'][s6mask], series6[s6mask], c='red', linewidth = 3, label = 'Twitter score')
+          lns7 = ax2.plot(df['date'][s7mask], series7[s7mask], c='orange', linewidth = 3, label = 'Twitter polarity')
 
           # added these three lines
           lns = lns1+lns2+lns3+lns4+lns5+lns6+lns7

@@ -195,6 +195,7 @@ def prices():
           plt.gcf().autofmt_xdate()   # Beautify the x-labels
           plt.autoscale(tight=True)
           plt.grid()
+          ax.grid(True)
           plt.savefig('/root/PycharmProjects/stock-advisor/images/hacharts.png')
 		  
           newfilename=("{}_hachart.png".format(symbol))
@@ -281,7 +282,7 @@ def prices():
               db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
               cursor = db.cursor()
               cursor.execute("update symbols set current_price='%s', heikin_ashi='%s', candle_direction='%s'  where symbol='%s'" % (last, had_trend, day_candle, symbol))
-              cursor.execute("update history set price='%s' where symbol='%s' and date='%s'" % (daycurrentclose, symbol, currentdate))			  
+              cursor.execute("update history set price='%s' where symbol='%s' and date='%s'" % (last, symbol, currentdate))			  
               db.commit()
           except pymysql.Error as e:
               print ("Error %d: %s" % (e.args[0], e.args[1]))

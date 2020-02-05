@@ -24,7 +24,7 @@ db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
 cursor = db.cursor()
 cursor.execute("SELECT symbol FROM symbols WHERE active=1")
 symbols=cursor.fetchall()
-days=15
+days=20
 
 def main():
     print('Starting stock-charts module')
@@ -48,8 +48,8 @@ def prices():
           ohlc_df = ohlc_df[['Date', 'Open', 'High', 'Low', 'Close']]
 		  
           df=candle_df(df)
-          #print (df)
-        
+          print (df)
+       
           buy_df = df.copy() 
           candle_scored_buy= buy_df[(buy_df['candle_score'] > 0)]
           #print (symbol, candle_scored_buy)
@@ -60,7 +60,7 @@ def prices():
           #print (ohlc_df)
          # Converting dates column to float values
           ohlc_df['Date'] = ohlc_df['Date'].map(mdates.date2num)
-          fig, ax = plt.subplots(figsize=(8, 4))
+          fig, ax = plt.subplots(figsize=(15, 10))
           # Converts raw mdate numbers to dates
           ax.xaxis_date()
           plt.xlabel("Date")	  
@@ -103,6 +103,7 @@ def prices():
           plt.gcf().autofmt_xdate()   # Beautify the x-labels
           plt.autoscale(tight=True)
           plt.grid()
+          ax.grid(True)
           plt.savefig('/root/PycharmProjects/stock-advisor/images/candlesticks.png')
 		  
           newfilename=("{}_candlesticks.png".format(symbol))
@@ -129,11 +130,11 @@ def prices():
 
 def candle_score(lst_0,lst_1,lst_2):    
     
-    O_0,H_0,L_0,C_0=lst_0[0],lst_0[1],lst_0[2],lst_0[3]
-    O_1,H_1,L_1,C_1=lst_1[0],lst_1[1],lst_1[2],lst_1[3]
-    O_2,H_2,L_2,C_2=lst_2[0],lst_2[1],lst_2[2],lst_2[3]
+    O_0,H_0,L_0,C_0=lst_0[0],lst_0[1],lst_0[2],lst_0[3]  #current
+    O_1,H_1,L_1,C_1=lst_1[0],lst_1[1],lst_1[2],lst_1[3]  #previous
+    O_2,H_2,L_2,C_2=lst_2[0],lst_2[1],lst_2[2],lst_2[3]  #previous2
     
-    DojiSize = 0.1
+    DojiSize = 0.05
     
     doji=(abs(O_0 - C_0) <= (H_0 - L_0) * DojiSize)
     
@@ -173,23 +174,23 @@ def candle_score(lst_0,lst_1,lst_2):
     if doji:
         strCandle='doji'
     if evening_star:
-        strCandle=strCandle+'/ '+'evening_star'
+        strCandle=strCandle+'/ '+'Evening_star'
         candle_score=candle_score-1
     if morning_star:
-        strCandle=strCandle+'/ '+'morning_star'
+        strCandle=strCandle+'/ '+'Morning_star'
         candle_score=candle_score+1
     if shooting_Star_bearish:
-        strCandle=strCandle+'/ '+'shooting_Star_bearish'
+        strCandle=strCandle+'/ '+'Shooting_Star_bearish'
         candle_score=candle_score-1
     if shooting_Star_bullish:
-        strCandle=strCandle+'/ '+'shooting_Star_bullish'
+        strCandle=strCandle+'/ '+'Shooting_Star_bullish'
         candle_score=candle_score-1
     if    hammer:
-        strCandle=strCandle+'/ '+'hammer'
+        strCandle=strCandle+'/ '+'Hammer'
     if    inverted_hammer:
-        strCandle=strCandle+'/ '+'inverted_hammer'
+        strCandle=strCandle+'/ '+'Inverted_hammer'
     if    bearish_harami:
-        strCandle=strCandle+'/ '+'bearish_harami'
+        strCandle=strCandle+'/ '+'Bearish_harami'
         candle_score=candle_score-1
     if    Bullish_Harami:
         strCandle=strCandle+'/ '+'Bullish_Harami'
@@ -201,10 +202,10 @@ def candle_score(lst_0,lst_1,lst_2):
         strCandle=strCandle+'/ '+'Bullish_Engulfing'
         candle_score=candle_score+1
     if    bullish_reversal:
-        strCandle=strCandle+'/ '+'bullish_reversal'
+        strCandle=strCandle+'/ '+'Bullish_reversal'
         candle_score=candle_score+1
     if    bearish_reversal:
-        strCandle=strCandle+'/ '+'bearish_reversal'
+        strCandle=strCandle+'/ '+'Bearish_reversal'
         candle_score=candle_score-1
     if    Piercing_Line_bullish:
         strCandle=strCandle+'/ '+'Piercing_Line_bullish'
@@ -221,7 +222,7 @@ def candle_score(lst_0,lst_1,lst_2):
 
 
 def candle_df(df):
-    #df_candle=first_letter_upper(df)
+
     df_candle=df.copy()
     df_candle['candle_score']=0
     df_candle['candle_pattern']=''
@@ -236,7 +237,7 @@ def candle_df(df):
         df_candle['candle_score'].iat[c]=cscore
         df_candle['candle_pattern'].iat[c]=cpattern
     
-    df_candle['candle_cumsum']=df_candle['candle_score'].rolling(3).sum()
+    #df_candle['candle_cumsum']=df_candle['candle_score'].rolling(3).sum()
     
     return df_candle			
 
