@@ -11,7 +11,7 @@ symbols=cursor.fetchall()
 
 
 def main():
-    print('Starting stock loop  module')
+    print('Starting dashboard  module')
 
 
     SL()

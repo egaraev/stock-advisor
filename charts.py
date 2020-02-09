@@ -50,7 +50,7 @@ def prices():
 
 
           ohlc_df = ohlc_df[['Date', 'Open', 'High', 'Low', 'Close']]
-          print (ohlc_df)
+          #print (ohlc_df)
 
 
          # Converting dates column to float values

@@ -19,7 +19,7 @@ cursor.execute("SELECT symbol FROM symbols WHERE active=1")
 symbols=cursor.fetchall()
 
 def main():
-    print('Starting stock loop  module')
+    print('Starting historical charts  module')
 
 
     SL()
@@ -52,7 +52,7 @@ def SL():
           df=df.sort_index()
           
           #df.info()
-          print (df)
+          #print (df)
 
           rc('mathtext', default='regular')
 

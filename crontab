@@ -1,0 +1,14 @@
+5 */6 * * * /usr/bin/python3.6  /root/PycharmProjects/stock-advisor/twitter_sentiment.py >> /root/crontab.out
+*/5 * * * * /usr/bin/python3.6  /root/PycharmProjects/stock-advisor/stock_prices.py >> /root/crontab.out
+30 */6 * * * cd /root/PycharmProjects/stock-advisor && /usr/bin/python3.6  /root/PycharmProjects/stock-advisor/nasdaq_news.py >> /root/crontab.out
+20 */1 * * * cd /root/PycharmProjects/stock-advisor && /usr/bin/python3.6  /root/PycharmProjects/stock-advisor/nasdaq_news_score.py >> /root/crontab.out
+0 0 * * 6 /usr/bin/python3.6  /root/PycharmProjects/stock-advisor/train.py >> /root/crontab.out
+0 12 * * 6 /usr/bin/python3.6  /root/PycharmProjects/stock-advisor/train.py >> /root/crontab.out
+5 */1 * * * /usr/bin/python3.6  /root/PycharmProjects/stock-advisor/predict.py >> /root/crontab.out
+10 */1 * * * /usr/bin/python3.6  /root/PycharmProjects/stock-advisor/charts.py >> /root/crontab.out
+0 0 * * * yes | cp /var/www/html/index.php /root/PycharmProjects/stock-advisor/index.php   >/dev/null 2>&1
+0 0 * * * yes | cp /var/www/html/stat.php /root/PycharmProjects/stock-advisor/stat.php   >/dev/null 2>&1
+0 */1 * * * /usr/bin/python3.6  /root/PycharmProjects/stock-advisor/dashboard.py >> /root/crontab.out
+15 */3 * * * /usr/bin/python3.6  /root/PycharmProjects/stock-advisor/marketwatch.py >> /root/crontab.out
+*/10 * * * * /usr/bin/python3.6  /root/PycharmProjects/stock-advisor/histcharts.py >> /root/crontab.out
+* */1 * * * /usr/bin/python3.6  /root/PycharmProjects/stock-advisor/candle_indicators.py >> /root/crontab.out

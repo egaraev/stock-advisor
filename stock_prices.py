@@ -34,6 +34,7 @@ cursor = db.cursor()
 cursor.execute("SELECT symbol FROM symbols WHERE active=1")
 symbols=cursor.fetchall()
 days=15
+dayid=days-1
 
 def main():
     print('Starting stock-prices module')
@@ -52,7 +53,7 @@ def prices():
           stock = yf.Ticker(symbol)
           hist = stock.history(period="{}d".format(days))
           df = pd.DataFrame(hist)
-          print (df)
+          #print (df)
           last= (get_live_price(symbol))
           daycurrentopen = (df['Open'][4].tolist())
           daycurrentclose = (df['Close'][4].tolist())
@@ -131,46 +132,14 @@ def prices():
 #          print (symbol, day_candle, prevday_candle, prevday2_candle)     
           
 
-###############
 
-
-
-
-          HAD_PREV_Close4 = (dayprevopen4 + dayprevhigh4 + dayprevlow4 + dayprevclose4) / 4
-          HAD_PREV_Open4 = (dayprevopen4 + dayprevclose4) / 2
-          HAD_PREV_Low4 = dayprevlow4
-          HAD_PREV_High4 = dayprevhigh4
-		  
-          HAD_PREV_Close3 = (dayprevopen3 + dayprevhigh3 + dayprevlow3 + dayprevclose3) / 4
-          HAD_PREV_Open3 = (HAD_PREV_Open4 + HAD_PREV_Close4) / 2
-          elements3 = numpy.array([dayprevhigh3, dayprevlow3, HAD_PREV_Open4, HAD_PREV_Close4])
-          HAD_PREV_High3 = elements3.max(0)
-          HAD_PREV_Low3 = elements3.min(0)
-
-          HAD_PREV_Close2 = (dayprevopen2 + dayprevhigh2 + dayprevlow2 + dayprevclose2) / 4
-          HAD_PREV_Open2 = (HAD_PREV_Open3 + HAD_PREV_Close3) / 2
-          elements2 = numpy.array([dayprevhigh2, dayprevlow2, HAD_PREV_Open3, HAD_PREV_Close3])
-          HAD_PREV_High2 = elements2.max(0)
-          HAD_PREV_Low2 = elements2.min(0)
-
-          HAD_PREV_Close = (dayprevopen + dayprevhigh + dayprevlow + dayprevclose) / 4
-          HAD_PREV_Open = (HAD_PREV_Open2 + HAD_PREV_Close2) / 2
-          elements1 = numpy.array([dayprevhigh, dayprevlow, HAD_PREV_Open, HAD_PREV_Close])
-          HAD_PREV_High = elements1.max(0)
-          HAD_PREV_Low = elements1.min(0)
-
-          HAD_Close = (daycurrentopen + daycurrenthigh + daycurrentlow + daycurrentclose) / 4
-          HAD_Open = (HAD_PREV_Open + HAD_PREV_Close) / 2
-          elements0 = numpy.array([daycurrenthigh, daycurrentlow, HAD_Open, HAD_Close])
-          HAD_High = elements0.max(0)
-          HAD_Low = elements0.min(0)
 		  
 		  
 		  
 		  
 		  
-          d = {'Date': [dayprevdate4, dayprevdate3, dayprevdate2, dayprevdate, daycurrentdate], 'Open': [HAD_PREV_Open4, HAD_PREV_Open3, HAD_PREV_Open2, HAD_PREV_Open, HAD_Open], 'High': [HAD_PREV_High4, HAD_PREV_High3, HAD_PREV_High2, HAD_PREV_High, HAD_High], 'Low': [HAD_PREV_Low4, HAD_PREV_Low3, HAD_PREV_Low2, HAD_PREV_Low, HAD_Low], 'Close': [HAD_PREV_Close4, HAD_PREV_Close3, HAD_PREV_Close2, HAD_PREV_Close, HAD_Close]}
-          dfha = pd.DataFrame(data=d)
+#          d = {'Date': [dayprevdate4, dayprevdate3, dayprevdate2, dayprevdate, daycurrentdate], 'Open': [HAD_PREV_Open4, HAD_PREV_Open3, HAD_PREV_Open2, HAD_PREV_Open, HAD_Open], 'High': [HAD_PREV_High4, HAD_PREV_High3, HAD_PREV_High2, HAD_PREV_High, HAD_High], 'Low': [HAD_PREV_Low4, HAD_PREV_Low3, HAD_PREV_Low2, HAD_PREV_Low, HAD_Low], 'Close': [HAD_PREV_Close4, HAD_PREV_Close3, HAD_PREV_Close2, HAD_PREV_Close, HAD_Close]}
+#          dfha = pd.DataFrame(data=d)
 		  
 #          ohlc_df = dfha.copy()
           ohlc_df = heikin_ashi_df.copy()
@@ -179,7 +148,8 @@ def prices():
           		  
 
           ohlc_df = ohlc_df[['Date', 'Open', 'High', 'Low', 'Close']]
-          print (ohlc_df)
+          #print (ohlc_df)
+
 
 
          # Converting dates column to float values
@@ -212,6 +182,35 @@ def prices():
 		  
 		  
 		  
+###############
+
+
+
+
+          HAD_PREV_Close4 = ohlc_df['Close'][dayid-4]
+          HAD_PREV_Open4 = ohlc_df['Open'][dayid-4]
+          HAD_PREV_Low4 = ohlc_df['High'][dayid-4]
+          HAD_PREV_High4 = ohlc_df['Low'][dayid-4]
+		  
+          HAD_PREV_Close3 = ohlc_df['Close'][dayid-3]
+          HAD_PREV_Open3 = ohlc_df['Open'][dayid-3]
+          HAD_PREV_High3 = ohlc_df['High'][dayid-3]
+          HAD_PREV_Low3 = ohlc_df['Low'][dayid-3]
+
+          HAD_PREV_Close2 = ohlc_df['Close'][dayid-2]
+          HAD_PREV_Open2 = ohlc_df['Open'][dayid-2]
+          HAD_PREV_High2 = ohlc_df['High'][dayid-2]
+          HAD_PREV_Low2 = ohlc_df['Low'][dayid-2]
+
+          HAD_PREV_Close = ohlc_df['Close'][dayid-1]
+          HAD_PREV_Open = ohlc_df['Open'][dayid-1]
+          HAD_PREV_High = ohlc_df['High'][dayid-1]
+          HAD_PREV_Low = ohlc_df['Low'][dayid-1]
+
+          HAD_Close = ohlc_df['Close'][dayid]
+          HAD_Open = ohlc_df['Open'][dayid]
+          HAD_High = ohlc_df['High'][dayid]
+          HAD_Low = ohlc_df['Low'][dayid]
 		  
 		  
 #############

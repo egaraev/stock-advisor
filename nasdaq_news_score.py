@@ -37,7 +37,7 @@ user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 headers = {'User-Agent': user_agent}
 
 def main():
-    print('Starting nasdaq-news module')
+    print('Starting nasdaq-news score module')
 
     nasdaq_news()
 

@@ -24,10 +24,10 @@ db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
 cursor = db.cursor()
 cursor.execute("SELECT symbol FROM symbols WHERE active=1")
 symbols=cursor.fetchall()
-days=20
+days=30
 
 def main():
-    print('Starting stock-charts module')
+    print('Starting candle patterns module')
 
     prices()
 
@@ -48,7 +48,7 @@ def prices():
           ohlc_df = ohlc_df[['Date', 'Open', 'High', 'Low', 'Close']]
 		  
           df=candle_df(df)
-          print (df)
+          #print (df)
        
           buy_df = df.copy() 
           candle_scored_buy= buy_df[(buy_df['candle_score'] > 0)]
@@ -233,10 +233,10 @@ def candle_score(lst_0,lst_1,lst_2,lst_3):
     if    Bearish_Reversal:
         strCandle=strCandle+'/ '+'BE_R'
         candle_score=candle_score-1		
-    if    Hammer:
-        strCandle=strCandle+'/ '+'H'
-    if    Inverted_Hammer:
-        strCandle=strCandle+'/ '+'I_H'
+#    if    Hammer:
+#        strCandle=strCandle+'/ '+'H'
+#    if    Inverted_Hammer:
+#        strCandle=strCandle+'/ '+'I_H'
     if Shooting_Star_Bearish:
         strCandle=strCandle+'/ '+'SS_BE'
         candle_score=candle_score-1

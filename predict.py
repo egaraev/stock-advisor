@@ -30,6 +30,7 @@ currenttime = now.strftime("%Y-%m-%d %H:%M")
 currentdate = now.strftime("%Y-%m-%d")
 futuredate = date.today() + timedelta(days=7)
 
+
 ###
 db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
 cursor = db.cursor()

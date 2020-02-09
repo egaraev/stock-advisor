@@ -6,7 +6,7 @@ Stock Advisor
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 </head>
 <body>
-<a href="stat.php">Link to STAT Page</a>
+
 
 
 <?php
@@ -29,7 +29,9 @@ table, th, td {
 </style>
 </head>
 <body bgcolor=#abcaf2><h2>Stock Advisor`s View Page</h2>
+<a href='stat.php'><font size='+2'><b>Link to candle analyze and history statistics page</b></font></a>
 <br><b>Logs</b><br>";
+
 
 
 echo "<table border='1'>
@@ -59,7 +61,7 @@ echo "<br><b>Current stocks</b><br>";
 echo "<table border='1'>
 <tr>
 <th>Stock name</th>
-<th>Advise</th>
+<th>Marketwatch.com Advise</th>
 <th>Current price</th>
 <th>Two weeks chart</th>
 <th>Tweeter sentiments</th>

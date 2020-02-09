@@ -20,7 +20,7 @@ cursor.execute("SELECT symbol FROM symbols WHERE active=1")
 symbols=cursor.fetchall()
 
 def main():
-    print('Starting stock loop  module')
+    print('Starting marketwatch  module')
 
 
     SL()
@@ -46,7 +46,7 @@ def SL():
           list=listToStr.rsplit("\n", 3)[0]
           removelast=(list[5:])
           postString = (removelast.split("\n",2)[1])		  
-          print(postString)
+          #print(postString)
           printed = (name, postString)
           try:
               db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
