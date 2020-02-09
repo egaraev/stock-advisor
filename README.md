@@ -1,1 +1,1 @@
-# stock-advisor
+# Project for Stock-advising software. Software grabs price from Yahoo Finance, generates Heikin Ashi indicators, generate candle stick patterns, predict price via tensorflow machine learning, scrabe news from Naddq.com and make sentiment analysis via TextBlob, grabs tweets and make sentiment analysis via TextBlob and NLTK. All tools generates charts via Matplotlib. All results are written to history table for future review and tuning. 
