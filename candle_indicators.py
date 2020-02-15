@@ -17,7 +17,11 @@ import matplotlib.dates as mdates
 from mpl_finance import candlestick_ohlc
 from matplotlib.lines import Line2D
 from matplotlib.patches import Patch
-
+import datetime
+now = datetime.datetime.now()
+from datetime import timedelta, date
+currenttime = now.strftime("%Y-%m-%d %H:%M")
+currentdate = now.strftime("%Y-%m-%d")
 
 ###
 db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
@@ -50,7 +54,8 @@ def prices():
           df=candle_df(df)
           #print (df)
        
-          buy_df = df.copy() 
+          buy_df = df.copy()
+
           candle_scored_buy= buy_df[(buy_df['candle_score'] > 0)]
           #print (symbol, candle_scored_buy)
           candle_scored_sell= df[(df['candle_score'] < 0)]		  
@@ -99,9 +104,25 @@ def prices():
             ax2.annotate(txt1, (x1[a], y1[a]))	
           
           ax2.axhline(y=-2)	
-
 		  
-		
+		  
+          new_df= (buy_df.iloc[-3:])
+          sum_score = new_df['candle_score'].sum()
+          last_df= buy_df.iloc[-1]
+          last_pattern = last_df['candle_pattern']
+          print (sum_score, last_pattern )		  
+          #printed = (symbol, "Candle score: {} %".format(sum_score), "Candle pattern: {} %".format(last_pattern))
+          try:
+              db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
+              cursor = db.cursor()
+              cursor.execute("update symbols set candle_score='%s', candle_pattern='%s'  where symbol='%s'" % (sum_score, last_pattern, symbol))
+              cursor.execute("update history set candle_score='%s'  where symbol='%s' and date='%s'" % (sum_score, symbol, currentdate))			  
+              db.commit()
+          except pymysql.Error as e:
+              print ("Error %d: %s" % (e.args[0], e.args[1]))
+              sys.exit(1)
+          finally:
+              db.close()		
 
 		  	  
 ## working config		  

@@ -33,7 +33,7 @@ def SL():
           print (symbol)
           db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
           cursor = db.cursor()
-          cursor.execute("SELECT date, twitter_polarity, twitter_score, news_score, price, predicted_price, positive_tweets, negative_tweets FROM history WHERE symbol='%s'" % symbol)
+          cursor.execute("SELECT date, twitter_polarity, twitter_score, news_score, price, predicted_price, positive_tweets, negative_tweets, candle_score FROM history WHERE symbol='%s'" % symbol)
           data=cursor.fetchall()
 
           df = pd.DataFrame(data)
@@ -42,7 +42,7 @@ def SL():
 		  
 		  
           #df.set_index('date')
-          df.columns = ['date', 'twitter_polarity', 'twitter_score', 'news_score', 'price', 'predicted_price', 'positive_tweets', 'negative_tweets']
+          df.columns = ['date', 'twitter_polarity', 'twitter_score', 'news_score', 'price', 'predicted_price', 'positive_tweets', 'negative_tweets', 'candle_score']
 		  
           df['date_index'] = df['date']
           #df['date_index'] = pd.to_datetime(df['date_index'])
@@ -77,6 +77,8 @@ def SL():
           s6mask = np.isfinite(series6)		  
           series7=(df['twitter_polarity'])
           s7mask = np.isfinite(series7)	
+          series8=(df['candle_score'])
+          s8mask = np.isfinite(series8)
 
 		  
 
@@ -88,9 +90,11 @@ def SL():
           lns5 = ax2.plot(df['date'][s5mask], series5[s5mask], c='green', linestyle = ':', linewidth = 6, label = 'News score')
           lns6 = ax2.plot(df['date'][s6mask], series6[s6mask], c='red', linewidth = 3, label = 'Twitter score')
           lns7 = ax2.plot(df['date'][s7mask], series7[s7mask], c='orange', linewidth = 3, label = 'Twitter polarity')
+          lns8 = ax2.plot(df['date'][s8mask], series8[s8mask], c='black', linewidth = 3, label = 'Candle score')
+		  
 
           # added these three lines
-          lns = lns1+lns2+lns3+lns4+lns5+lns6+lns7
+          lns = lns1+lns2+lns3+lns4+lns5+lns6+lns7+lns8
           labs = [l.get_label() for l in lns]
           ax.legend(lns, labs, loc=0)
 
@@ -100,6 +104,7 @@ def SL():
           ax2.set_ylabel(r"Score")
           ax2.set_ylim(-1, 4)
 #          ax.set_ylim(-20,100)
+          plt.gcf().autofmt_xdate()   # Beautify the x-labels
 
 
           plt.savefig('/root/PycharmProjects/stock-advisor/images/history.png')
