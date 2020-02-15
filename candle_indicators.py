@@ -22,6 +22,7 @@ now = datetime.datetime.now()
 from datetime import timedelta, date
 currenttime = now.strftime("%Y-%m-%d %H:%M")
 currentdate = now.strftime("%Y-%m-%d")
+currtime = int(round(time.time()))
 
 ###
 db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
@@ -43,7 +44,8 @@ def prices():
         try:
           symbol=(symbol[0])
           name=symbol_full_name(symbol, 3)
-#          print (symbol)
+          candletime=candle_time(symbol, 19)
+          print (symbol, candletime)
           stock = yf.Ticker(symbol)
           hist = stock.history(period="{}d".format(days))
           df = pd.DataFrame(hist)
@@ -106,23 +108,8 @@ def prices():
           ax2.axhline(y=-2)	
 		  
 		  
-          new_df= (buy_df.iloc[-3:])
-          sum_score = new_df['candle_score'].sum()
-          last_df= buy_df.iloc[-1]
-          last_pattern = last_df['candle_pattern']
-          print (sum_score, last_pattern )		  
-          #printed = (symbol, "Candle score: {} %".format(sum_score), "Candle pattern: {} %".format(last_pattern))
-          try:
-              db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
-              cursor = db.cursor()
-              cursor.execute("update symbols set candle_score='%s', candle_pattern='%s'  where symbol='%s'" % (sum_score, last_pattern, symbol))
-              cursor.execute("update history set candle_score='%s'  where symbol='%s' and date='%s'" % (sum_score, symbol, currentdate))			  
-              db.commit()
-          except pymysql.Error as e:
-              print ("Error %d: %s" % (e.args[0], e.args[1]))
-              sys.exit(1)
-          finally:
-              db.close()		
+ 
+			  
 
 		  	  
 ## working config		  
@@ -148,6 +135,48 @@ def prices():
           for pngfile in glob.iglob(os.path.join(src_dir, "*.png")):
             shutil.copy(pngfile, dst_dir)
 
+          new_df= (buy_df.iloc[-3:])
+          sum_score = new_df['candle_score'].sum()
+          last_df= buy_df.iloc[-1]
+          last_pattern = last_df['candle_pattern']
+          #print (now )		  
+          #printed = (symbol, "Candle score: {} %".format(sum_score), "Candle pattern: {} %".format(last_pattern))
+          try:
+              db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
+              cursor = db.cursor()
+              cursor.execute("update symbols set candle_score='%s'  where symbol='%s'" % (sum_score, symbol))
+              cursor.execute("update history set candle_score='%s'  where symbol='%s' and date='%s'" % (sum_score, symbol, currentdate))			  
+              db.commit()
+          except pymysql.Error as e:
+              print ("Error %d: %s" % (e.args[0], e.args[1]))
+              sys.exit(1)
+          finally:
+              db.close()	
+			  
+
+          if (currtime-candletime>259200):
+             try:
+                 db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
+                 cursor = db.cursor()
+                 cursor.execute("update symbols set candle_pattern='%s' where symbol='%s'" % ('', symbol))			  
+                 db.commit()
+             except pymysql.Error as e:
+                 print ("Error %d: %s" % (e.args[0], e.args[1]))
+                 sys.exit(1)
+             finally:
+                 db.close()	
+				 
+          elif last_pattern !='':
+             try:
+                 db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
+                 cursor = db.cursor()
+                 cursor.execute("update symbols set candle_pattern='%s', candle_time='%s'  where symbol='%s'" % (last_pattern, currtime, symbol))			  
+                 db.commit()
+             except pymysql.Error as e:
+                 print ("Error %d: %s" % (e.args[0], e.args[1]))
+                 sys.exit(1)
+             finally:
+                 db.close()	 			
 
 
         except:
@@ -240,8 +269,7 @@ def candle_score(lst_0,lst_1,lst_2,lst_3):
         candle_score=candle_score-1	
     if    Morning_Star:
         strCandle=strCandle+'/ '+'M_S'
-        candle_score=candle_score+1
-		
+        candle_score=candle_score+1		
     if    Bullish_Harami:
         strCandle=strCandle+'/ '+'BU_HR'
         candle_score=candle_score+1
@@ -311,6 +339,18 @@ def candle_df(df):
 
 
 def symbol_full_name(symbolname, value):
+    db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
+    cursor = db.cursor()
+    symbol = symbolname
+    cursor.execute("SELECT * FROM symbols WHERE symbol = '%s'" % symbol)
+    r = cursor.fetchall()
+    for row in r:
+        if row[1] == symbolname:
+            return row[value]
+
+    return False
+	
+def candle_time(symbolname, value):
     db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
     cursor = db.cursor()
     symbol = symbolname
