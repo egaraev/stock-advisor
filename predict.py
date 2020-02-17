@@ -28,7 +28,7 @@ now = datetime.datetime.now()
 from datetime import timedelta, date
 currenttime = now.strftime("%Y-%m-%d %H:%M")
 currentdate = now.strftime("%Y-%m-%d")
-futuredate = date.today() + timedelta(days=7)
+futuredate = date.today() + timedelta(days=30)
 
 
 ###
