@@ -31,6 +31,7 @@ cursor.execute("SELECT symbol FROM symbols WHERE active=1")
 symbols=cursor.fetchall()
 days=30
 
+
 def main():
     print('Starting candle patterns module')
 
@@ -45,14 +46,14 @@ def prices():
           symbol=(symbol[0])
           name=symbol_full_name(symbol, 3)
           candletime=candle_time(symbol, 19)
-          print (symbol, candletime)
+          #print (symbol, candletime)
           stock = yf.Ticker(symbol)
           hist = stock.history(period="{}d".format(days))
           df = pd.DataFrame(hist)
           df = df.reset_index(level=['Date'])  
           ohlc_df = df.copy()
           ohlc_df = ohlc_df[['Date', 'Open', 'High', 'Low', 'Close']]
-		  
+          #last_pattern=''		  
           df=candle_df(df)
           #print (df)
        
@@ -139,6 +140,7 @@ def prices():
           sum_score = new_df['candle_score'].sum()
           last_df= buy_df.iloc[-1]
           last_pattern = last_df['candle_pattern']
+          #print (last_pattern, sum_score)
           #print (now )		  
           #printed = (symbol, "Candle score: {} %".format(sum_score), "Candle pattern: {} %".format(last_pattern))
           try:
@@ -158,7 +160,7 @@ def prices():
              try:
                  db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
                  cursor = db.cursor()
-                 cursor.execute("update symbols set candle_pattern='%s' where symbol='%s'" % ('', symbol))			  
+                 cursor.execute("update symbols set candle_pattern='%s' where symbol='%s'" % (" ", symbol))			  
                  db.commit()
              except pymysql.Error as e:
                  print ("Error %d: %s" % (e.args[0], e.args[1]))
@@ -166,7 +168,8 @@ def prices():
              finally:
                  db.close()	
 				 
-          elif last_pattern !='':
+          if last_pattern !="" and currtime-candletime>259200:
+
              try:
                  db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
                  cursor = db.cursor()
@@ -176,7 +179,10 @@ def prices():
                  print ("Error %d: %s" % (e.args[0], e.args[1]))
                  sys.exit(1)
              finally:
-                 db.close()	 			
+                 db.close()
+
+          else:
+              pass 		  
 
 
         except:

@@ -106,13 +106,14 @@ def nasdaq_news():
              average=new_list/lenght
 #             print (new_list)
 #             minimal_score=(min(scores))
-#             print (average, lenght)
+             print (average)
 
              
              try:
                  db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
                  cursor = db.cursor()
                  cursor.execute("update history set news_score='%s'  where symbol='%s' and date='%s'" % (average, symbol, currentdate))
+                 cursor.execute("update symbols set news_score='%s'  where symbol='%s'" % (average, symbol))
                  db.commit()
              except pymysql.Error as e:
                  print ("Error %d: %s" % (e.args[0], e.args[1]))

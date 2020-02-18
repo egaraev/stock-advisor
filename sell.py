@@ -13,13 +13,13 @@ cursor.execute("SELECT symbol FROM symbols WHERE active=1")
 symbols=cursor.fetchall()
 
 def main():
-    print('Starting stock buy  module')
+    print('Starting stock sell  module')
 
 
-    Buy()
+    Sell()
 
 
-def Buy():
+def Sell():
     for symbol in symbols: #Loop trough the stock summary
         try:
           market=(symbol[0])
@@ -46,6 +46,7 @@ def Buy():
           buy_quantity = float("{0:.4f}".format(buy_size / last))
           bought_price_sql = float(status_orders(market, 3))
           bought_quantity_sql = float(status_orders(market, 2))
+          sell_quantity_sql = bought_quantity_sql
           active = active_orders(market)
           timestamp_old = int(timestamp_orders(market))
           now = datetime.datetime.now()
@@ -54,6 +55,7 @@ def Buy():
           candle_direction=market_values(market,7)
           tweet_positive=market_values(market,8)
           tweet_negative=market_values(market,9)
+          
           ai_price=market_values(market,11)
           if ai_price<last:
              ai_direction="DOWN"
@@ -70,7 +72,7 @@ def Buy():
 
 
 		  
-          print ("Market parameters configured, moving to buy for ", market)		  
+          print ("Market parameters configured, moving to sell for ", market)		  
 
           try:
                db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
@@ -89,7 +91,10 @@ def Buy():
                    else:
                        cursor.execute("update orders set percent_serf=%s where market = %s and active =1 and open_sell=0 ",(procent_serf, market))
                #print (serf)
-               #cursor.execute("update orders set serf = %s where market = %s and active =1" , (serf, market))
+               if percent_serf_min(market)<(-1.5):
+                    cursor.execute("update orders set danger_order = %s where market = %s and active =1" , (1, market))
+               if percent_serf_max(market)>3.0:
+                    cursor.execute("update orders set danger_order = %s where market = %s and active =1" , (0, market))
                cursor.execute("update orders set serf_usd = %s where market = %s and active =1", (serf, market))	   
                cursor.execute('update symbols set current_price = %s  where symbol = %s and active =1', (last, market))
                db.commit()
@@ -101,63 +106,68 @@ def Buy():
                db.close()
 
 
-          max_percent_sql = status_orders(market, 15)
-
+          max_percent_sql = float("{0:.2f}".format(status_orders(market, 15)))
+          min_percent_sql = float("{0:.2f}".format(status_orders(market, 24)))
           print ("Updated serf and procent serf stuff for", market)
 
 
 		  
-          print ("Starting buying mechanizm for " , market)
+          print ("Starting selling mechanizm for " , market)
 
+		  
+          if stop_bot_force==1 and (bought_quantity_sql is not None and bought_quantity_sql != 0.0):
+                  print ('    1 -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting or loosing  ' + str(format_float(serf)) + ' USD')
+                  printed=('    1 -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting or loosing  ' + str(format_float(serf)) + ' USD')
+                  try:
+                      db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
+                      cursor = db.cursor()
+                      cursor.execute('insert into logs(date, entry) values("%s", "%s")' % (currenttime, printed))
+                      cursor.execute('update orders set reason_close =%s, sell_time=%s where active=1 and market =%s', ("1 , Force_stop_bot p:    " + str(format_float(last)) + "    t:   " + str(currenttime)  +'  HA: ' + str(heikin_ashi) + '  Candle_direction: ' + str(candle_direction) + ' Candle_score: ' + str(candle_score) + ' AI_direction: ' + str(ai_direction) + ' Tweet_positive: ' + str(tweet_positive) + ' Tweet_negative: ' + str(tweet_negative) + ' Tweet_polarity: ' + str(tweet_polarity) + ' Tweet_score: ' + str(tweet_score),currtime, market))
+                      cursor.execute('update orders set active = 0 where market =("%s")' % market)
+                      netto_value=format_float(procent_serf-0)
+                      cursor.execute('UPDATE orders SET percent_serf = %s WHERE active = 0 AND market =%s ORDER BY order_id DESC LIMIT 1', (netto_value,market))
+                      newvalue = format_float(summ_serf() + (procent_serf-0))					  
+                      cursor.execute('insert into statistics(date, serf, market) values("%s", "%s", "%s")' % (currenttime, newvalue, market))					  
+                      db.commit()
+                  except pymysql.Error as e:
+                      print ("Error %d: %s" % (e.args[0], e.args[1]))
+                      sys.exit(1)
+                  finally:
+                      db.close()  				  
+				  
 
-          if (stop_bot == 0)  and tweet_positive>tweet_negative and heikin_ashi!="DOWN" and heikin_ashi!="Revers-DOWN" and candle_score>=0 and tweet_polarity>0.14 and news_score>=0.9 and candle_direction=="U": # and ai_direction=="UP":
-
-              # If we have some currency on the balance
-                  if bought_quantity_sql !=0.0:
-                      print ('    2 - We already have ' + str(format_float(bought_quantity_sql)) + '  ' + market + ' on our balance')
+          print ("Strarting selling mechanizm for ", market)
+          if bought_price_sql != None:
+               if bought_quantity_sql is None or bought_quantity_sql == 0.0:
+                     # print market, bought_quantity_sql, current_balance
+                    pass
+                            # If curent balance of this currency more then zero
+               elif bought_quantity_sql > 0:				  
+				  
+				  
+                 if  procent_serf>1 and heikin_ashi!="UP" and heikin_ashi!="Revers-UP"  and tweet_positive<tweet_negative and  tweet_polarity<0.14 and (news_score<1 or candle_score<0) and ai_direction!="UP":
+                      print ('    2 -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting  ' + str(format_float(serf)) + ' USD')
+                      printed = ('    2 -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting   ' + str(format_float(serf)) + ' USD')
                       try:
-                          printed = ('    2 - We already have ' + str(format_float(bought_quantity_sql)) + '  ' + market + ' on our balance')
+
                           db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
                           cursor = db.cursor()
                           cursor.execute('insert into logs(date, entry) values("%s", "%s")' % (currenttime, printed))
+                          cursor.execute('update orders set reason_close =%s, sell_time=%s where active=1 and market =%s', ("1 , Force_stop_bot p:    " + str(format_float(last)) + "    t:   " + str(currenttime)  +'  HA: ' + str(heikin_ashi) + '  Candle_direction: ' + str(candle_direction) + ' Candle_score: ' + str(candle_score) + ' AI_direction: ' + str(ai_direction) + ' Tweet_positive: ' + str(tweet_positive) + ' Tweet_negative: ' + str(tweet_negative) + ' Tweet_polarity: ' + str(tweet_polarity) + ' Tweet_score: ' + str(tweet_score),currtime, market))
+                          cursor.execute('update orders set active = 0 where market =("%s")' % market)
+                          netto_value=format_float(procent_serf-0)
+                          cursor.execute('UPDATE orders SET percent_serf = %s WHERE active = 0 AND market =%s ORDER BY order_id DESC LIMIT 1', (netto_value,market))
+                          newvalue = format_float(summ_serf() + (procent_serf-0))					  
+                          cursor.execute('insert into statistics(date, serf, market) values("%s", "%s", "%s")' % (currenttime, newvalue, market))					  
                           db.commit()
                       except pymysql.Error as e:
                           print ("Error %d: %s" % (e.args[0], e.args[1]))
                           sys.exit(1)
                       finally:
                           db.close()
-                            # if we have some active orders in sql
-                  elif active == 1:
-                      print  ('    3 - We already have ' + str(float(status_orders(market, 2))) + ' units of ' + market + ' on our balance')
-                      try:
-                          printed = ('    3 - We already have ' + str(float(status_orders(market, 2))) + ' units of ' + market + ' on our balance')
-                          db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
-                          cursor = db.cursor()
-                          cursor.execute('insert into logs(date, entry) values("%s", "%s")' % (currenttime, printed))
-                          db.commit()
-                      except pymysql.Error as e:
-                          print ("Error %d: %s" % (e.args[0], e.args[1]))
-                          sys.exit(1)
-                      finally:
-                          db.close()
-                  else:
-                        # Buy some currency by market analize first time
-                      try:
-                          print ('    4- Purchasing '  + str(format_float(buy_quantity)) + ' units of ' + market + ' for ' + str(format_float(last)))
-                          printed = ('    4- Purchasing '  + str(format_float(buy_quantity)) + ' units of ' + market + ' for ' + str(format_float(last)))
-                          db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
-                          cursor = db.cursor()
-                          cursor.execute('insert into logs(date, entry) values("%s", "%s")' % (currenttime, printed))
-                          cursor.execute('insert into orders(market, quantity, price, active, date, timestamp, params) values("%s", "%s", "%s", "%s", "%s", "%s", "%s")' % (market, buy_quantity, last, "1", currenttime, timestamp,  '  HA: ' + str(heikin_ashi) + '  Candle_direction: ' + str(candle_direction) + ' Candle_score: ' + str(candle_score) + ' AI_direction: ' + str(ai_direction) + ' Tweet_positive: ' + str(tweet_positive) + ' Tweet_negative: ' + str(tweet_negative) + ' Tweet_polarity: ' + str(tweet_polarity) + ' Tweet_score: ' + str(tweet_score) ))
-                          cursor.execute("update orders set serf = %s where market = %s and active =1",(serf, market))
-                          db.commit()
-                      except pymysql.Error as e:
-                          print ("Error %d: %s" % (e.args[0], e.args[1]))
-                          sys.exit(1)
-                      finally:
-                          db.close()  
+						  
           else:
-              pass
+              pass 
 		  
 		  
         except:
@@ -275,6 +285,21 @@ def market_values(marketname, value):
 
     return False	
 
+	
+	
+def summ_serf():
+    db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
+    cursor = db.cursor()
+    # market=marketname
+    cursor.execute("SELECT SUM(percent_serf) FROM orders where active=0")
+    r = cursor.fetchall()
+    for row in r:
+        if row[0] is not None:
+            return float("{0:.2f}".format(row[0]))
+            # return 0
+        else:
+            return 0	
+	
 
 def format_float(f):
     return "%.4f" % f
