@@ -136,7 +136,7 @@ def prices():
           else:
               prevhour_candle = 'D'		  
 		  
-          if last > hourcurentopen and last > hourprevclose:
+          if last > hourcurentopen and last > hourprevclose and prevhour_candle=='U':
               hourcandle_dir = 'U'
           else:
               hourcandle_dir = 'D'		  

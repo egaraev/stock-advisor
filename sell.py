@@ -172,7 +172,7 @@ def Sell():
                           db.close()
                       Mail("egaraev@gmail.com", "egaraev@gmail.com", "New sell", printed, "localhost")
 				  
-                 if  procent_serf>1 and heikin_ashi!="UP" and heikin_ashi!="Revers-UP"  and tweet_positive<tweet_negative and  tweet_polarity<0.14 and (news_score<1 or candle_score<0): #and ai_direction!="UP":
+                 if  procent_serf>1 and heikin_ashi!="UP" and heikin_ashi!="Revers-UP"  and  tweet_polarity<0.14 and (news_score<1 or candle_score<0): #and ai_direction!="UP":
                       print ('    2  -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting  ' + str(format_float(serf)) + ' USD')
                       printed = ('    2 Signals_TP - Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting   ' + str(format_float(serf)) + ' USD')
                       try:
