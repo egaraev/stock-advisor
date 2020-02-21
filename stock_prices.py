@@ -53,29 +53,29 @@ def prices():
           stock = yf.Ticker(symbol)
           hist = stock.history(period="{}d".format(days))
           df = pd.DataFrame(hist)
-          #print (df)
+          print (df)
           last= (get_live_price(symbol))
-          daycurrentopen = (df['Open'][4].tolist())
-          daycurrentclose = (df['Close'][4].tolist())
-          daycurrentlow = (df['Low'][4].tolist())
-          daycurrenthigh = (df['High'][4].tolist())
-          dayprevlow = (df['Low'][3].tolist())
-          dayprevhigh = (df['High'][3].tolist())
-          dayprevopen = (df['Open'][3].tolist())
-          dayprevclose = (df['Close'][3].tolist())
-          dayprevlow2 = (df['Low'][2].tolist())
-          dayprevhigh2 = (df['High'][2].tolist())
-          dayprevopen2 = (df['Open'][2].tolist())
-          dayprevclose2 = (df['Close'][2].tolist())
-          dayprevlow3 = (df['Low'][1].tolist())
-          dayprevhigh3 = (df['High'][1].tolist())
-          dayprevopen3 = (df['Open'][1].tolist())
-          dayprevclose3 = (df['Close'][1].tolist())
-          dayprevlow4 = (df['Low'][0].tolist())
-          dayprevhigh4 = (df['High'][0].tolist())
-          dayprevopen4 = (df['Open'][0].tolist())
-          dayprevclose4 = (df['Close'][0].tolist())
-		  
+          daycurrentopen = (df['Open'][14].tolist())
+          daycurrentclose = (df['Close'][14].tolist())
+          daycurrentlow = (df['Low'][14].tolist())
+          daycurrenthigh = (df['High'][14].tolist())
+          dayprevlow = (df['Low'][13].tolist())
+          dayprevhigh = (df['High'][13].tolist())
+          dayprevopen = (df['Open'][13].tolist())
+          dayprevclose = (df['Close'][13].tolist())
+          dayprevlow2 = (df['Low'][12].tolist())
+          dayprevhigh2 = (df['High'][12].tolist())
+          dayprevopen2 = (df['Open'][12].tolist())
+          dayprevclose2 = (df['Close'][12].tolist())
+          dayprevlow3 = (df['Low'][11].tolist())
+          dayprevhigh3 = (df['High'][11].tolist())
+          dayprevopen3 = (df['Open'][11].tolist())
+          dayprevclose3 = (df['Close'][11].tolist())
+          dayprevlow4 = (df['Low'][10].tolist())
+          dayprevhigh4 = (df['High'][10].tolist())
+          dayprevopen4 = (df['Open'][10].tolist())
+          dayprevclose4 = (df['Close'][10].tolist())
+          #print (df['Open'][14].tolist())		  
 		  
           df = df.reset_index(level=['Date'])
 
@@ -113,6 +113,15 @@ def prices():
           day_candle = 'NONE'
           prevday_candle = 'NONE'
           prevday2_candle = 'NONE'
+          candle_dir='NONE'
+		  
+
+
+   		  
+          if last > daycurrentopen and last > dayprevclose:
+              candle_dir = 'U'
+          else:
+              candle_dir = 'D'
 
           if last > daycurrentopen:
               day_candle = 'U'
@@ -129,7 +138,8 @@ def prices():
           else:
               prevday2_candle = 'D'
 
-#          print (symbol, day_candle, prevday_candle, prevday2_candle)     
+
+  
           
 
 
@@ -148,7 +158,7 @@ def prices():
           		  
 
           ohlc_df = ohlc_df[['Date', 'Open', 'High', 'Low', 'Close']]
-          print (ohlc_df)
+          #print (ohlc_df)
 
 
 
@@ -258,30 +268,40 @@ def prices():
 
 
 
+          try:
+              db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
+              cursor = db.cursor()
+              cursor.execute("update symbols set current_price='%s', candle_direction='%s'  where symbol='%s'" % (last, candle_dir, symbol))
+              cursor.execute("update history set price='%s' where symbol='%s' and date='%s'" % (last, symbol, currentdate))
+              db.commit()
+          except pymysql.Error as e:
+              print ("Error %d: %s" % (e.args[0], e.args[1]))
+              sys.exit(1)
+          finally:
+              db.close()
 #####
 
           if (((had_direction_down_long_0 and had_direction_down0) or (had_direction_down_long_0 and had_direction_down_long_1 and had_direction_down0) or (had_direction_down_long_0 or had_direction_down_long_1 and had_direction_down_longer) or (had_direction_down_long_0 or had_direction_down_long_1 and had_direction_down_longermax and had_direction_down_longer) and had_direction_down0) or (had_direction_down0 and had_direction_down1 and had_direction_down2)):
                had_trend = "DOWN"
-          if (((had_direction_up_long_0 and had_direction_up0) or (had_direction_up_long_0 and had_direction_up_long_1 and had_direction_up0) or (had_direction_up_long_0 or had_direction_up_long_1 and had_direction_up_longer) or (had_direction_up_long_0 or had_direction_up_long_1 and had_direction_up_longer and had_direction_up_longermax) and had_direction_up0) or (had_direction_up0 and had_direction_up1 and had_direction_up2)):
+          elif (((had_direction_up_long_0 and had_direction_up0) or (had_direction_up_long_0 and had_direction_up_long_1 and had_direction_up0) or (had_direction_up_long_0 or had_direction_up_long_1 and had_direction_up_longer) or (had_direction_up_long_0 or had_direction_up_long_1 and had_direction_up_longer and had_direction_up_longermax) and had_direction_up0) or (had_direction_up0 and had_direction_up1 and had_direction_up2)):
                had_trend = "UP"
-          if ((had_direction_up_short2 and had_direction_spin1 and had_direction_up0) or (had_direction_down_short2 and had_direction_up_short1 and had_direction_up_long_0) or (had_direction_down2 and had_direction_down_short1 and had_direction_spin0) or (had_direction_down_long_2 and had_direction_down_short1 and had_direction_up_long_0) or (had_direction_down_long_2 and had_direction_up_short1 and had_direction_up_long_0) or (had_direction_down2 and had_direction_up_long_0 and had_direction_up1 and had_direction_up_longer) or (had_direction_down_long_2 and had_direction_down_smaller1 and had_direction_up0) or (had_direction_down_long_2 and had_direction_down_short1 and  had_direction_up_long_0) or (had_direction_down_longermax and had_direction_up_short0) and had_direction_down1 and had_direction_down2):
+          elif ((had_direction_up_short2 and had_direction_spin1 and had_direction_up0) or (had_direction_down_short2 and had_direction_up_short1 and had_direction_up_long_0) or (had_direction_down2 and had_direction_down_short1 and had_direction_spin0) or (had_direction_down_long_2 and had_direction_down_short1 and had_direction_up_long_0) or (had_direction_down_long_2 and had_direction_up_short1 and had_direction_up_long_0) or (had_direction_down2 and had_direction_up_long_0 and had_direction_up1 and had_direction_up_longer) or (had_direction_down_long_2 and had_direction_down_smaller1 and had_direction_up0) or (had_direction_down_long_2 and had_direction_down_short1 and  had_direction_up_long_0) or (had_direction_down_longermax and had_direction_up_short0) and had_direction_down1 and had_direction_down2):
                had_trend = "Revers-UP"
-          if ((had_direction_down_short2 and had_direction_spin1 and had_direction_down0) or (had_direction_up_short2 and had_direction_down_short1 and had_direction_down_long_0) or (had_direction_up2 and had_direction_up_short1 and had_direction_spin0) or (had_direction_up_long_2 and had_direction_up_short1 and had_direction_down_long_0) or (had_direction_up_long_2 and had_direction_down_short1 and had_direction_down_long_0) or (had_direction_up2 and had_direction_down_long_0 and had_direction_down1 and had_direction_down_longer) or (had_direction_up_long_2 and had_direction_up_smaller1 and had_direction_down0) or (had_direction_up_long_2 and had_direction_up_short1 and  had_direction_down_long_0) or (had_direction_up_longermax and had_direction_down_short0) and had_direction_up1 and had_direction_up2):
+          elif ((had_direction_down_short2 and had_direction_spin1 and had_direction_down0) or (had_direction_up_short2 and had_direction_down_short1 and had_direction_down_long_0) or (had_direction_up2 and had_direction_up_short1 and had_direction_spin0) or (had_direction_up_long_2 and had_direction_up_short1 and had_direction_down_long_0) or (had_direction_up_long_2 and had_direction_down_short1 and had_direction_down_long_0) or (had_direction_up2 and had_direction_down_long_0 and had_direction_down1 and had_direction_down_longer) or (had_direction_up_long_2 and had_direction_up_smaller1 and had_direction_down0) or (had_direction_up_long_2 and had_direction_up_short1 and  had_direction_down_long_0) or (had_direction_up_longermax and had_direction_down_short0) and had_direction_up1 and had_direction_up2):
                had_trend = "Revers-DOWN"
-          if  had_trend != "Revers-DOWN" and   had_trend != "Revers-UP" and  had_trend != "DOWN" and had_trend != "UP":
+          else:
                had_trend = "STABLE"  
 
 
 
 
-          print (symbol, had_trend, day_candle, last)
+          print (symbol, had_trend, candle_dir)
 
 
           try:
               db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
               cursor = db.cursor()
-              cursor.execute("update symbols set current_price='%s', heikin_ashi='%s', candle_direction='%s'  where symbol='%s'" % (last, had_trend, day_candle, symbol))
-              cursor.execute("update history set price='%s' where symbol='%s' and date='%s'" % (last, symbol, currentdate))			  
+              cursor.execute("update symbols set heikin_ashi='%s'  where symbol='%s'" % (had_trend, symbol))		  
               db.commit()
           except pymysql.Error as e:
               print ("Error %d: %s" % (e.args[0], e.args[1]))

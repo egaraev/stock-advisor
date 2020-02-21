@@ -65,7 +65,8 @@ def Buy():
           tweet_polarity=market_values(market,13)
           tweet_score=market_values(market,15)
           candle_score=market_values(market,17)
-          news_score=market_values(market,20)	  
+          news_score=market_values(market,20)
+          candle_pattern=market_values(market,18)	  
           #print (heikin_ashi, candle_direction,tweet_positive,tweet_negative,tweet_polarity,tweet_score,candle_score )
 
 
@@ -148,14 +149,15 @@ def Buy():
                           db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
                           cursor = db.cursor()
                           cursor.execute('insert into logs(date, entry) values("%s", "%s")' % (currenttime, printed))
-                          cursor.execute('insert into orders(market, quantity, price, active, date, timestamp, params) values("%s", "%s", "%s", "%s", "%s", "%s", "%s")' % (market, buy_quantity, last, "1", currenttime, timestamp,  '  HA: ' + str(heikin_ashi) + '  Candle_direction: ' + str(candle_direction) + ' Candle_score: ' + str(candle_score) + ' AI_direction: ' + str(ai_direction) + ' Tweet_positive: ' + str(tweet_positive) + ' Tweet_negative: ' + str(tweet_negative) + ' Tweet_polarity: ' + str(tweet_polarity) + ' Tweet_score: ' + str(tweet_score) ))
+                          cursor.execute('insert into orders(market, quantity, price, active, date, timestamp, params) values("%s", "%s", "%s", "%s", "%s", "%s", "%s")' % (market, buy_quantity, last, "1", currenttime, timestamp,  '  HA: ' + str(heikin_ashi) + '  Candle_direction: ' + str(candle_direction) + ' Candle_score: ' + str(candle_score) + ' AI_direction: ' + str(ai_direction) + ' Tweet_positive: ' + str(tweet_positive) + ' Tweet_negative: ' + str(tweet_negative) + ' Tweet_polarity: ' + str(tweet_polarity) + ' Tweet_score: ' + str(tweet_score)+ ' Candle_pattern: ' + str(candle_pattern) ))
                           cursor.execute("update orders set serf = %s where market = %s and active =1",(serf, market))
                           db.commit()
                       except pymysql.Error as e:
                           print ("Error %d: %s" % (e.args[0], e.args[1]))
                           sys.exit(1)
                       finally:
-                          db.close()  
+                          db.close()
+                      Mail("egaraev@gmail.com", "egaraev@gmail.com", "New purchase", printed, "localhost")						  
           else:
               pass
 		  
@@ -164,7 +166,19 @@ def Buy():
             continue
 
 			
-			
+def Mail(FROM,TO,SUBJECT,TEXT,SERVER):
+
+# Prepare actual message
+    message = """\
+    From: %s
+    To: %s
+    Subject: %s
+    %s
+    """ % (FROM, TO, SUBJECT, TEXT)
+# Send the mail
+    server = smtplib.SMTP(SERVER)
+    server.sendmail(FROM, TO, message)
+    server.quit()			
 			
 def parameters():
     db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")

@@ -61,7 +61,6 @@ echo "<br><b>Current stocks</b><br>";
 echo "<table border='1'>
 <tr>
 <th>Stock name</th>
-<th>Marketwatch.com Advise</th>
 <th>Current price</th>
 <th>Two weeks chart</th>
 <th>Tweeter sentiments</th>
@@ -78,7 +77,6 @@ while($row = mysqli_fetch_array($result2))
 {
 echo "<tr>";
 echo "<td>" . $row['name'] . "</td>";
-echo "<td>" . $row['advise'] . "</td>";
 echo "<td>" . $row['current_price'] . "</td>";
 echo "<td><a href='images/". $row['symbol'] ."_chart.png'><img src='images/". $row['symbol'] ."_chart.png' width='300px' height='250px'></td>";
 echo "<td><a href='images/". $row['symbol'] ."_tweets.png'><img src='images/". $row['symbol'] ."_tweets.png' width='250px' height='250px'></td>";
@@ -102,7 +100,70 @@ while($row = mysqli_fetch_array($result2))
 }
 
 
+//////////////
+$result3 = mysqli_query($con,"SELECT * FROM orders where active = 1");
+echo "<br><b>Current orders</b><br>";
 
+echo "<table border='1'>
+<tr>
+<th>Date</th>
+<th>Symbol</th>
+<th>Price</th>
+<th>Current result %</th>
+<th>Max %</th>
+<th>Min %</th>
+<th>Reason_and_Parameters_used</th>
+</tr>";
+
+while($row = mysqli_fetch_array($result3))
+{
+echo "<tr>";
+echo "<td>" . $row['date'] . "</td>";
+echo "<td>" . $row['market'] . "</td>";
+echo "<td>" . $row['price'] . "</td>";
+echo "<td><b>" . $row['percent_serf'] . "</b></td>";
+echo "<td>" . $row['percent_serf_max'] . "</td>";
+echo "<td>" . $row['percent_serf_min'] . "</td>";
+echo "<td>" . $row['params'] . "</td>";
+echo "</tr>";
+}
+echo "</table>";
+
+
+////////////
+
+$result4 = mysqli_query($con,"SELECT * FROM orders where active = 0");
+echo "<br><b>Closed orders</b><br>";
+
+echo "<table border='1'>
+<tr>
+<th>Date</th>
+<th>Market</th>
+<th>Price</th>
+<th>Result %</th>
+<th>Max %</th>
+<th>Min %</th>
+<th>Reason_and_Parameters_used</th>
+<th>Reason_to_sell</th>
+</tr>";
+
+while($row = mysqli_fetch_array($result4))
+{
+echo "<tr>";
+echo "<td>" . $row['date'] . "</td>";
+echo "<td>" . $row['market'] . "</td>";
+echo "<td>" . $row['price'] . "</td>";
+echo "<td><b>" . $row['percent_serf'] . "</b></td>";
+echo "<td>" . $row['percent_serf_max'] . "</td>";
+echo "<td>" . $row['percent_serf_min'] . "</td>";
+echo "<td>" . $row['params'] . "</td>";
+echo "<td>" . $row['reason_close'] . "</td>";
+echo "</tr>";
+}
+echo "</table>";
+
+echo "<td><a href='images/stock_results.png'><img src='images/stock_results.png' width='800px' height='400px'>";
+echo "<td><a href='images/stock_results2.png'><img src='images/stock_results2.png' width='800px' height='400px'>";
 
 
 

@@ -136,7 +136,7 @@ def prices():
           for pngfile in glob.iglob(os.path.join(src_dir, "*.png")):
             shutil.copy(pngfile, dst_dir)
 
-          new_df= (buy_df.iloc[-3:])
+          new_df= (buy_df.iloc[-2:])
           sum_score = new_df['candle_score'].sum()
           last_df= buy_df.iloc[-1]
           last_pattern = last_df['candle_pattern']
@@ -156,7 +156,7 @@ def prices():
               db.close()	
 			  
 
-          if (currtime-candletime>259200):
+          if (last_pattern =="" and currtime-candletime>259200):
              try:
                  db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
                  cursor = db.cursor()
@@ -168,7 +168,7 @@ def prices():
              finally:
                  db.close()	
 				 
-          if last_pattern !="" and currtime-candletime>259200:
+          if last_pattern !="":
 
              try:
                  db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
