@@ -256,62 +256,62 @@ def candle_score(lst_0,lst_1,lst_2,lst_3):
 #    if doji:
 #        strCandle='doji'
     if    Three_black_crows:
-        strCandle=strCandle+'/ '+'T_b_c'
+        strCandle=strCandle+'/ '+'T_b_c-v'
         candle_score=candle_score-1	
     if    Three_white_soldiers:
-        strCandle=strCandle+'/ '+'T_w_s'
+        strCandle=strCandle+'/ '+'T_w_s-^'
         candle_score=candle_score+1			
     if    Two_black_gapping:
-        strCandle=strCandle+'/ '+'T_b_g'
+        strCandle=strCandle+'/ '+'T_b_g-v'
         candle_score=candle_score-1		
     if    Tweezer_Top:
-        strCandle=strCandle+'/ '+'T_t'
+        strCandle=strCandle+'/ '+'T_t-v'
         candle_score=candle_score-1
     if    Tweezer_Bottom:
-        strCandle=strCandle+'/ '+'T_b'
+        strCandle=strCandle+'/ '+'T_b-^'
         candle_score=candle_score+1		
     if    Evening_Star:
-        strCandle=strCandle+'/ '+'E_S'
+        strCandle=strCandle+'/ '+'E_S-v'
         candle_score=candle_score-1	
     if    Morning_Star:
-        strCandle=strCandle+'/ '+'M_S'
+        strCandle=strCandle+'/ '+'M_S-^'
         candle_score=candle_score+1		
     if    Bullish_Harami:
-        strCandle=strCandle+'/ '+'BU_HR'
+        strCandle=strCandle+'/ '+'BU_HR-^'
         candle_score=candle_score+1
     if    Bearish_Harami:
-        strCandle=strCandle+'/ '+'BE_HR'
+        strCandle=strCandle+'/ '+'BE_HR-v'
         candle_score=candle_score-1	
     if    Bullish_Reversal:
-        strCandle=strCandle+'/ '+'BU_R'
+        strCandle=strCandle+'/ '+'BU_R-^'
         candle_score=candle_score+1
     if    Bearish_Reversal:
-        strCandle=strCandle+'/ '+'BE_R'
+        strCandle=strCandle+'/ '+'BE_R-v'
         candle_score=candle_score-1		
 #    if    Hammer:
 #        strCandle=strCandle+'/ '+'H'
 #    if    Inverted_Hammer:
 #        strCandle=strCandle+'/ '+'I_H'
     if Shooting_Star_Bearish:
-        strCandle=strCandle+'/ '+'SS_BE'
+        strCandle=strCandle+'/ '+'SS_BE-v'
         candle_score=candle_score-1
     if Shooting_Star_Bullish:
-        strCandle=strCandle+'/ '+'SS_BU'
+        strCandle=strCandle+'/ '+'SS_BU-v'
         candle_score=candle_score-1		
     if    Bearish_Engulfing:
-        strCandle=strCandle+'/ '+'Be_E'
+        strCandle=strCandle+'/ '+'Be_E-v'
         candle_score=candle_score-1
     if    Bullish_Engulfing:
-        strCandle=strCandle+'/ '+'Bu_E'
+        strCandle=strCandle+'/ '+'Bu_E-^'
         candle_score=candle_score+1
     if    Piercing_Line_bullish:
-        strCandle=strCandle+'/ '+'P_L'
+        strCandle=strCandle+'/ '+'P_L-^'
         candle_score=candle_score+1
     if    Hanging_Man_bearish:
-        strCandle=strCandle+'/ '+'H_M_Be'
+        strCandle=strCandle+'/ '+'H_M_Be-v'
         candle_score=candle_score-1
     if    Hanging_Man_bullish:
-        strCandle=strCandle+'/ '+'H_M_Bu'
+        strCandle=strCandle+'/ '+'H_M_Bu-^'
         candle_score=candle_score+1
 
 

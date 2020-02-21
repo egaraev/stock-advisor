@@ -28,7 +28,7 @@ def Sell():
           last= float("{0:.4f}".format(si.get_live_price(market)))
           hist = stock.history(period="1d")
           df = pd.DataFrame(hist)
-          #print (df)
+          print (last)
           day_close = (df['Close'][0].tolist())
           buy_size = parameters()[0] #The size for opening orders for STOP_LOSS mode
           stop_bot_force = parameters()[4]  #If stop_bot_force==1 we  stop bot and close all orders
@@ -53,8 +53,10 @@ def Sell():
           currenttime = now.strftime("%Y-%m-%d %H:%M")
           heikin_ashi=market_values(market,5)
           candle_direction=market_values(market,7)
+          hour_candle_direction=market_values(market,21)
           tweet_positive=market_values(market,8)
           tweet_negative=market_values(market,9)
+          danger_order=status_orders(market, 29)
           
           ai_price=market_values(market,11)
           if ai_price<last:
@@ -82,7 +84,7 @@ def Sell():
                #print (last,bought_price_sql,bought_quantity_sql )
 
                if bought_price_sql!=0:
-                   procent_serf = float("{0:.2f}".format(((last / bought_price_sql) - 1) * 100))
+                   procent_serf = float("{0:.4f}".format(((last / bought_price_sql) - 1) * 100))
                    #print (market, procent_serf)
 
                    if procent_serf>=percent_serf_max(market):
@@ -123,7 +125,7 @@ def Sell():
                       db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
                       cursor = db.cursor()
                       cursor.execute('insert into logs(date, entry) values("%s", "%s")' % (currenttime, printed))
-                      cursor.execute('update orders set reason_close =%s, sell_time=%s where active=1 and market =%s', ("1 , Force_stop_bot p:    " + str(format_float(last)) + "    t:   " + str(currenttime)  +'  HA: ' + str(heikin_ashi) + '  Candle_direction: ' + str(candle_direction) + ' Candle_score: ' + str(candle_score) + ' AI_direction: ' + str(ai_direction) + ' Tweet_positive: ' + str(tweet_positive) + ' Tweet_negative: ' + str(tweet_negative) + ' Tweet_polarity: ' + str(tweet_polarity) + ' Tweet_score: ' + str(tweet_score) + ' Candle_pattern: ' + str(candle_pattern),currtime, market))
+                      cursor.execute('update orders set reason_close =%s, sell_time=%s where active=1 and market =%s', ("1 , Force_stop_bot p:    " + str(format_float(last)) + "    t:   " + str(currenttime)  +'  HA: ' + str(heikin_ashi) + '  Candle_direction: ' + str(candle_direction) + ' Candle_score: ' + str(candle_score) + ' AI_direction: ' + str(ai_direction) + ' Tweet_positive: ' + str(tweet_positive) + ' Tweet_negative: ' + str(tweet_negative) + ' Tweet_polarity: ' + str(tweet_polarity) + ' Tweet_score: ' + str(tweet_score) + ' Candle_pattern: ' + str(candle_pattern)+ ' H_candle_dir: ' + str(hour_candle_direction),currtime, market))
                       cursor.execute('update orders set active = 0 where market =("%s")' % market)
                       netto_value=format_float(procent_serf-0)
                       cursor.execute('UPDATE orders SET percent_serf = %s WHERE active = 0 AND market =%s ORDER BY order_id DESC LIMIT 1', (netto_value,market))
@@ -146,16 +148,39 @@ def Sell():
                             # If curent balance of this currency more then zero
                elif bought_quantity_sql > 0:				  
 				  
-				  
-                 if  procent_serf>1 and heikin_ashi!="UP" and heikin_ashi!="Revers-UP"  and tweet_positive<tweet_negative and  tweet_polarity<0.14 and (news_score<1 or candle_score<0): #and ai_direction!="UP":
-                      print ('    2  -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting  ' + str(format_float(serf)) + ' USD')
-                      printed = ('    2 Floating_TP - Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting   ' + str(format_float(serf)) + ' USD')
+
+
+                 if ((2.0>procent_serf>=0.7 and danger_order==1 and max_percent_sql - procent_serf >= 0.3) or  (max_percent_sql - procent_serf >= 0.8 and 5>=max_percent_sql >= 2 and candle_direction=='D' )   or (max_percent_sql - procent_serf >= 1.5 and 9>=max_percent_sql >= 5 and candle_direction=='D' and hour_candle_direction=='D')):
+                      print ('    5  -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting  ' + str(format_float(serf)) + ' USD')
+                      printed = ('    5 Floating_TP - Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting   ' + str(format_float(serf)) + ' USD')
                       try:
 
                           db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
                           cursor = db.cursor()
                           cursor.execute('insert into logs(date, entry) values("%s", "%s")' % (currenttime, printed))
-                          cursor.execute('update orders set reason_close =%s, sell_time=%s where active=1 and market =%s', ("2 , Floating_TP   p:    " + str(format_float(last)) + "    t:   " + str(currenttime)  +'  HA: ' + str(heikin_ashi) + '  Candle_direction: ' + str(candle_direction) + ' Candle_score: ' + str(candle_score) + ' AI_direction: ' + str(ai_direction) + ' Tweet_positive: ' + str(tweet_positive) + ' Tweet_negative: ' + str(tweet_negative) + ' Tweet_polarity: ' + str(tweet_polarity) + ' Tweet_score: ' + str(tweet_score)+ ' Candle_pattern: ' + str(candle_pattern),currtime, market))
+                          cursor.execute('update orders set reason_close =%s, sell_time=%s where active=1 and market =%s', ("5 , Floating_TP   p:    " + str(format_float(last)) + "    t:   " + str(currenttime)  +'  HA: ' + str(heikin_ashi) + '  Candle_direction: ' + str(candle_direction) + ' Candle_score: ' + str(candle_score) + ' AI_direction: ' + str(ai_direction) + ' Tweet_positive: ' + str(tweet_positive) + ' Tweet_negative: ' + str(tweet_negative) + ' Tweet_polarity: ' + str(tweet_polarity) + ' Tweet_score: ' + str(tweet_score)+ ' Candle_pattern: ' + str(candle_pattern)+ ' H_candle_dir: ' + str(hour_candle_direction),currtime, market))
+                          cursor.execute('update orders set active = 0 where market =("%s")' % market)
+                          netto_value=format_float(procent_serf-0)
+                          cursor.execute('UPDATE orders SET percent_serf = %s WHERE active = 0 AND market =%s ORDER BY order_id DESC LIMIT 1', (netto_value,market))
+                          newvalue = format_float(summ_serf() + (procent_serf-0))					  
+                          cursor.execute('insert into statistics(date, serf, market) values("%s", "%s", "%s")' % (currenttime, newvalue, market))					  
+                          db.commit()
+                      except pymysql.Error as e:
+                          print ("Error %d: %s" % (e.args[0], e.args[1]))
+                          sys.exit(1)
+                      finally:
+                          db.close()
+                      Mail("egaraev@gmail.com", "egaraev@gmail.com", "New sell", printed, "localhost")
+				  
+                 if  procent_serf>1 and heikin_ashi!="UP" and heikin_ashi!="Revers-UP"  and tweet_positive<tweet_negative and  tweet_polarity<0.14 and (news_score<1 or candle_score<0): #and ai_direction!="UP":
+                      print ('    2  -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting  ' + str(format_float(serf)) + ' USD')
+                      printed = ('    2 Signals_TP - Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting   ' + str(format_float(serf)) + ' USD')
+                      try:
+
+                          db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
+                          cursor = db.cursor()
+                          cursor.execute('insert into logs(date, entry) values("%s", "%s")' % (currenttime, printed))
+                          cursor.execute('update orders set reason_close =%s, sell_time=%s where active=1 and market =%s', ("2 , Signals_TP   p:    " + str(format_float(last)) + "    t:   " + str(currenttime)  +'  HA: ' + str(heikin_ashi) + '  Candle_direction: ' + str(candle_direction) + ' Candle_score: ' + str(candle_score) + ' AI_direction: ' + str(ai_direction) + ' Tweet_positive: ' + str(tweet_positive) + ' Tweet_negative: ' + str(tweet_negative) + ' Tweet_polarity: ' + str(tweet_polarity) + ' Tweet_score: ' + str(tweet_score)+ ' Candle_pattern: ' + str(candle_pattern)+ ' H_candle_dir: ' + str(hour_candle_direction),currtime, market))
                           cursor.execute('update orders set active = 0 where market =("%s")' % market)
                           netto_value=format_float(procent_serf-0)
                           cursor.execute('UPDATE orders SET percent_serf = %s WHERE active = 0 AND market =%s ORDER BY order_id DESC LIMIT 1', (netto_value,market))
@@ -170,7 +195,7 @@ def Sell():
                       Mail("egaraev@gmail.com", "egaraev@gmail.com", "New sell", printed, "localhost")
 
 
-                 if  procent_serf>=5:
+                 if  procent_serf>=9:
                       print ('    3 -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting  ' + str(format_float(serf)) + ' USD')
                       printed = ('    3 Fixed_TP - Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting   ' + str(format_float(serf)) + ' USD')
                       try:
@@ -178,7 +203,7 @@ def Sell():
                           db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
                           cursor = db.cursor()
                           cursor.execute('insert into logs(date, entry) values("%s", "%s")' % (currenttime, printed))
-                          cursor.execute('update orders set reason_close =%s, sell_time=%s where active=1 and market =%s', ("3 , Fixed_TP p:    " + str(format_float(last)) + "    t:   " + str(currenttime)  +'  HA: ' + str(heikin_ashi) + '  Candle_direction: ' + str(candle_direction) + ' Candle_score: ' + str(candle_score) + ' AI_direction: ' + str(ai_direction) + ' Tweet_positive: ' + str(tweet_positive) + ' Tweet_negative: ' + str(tweet_negative) + ' Tweet_polarity: ' + str(tweet_polarity) + ' Tweet_score: ' + str(tweet_score)+ ' Candle_pattern: ' + str(candle_pattern),currtime, market))
+                          cursor.execute('update orders set reason_close =%s, sell_time=%s where active=1 and market =%s', ("3 , Fixed_TP p:    " + str(format_float(last)) + "    t:   " + str(currenttime)  +'  HA: ' + str(heikin_ashi) + '  Candle_direction: ' + str(candle_direction) + ' Candle_score: ' + str(candle_score) + ' AI_direction: ' + str(ai_direction) + ' Tweet_positive: ' + str(tweet_positive) + ' Tweet_negative: ' + str(tweet_negative) + ' Tweet_polarity: ' + str(tweet_polarity) + ' Tweet_score: ' + str(tweet_score)+ ' Candle_pattern: ' + str(candle_pattern)+ ' H_candle_dir: ' + str(hour_candle_direction),currtime, market))
                           cursor.execute('update orders set active = 0 where market =("%s")' % market)
                           netto_value=format_float(procent_serf-0)
                           cursor.execute('UPDATE orders SET percent_serf = %s WHERE active = 0 AND market =%s ORDER BY order_id DESC LIMIT 1', (netto_value,market))
@@ -200,7 +225,7 @@ def Sell():
                           db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
                           cursor = db.cursor()
                           cursor.execute('insert into logs(date, entry) values("%s", "%s")' % (currenttime, printed))
-                          cursor.execute('update orders set reason_close =%s, sell_time=%s where active=1 and market =%s', ("4 , Fixed_SL p:    " + str(format_float(last)) + "    t:   " + str(currenttime)  +'  HA: ' + str(heikin_ashi) + '  Candle_direction: ' + str(candle_direction) + ' Candle_score: ' + str(candle_score) + ' AI_direction: ' + str(ai_direction) + ' Tweet_positive: ' + str(tweet_positive) + ' Tweet_negative: ' + str(tweet_negative) + ' Tweet_polarity: ' + str(tweet_polarity) + ' Tweet_score: ' + str(tweet_score)+ ' Candle_pattern: ' + str(candle_pattern),currtime, market))
+                          cursor.execute('update orders set reason_close =%s, sell_time=%s where active=1 and market =%s', ("4 , Fixed_SL p:    " + str(format_float(last)) + "    t:   " + str(currenttime)  +'  HA: ' + str(heikin_ashi) + '  Candle_direction: ' + str(candle_direction) + ' Candle_score: ' + str(candle_score) + ' AI_direction: ' + str(ai_direction) + ' Tweet_positive: ' + str(tweet_positive) + ' Tweet_negative: ' + str(tweet_negative) + ' Tweet_polarity: ' + str(tweet_polarity) + ' Tweet_score: ' + str(tweet_score)+ ' Candle_pattern: ' + str(candle_pattern)+ ' H_candle_dir: ' + str(hour_candle_direction),currtime, market))
                           cursor.execute('update orders set active = 0 where market =("%s")' % market)
                           netto_value=format_float(procent_serf-0)
                           cursor.execute('UPDATE orders SET percent_serf = %s WHERE active = 0 AND market =%s ORDER BY order_id DESC LIMIT 1', (netto_value,market))

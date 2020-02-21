@@ -54,6 +54,19 @@ def prices():
           hist = stock.history(period="{}d".format(days))
           df = pd.DataFrame(hist)
           print (df)
+          hourhist = stock.history(interval="1h")
+          hourdf=pd.DataFrame(hourhist)
+          print (hourdf)		  
+          hourcurentopen=(hourdf['Open'][154].tolist())	
+          hourcurentclose=(hourdf['Close'][154].tolist())	
+          hourcurentlow=(hourdf['Low'][154].tolist())	
+          hourcurenthigh=(hourdf['High'][154].tolist())	
+          hourprevopen=(hourdf['Open'][153].tolist())	
+          hourprevclose=(hourdf['Close'][153].tolist())	
+          hourprevlow=(hourdf['Low'][153].tolist())	
+          hourprevhigh=(hourdf['High'][153].tolist())
+		  
+		  		  
           last= (get_live_price(symbol))
           daycurrentopen = (df['Open'][14].tolist())
           daycurrentclose = (df['Close'][14].tolist())
@@ -115,13 +128,21 @@ def prices():
           prevday2_candle = 'NONE'
           candle_dir='NONE'
 		  
+          prevhour_candle='NONE'
+          hourcandle_dir='NONE'
 
+          if hourprevclose > hourprevopen:
+              prevhour_candle = 'U'
+          else:
+              prevhour_candle = 'D'		  
+		  
+          if last > hourcurentopen and last > hourprevclose:
+              hourcandle_dir = 'U'
+          else:
+              hourcandle_dir = 'D'		  
 
    		  
-          if last > daycurrentopen and last > dayprevclose:
-              candle_dir = 'U'
-          else:
-              candle_dir = 'D'
+
 
           if last > daycurrentopen:
               day_candle = 'U'
@@ -138,7 +159,10 @@ def prices():
           else:
               prevday2_candle = 'D'
 
-
+          if last > daycurrentopen and last > dayprevclose and prevday_candle=='U':
+              candle_dir = 'U'
+          else:
+              candle_dir = 'D'
   
           
 
@@ -271,7 +295,7 @@ def prices():
           try:
               db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
               cursor = db.cursor()
-              cursor.execute("update symbols set current_price='%s', candle_direction='%s'  where symbol='%s'" % (last, candle_dir, symbol))
+              cursor.execute("update symbols set current_price='%s', candle_direction='%s', hour_candle_direction='%s'  where symbol='%s'" % (last, candle_dir, hourcandle_dir, symbol))
               cursor.execute("update history set price='%s' where symbol='%s' and date='%s'" % (last, symbol, currentdate))
               db.commit()
           except pymysql.Error as e:
