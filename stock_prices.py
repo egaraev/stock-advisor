@@ -53,18 +53,19 @@ def prices():
           stock = yf.Ticker(symbol)
           hist = stock.history(period="{}d".format(days))
           df = pd.DataFrame(hist)
-          print (df)
+          #print (df)
           hourhist = stock.history(interval="1h")
           hourdf=pd.DataFrame(hourhist)
-          print (hourdf)		  
-          hourcurentopen=(hourdf['Open'][154].tolist())	
-          hourcurentclose=(hourdf['Close'][154].tolist())	
-          hourcurentlow=(hourdf['Low'][154].tolist())	
-          hourcurenthigh=(hourdf['High'][154].tolist())	
-          hourprevopen=(hourdf['Open'][153].tolist())	
-          hourprevclose=(hourdf['Close'][153].tolist())	
-          hourprevlow=(hourdf['Low'][153].tolist())	
-          hourprevhigh=(hourdf['High'][153].tolist())
+#          print (hourdf)
+	  
+          hourcurentopen=(hourdf['Open'][-2].tolist())		
+          hourcurentclose=(hourdf['Close'][-2].tolist())	
+          hourcurentlow=(hourdf['Low'][-2].tolist())	
+          hourcurenthigh=(hourdf['High'][-2].tolist())	
+          hourprevopen=(hourdf['Open'][-3].tolist())	
+          hourprevclose=(hourdf['Close'][-3].tolist())	
+          hourprevlow=(hourdf['Low'][-3].tolist())	
+          hourprevhigh=(hourdf['High'][-3].tolist())
 		  
 		  		  
           last= (get_live_price(symbol))
@@ -139,9 +140,9 @@ def prices():
           if last > hourcurentopen and last > hourprevclose and prevhour_candle=='U':
               hourcandle_dir = 'U'
           else:
-              hourcandle_dir = 'D'		  
+              hourcandle_dir = 'D'
+			  
 
-   		  
 
 
           if last > daycurrentopen:

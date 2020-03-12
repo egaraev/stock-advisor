@@ -65,10 +65,11 @@ echo "<table border='1'>
 <th>Two weeks chart</th>
 <th>Tweeter sentiments</th>
 <th>Predicted price</th>
-<th>AI Predicted chart for 1 week</th>
+<th>AI Predicted chart for 1 month</th>
 <th>Heikin_ashi direction chart</th>
 <th>Heikin_ashi direction</th>
 <th>Candle pattern</th>
+<th>Hour candle</th>
 <th>News</th>
 <th></th>
 </tr>";
@@ -85,6 +86,7 @@ echo "<td><a href='images/". $row['symbol'] ."_result.png'><img src='images/". $
 echo "<td><a href='images/". $row['symbol'] ."_hachart.png'><img src='images/". $row['symbol'] ."_hachart.png' width='280px' height='250px'></td>";
 echo "<td>" . $row['heikin_ashi'] . "</td>";
 echo "<td>" . $row['candle_pattern'] . "</td>";
+echo "<td>" . $row['hour_candle_direction'] . "</td>";
 echo "<td><pre>" . $row['news'] . "</pre></td>";
 echo "<td><pre><p><a href='#". $row['symbol'] ."' rel='modal:open'>Open details</a></p></pre></td>";
 echo "</tr>";
@@ -113,6 +115,7 @@ echo "<table border='1'>
 <th>Max %</th>
 <th>Min %</th>
 <th>Reason_and_Parameters_used</th>
+<th>Danger order</th>
 </tr>";
 
 while($row = mysqli_fetch_array($result3))
@@ -125,6 +128,7 @@ echo "<td><b>" . $row['percent_serf'] . "</b></td>";
 echo "<td>" . $row['percent_serf_max'] . "</td>";
 echo "<td>" . $row['percent_serf_min'] . "</td>";
 echo "<td>" . $row['params'] . "</td>";
+echo "<td>" . $row['danger_order'] . "</td>";
 echo "</tr>";
 }
 echo "</table>";
@@ -143,8 +147,11 @@ echo "<table border='1'>
 <th>Result %</th>
 <th>Max %</th>
 <th>Min %</th>
+<th>Aftercount Max %</th>
+<th>Aftercount Min %</th>
 <th>Reason_and_Parameters_used</th>
 <th>Reason_to_sell</th>
+
 </tr>";
 
 while($row = mysqli_fetch_array($result4))
@@ -156,15 +163,24 @@ echo "<td>" . $row['price'] . "</td>";
 echo "<td><b>" . $row['percent_serf'] . "</b></td>";
 echo "<td>" . $row['percent_serf_max'] . "</td>";
 echo "<td>" . $row['percent_serf_min'] . "</td>";
+echo "<td>" . $row['aftercount'] . "</td>";
+echo "<td>" . $row['aftercount_min'] . "</td>";
 echo "<td>" . $row['params'] . "</td>";
 echo "<td>" . $row['reason_close'] . "</td>";
+
 echo "</tr>";
 }
 echo "</table>";
 
-echo "<td><a href='images/stock_results.png'><img src='images/stock_results.png' width='800px' height='400px'>";
-echo "<td><a href='images/stock_results2.png'><img src='images/stock_results2.png' width='800px' height='400px'>";
+echo "<td><a href='images/stock_results.png'><img src='images/stock_results.png' width='800px' height='400px'></a></td>";
+echo "<td><a href='images/stock_results2.png'><img src='images/stock_results2.png' width='800px' height='400px'></a></td>";
 
+
+$result5 = mysqli_query($con,"SELECT SUM(percent_serf) FROM orders where active = 0");
+echo "<br><b>Total summ %</b><br>";
+$row = mysqli_fetch_array($result5);
+#echo $row['0'];
+echo "<td>" . $row['0'] . "</td>";
 
 
 mysqli_close($con);

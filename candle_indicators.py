@@ -56,7 +56,9 @@ def prices():
           #last_pattern=''		  
           df=candle_df(df)
           #print (df)
-       
+          candle_score=market_values(symbol,17)
+          candle_pattern=market_values(symbol,18)
+		  
           buy_df = df.copy()
 
           candle_scored_buy= buy_df[(buy_df['candle_score'] > 0)]
@@ -65,10 +67,13 @@ def prices():
           labels_buy=(candle_scored_buy['candle_pattern'].tolist())
           labels_sell=(candle_scored_sell['candle_pattern'].tolist())		 
 		     
-          #print (ohlc_df)
+          print (buy_df)
          # Converting dates column to float values
           ohlc_df['Date'] = ohlc_df['Date'].map(mdates.date2num)
           legend_elements = [Line2D([0], [0], marker="^", color='w', label='B_R -> Bullish_Reversal', markerfacecolor='g', markersize=15), Line2D([0], [0], marker="^", color='w', label='T_w_s -> Three_white_soldiers', markerfacecolor='g', markersize=15), Line2D([0], [0], marker="^", color='w', label='T_b -> Tweezer_Bottom', markerfacecolor='g', markersize=15), Line2D([0], [0], marker="^", color='w', label='M_S -> Morning_Star', markerfacecolor='g', markersize=15), Line2D([0], [0], marker="^", color='w', label='BU_HR -> Bullish_Harami', markerfacecolor='g', markersize=15), Line2D([0], [0], marker="^", color='w', label='BU_R -> Bullish_Reversal', markerfacecolor='g', markersize=15), Line2D([0], [0], marker="^", color='w', label='Bu_E -> Bullish_Engulfing', markerfacecolor='g', markersize=15), Line2D([0], [0], marker="^", color='w', label='P_L -> Piercing_Line_bullish', markerfacecolor='g', markersize=15), Line2D([0], [0], marker="^", color='w', label='H_M_Bu -> Hanging_Man_bullish', markerfacecolor='g', markersize=15), Line2D([0], [0], marker="^", color='w', label='P_L -> Piercing_Line_bullish', markerfacecolor='g', markersize=15), Line2D([0], [0], marker="v", color='r', label='T_b_c -> Three_black_crows', markersize=15), Line2D([0], [0], marker="v", color='r', label='T_b_g -> Two_black_gapping', markersize=15), Line2D([0], [0], marker="v", color='r', label='T_t -> Tweezer_Top', markersize=15), Line2D([0], [0], marker="v", color='r', label='E_S -> Evening_Star', markersize=15), Line2D([0], [0], marker="v", color='r', label='BE_HR -> Bearish_Harami', markersize=15), Line2D([0], [0], marker="v", color='r', label='BE_R -> Bearish_Reversal', markersize=15), Line2D([0], [0], marker="v", color='r', label='SS_BE -> Shooting_Star_Bearish', markersize=15), Line2D([0], [0], marker="v", color='r', label='Be_E -> Bearish_Engulfing', markersize=15), Line2D([0], [0], marker="v", color='r', label='H_M_Be -> Hanging_Man_bearish', markersize=15), Line2D([0], [0], marker="v", color='r', label='SS_BU -> Shooting_Star_Bullish', markersize=15)]		  
+		  
+		  
+          #print (ohlc_df)		  
 		  
           fig, ax = plt.subplots(figsize=(20, 15))
           ax.legend(handles=legend_elements, loc='upper left')
@@ -109,14 +114,7 @@ def prices():
           ax2.axhline(y=-2)	
 		  
 		  
- 
-			  
 
-		  	  
-## working config		  
-          #ax2.plot(x, y,  '^', markersize=15)
-          #ax2.plot(candle_scored_sell['Date'], candle_scored_sell['candle_score'], 'v', markersize=15)
-##working config
 		  
           plt.gcf().autofmt_xdate()   # Beautify the x-labels
           plt.autoscale(tight=True)
@@ -140,7 +138,12 @@ def prices():
           sum_score = new_df['candle_score'].sum()
           last_df= buy_df.iloc[-1]
           last_pattern = last_df['candle_pattern']
-          #print (last_pattern, sum_score)
+          new_df_check_patten=(buy_df.iloc[-2:])
+          previous_day_pattern=(new_df_check_patten.iloc[:1])
+          previous_day_pattern=previous_day_pattern.iloc[-1]
+          previous_day_pattern=previous_day_pattern['candle_pattern']
+          #print (previous_day_pattern)
+          #print (candle_pattern)
           #print (now )		  
           #printed = (symbol, "Candle score: {} %".format(sum_score), "Candle pattern: {} %".format(last_pattern))
           try:
@@ -156,6 +159,19 @@ def prices():
               db.close()	
 			  
 
+			  
+          if (last_pattern =="" and previous_day_pattern!=candle_pattern):
+             try:
+                 db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
+                 cursor = db.cursor()
+                 cursor.execute("update symbols set candle_pattern='%s' where symbol='%s'" % (" ", symbol))			  
+                 db.commit()
+             except pymysql.Error as e:
+                 print ("Error %d: %s" % (e.args[0], e.args[1]))
+                 sys.exit(1)
+             finally:
+                 db.close()				  
+			  
           if (last_pattern =="" and currtime-candletime>259200):
              try:
                  db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
@@ -368,7 +384,17 @@ def candle_time(symbolname, value):
 
     return False
 
+def market_values(marketname, value):
+    db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
+    cursor = db.cursor()
+    symbol = marketname
+    cursor.execute("SELECT * FROM symbols WHERE symbol = '%s'" % symbol)
+    r = cursor.fetchall()
+    for row in r:
+        if row[1] == marketname:
+            return row[value]
 
+    return False
 
 if __name__ == "__main__":
     main()

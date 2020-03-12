@@ -18,6 +18,7 @@ def main():
 
     Buy()
 
+	
 
 def Buy():
     for symbol in symbols: #Loop trough the stock summary
