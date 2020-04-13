@@ -69,6 +69,7 @@ echo "<table border='1'>
 <th>Heikin_ashi direction chart</th>
 <th>Heikin_ashi direction</th>
 <th>Candle pattern</th>
+<th>Candle score</th>
 <th>Hour candle</th>
 <th>News</th>
 <th></th>
@@ -86,6 +87,7 @@ echo "<td><a href='images/". $row['symbol'] ."_result.png'><img src='images/". $
 echo "<td><a href='images/". $row['symbol'] ."_hachart.png'><img src='images/". $row['symbol'] ."_hachart.png' width='280px' height='250px'></td>";
 echo "<td>" . $row['heikin_ashi'] . "</td>";
 echo "<td>" . $row['candle_pattern'] . "</td>";
+echo "<td>" . $row['candle_score'] . "</td>";
 echo "<td>" . $row['hour_candle_direction'] . "</td>";
 echo "<td><pre>" . $row['news'] . "</pre></td>";
 echo "<td><pre><p><a href='#". $row['symbol'] ."' rel='modal:open'>Open details</a></p></pre></td>";
