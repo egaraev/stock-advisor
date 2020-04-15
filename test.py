@@ -24,7 +24,7 @@ import urllib.request
 from urllib.request import urlopen
 import time
 import datetime
-symbol='cci'
+symbol='SNE'
 mainsite='https://old.nasdaq.com'
 
 def get_news_urls(links_site):
@@ -57,21 +57,6 @@ def scrape_all_articles(ticker , page_limit):
     return all_news_urls	
 
 
-	
-def cleanMe(html):
-    soup = BeautifulSoup(html, "html.parser") # create a new bs4 object from the html data loaded
-#    soup = soup.findAll("div", {"id": "articleText"})
-    for script in soup(["script", "style"]): # remove all javascript and stylesheet code
-        script.extract()
-    # get text
-    text = soup.get_text()
-    # break into lines and remove leading and trailing space on each
-    lines = (line.strip() for line in text.splitlines())
-    # break multi-headlines into a line each
-    chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
-    # drop blank lines
-    text = '\n'.join(chunk for chunk in chunks if chunk)
-    return text	
 	
 	
 stock_news_urls  = scrape_all_articles(symbol, 1)
@@ -115,19 +100,33 @@ if response.history:
     news_soup = BeautifulSoup(news_html, 'html.parser')
     result = news_soup.findAll("div", {"id": "articleText"})
     result= news_soup.select('p')
-    for script in news_soup(["script", "style", "img", "div", "p"]): # remove all javascript and stylesheet code
+    for script in news_soup(["script", "style", "img", "div"]): # remove all javascript and stylesheet code
         script.extract()    
     news_text1=str(result[0])
     news_text2=str(news_text1[3:])
-    news_text=news_text2.strip()[:-4]	
+    stock_articles=news_text2.strip()[:-4]	
     
 else:
     print ("Request was not redirected")
     news_html = requests.get(stock_urls).content	
     news_soup = BeautifulSoup(news_html, 'html.parser')
     paragraphs = [par.text for par in news_soup.find_all('p')]
-    news_text = ' '.join(paragraphs[1:-4]) 	
-print (news_text)
+    news_text = ' '.join(paragraphs[1:-4])
+    if (news_text[0]) != " ":
+        stock_articles=	news_text
+    else:
+        newurl=response.url
+        news_html = requests.get(newurl).content
+        news_soup = BeautifulSoup(news_html, 'html.parser')
+        result = news_soup.findAll("div", {"id": "articleText"})
+        result= news_soup.select('p')
+        for script in news_soup(["script", "style", "img"]): # remove all javascript and stylesheet code
+           script.extract()    
+        news_text1=str(result[0])
+        news_text2=str(news_text1[3:])
+        stock_articles=news_text2.strip()[:-4]	
+	
+print (stock_articles)
 
 
 

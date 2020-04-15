@@ -33,7 +33,7 @@ def SL():
           print (symbol)
           db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
           cursor = db.cursor()
-          cursor.execute("SELECT date, twitter_polarity, twitter_score, news_score, price, predicted_price, positive_tweets, negative_tweets, candle_score FROM history WHERE symbol='%s'" % symbol)
+          cursor.execute("SELECT date, twitter_polarity, twitter_score, news_score, price, predicted_price, positive_tweets, negative_tweets, candle_score FROM history WHERE symbol='%s' ORDER BY date DESC LIMIT 45" % symbol)
           data=cursor.fetchall()
 
           df = pd.DataFrame(data)

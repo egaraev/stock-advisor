@@ -75,13 +75,7 @@ def nasdaq_news():
           stock_dates = stock_dates.strip()[:-20]		
           print (stock_dates)		  
 
-		  
-#          news_html = requests.get(stock_urls).content
-#          news_soup = BeautifulSoup(news_html, 'html.parser')
-#          paragraphs = [par.text for par in news_soup.find_all('p')]
-#          stock_articles  = ' '.join(paragraphs[1:-4]) ## just for the Nasdaq.com case
-#          stock_articles=str(stock_articles)		   
-#          print (stock_articles )
+
 		  
           response = requests.get(stock_urls)
           if response.history:
@@ -95,7 +89,7 @@ def nasdaq_news():
              news_soup = BeautifulSoup(news_html, 'html.parser')
              result = news_soup.findAll("div", {"id": "articleText"})
              result= news_soup.select('p')
-             for script in news_soup(["script", "style", "img", "div", "p"]): # remove all javascript and stylesheet code
+             for script in news_soup(["script", "style", "img", "div"]): # remove all javascript and stylesheet code
                 script.extract()    
              news_text1=str(result[0])
              news_text2=str(news_text1[3:])
@@ -106,7 +100,20 @@ def nasdaq_news():
              news_html = requests.get(stock_urls).content	
              news_soup = BeautifulSoup(news_html, 'html.parser')
              paragraphs = [par.text for par in news_soup.find_all('p')]
-             stock_articles = ' '.join(paragraphs[1:-4]) 
+             news_text = ' '.join(paragraphs[1:-4])
+             if (news_text[0]) != " ":
+                stock_articles=	news_text
+             else:
+                newurl=response.url
+                news_html = requests.get(newurl).content
+                news_soup = BeautifulSoup(news_html, 'html.parser')
+                result = news_soup.findAll("div", {"id": "articleText"})
+                result= news_soup.select('p')
+                for script in news_soup(["script", "style", "img"]): # remove all javascript and stylesheet code
+                    script.extract()    
+                news_text1=str(result[0])
+                news_text2=str(news_text1[3:])
+                stock_articles=news_text2.strip()[:-4]				 
           print (stock_articles )		  
 
 
