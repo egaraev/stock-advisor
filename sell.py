@@ -217,7 +217,7 @@ def Sell():
                           db.close()
                       Mail("egaraev@gmail.com", "egaraev@gmail.com", "New sell, TP", printed, "localhost")
 
-                 if  procent_serf<=-5:
+                 if  procent_serf<=-15:
                       print ('    4 -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting  ' + str(format_float(serf)) + ' USD')
                       printed = ('    4 Fixed_SL - Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and loosing   ' + str(format_float(procent_serf)) + ' %')
                       try:
