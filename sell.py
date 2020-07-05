@@ -125,7 +125,7 @@ def Sell():
                       db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
                       cursor = db.cursor()
                       cursor.execute('insert into logs(date, entry) values("%s", "%s")' % (currenttime, printed))
-                      cursor.execute('update orders set reason_close =%s, sell_time=%s where active=1 and market =%s', ("1 , Force_stop_bot p:    " + str(format_float(last)) + "    t:   " + str(currenttime)  +'  HA: ' + str(heikin_ashi) + '  Candle_direction: ' + str(candle_direction) + ' Candle_score: ' + str(candle_score) + ' AI_direction: ' + str(ai_direction) + ' Tweet_positive: ' + str(tweet_positive) + ' Tweet_negative: ' + str(tweet_negative) + ' Tweet_polarity: ' + str(tweet_polarity) + ' Tweet_score: ' + str(tweet_score) + ' Candle_pattern: ' + str(candle_pattern)+ ' H_candle_dir: ' + str(hour_candle_direction),currtime, market))
+                      cursor.execute('update orders set reason_close =%s, sell_time=%s where active=1 and market =%s', ("1 , Force_stop_bot p:    " + str(format_float(last)) + "    t:   " + str(currenttime)  +'  HA: ' + str(heikin_ashi) + '  Candle_direction: ' + str(candle_direction) + ' Candle_score: ' + str(candle_score) + ' AI_direction: ' + str(ai_direction) + ' Tweet_positive: ' + str(tweet_positive) + ' Tweet_negative: ' + str(tweet_negative) + ' Tweet_polarity: ' + str(tweet_polarity) + ' Tweet_score: ' + str(tweet_score) + ' Candle_pattern: ' + str(candle_pattern) + ' News_score: ' + str(news_score)+ ' H_candle_dir: ' + str(hour_candle_direction),currtime, market))
                       cursor.execute('update orders set active = 0 where market =("%s")' % market)
                       netto_value=format_float(procent_serf-0)
                       cursor.execute('UPDATE orders SET percent_serf = %s WHERE active = 0 AND market =%s ORDER BY order_id DESC LIMIT 1', (netto_value,market))
@@ -140,7 +140,7 @@ def Sell():
                   Mail("egaraev@gmail.com", "egaraev@gmail.com", "New sell", printed, "localhost")					  
 				  
 
-          print ("Strarting selling mechanizm for ", market)
+          print ("Starting selling mechanizm for ", market)
           if bought_price_sql != None:
                if bought_quantity_sql is None or bought_quantity_sql == 0.0:
                      # print market, bought_quantity_sql, current_balance
@@ -158,7 +158,7 @@ def Sell():
                           db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
                           cursor = db.cursor()
                           cursor.execute('insert into logs(date, entry) values("%s", "%s")' % (currenttime, printed))
-                          cursor.execute('update orders set reason_close =%s, sell_time=%s where active=1 and market =%s', ("5 , Floating_TP   p:    " + str(format_float(last)) + "    t:   " + str(currenttime)  +'  HA: ' + str(heikin_ashi) + '  Candle_direction: ' + str(candle_direction) + ' Candle_score: ' + str(candle_score) + ' AI_direction: ' + str(ai_direction) + ' Tweet_positive: ' + str(tweet_positive) + ' Tweet_negative: ' + str(tweet_negative) + ' Tweet_polarity: ' + str(tweet_polarity) + ' Tweet_score: ' + str(tweet_score)+ ' Candle_pattern: ' + str(candle_pattern)+ ' H_candle_dir: ' + str(hour_candle_direction),currtime, market))
+                          cursor.execute('update orders set reason_close =%s, sell_time=%s where active=1 and market =%s', ("5 , Floating_TP   p:    " + str(format_float(last)) + "    t:   " + str(currenttime)  +'  HA: ' + str(heikin_ashi) + '  Candle_direction: ' + str(candle_direction) + ' Candle_score: ' + str(candle_score) + ' AI_direction: ' + str(ai_direction) + ' Tweet_positive: ' + str(tweet_positive) + ' Tweet_negative: ' + str(tweet_negative) + ' Tweet_polarity: ' + str(tweet_polarity) + ' Tweet_score: ' + str(tweet_score)+ ' Candle_pattern: ' + str(candle_pattern)+ ' News_score: ' + str(news_score)+  ' H_candle_dir: ' + str(hour_candle_direction),currtime, market))
                           cursor.execute('update orders set active = 0 where market =("%s")' % market)
                           netto_value=format_float(procent_serf-0)
                           cursor.execute('UPDATE orders SET percent_serf = %s WHERE active = 0 AND market =%s ORDER BY order_id DESC LIMIT 1', (netto_value,market))
@@ -180,7 +180,7 @@ def Sell():
                           db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
                           cursor = db.cursor()
                           cursor.execute('insert into logs(date, entry) values("%s", "%s")' % (currenttime, printed))
-                          cursor.execute('update orders set reason_close =%s, sell_time=%s where active=1 and market =%s', ("2 , Signals_TP   p:    " + str(format_float(last)) + "    t:   " + str(currenttime)  +'  HA: ' + str(heikin_ashi) + '  Candle_direction: ' + str(candle_direction) + ' Candle_score: ' + str(candle_score) + ' AI_direction: ' + str(ai_direction) + ' Tweet_positive: ' + str(tweet_positive) + ' Tweet_negative: ' + str(tweet_negative) + ' Tweet_polarity: ' + str(tweet_polarity) + ' Tweet_score: ' + str(tweet_score)+ ' Candle_pattern: ' + str(candle_pattern)+ ' H_candle_dir: ' + str(hour_candle_direction),currtime, market))
+                          cursor.execute('update orders set reason_close =%s, sell_time=%s where active=1 and market =%s', ("2 , Signals_TP   p:    " + str(format_float(last)) + "    t:   " + str(currenttime)  +'  HA: ' + str(heikin_ashi) + '  Candle_direction: ' + str(candle_direction) + ' Candle_score: ' + str(candle_score) + ' AI_direction: ' + str(ai_direction) + ' Tweet_positive: ' + str(tweet_positive) + ' Tweet_negative: ' + str(tweet_negative) + ' Tweet_polarity: ' + str(tweet_polarity) + ' Tweet_score: ' + str(tweet_score)+ ' Candle_pattern: ' + str(candle_pattern)+ ' News_score: ' + str(news_score)+  ' H_candle_dir: ' + str(hour_candle_direction),currtime, market))
                           cursor.execute('update orders set active = 0 where market =("%s")' % market)
                           netto_value=format_float(procent_serf-0)
                           cursor.execute('UPDATE orders SET percent_serf = %s WHERE active = 0 AND market =%s ORDER BY order_id DESC LIMIT 1', (netto_value,market))
@@ -203,7 +203,7 @@ def Sell():
                           db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
                           cursor = db.cursor()
                           cursor.execute('insert into logs(date, entry) values("%s", "%s")' % (currenttime, printed))
-                          cursor.execute('update orders set reason_close =%s, sell_time=%s where active=1 and market =%s', ("3 , Fixed_TP p:    " + str(format_float(last)) + "    t:   " + str(currenttime)  +'  HA: ' + str(heikin_ashi) + '  Candle_direction: ' + str(candle_direction) + ' Candle_score: ' + str(candle_score) + ' AI_direction: ' + str(ai_direction) + ' Tweet_positive: ' + str(tweet_positive) + ' Tweet_negative: ' + str(tweet_negative) + ' Tweet_polarity: ' + str(tweet_polarity) + ' Tweet_score: ' + str(tweet_score)+ ' Candle_pattern: ' + str(candle_pattern)+ ' H_candle_dir: ' + str(hour_candle_direction),currtime, market))
+                          cursor.execute('update orders set reason_close =%s, sell_time=%s where active=1 and market =%s', ("3 , Fixed_TP p:    " + str(format_float(last)) + "    t:   " + str(currenttime)  +'  HA: ' + str(heikin_ashi) + '  Candle_direction: ' + str(candle_direction) + ' Candle_score: ' + str(candle_score) + ' AI_direction: ' + str(ai_direction) + ' Tweet_positive: ' + str(tweet_positive) + ' Tweet_negative: ' + str(tweet_negative) + ' Tweet_polarity: ' + str(tweet_polarity) + ' Tweet_score: ' + str(tweet_score)+ ' Candle_pattern: ' + str(candle_pattern)+ ' News_score: ' + str(news_score)+  ' H_candle_dir: ' + str(hour_candle_direction),currtime, market))
                           cursor.execute('update orders set active = 0 where market =("%s")' % market)
                           netto_value=format_float(procent_serf-0)
                           cursor.execute('UPDATE orders SET percent_serf = %s WHERE active = 0 AND market =%s ORDER BY order_id DESC LIMIT 1', (netto_value,market))
@@ -225,7 +225,7 @@ def Sell():
                           db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
                           cursor = db.cursor()
                           cursor.execute('insert into logs(date, entry) values("%s", "%s")' % (currenttime, printed))
-                          cursor.execute('update orders set reason_close =%s, sell_time=%s where active=1 and market =%s', ("4 , Fixed_SL p:    " + str(format_float(last)) + "    t:   " + str(currenttime)  +'  HA: ' + str(heikin_ashi) + '  Candle_direction: ' + str(candle_direction) + ' Candle_score: ' + str(candle_score) + ' AI_direction: ' + str(ai_direction) + ' Tweet_positive: ' + str(tweet_positive) + ' Tweet_negative: ' + str(tweet_negative) + ' Tweet_polarity: ' + str(tweet_polarity) + ' Tweet_score: ' + str(tweet_score)+ ' Candle_pattern: ' + str(candle_pattern)+ ' H_candle_dir: ' + str(hour_candle_direction),currtime, market))
+                          cursor.execute('update orders set reason_close =%s, sell_time=%s where active=1 and market =%s', ("4 , Fixed_SL p:    " + str(format_float(last)) + "    t:   " + str(currenttime)  +'  HA: ' + str(heikin_ashi) + '  Candle_direction: ' + str(candle_direction) + ' Candle_score: ' + str(candle_score) + ' AI_direction: ' + str(ai_direction) + ' Tweet_positive: ' + str(tweet_positive) + ' Tweet_negative: ' + str(tweet_negative) + ' Tweet_polarity: ' + str(tweet_polarity) + ' Tweet_score: ' + str(tweet_score)+ ' Candle_pattern: ' + str(candle_pattern)+ ' News_score: ' + str(news_score)+  ' H_candle_dir: ' + str(hour_candle_direction),currtime, market))
                           cursor.execute('update orders set active = 0 where market =("%s")' % market)
                           netto_value=format_float(procent_serf-0)
                           cursor.execute('UPDATE orders SET percent_serf = %s WHERE active = 0 AND market =%s ORDER BY order_id DESC LIMIT 1', (netto_value,market))
