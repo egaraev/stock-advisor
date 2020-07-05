@@ -120,7 +120,7 @@ def Sell():
 		  
           if stop_bot_force==1 and (bought_quantity_sql is not None and bought_quantity_sql != 0.0):
                   print ('    1 -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting or loosing  ' + str(format_float(serf)) + ' USD')
-                  printed=('    1 Force_stop_bot - Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting or loosing  ' + str(format_float(serf)) + ' USD')
+                  printed=('    1 Force_stop_bot - Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting or loosing  ' + str(format_float(procent_serf)) + ' %')
                   try:
                       db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
                       cursor = db.cursor()
@@ -152,7 +152,7 @@ def Sell():
 
                  if ((2.0>procent_serf>=0.7 and danger_order==1 and max_percent_sql - procent_serf >= 0.3) or  (max_percent_sql - procent_serf >= 0.8 and 5>=max_percent_sql >= 2 and candle_direction=='D' )   or (max_percent_sql - procent_serf >= 1.5 and 9>=max_percent_sql >= 5 and candle_direction=='D' and hour_candle_direction=='D')):
                       print ('    5  -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting  ' + str(format_float(serf)) + ' USD')
-                      printed = ('    5 Floating_TP - Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting   ' + str(format_float(serf)) + ' USD')
+                      printed = ('    5 Floating_TP - Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting   ' + str(format_float(procent_serf)) + ' %')
                       try:
 
                           db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
@@ -174,7 +174,7 @@ def Sell():
 				  
                  if  procent_serf>1 and heikin_ashi!="UP" and heikin_ashi!="Revers-UP"  and  tweet_polarity<0.14 and (news_score<1 or candle_score<0): #and ai_direction!="UP":
                       print ('    2  -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting  ' + str(format_float(serf)) + ' USD')
-                      printed = ('    2 Signals_TP - Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting   ' + str(format_float(serf)) + ' USD')
+                      printed = ('    2 Signals_TP - Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting   ' + str(format_float(procent_serf)) + ' %')
                       try:
 
                           db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
@@ -197,7 +197,7 @@ def Sell():
 
                  if  procent_serf>=9:
                       print ('    3 -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting  ' + str(format_float(serf)) + ' USD')
-                      printed = ('    3 Fixed_TP - Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting   ' + str(format_float(serf)) + ' USD')
+                      printed = ('    3 Fixed_TP - Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting   ' + str(format_float(procent_serf)) + ' %')
                       try:
 
                           db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
@@ -219,7 +219,7 @@ def Sell():
 
                  if  procent_serf<=-5:
                       print ('    4 -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting  ' + str(format_float(serf)) + ' USD')
-                      printed = ('    4 Fixed_SL - Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and loosing   ' + str(format_float(serf)) + ' USD')
+                      printed = ('    4 Fixed_SL - Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and loosing   ' + str(format_float(procent_serf)) + ' %')
                       try:
 
                           db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
