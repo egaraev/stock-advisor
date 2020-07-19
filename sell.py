@@ -94,7 +94,7 @@ def Sell():
                    else:
                        cursor.execute("update orders set percent_serf=%s where market = %s and active =1 and open_sell=0 ",(procent_serf, market))
                #print (serf)
-               if percent_serf_min(market)<(-2.5):
+               if percent_serf_min(market)<(-5):
                     cursor.execute("update orders set danger_order = %s where market = %s and active =1" , (1, market))
                if percent_serf_max(market)>2.5:
                     cursor.execute("update orders set danger_order = %s where market = %s and active =1" , (0, market))
