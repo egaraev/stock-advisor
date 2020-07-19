@@ -36,6 +36,7 @@ def Buy():
           stop_bot = parameters()[10]
           #print (stop_bot_force)
           currtime = int(time.time())
+          today = datetime.datetime.now().date()
           debug_mode=parameters()[9]
           max_orders = parameters()[5]
           print ("Global buy parameters configured, moving to market loop")
@@ -68,7 +69,8 @@ def Buy():
           tweet_score=market_values(market,15)
           candle_score=market_values(market,17)
           news_score=market_values(market,20)
-          candle_pattern=market_values(market,18)	  
+          candle_pattern=market_values(market,18)
+          previous_date = market_values(market,22)
           #print (heikin_ashi, candle_direction,tweet_positive,tweet_negative,tweet_polarity,tweet_score,candle_score )
 
 
@@ -113,7 +115,7 @@ def Buy():
           print ("Starting buying mechanizm for " , market)
 
 
-          if (stop_bot == 0)  and tweet_positive>tweet_negative and heikin_ashi!="DOWN" and heikin_ashi!="Revers-DOWN" and candle_score>=0 and tweet_polarity>0.14 and news_score>=0.9 and candle_direction=="U" and hour_candle_direction=="U": # and ai_direction=="UP":
+          if (stop_bot == 0)  and tweet_positive>tweet_negative and heikin_ashi!="DOWN" and heikin_ashi!="Revers-DOWN" and candle_score>=0 and tweet_polarity>0.14 and news_score>=0.9 and candle_direction=="U" and hour_candle_direction=="U" and today!=previous_date: # and ai_direction=="UP":
 
               # If we have some currency on the balance
                   if bought_quantity_sql !=0.0:
