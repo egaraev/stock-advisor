@@ -50,6 +50,8 @@ def Sell():
           active = active_orders(market)
           timestamp_old = int(timestamp_orders(market))
           now = datetime.datetime.now()
+          today = datetime.datetime.now().date()
+#          print (today)
           currenttime = now.strftime("%Y-%m-%d %H:%M")
           heikin_ashi=market_values(market,5)
           candle_direction=market_values(market,7)
@@ -130,7 +132,8 @@ def Sell():
                       netto_value=format_float(procent_serf-0)
                       cursor.execute('UPDATE orders SET percent_serf = %s WHERE active = 0 AND market =%s ORDER BY order_id DESC LIMIT 1', (netto_value,market))
                       newvalue = format_float(summ_serf() + (procent_serf-0))					  
-                      cursor.execute('insert into statistics(date, serf, market) values("%s", "%s", "%s")' % (currenttime, newvalue, market))					  
+                      cursor.execute('insert into statistics(date, serf, market) values("%s", "%s", "%s")' % (currenttime, newvalue, market))
+                      cursor.execute('update symbols set date = %s  where symbol = %s and active =1', (today, market))					  
                       db.commit()
                   except pymysql.Error as e:
                       print ("Error %d: %s" % (e.args[0], e.args[1]))
@@ -163,7 +166,8 @@ def Sell():
                           netto_value=format_float(procent_serf-0)
                           cursor.execute('UPDATE orders SET percent_serf = %s WHERE active = 0 AND market =%s ORDER BY order_id DESC LIMIT 1', (netto_value,market))
                           newvalue = format_float(summ_serf() + (procent_serf-0))					  
-                          cursor.execute('insert into statistics(date, serf, market) values("%s", "%s", "%s")' % (currenttime, newvalue, market))					  
+                          cursor.execute('insert into statistics(date, serf, market) values("%s", "%s", "%s")' % (currenttime, newvalue, market))
+                          cursor.execute('update symbols set date = %s  where symbol = %s and active =1', (today, market))		  
                           db.commit()
                       except pymysql.Error as e:
                           print ("Error %d: %s" % (e.args[0], e.args[1]))
@@ -185,7 +189,8 @@ def Sell():
                           netto_value=format_float(procent_serf-0)
                           cursor.execute('UPDATE orders SET percent_serf = %s WHERE active = 0 AND market =%s ORDER BY order_id DESC LIMIT 1', (netto_value,market))
                           newvalue = format_float(summ_serf() + (procent_serf-0))					  
-                          cursor.execute('insert into statistics(date, serf, market) values("%s", "%s", "%s")' % (currenttime, newvalue, market))					  
+                          cursor.execute('insert into statistics(date, serf, market) values("%s", "%s", "%s")' % (currenttime, newvalue, market))
+                          cursor.execute('update symbols set date = %s  where symbol = %s and active =1', (today, market))					  
                           db.commit()
                       except pymysql.Error as e:
                           print ("Error %d: %s" % (e.args[0], e.args[1]))
@@ -208,7 +213,8 @@ def Sell():
                           netto_value=format_float(procent_serf-0)
                           cursor.execute('UPDATE orders SET percent_serf = %s WHERE active = 0 AND market =%s ORDER BY order_id DESC LIMIT 1', (netto_value,market))
                           newvalue = format_float(summ_serf() + (procent_serf-0))					  
-                          cursor.execute('insert into statistics(date, serf, market) values("%s", "%s", "%s")' % (currenttime, newvalue, market))					  
+                          cursor.execute('insert into statistics(date, serf, market) values("%s", "%s", "%s")' % (currenttime, newvalue, market))
+                          cursor.execute('update symbols set date = %s  where symbol = %s and active =1', (today, market))					  
                           db.commit()
                       except pymysql.Error as e:
                           print ("Error %d: %s" % (e.args[0], e.args[1]))
@@ -230,7 +236,8 @@ def Sell():
                           netto_value=format_float(procent_serf-0)
                           cursor.execute('UPDATE orders SET percent_serf = %s WHERE active = 0 AND market =%s ORDER BY order_id DESC LIMIT 1', (netto_value,market))
                           newvalue = format_float(summ_serf() + (procent_serf-0))					  
-                          cursor.execute('insert into statistics(date, serf, market) values("%s", "%s", "%s")' % (currenttime, newvalue, market))					  
+                          cursor.execute('insert into statistics(date, serf, market) values("%s", "%s", "%s")' % (currenttime, newvalue, market))
+                          cursor.execute('update symbols set date = %s  where symbol = %s and active =1', (today, market))					  
                           db.commit()
                       except pymysql.Error as e:
                           print ("Error %d: %s" % (e.args[0], e.args[1]))
