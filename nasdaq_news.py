@@ -31,7 +31,7 @@ cursor = db.cursor()
 cursor.execute("SELECT * FROM symbols WHERE active=1")
 symbols=cursor.fetchall()
 ###
-mainsite='https://transcriptdaily.com'
+mainsite='https://old.nasdaq.com'
 user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246'
 headers = {'User-Agent': user_agent}
 
@@ -253,7 +253,7 @@ def get_news_urls(links_site):
     return news_urls
 
 def scrape_all_articles(ticker , page_limit):
-    website = 'https://transcriptdaily.com/?s=' + ticker
+    website = 'https://old.nasdaq.com/symbol/' + ticker
     all_news_urls = get_news_urls(website)
 
     ind = 1
