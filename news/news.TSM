@@ -1,0 +1,844 @@
+<!doctype html>
+<html lang="en" style="display:block;min-width:1070px;">
+<head>
+<meta name="distribution" content="global" />
+<meta name="robots" content="follow, all" />
+ <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<meta name="google-site-verification" content="GTY8q3lGYJyB0uT2U_vjhGkaQdrK17O9i9M5MPMBBa0" />
+<meta name="norton-safeweb-site-verification" content="7jyvwknvdv-yfjlzt3cdz5l34h9x7f-83bdh3x3k8mjo4bci55-m3zptqbcd9hef8-62ff6hrcor8prt-i1fw6lej5kw6wovojjadjkw228gbvsi8kc6hb8n1lb270tm" />
+<meta name="viewport" content="width=1070">
+	
+<meta name="googlebot" content="noindex,follow"> 
+
+<!-- Escape from Frames -->
+<script type="text/javascript">if(self==top){document.documentElement.style.display="block"}else{top.location=self.location}</script>
+<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+<link rel="stylesheet" href="https://transcriptdaily.com/wp-content/themes/newsalambre/style.css?v=3" type="text/css" media="screen" />
+<link href="https://transcriptdaily.com/feed" rel="alternate" title="Transcript Daily RSS Feed" type="application/rss+xml" />
+<link href="https://transcriptdaily.com/feed/atom" rel="alternate" title="Transcript Daily Atom Feed" type="application/atom+xml" />
+<link href="https://transcriptdaily.com/xmlrpc.php" rel="pingback" />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Transcript Daily &raquo; Search Results for &#8220;TSM&#8221; Feed" href="https://transcriptdaily.com/search/TSM/feed/rss2/" />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://transcriptdaily.com/wp-includes/css/dist/block-library/style.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='https://api.w.org/' href='https://transcriptdaily.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://transcriptdaily.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://transcriptdaily.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.4.2" />
+<link rel="icon" href="https://transcriptdaily.com/wp-content/uploads/2017/04/Transcript-Daily-Iconpng-06.png" sizes="32x32" />
+<link rel="icon" href="https://transcriptdaily.com/wp-content/uploads/2017/04/Transcript-Daily-Iconpng-06.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://transcriptdaily.com/wp-content/uploads/2017/04/Transcript-Daily-Iconpng-06.png" />
+<meta name="msapplication-TileImage" content="https://transcriptdaily.com/wp-content/uploads/2017/04/Transcript-Daily-Iconpng-06.png" />
+
+<!-- Start Meta Data -->
+<title>Campbell Wealth Management Purchases Shares of 1,250 Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM) - Transcript Daily</title>
+
+<!-- End Meta Data -->
+	
+	
+<script type='text/javascript'>var PopupAdChannel=''; </script>
+  <link rel="manifest" href="/manifest.json">
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"></script>
+  <script>
+  	function registerUserChange(action) {
+		OneSignal.getUserId( function(userId) {
+			OneSignalIdString = userId;
+			var Domain = 'transcriptdaily.com';
+			var url = "https://www.marketbeat.com/scripts/OneSignalTracking.ashx?OneSignalID=" + OneSignalIdString + "&domain=" + Domain + "&action=" + action;
+			var xhr = new XMLHttpRequest();
+			xhr.open('GET', url);
+			xhr.onload = function () {
+				if (xhr.status !== 200) {
+					console.log('GET failed.  Returned status of ' + xhr.status);
+				}
+			};
+			xhr.send();
+		});
+	}
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(["init", {
+      appId: "881bfa77-26cb-4cd6-9aa9-572b33abb76a",
+      safari_web_id: 'web.onesignal.auto.1d2463f6-17a6-4c7e-80c3-735ae8ddc977', 
+      autoRegister: false,
+      autoResubscribe: true,		
+      notifyButton: {
+        enable: false /* Set to false to hide */
+      },
+ welcomeNotification: {
+        "title": "Join Wall Street's Brightest Minds.",
+        "message": "Receive research in your inbox from top analysts, before the market opens. Click here to learn how.",
+         "url": "https://www.marketbeat.com/subscribe/subscribe.aspx?ReferralType=OneSignalThankYou&ProductCode=1997t"
+    }
+    },
+		OneSignal.once('subscriptionChange', function (isSubscribed) {
+			if(isSubscribed) {
+				registerUserChange("subscribe");
+			}
+			else {
+				registerUserChange("unsubscribe");
+			}
+			
+		  })
+	]);
+	if((navigator.userAgent.toLowerCase().indexOf('firefox') > -1)||((navigator.userAgent.toLowerCase().indexOf('safari') > -1)&&(!(navigator.userAgent.toLowerCase().indexOf('chrome') > -1)))){
+		OneSignal.showSlidedownPrompt();
+	} else {
+		OneSignal.showNativePrompt();		
+	}
+  </script>
+<script type="text/javascript">var vbnfgha = '211626'; var ertdfga = '13739-bup-ac'; var qhyuioa = '53938'; var AdClientID = qhyuioa + vbnfgha + ertdfga; AdClientID = AdClientID.split("").reverse().join("");</script>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: AdClientID,
+          enable_page_level_ads: true
+     });
+</script>
+<!-- Start IMS -->
+<script type="text/javascript">
+		var apntag = apntag || {};
+		apntag.anq = apntag.anq || [];
+		(function() {
+			var d = document, e = d.createElement('script'), p = d.getElementsByTagName('head')[0];
+			e.type = 'text/javascript';  e.async = true;
+			e.src = '//acdn.adnxs.com/ast/ast.js';
+			p.insertBefore(e, p.firstChild);
+		})();
+
+		
+		apntag.anq.push(function() {
+			apntag.setPageOpts({
+				member: 6989
+			});
+		});
+
+		apntag.anq.push(function() {
+
+      		apntag.defineTag({
+				tagId: 13207769,
+				sizes: [[300,250],[300,600],[300,1050]],
+				keywords: {'position': ['RightRail_1']},
+				targetId: 'TranscriptDaily_ROS_RightRail_1'
+			});
+					});
+
+		apntag.anq.push(function() {
+			apntag.loadTags();
+		});
+		</script>
+	
+<script type="text/javascript">
+(function() {
+window.advBidxc = window.advBidxc || {};
+window.advBidxc.startTime = new Date().getTime();
+function loadScript(tagSrc) {
+var scriptTag = document.createElement('script'),
+placeTag = document.getElementsByTagName("script")[0];
+scriptTag.type = 'text/javascript';
+scriptTag.async = true;
+scriptTag.src = tagSrc;
+placeTag.parentNode.insertBefore(scriptTag, placeTag);
+}
+var mnSrc = '//hbx.media.net/bidexchange.js?cid=8CU2C156D&version=5.1' + '&dn=' +
+window.location.hostname;
+loadScript(mnSrc);
+})();
+</script>
+<!-- End IMS --> 
+	
+
+</head>
+<body>
+<div id="wrap">
+
+<!-- Start MarketBeat Modern Popup -->
+<link rel="stylesheet" type="text/css" media="all" href="https://www.marketbeat.com/scripts/modal/modernpopup.css?v=11"/>
+<script type="text/javascript" src="https://www.marketbeat.com/scripts/modal/modernpopup.js?v=52"></script>
+
+	<script type="text/javascript">LoadPopupRatings('ModernNonMarketsPopup-Transcript Daily', 'transcriptdaily.com');</script>
+<!-- End MarketBeat Modern Popup -->
+	
+<header>
+	<div id="top-bar">
+		<div class="width-limiter">
+				<!-- top nav bar -->
+				<nav class="navigation"><ul id="menu-top-menu" class="menu"><li id="menu-item-81" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-81"><a href="https://transcriptdaily.com">Home</a></li>
+<li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83"><a href="https://transcriptdaily.com/privacy-policy">Privacy Policy</a></li>
+<li id="menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84"><a href="https://transcriptdaily.com/about-contact">About/Contact</a></li>
+</ul></nav>				<form id="searchform" action="https://transcriptdaily.com/" method="get">
+					<div id="search">
+						<input id="s" class="searchinput" name="s" onclick="this.value='';" type="text" />
+						<input class="searchsubmit" type="submit" value="SEARCH" />
+					</div>
+				</form><!-- end: searchform -->
+		</div><!-- end: width-limiter in top-bar -->
+	</div><!-- end: top-bar -->
+	<div class="width-limiter add-padding"><!-- start: width-limiter with logo and space for alternate header unit -->
+		<a class="logo-link" href="https://transcriptdaily.com"><img id="logo" src="/wp-content/uploads/2017/04/Transcript-Daily-Logo-04.png" alt="Transcript Daily logo"></a>
+
+<!-- Begin Header Unit -->
+<div id="AlternateHeaderUnit">
+		
+		<iframe src="https://marketbeat.com/scripts/HeaderAdNewsSites.ashx" width="728" height="90" frameborder="no" scrolling="no"></iframe>
+			</div> 
+
+<!-- End Header Unit-->
+	</div> <!-- end: width-limiter with logo and space for alternate header unit -->
+	<div id="menu">
+		<div class="width-limiter" id="nav-main">
+			<!-- start main category menu -->
+			<nav class="navigation"><ul id="menu-categories-for-menus" class="menu"><li id="menu-item-79" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-79"><a href="https://transcriptdaily.com/headlines">Headlines</a></li>
+<li id="menu-item-75" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-75"><a href="https://transcriptdaily.com/business">Business</a></li>
+<li id="menu-item-77" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-77"><a href="https://transcriptdaily.com/markets">Markets</a></li>
+<li id="menu-item-80" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80"><a href="https://transcriptdaily.com/politics">Politics</a></li>
+<li id="menu-item-78" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78"><a href="https://transcriptdaily.com/technology">Technology</a></li>
+<li id="menu-item-76" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-76"><a href="https://transcriptdaily.com/health">Health</a></li>
+</ul></nav>		</div> <!-- end: width-limiter for menu -->
+	</div> <!-- end: menu -->
+</header> <!-- end: header -->
+	<div class="width-limiter main-content">
+		
+<main>
+						<h1 class="archive-category"><a href="https://transcriptdaily.com">Home</a> &raquo; Search Results</h1>
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/25/campbell-wealth-management-purchases-shares-of-1250-taiwan-semiconductor-mfg-co-ltd-nysetsm.html" rel="bookmark" title="Campbell Wealth Management Purchases Shares of 1,250 Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/taiwan-semiconductor-manufacturing-company-ltd-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Campbell Wealth Management Purchases Shares of 1,250 Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM)" />
+					<h2>Campbell Wealth Management Purchases Shares of 1,250 Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 25th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Campbell Wealth Management purchased a new stake in shares of  Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM) in the second quarter, according to its most recent filing with the Securities &amp; Exchange Commission. The firm purchased...&nbsp;<a href='https://transcriptdaily.com/2020/07/25/campbell-wealth-management-purchases-shares-of-1250-taiwan-semiconductor-mfg-co-ltd-nysetsm.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/24/taiwan-semiconductor-mfg-nysetsm-upgraded-at-macquarie.html" rel="bookmark" title="Taiwan Semiconductor Mfg. (NYSE:TSM) Upgraded at Macquarie">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/taiwan-semiconductor-manufacturing-company-ltd-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Taiwan Semiconductor Mfg. (NYSE:TSM) Upgraded at Macquarie" />
+					<h2>Taiwan Semiconductor Mfg. (NYSE:TSM) Upgraded at Macquarie</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 24th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Taiwan Semiconductor Mfg. (NYSE:TSM) was upgraded by investment analysts at Macquarie from a &#8220;neutral&#8221; rating to an &#8220;outperform&#8221; rating in a report issued on Friday, The Fly reports.
+TSM has been the topic of...&nbsp;<a href='https://transcriptdaily.com/2020/07/24/taiwan-semiconductor-mfg-nysetsm-upgraded-at-macquarie.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/23/mg-investment-management-ltd-raises-holdings-in-taiwan-semiconductor-mfg-co-ltd-nysetsm.html" rel="bookmark" title="M&#038;G Investment Management Ltd. Raises Holdings in Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/taiwan-semiconductor-manufacturing-company-ltd-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="M&#038;G Investment Management Ltd. Raises Holdings in Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM)" />
+					<h2>M&#038;G Investment Management Ltd. Raises Holdings in Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 23rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						M&#038;G Investment Management Ltd. increased its position in shares of  Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM) by 12.6% in the 2nd quarter, according to its most recent disclosure with the SEC. The institutional investor  owned...&nbsp;<a href='https://transcriptdaily.com/2020/07/23/mg-investment-management-ltd-raises-holdings-in-taiwan-semiconductor-mfg-co-ltd-nysetsm.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/23/cerebellum-gp-llc-invests-128000-in-huntsman-co-nysehun.html" rel="bookmark" title="Cerebellum GP LLC Invests $128,000 in Huntsman Co. (NYSE:HUN)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/huntsman-co-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Cerebellum GP LLC Invests $128,000 in Huntsman Co. (NYSE:HUN)" />
+					<h2>Cerebellum GP LLC Invests $128,000 in Huntsman Co. (NYSE:HUN)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 23rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Cerebellum GP LLC acquired a new position in shares of  Huntsman Co. (NYSE:HUN) in the 2nd quarter, according to its most recent filing with the Securities and Exchange Commission (SEC). The firm acquired 3,832 shares of the basic...&nbsp;<a href='https://transcriptdaily.com/2020/07/23/cerebellum-gp-llc-invests-128000-in-huntsman-co-nysehun.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/22/assenagon-asset-management-s-a-takes-position-in-huntsman-co-nysehun.html" rel="bookmark" title="Assenagon Asset Management S.A. Takes Position in Huntsman Co. (NYSE:HUN)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/huntsman-co-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Assenagon Asset Management S.A. Takes Position in Huntsman Co. (NYSE:HUN)" />
+					<h2>Assenagon Asset Management S.A. Takes Position in Huntsman Co. (NYSE:HUN)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 22nd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Assenagon Asset Management S.A. purchased a new stake in  Huntsman Co. (NYSE:HUN) in the 2nd quarter, according to its most recent filing with the Securities &amp; Exchange Commission. The fund purchased 670,500 shares of the basic...&nbsp;<a href='https://transcriptdaily.com/2020/07/22/assenagon-asset-management-s-a-takes-position-in-huntsman-co-nysehun.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/21/sportsmans-warehouse-nasdaqspwh-reaches-new-12-month-high-at-16-74.html" rel="bookmark" title="Sportsman&#8217;s Warehouse (NASDAQ:SPWH) Reaches New 12-Month High at $16.74">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sportsmans-warehouse-holdings-inc-logo.png?v=20190926174613&amp;h=100&amp;w=100&amp;zc=1" alt="Sportsman&#8217;s Warehouse (NASDAQ:SPWH) Reaches New 12-Month High at $16.74" />
+					<h2>Sportsman&#8217;s Warehouse (NASDAQ:SPWH) Reaches New 12-Month High at $16.74</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 21st, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Shares of Sportsman&#8217;s Warehouse Holdings Inc (NASDAQ:SPWH) hit a new 52-week high on Tuesday . The company traded as high as $16.74 and last traded at $16.52, with a volume of 20045 shares changing hands. The stock had previously...&nbsp;<a href='https://transcriptdaily.com/2020/07/21/sportsmans-warehouse-nasdaqspwh-reaches-new-12-month-high-at-16-74.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/21/taiwan-semiconductor-mfg-nysetsm-hits-new-52-week-high-at-69-35.html" rel="bookmark" title="Taiwan Semiconductor Mfg. (NYSE:TSM) Hits New 52-Week High at $69.35">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/taiwan-semiconductor-manufacturing-company-ltd-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Taiwan Semiconductor Mfg. (NYSE:TSM) Hits New 52-Week High at $69.35" />
+					<h2>Taiwan Semiconductor Mfg. (NYSE:TSM) Hits New 52-Week High at $69.35</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 21st, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM) hit a new 52-week high during mid-day trading on Tuesday . The stock traded as high as $69.35 and last traded at $68.71, with a volume of 184728 shares trading hands. The stock had previously...&nbsp;<a href='https://transcriptdaily.com/2020/07/21/taiwan-semiconductor-mfg-nysetsm-hits-new-52-week-high-at-69-35.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/19/brokerages-expect-huntsman-co-nysehun-to-announce-0-19-earnings-per-share.html" rel="bookmark" title="Brokerages Expect Huntsman Co. (NYSE:HUN) to Announce -$0.19 Earnings Per Share">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/huntsman-co-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Brokerages Expect Huntsman Co. (NYSE:HUN) to Announce -$0.19 Earnings Per Share" />
+					<h2>Brokerages Expect Huntsman Co. (NYSE:HUN) to Announce -$0.19 Earnings Per Share</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 19th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Equities analysts expect Huntsman Co. (NYSE:HUN) to report ($0.19) earnings per share for the current quarter, according to Zacks. Three analysts have provided estimates for Huntsman&#8217;s earnings. The highest EPS estimate is ($0.11)...&nbsp;<a href='https://transcriptdaily.com/2020/07/19/brokerages-expect-huntsman-co-nysehun-to-announce-0-19-earnings-per-share.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/18/sportsmans-warehouse-nasdaqspwh-upgraded-by-bidaskclub-to-strong-buy.html" rel="bookmark" title="Sportsman&#8217;s Warehouse (NASDAQ:SPWH) Upgraded by BidaskClub to Strong-Buy">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sportsmans-warehouse-holdings-inc-logo.png?v=20190926174613&amp;h=100&amp;w=100&amp;zc=1" alt="Sportsman&#8217;s Warehouse (NASDAQ:SPWH) Upgraded by BidaskClub to Strong-Buy" />
+					<h2>Sportsman&#8217;s Warehouse (NASDAQ:SPWH) Upgraded by BidaskClub to Strong-Buy</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 18th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						BidaskClub upgraded shares of Sportsman&#8217;s Warehouse (NASDAQ:SPWH) from a buy rating to a strong-buy rating in a research note released on Friday, BidAskClub reports.
+Other research analysts also recently issued reports about...&nbsp;<a href='https://transcriptdaily.com/2020/07/18/sportsmans-warehouse-nasdaqspwh-upgraded-by-bidaskclub-to-strong-buy.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/16/william-blair-reaffirms-buy-rating-for-sportsmans-warehouse-nasdaqspwh.html" rel="bookmark" title="William Blair Reaffirms &#8220;Buy&#8221; Rating for Sportsman&#8217;s Warehouse (NASDAQ:SPWH)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sportsmans-warehouse-holdings-inc-logo.png?v=20190926174613&amp;h=100&amp;w=100&amp;zc=1" alt="William Blair Reaffirms &#8220;Buy&#8221; Rating for Sportsman&#8217;s Warehouse (NASDAQ:SPWH)" />
+					<h2>William Blair Reaffirms &#8220;Buy&#8221; Rating for Sportsman&#8217;s Warehouse (NASDAQ:SPWH)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 16th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						William Blair restated their buy rating on shares of Sportsman&#8217;s Warehouse (NASDAQ:SPWH)  in a report issued on Monday morning, TipRanks reports. William Blair also issued estimates for Sportsman&#8217;s Warehouse&#8217;s Q2...&nbsp;<a href='https://transcriptdaily.com/2020/07/16/william-blair-reaffirms-buy-rating-for-sportsmans-warehouse-nasdaqspwh.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/16/grassi-investment-management-has-823000-position-in-taiwan-semiconductor-mfg-co-ltd-nysetsm.html" rel="bookmark" title="Grassi Investment Management Has $823,000 Position in Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/taiwan-semiconductor-manufacturing-company-ltd-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Grassi Investment Management Has $823,000 Position in Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM)" />
+					<h2>Grassi Investment Management Has $823,000 Position in Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 16th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Grassi Investment Management grew its holdings in shares of  Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM) by 39.8% in the second quarter, according to the company in its most recent 13F filing with the Securities and Exchange Commission....&nbsp;<a href='https://transcriptdaily.com/2020/07/16/grassi-investment-management-has-823000-position-in-taiwan-semiconductor-mfg-co-ltd-nysetsm.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/16/q2-2021-eps-estimates-for-sportsmans-warehouse-holdings-inc-raised-by-analyst-nasdaqspwh.html" rel="bookmark" title="Q2 2021 EPS Estimates for Sportsman&#8217;s Warehouse Holdings Inc Raised by Analyst (NASDAQ:SPWH)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sportsmans-warehouse-holdings-inc-logo.png?v=20190926174613&amp;h=100&amp;w=100&amp;zc=1" alt="Q2 2021 EPS Estimates for Sportsman&#8217;s Warehouse Holdings Inc Raised by Analyst (NASDAQ:SPWH)" />
+					<h2>Q2 2021 EPS Estimates for Sportsman&#8217;s Warehouse Holdings Inc Raised by Analyst (NASDAQ:SPWH)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 16th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						
+Sportsman&#8217;s Warehouse Holdings Inc (NASDAQ:SPWH) &#8211;  William Blair increased their Q2 2021 earnings estimates for shares of Sportsman&#8217;s Warehouse  in a note issued to investors on  Monday, July 13th. William Blair...&nbsp;<a href='https://transcriptdaily.com/2020/07/16/q2-2021-eps-estimates-for-sportsmans-warehouse-holdings-inc-raised-by-analyst-nasdaqspwh.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/14/scout-investments-inc-trims-position-in-huntsman-co-nysehun.html" rel="bookmark" title="Scout Investments Inc. Trims Position in Huntsman Co. (NYSE:HUN)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/huntsman-co-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Scout Investments Inc. Trims Position in Huntsman Co. (NYSE:HUN)" />
+					<h2>Scout Investments Inc. Trims Position in Huntsman Co. (NYSE:HUN)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 14th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Scout Investments Inc. lessened its holdings in shares of  Huntsman Co. (NYSE:HUN) by 7.3% during the second quarter, according to the company in its most recent filing with the Securities &amp; Exchange Commission. The firm owned...&nbsp;<a href='https://transcriptdaily.com/2020/07/14/scout-investments-inc-trims-position-in-huntsman-co-nysehun.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/14/taiwan-semiconductor-mfg-nysetsm-shares-gap-up-to-65-07.html" rel="bookmark" title="Taiwan Semiconductor Mfg. (NYSE:TSM) Shares Gap Up to $65.07">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/taiwan-semiconductor-manufacturing-company-ltd-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Taiwan Semiconductor Mfg. (NYSE:TSM) Shares Gap Up to $65.07" />
+					<h2>Taiwan Semiconductor Mfg. (NYSE:TSM) Shares Gap Up to $65.07</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 14th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM)&#8217;s stock price gapped up prior to trading on Tuesday . The stock had previously closed at $64.94, but opened at $65.07. Taiwan Semiconductor Mfg. shares last traded at $66.44, with...&nbsp;<a href='https://transcriptdaily.com/2020/07/14/taiwan-semiconductor-mfg-nysetsm-shares-gap-up-to-65-07.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/14/first-trust-enhanced-short-maturity-etf-nasdaqftsm-shares-acquired-by-lake-street-financial-llc.html" rel="bookmark" title="First Trust Enhanced Short Maturity ETF (NASDAQ:FTSM) Shares Acquired by Lake Street Financial LLC">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="First Trust Enhanced Short Maturity ETF (NASDAQ:FTSM) Shares Acquired by Lake Street Financial LLC" />
+					<h2>First Trust Enhanced Short Maturity ETF (NASDAQ:FTSM) Shares Acquired by Lake Street Financial LLC</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 14th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Lake Street Financial LLC raised its stake in shares of  First Trust Enhanced Short Maturity ETF (NASDAQ:FTSM) by 36.3% during the 2nd quarter, according to the company in its most recent Form 13F filing with the Securities &amp; Exchange...&nbsp;<a href='https://transcriptdaily.com/2020/07/14/first-trust-enhanced-short-maturity-etf-nasdaqftsm-shares-acquired-by-lake-street-financial-llc.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/14/polaris-greystone-financial-group-llc-purchases-shares-of-59808-taiwan-semiconductor-mfg-co-ltd-nysetsm.html" rel="bookmark" title="Polaris Greystone Financial Group LLC Purchases Shares of 59,808 Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/taiwan-semiconductor-manufacturing-company-ltd-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Polaris Greystone Financial Group LLC Purchases Shares of 59,808 Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM)" />
+					<h2>Polaris Greystone Financial Group LLC Purchases Shares of 59,808 Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 14th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Polaris Greystone Financial Group LLC purchased a new stake in shares of  Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM) in the 2nd quarter, according to the company in its most recent Form 13F filing with the SEC. The institutional...&nbsp;<a href='https://transcriptdaily.com/2020/07/14/polaris-greystone-financial-group-llc-purchases-shares-of-59808-taiwan-semiconductor-mfg-co-ltd-nysetsm.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/14/teamwork-financial-advisors-llc-has-1-72-million-stock-position-in-taiwan-semiconductor-mfg-co-ltd-nysetsm.html" rel="bookmark" title="Teamwork Financial Advisors LLC Has $1.72 Million Stock Position in Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/taiwan-semiconductor-manufacturing-company-ltd-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Teamwork Financial Advisors LLC Has $1.72 Million Stock Position in Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM)" />
+					<h2>Teamwork Financial Advisors LLC Has $1.72 Million Stock Position in Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 14th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Teamwork Financial Advisors LLC raised its stake in shares of  Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM) by 237.5% during the second quarter, Holdings Channel reports. The firm owned 30,229 shares of the semiconductor company&#8217;s...&nbsp;<a href='https://transcriptdaily.com/2020/07/14/teamwork-financial-advisors-llc-has-1-72-million-stock-position-in-taiwan-semiconductor-mfg-co-ltd-nysetsm.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/13/sage-capital-advisors-llc-buys-shares-of-7558-first-trust-enhanced-short-maturity-etf-nasdaqftsm.html" rel="bookmark" title="Sage Capital Advisors llc Buys Shares of 7,558 First Trust Enhanced Short Maturity ETF (NASDAQ:FTSM)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Sage Capital Advisors llc Buys Shares of 7,558 First Trust Enhanced Short Maturity ETF (NASDAQ:FTSM)" />
+					<h2>Sage Capital Advisors llc Buys Shares of 7,558 First Trust Enhanced Short Maturity ETF (NASDAQ:FTSM)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 13th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Sage Capital Advisors llc acquired a new position in  First Trust Enhanced Short Maturity ETF (NASDAQ:FTSM) in the second quarter, according to its most recent 13F filing with the Securities and Exchange Commission. The fund acquired...&nbsp;<a href='https://transcriptdaily.com/2020/07/13/sage-capital-advisors-llc-buys-shares-of-7558-first-trust-enhanced-short-maturity-etf-nasdaqftsm.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/13/james-hambro-partners-acquires-new-holdings-in-taiwan-semiconductor-mfg-co-ltd-nysetsm.html" rel="bookmark" title="James Hambro &#038; Partners Acquires New Holdings in Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/taiwan-semiconductor-manufacturing-company-ltd-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="James Hambro &#038; Partners Acquires New Holdings in Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM)" />
+					<h2>James Hambro &#038; Partners Acquires New Holdings in Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 13th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						James Hambro &#038; Partners acquired a new stake in shares of  Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM) during the 2nd quarter, according to the company in its most recent disclosure with the Securities &amp; Exchange Commission....&nbsp;<a href='https://transcriptdaily.com/2020/07/13/james-hambro-partners-acquires-new-holdings-in-taiwan-semiconductor-mfg-co-ltd-nysetsm.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/13/alpha-cubed-investments-llc-sells-4029-shares-of-first-trust-enhanced-short-maturity-etf-nasdaqftsm.html" rel="bookmark" title="Alpha Cubed Investments LLC Sells 4,029 Shares of First Trust Enhanced Short Maturity ETF (NASDAQ:FTSM)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Alpha Cubed Investments LLC Sells 4,029 Shares of First Trust Enhanced Short Maturity ETF (NASDAQ:FTSM)" />
+					<h2>Alpha Cubed Investments LLC Sells 4,029 Shares of First Trust Enhanced Short Maturity ETF (NASDAQ:FTSM)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 13th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Alpha Cubed Investments LLC reduced its stake in  First Trust Enhanced Short Maturity ETF (NASDAQ:FTSM) by 10.2% during the 2nd quarter, according to its most recent 13F filing with the Securities and Exchange Commission. The institutional...&nbsp;<a href='https://transcriptdaily.com/2020/07/13/alpha-cubed-investments-llc-sells-4029-shares-of-first-trust-enhanced-short-maturity-etf-nasdaqftsm.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/13/huntsman-co-nysehun-given-average-rating-of-hold-by-analysts.html" rel="bookmark" title="Huntsman Co. (NYSE:HUN) Given Average Rating of &#8220;Hold&#8221; by Analysts">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/huntsman-co-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Huntsman Co. (NYSE:HUN) Given Average Rating of &#8220;Hold&#8221; by Analysts" />
+					<h2>Huntsman Co. (NYSE:HUN) Given Average Rating of &#8220;Hold&#8221; by Analysts</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 13th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Huntsman Co. (NYSE:HUN) has received a consensus rating of &#8220;Hold&#8221; from the twenty analysts that are currently  covering the stock, Marketbeat.com reports. One research analyst  has rated the stock with a sell rating, nine...&nbsp;<a href='https://transcriptdaily.com/2020/07/13/huntsman-co-nysehun-given-average-rating-of-hold-by-analysts.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/11/taiwan-semiconductor-mfg-s-tsm-sell-rating-reaffirmed-at-susquehanna-bancshares.html" rel="bookmark" title="Taiwan Semiconductor Mfg.&#8217;s (TSM) Sell Rating Reaffirmed at Susquehanna Bancshares">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/taiwan-semiconductor-manufacturing-company-ltd-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Taiwan Semiconductor Mfg.&#8217;s (TSM) Sell Rating Reaffirmed at Susquehanna Bancshares" />
+					<h2>Taiwan Semiconductor Mfg.&#8217;s (TSM) Sell Rating Reaffirmed at Susquehanna Bancshares</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 11th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Susquehanna Bancshares restated their sell rating on shares of Taiwan Semiconductor Mfg. (NYSE:TSM)  in a research report report published on Friday morning, Stock Target Advisor reports. Susquehanna Bancshares currently has a $40.00...&nbsp;<a href='https://transcriptdaily.com/2020/07/11/taiwan-semiconductor-mfg-s-tsm-sell-rating-reaffirmed-at-susquehanna-bancshares.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/11/analysts-set-sportsmans-warehouse-holdings-inc-nasdaqspwh-price-target-at-12-69.html" rel="bookmark" title="Analysts Set Sportsman&#8217;s Warehouse Holdings Inc (NASDAQ:SPWH) Price Target at $12.69">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sportsmans-warehouse-holdings-inc-logo.png?v=20190926174613&amp;h=100&amp;w=100&amp;zc=1" alt="Analysts Set Sportsman&#8217;s Warehouse Holdings Inc (NASDAQ:SPWH) Price Target at $12.69" />
+					<h2>Analysts Set Sportsman&#8217;s Warehouse Holdings Inc (NASDAQ:SPWH) Price Target at $12.69</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 11th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Shares of Sportsman&#8217;s Warehouse Holdings Inc (NASDAQ:SPWH) have received a consensus rating of &#8220;Buy&#8221; from the ten analysts that are currently  covering the stock, MarketBeat Ratings reports. One analyst  has rated...&nbsp;<a href='https://transcriptdaily.com/2020/07/11/analysts-set-sportsmans-warehouse-holdings-inc-nasdaqspwh-price-target-at-12-69.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/10/lake-street-capital-raises-sportsmans-warehouse-nasdaqspwh-price-target-to-18-00.html" rel="bookmark" title="Lake Street Capital Raises Sportsman&#8217;s Warehouse (NASDAQ:SPWH) Price Target to $18.00">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sportsmans-warehouse-holdings-inc-logo.png?v=20190926174613&amp;h=100&amp;w=100&amp;zc=1" alt="Lake Street Capital Raises Sportsman&#8217;s Warehouse (NASDAQ:SPWH) Price Target to $18.00" />
+					<h2>Lake Street Capital Raises Sportsman&#8217;s Warehouse (NASDAQ:SPWH) Price Target to $18.00</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 10th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Sportsman&#8217;s Warehouse (NASDAQ:SPWH) had its target price increased by Lake Street Capital from $15.00 to $18.00 in a research note released on Tuesday morning, The Fly reports. They currently have a buy rating on the stock.
+Other...&nbsp;<a href='https://transcriptdaily.com/2020/07/10/lake-street-capital-raises-sportsmans-warehouse-nasdaqspwh-price-target-to-18-00.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/09/compass-ion-advisors-llc-acquires-new-holdings-in-first-trust-enhanced-short-maturity-etf-nasdaqftsm.html" rel="bookmark" title="Compass Ion Advisors LLC Acquires New Holdings in First Trust Enhanced Short Maturity ETF (NASDAQ:FTSM)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Compass Ion Advisors LLC Acquires New Holdings in First Trust Enhanced Short Maturity ETF (NASDAQ:FTSM)" />
+					<h2>Compass Ion Advisors LLC Acquires New Holdings in First Trust Enhanced Short Maturity ETF (NASDAQ:FTSM)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 9th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Compass Ion Advisors LLC acquired a new stake in  First Trust Enhanced Short Maturity ETF (NASDAQ:FTSM) during the 2nd quarter, HoldingsChannel.com reports. The fund acquired 23,169 shares of the company&#8217;s stock, valued at approximately...&nbsp;<a href='https://transcriptdaily.com/2020/07/09/compass-ion-advisors-llc-acquires-new-holdings-in-first-trust-enhanced-short-maturity-etf-nasdaqftsm.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/09/7977-shares-in-first-trust-enhanced-short-maturity-etf-nasdaqftsm-bought-by-clarus-wealth-advisors.html" rel="bookmark" title="7,977 Shares in First Trust Enhanced Short Maturity ETF (NASDAQ:FTSM) Bought by Clarus Wealth Advisors">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="7,977 Shares in First Trust Enhanced Short Maturity ETF (NASDAQ:FTSM) Bought by Clarus Wealth Advisors" />
+					<h2>7,977 Shares in First Trust Enhanced Short Maturity ETF (NASDAQ:FTSM) Bought by Clarus Wealth Advisors</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 9th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Clarus Wealth Advisors bought a new position in  First Trust Enhanced Short Maturity ETF (NASDAQ:FTSM) during the second quarter, according to its most recent filing with the SEC. The firm bought 7,977 shares of the company&#8217;s...&nbsp;<a href='https://transcriptdaily.com/2020/07/09/7977-shares-in-first-trust-enhanced-short-maturity-etf-nasdaqftsm-bought-by-clarus-wealth-advisors.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/08/short-interest-in-sportsmans-warehouse-holdings-inc-nasdaqspwh-grows-by-6-1.html" rel="bookmark" title="Short Interest in Sportsman&#8217;s Warehouse Holdings Inc (NASDAQ:SPWH) Grows By 6.1%">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sportsmans-warehouse-holdings-inc-logo.png?v=20190926174613&amp;h=100&amp;w=100&amp;zc=1" alt="Short Interest in Sportsman&#8217;s Warehouse Holdings Inc (NASDAQ:SPWH) Grows By 6.1%" />
+					<h2>Short Interest in Sportsman&#8217;s Warehouse Holdings Inc (NASDAQ:SPWH) Grows By 6.1%</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 8th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Sportsman&#8217;s Warehouse Holdings Inc (NASDAQ:SPWH) was the target of a large growth in short interest in June. As of June 30th, there was short interest totalling 4,840,000 shares,  a growth of 6.1% from the June 15th total of...&nbsp;<a href='https://transcriptdaily.com/2020/07/08/short-interest-in-sportsmans-warehouse-holdings-inc-nasdaqspwh-grows-by-6-1.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/08/taiwan-semiconductor-mfg-nysetsm-reaches-new-1-year-high-at-61-57.html" rel="bookmark" title="Taiwan Semiconductor Mfg. (NYSE:TSM) Reaches New 1-Year High at $61.57">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/taiwan-semiconductor-manufacturing-company-ltd-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Taiwan Semiconductor Mfg. (NYSE:TSM) Reaches New 1-Year High at $61.57" />
+					<h2>Taiwan Semiconductor Mfg. (NYSE:TSM) Reaches New 1-Year High at $61.57</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 8th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM) shares reached a new 52-week high during trading on Monday . The stock traded as high as $61.57 and last traded at $61.38, with a volume of 2052471 shares. The stock had previously closed...&nbsp;<a href='https://transcriptdaily.com/2020/07/08/taiwan-semiconductor-mfg-nysetsm-reaches-new-1-year-high-at-61-57.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/06/anderson-hoagland-co-acquires-190-shares-of-taiwan-semiconductor-mfg-co-ltd-nysetsm.html" rel="bookmark" title="Anderson Hoagland &#038; Co. Acquires 190 Shares of Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/taiwan-semiconductor-manufacturing-company-ltd-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Anderson Hoagland &#038; Co. Acquires 190 Shares of Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM)" />
+					<h2>Anderson Hoagland &#038; Co. Acquires 190 Shares of Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 6th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Anderson Hoagland &#038; Co. lifted its holdings in shares of  Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM) by 0.9% in the 2nd quarter, according to its most recent filing with the Securities and Exchange Commission. The firm owned...&nbsp;<a href='https://transcriptdaily.com/2020/07/06/anderson-hoagland-co-acquires-190-shares-of-taiwan-semiconductor-mfg-co-ltd-nysetsm.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/05/sportsmans-warehouse-nasdaqspwh-downgraded-by-valuengine-to-sell.html" rel="bookmark" title="Sportsman&#8217;s Warehouse (NASDAQ:SPWH) Downgraded by ValuEngine to &#8220;Sell&#8221;">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sportsmans-warehouse-holdings-inc-logo.png?v=20190926174613&amp;h=100&amp;w=100&amp;zc=1" alt="Sportsman&#8217;s Warehouse (NASDAQ:SPWH) Downgraded by ValuEngine to &#8220;Sell&#8221;" />
+					<h2>Sportsman&#8217;s Warehouse (NASDAQ:SPWH) Downgraded by ValuEngine to &#8220;Sell&#8221;</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 5th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						ValuEngine cut shares of Sportsman&#8217;s Warehouse (NASDAQ:SPWH) from a hold rating to a sell rating in a report published on Thursday morning, ValuEngine reports.
+Other analysts also recently issued reports about the stock. Lake...&nbsp;<a href='https://transcriptdaily.com/2020/07/05/sportsmans-warehouse-nasdaqspwh-downgraded-by-valuengine-to-sell.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/04/sportsmans-warehouse-holdings-inc-nasdaqspwh-director-sells-99039-60-in-stock.html" rel="bookmark" title="Sportsman&#8217;s Warehouse Holdings Inc (NASDAQ:SPWH) Director Sells $99,039.60 in Stock">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sportsmans-warehouse-holdings-inc-logo.png?v=20190926174613&amp;h=100&amp;w=100&amp;zc=1" alt="Sportsman&#8217;s Warehouse Holdings Inc (NASDAQ:SPWH) Director Sells $99,039.60 in Stock" />
+					<h2>Sportsman&#8217;s Warehouse Holdings Inc (NASDAQ:SPWH) Director Sells $99,039.60 in Stock</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 4th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Sportsman&#8217;s Warehouse Holdings Inc (NASDAQ:SPWH) Director Martha Helena Bejar sold 7,320 shares of the company&#8217;s stock in a transaction that occurred on Monday, June 29th. The shares were sold at an average price of $13.53,...&nbsp;<a href='https://transcriptdaily.com/2020/07/04/sportsmans-warehouse-holdings-inc-nasdaqspwh-director-sells-99039-60-in-stock.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/03/analyzing-qorvo-nasdaqqrvo-and-taiwan-semiconductor-mfg-nasdaqtsm.html" rel="bookmark" title="Analyzing Qorvo (NASDAQ:QRVO) and Taiwan Semiconductor Mfg. (NASDAQ:TSM)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/qorvo-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Analyzing Qorvo (NASDAQ:QRVO) and Taiwan Semiconductor Mfg. (NASDAQ:TSM)" />
+					<h2>Analyzing Qorvo (NASDAQ:QRVO) and Taiwan Semiconductor Mfg. (NASDAQ:TSM)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 3rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Taiwan Semiconductor Mfg. (NYSE:TSM) and Qorvo (NASDAQ:QRVO) are both large-cap computer and technology companies, but which is the superior investment? We will contrast the two companies based on the strength of their analyst recommendations,...&nbsp;<a href='https://transcriptdaily.com/2020/07/03/analyzing-qorvo-nasdaqqrvo-and-taiwan-semiconductor-mfg-nasdaqtsm.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/02/sportsmans-warehouse-nasdaqspwh-hits-new-52-week-high-at-14-72.html" rel="bookmark" title="Sportsman&#8217;s Warehouse (NASDAQ:SPWH) Hits New 52-Week High at $14.72">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sportsmans-warehouse-holdings-inc-logo.png?v=20190926174613&amp;h=100&amp;w=100&amp;zc=1" alt="Sportsman&#8217;s Warehouse (NASDAQ:SPWH) Hits New 52-Week High at $14.72" />
+					<h2>Sportsman&#8217;s Warehouse (NASDAQ:SPWH) Hits New 52-Week High at $14.72</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 2nd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Sportsman&#8217;s Warehouse Holdings Inc (NASDAQ:SPWH) shares hit a new 52-week high during mid-day trading on Thursday . The company traded as high as $14.72 and last traded at $14.31, with a volume of 11436 shares. The stock had...&nbsp;<a href='https://transcriptdaily.com/2020/07/02/sportsmans-warehouse-nasdaqspwh-hits-new-52-week-high-at-14-72.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/01/first-trust-enhanced-short-maturity-etf-nasdaqftsm-declares-0-06-monthly-dividend.html" rel="bookmark" title="First Trust Enhanced Short Maturity ETF (NASDAQ:FTSM) Declares $0.06 Monthly Dividend">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="First Trust Enhanced Short Maturity ETF (NASDAQ:FTSM) Declares $0.06 Monthly Dividend" />
+					<h2>First Trust Enhanced Short Maturity ETF (NASDAQ:FTSM) Declares $0.06 Monthly Dividend</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 1st, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						First Trust Enhanced Short Maturity ETF (NASDAQ:FTSM) announced a monthly dividend on Monday, June 29th, Zacks reports. Investors of record on Wednesday, July 1st will be paid a dividend of 0.056 per share on Monday, July 6th. This...&nbsp;<a href='https://transcriptdaily.com/2020/07/01/first-trust-enhanced-short-maturity-etf-nasdaqftsm-declares-0-06-monthly-dividend.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/28/meeder-asset-management-inc-reduces-stock-position-in-huntsman-co-nysehun.html" rel="bookmark" title="Meeder Asset Management Inc. Reduces Stock Position in Huntsman Co. (NYSE:HUN)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/huntsman-co-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Meeder Asset Management Inc. Reduces Stock Position in Huntsman Co. (NYSE:HUN)" />
+					<h2>Meeder Asset Management Inc. Reduces Stock Position in Huntsman Co. (NYSE:HUN)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jun 28th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Meeder Asset Management Inc. reduced its holdings in  Huntsman Co. (NYSE:HUN) by 58.1% in the first quarter, according to its most recent filing with the Securities &amp; Exchange Commission. The institutional investor  owned 4,542...&nbsp;<a href='https://transcriptdaily.com/2020/06/28/meeder-asset-management-inc-reduces-stock-position-in-huntsman-co-nysehun.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/28/guggenheim-capital-llc-acquires-146474-shares-of-huntsman-co-nysehun.html" rel="bookmark" title="Guggenheim Capital LLC Acquires 146,474 Shares of Huntsman Co. (NYSE:HUN)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/huntsman-co-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Guggenheim Capital LLC Acquires 146,474 Shares of Huntsman Co. (NYSE:HUN)" />
+					<h2>Guggenheim Capital LLC Acquires 146,474 Shares of Huntsman Co. (NYSE:HUN)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jun 28th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Guggenheim Capital LLC raised its holdings in shares of  Huntsman Co. (NYSE:HUN) by 40.9% in the first quarter, according to its most recent 13F filing with the Securities and Exchange Commission. The institutional investor  owned...&nbsp;<a href='https://transcriptdaily.com/2020/06/28/guggenheim-capital-llc-acquires-146474-shares-of-huntsman-co-nysehun.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/27/taiwan-semiconductor-mfg-co-ltd-nysetsm-shares-sold-by-the-manufacturers-life-insurance-company.html" rel="bookmark" title="Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM) Shares Sold by The Manufacturers Life Insurance Company">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/taiwan-semiconductor-manufacturing-company-ltd-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM) Shares Sold by The Manufacturers Life Insurance Company" />
+					<h2>Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM) Shares Sold by The Manufacturers Life Insurance Company</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jun 27th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						The Manufacturers Life Insurance Company lessened its position in  Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM) by 58.5% in the first quarter, according to the company in its most recent Form 13F filing with the Securities and Exchange...&nbsp;<a href='https://transcriptdaily.com/2020/06/27/taiwan-semiconductor-mfg-co-ltd-nysetsm-shares-sold-by-the-manufacturers-life-insurance-company.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/27/fred-alger-management-llc-sells-311294-shares-of-taiwan-semiconductor-mfg-co-ltd-nysetsm.html" rel="bookmark" title="Fred Alger Management LLC Sells 311,294 Shares of Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/taiwan-semiconductor-manufacturing-company-ltd-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Fred Alger Management LLC Sells 311,294 Shares of Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM)" />
+					<h2>Fred Alger Management LLC Sells 311,294 Shares of Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jun 27th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Fred Alger Management LLC trimmed its position in shares of  Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM) by 93.5% in the 1st quarter, HoldingsChannel.com reports. The fund owned 21,747 shares of the semiconductor company&#8217;s...&nbsp;<a href='https://transcriptdaily.com/2020/06/27/fred-alger-management-llc-sells-311294-shares-of-taiwan-semiconductor-mfg-co-ltd-nysetsm.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/27/invesco-ltd-trims-stock-holdings-in-huntsman-co-nysehun.html" rel="bookmark" title="Invesco Ltd. Trims Stock Holdings in Huntsman Co. (NYSE:HUN)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/huntsman-co-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Invesco Ltd. Trims Stock Holdings in Huntsman Co. (NYSE:HUN)" />
+					<h2>Invesco Ltd. Trims Stock Holdings in Huntsman Co. (NYSE:HUN)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jun 27th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Invesco Ltd. lowered its holdings in  Huntsman Co. (NYSE:HUN) by 32.7% in the first quarter, HoldingsChannel reports. The firm owned 2,890,699 shares of the basic materials company&#8217;s stock after selling 1,403,480 shares during...&nbsp;<a href='https://transcriptdaily.com/2020/06/27/invesco-ltd-trims-stock-holdings-in-huntsman-co-nysehun.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/27/q2-2020-eps-estimates-for-huntsman-co-lowered-by-jefferies-financial-group-nysehun.html" rel="bookmark" title="Q2 2020 EPS Estimates for Huntsman Co. Lowered by Jefferies Financial Group (NYSE:HUN)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/huntsman-co-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Q2 2020 EPS Estimates for Huntsman Co. Lowered by Jefferies Financial Group (NYSE:HUN)" />
+					<h2>Q2 2020 EPS Estimates for Huntsman Co. Lowered by Jefferies Financial Group (NYSE:HUN)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jun 27th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						
+Huntsman Co. (NYSE:HUN) &#8211;  Jefferies Financial Group dropped their Q2 2020 earnings per share estimates for Huntsman  in a research report issued to clients and investors on  Tuesday, June 23rd. Jefferies Financial Group analyst...&nbsp;<a href='https://transcriptdaily.com/2020/06/27/q2-2020-eps-estimates-for-huntsman-co-lowered-by-jefferies-financial-group-nysehun.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/26/squarepoint-ops-llc-has-1-51-million-stock-position-in-sportsmans-warehouse-holdings-inc-nasdaqspwh.html" rel="bookmark" title="Squarepoint Ops LLC Has $1.51 Million Stock Position in Sportsman&#8217;s Warehouse Holdings Inc (NASDAQ:SPWH)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sportsmans-warehouse-holdings-inc-logo.png?v=20190926174613&amp;h=100&amp;w=100&amp;zc=1" alt="Squarepoint Ops LLC Has $1.51 Million Stock Position in Sportsman&#8217;s Warehouse Holdings Inc (NASDAQ:SPWH)" />
+					<h2>Squarepoint Ops LLC Has $1.51 Million Stock Position in Sportsman&#8217;s Warehouse Holdings Inc (NASDAQ:SPWH)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jun 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Squarepoint Ops LLC boosted its stake in shares of  Sportsman&#8217;s Warehouse Holdings Inc (NASDAQ:SPWH) by 21.7% during the 1st quarter, according to its most recent 13F filing with the SEC. The firm owned 245,674 shares of the...&nbsp;<a href='https://transcriptdaily.com/2020/06/26/squarepoint-ops-llc-has-1-51-million-stock-position-in-sportsmans-warehouse-holdings-inc-nasdaqspwh.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/26/research-analysts-set-expectations-for-huntsman-co-s-fy2020-earnings-nysehun.html" rel="bookmark" title="Research Analysts Set Expectations for Huntsman Co.&#8217;s FY2020 Earnings (NYSE:HUN)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/huntsman-co-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Research Analysts Set Expectations for Huntsman Co.&#8217;s FY2020 Earnings (NYSE:HUN)" />
+					<h2>Research Analysts Set Expectations for Huntsman Co.&#8217;s FY2020 Earnings (NYSE:HUN)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jun 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						
+Huntsman Co. (NYSE:HUN) &#8211; Equities researchers at  SunTrust Banks decreased their FY2020 earnings estimates for Huntsman  in a research report issued to clients and investors on  Thursday, June 25th. SunTrust Banks analyst J....&nbsp;<a href='https://transcriptdaily.com/2020/06/26/research-analysts-set-expectations-for-huntsman-co-s-fy2020-earnings-nysehun.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/26/equities-analysts-offer-predictions-for-huntsman-co-s-q2-2020-earnings-nysehun.html" rel="bookmark" title="Equities Analysts Offer Predictions for Huntsman Co.&#8217;s Q2 2020 Earnings (NYSE:HUN)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/huntsman-co-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Equities Analysts Offer Predictions for Huntsman Co.&#8217;s Q2 2020 Earnings (NYSE:HUN)" />
+					<h2>Equities Analysts Offer Predictions for Huntsman Co.&#8217;s Q2 2020 Earnings (NYSE:HUN)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jun 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						
+Huntsman Co. (NYSE:HUN) &#8211; Analysts at  KeyCorp increased their Q2 2020 earnings per share estimates for shares of Huntsman  in a note issued to investors on  Monday, June 22nd. KeyCorp analyst A. Yefremov now forecasts that...&nbsp;<a href='https://transcriptdaily.com/2020/06/26/equities-analysts-offer-predictions-for-huntsman-co-s-q2-2020-earnings-nysehun.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/25/aqr-capital-management-llc-has-17-11-million-stake-in-huntsman-co-nysehun.html" rel="bookmark" title="AQR Capital Management LLC Has $17.11 Million Stake in Huntsman Co. (NYSE:HUN)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/huntsman-co-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="AQR Capital Management LLC Has $17.11 Million Stake in Huntsman Co. (NYSE:HUN)" />
+					<h2>AQR Capital Management LLC Has $17.11 Million Stake in Huntsman Co. (NYSE:HUN)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jun 25th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						AQR Capital Management LLC decreased its holdings in  Huntsman Co. (NYSE:HUN) by 40.8% in the 1st quarter, according to its most recent filing with the Securities &amp; Exchange Commission. The institutional investor  owned 1,185,361...&nbsp;<a href='https://transcriptdaily.com/2020/06/25/aqr-capital-management-llc-has-17-11-million-stake-in-huntsman-co-nysehun.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/25/sportsmans-warehouse-holdings-inc-nasdaqspwh-shares-sold-by-tudor-investment-corp-et-al.html" rel="bookmark" title="Sportsman&#8217;s Warehouse Holdings Inc (NASDAQ:SPWH) Shares Sold by Tudor Investment Corp Et Al">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sportsmans-warehouse-holdings-inc-logo.png?v=20190926174613&amp;h=100&amp;w=100&amp;zc=1" alt="Sportsman&#8217;s Warehouse Holdings Inc (NASDAQ:SPWH) Shares Sold by Tudor Investment Corp Et Al" />
+					<h2>Sportsman&#8217;s Warehouse Holdings Inc (NASDAQ:SPWH) Shares Sold by Tudor Investment Corp Et Al</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jun 25th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Tudor Investment Corp Et Al cut its holdings in shares of  Sportsman&#8217;s Warehouse Holdings Inc (NASDAQ:SPWH) by 22.2% during the 1st quarter, according to its most recent 13F filing with the Securities &amp; Exchange Commission....&nbsp;<a href='https://transcriptdaily.com/2020/06/25/sportsmans-warehouse-holdings-inc-nasdaqspwh-shares-sold-by-tudor-investment-corp-et-al.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/25/huntsman-co-to-post-q4-2020-earnings-of-0-16-per-share-jefferies-financial-group-forecasts-nysehun.html" rel="bookmark" title="Huntsman Co. to Post Q4 2020 Earnings of $0.16 Per Share, Jefferies Financial Group Forecasts (NYSE:HUN)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/huntsman-co-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Huntsman Co. to Post Q4 2020 Earnings of $0.16 Per Share, Jefferies Financial Group Forecasts (NYSE:HUN)" />
+					<h2>Huntsman Co. to Post Q4 2020 Earnings of $0.16 Per Share, Jefferies Financial Group Forecasts (NYSE:HUN)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jun 25th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						
+Huntsman Co. (NYSE:HUN) &#8211; Research analysts at  Jefferies Financial Group increased their Q4 2020 earnings estimates for shares of Huntsman  in a report released on  Tuesday, June 23rd. Jefferies Financial Group analyst L. Alexander...&nbsp;<a href='https://transcriptdaily.com/2020/06/25/huntsman-co-to-post-q4-2020-earnings-of-0-16-per-share-jefferies-financial-group-forecasts-nysehun.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/25/sportsmans-warehouse-nasdaqspwh-reaches-new-52-week-high-following-analyst-upgrade.html" rel="bookmark" title="Sportsman&#8217;s Warehouse (NASDAQ:SPWH) Reaches New 52-Week High Following Analyst Upgrade">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sportsmans-warehouse-holdings-inc-logo.png?v=20190926174613&amp;h=100&amp;w=100&amp;zc=1" alt="Sportsman&#8217;s Warehouse (NASDAQ:SPWH) Reaches New 52-Week High Following Analyst Upgrade" />
+					<h2>Sportsman&#8217;s Warehouse (NASDAQ:SPWH) Reaches New 52-Week High Following Analyst Upgrade</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jun 25th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Shares of Sportsman&#8217;s Warehouse Holdings Inc (NASDAQ:SPWH) reached a new 52-week high during trading on Tuesday after Piper Sandler raised their price target on the stock from $15.00 to $16.00. Piper Sandler currently has an...&nbsp;<a href='https://transcriptdaily.com/2020/06/25/sportsmans-warehouse-nasdaqspwh-reaches-new-52-week-high-following-analyst-upgrade.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/24/engineers-gate-manager-lp-increases-stock-position-in-taiwan-semiconductor-mfg-co-ltd-nysetsm.html" rel="bookmark" title="Engineers Gate Manager LP Increases Stock Position in Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/taiwan-semiconductor-manufacturing-company-ltd-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Engineers Gate Manager LP Increases Stock Position in Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM)" />
+					<h2>Engineers Gate Manager LP Increases Stock Position in Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jun 24th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Engineers Gate Manager LP raised its holdings in  Taiwan Semiconductor Mfg. Co. Ltd. (NYSE:TSM) by 180.4% during the 1st quarter, Holdings Channel reports. The firm owned 21,140 shares of the semiconductor company&#8217;s stock after...&nbsp;<a href='https://transcriptdaily.com/2020/06/24/engineers-gate-manager-lp-increases-stock-position-in-taiwan-semiconductor-mfg-co-ltd-nysetsm.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/24/research-analysts-offer-predictions-for-sportsmans-warehouse-holdings-incs-q2-2021-earnings-nasdaqspwh.html" rel="bookmark" title="Research Analysts Offer Predictions for Sportsman&#8217;s Warehouse Holdings Inc&#8217;s Q2 2021 Earnings (NASDAQ:SPWH)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sportsmans-warehouse-holdings-inc-logo.png?v=20190926174613&amp;h=100&amp;w=100&amp;zc=1" alt="Research Analysts Offer Predictions for Sportsman&#8217;s Warehouse Holdings Inc&#8217;s Q2 2021 Earnings (NASDAQ:SPWH)" />
+					<h2>Research Analysts Offer Predictions for Sportsman&#8217;s Warehouse Holdings Inc&#8217;s Q2 2021 Earnings (NASDAQ:SPWH)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jun 24th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						
+Sportsman&#8217;s Warehouse Holdings Inc (NASDAQ:SPWH) &#8211; Stock analysts at  Piper Sandler lifted their Q2 2021 earnings per share estimates for shares of Sportsman&#8217;s Warehouse  in a research report issued to clients and...&nbsp;<a href='https://transcriptdaily.com/2020/06/24/research-analysts-offer-predictions-for-sportsmans-warehouse-holdings-incs-q2-2021-earnings-nasdaqspwh.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/24/seaport-global-securities-weighs-in-on-huntsman-co-s-q1-2021-earnings-nysehun.html" rel="bookmark" title="Seaport Global Securities Weighs in on Huntsman Co.&#8217;s Q1 2021 Earnings (NYSE:HUN)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/huntsman-co-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Seaport Global Securities Weighs in on Huntsman Co.&#8217;s Q1 2021 Earnings (NYSE:HUN)" />
+					<h2>Seaport Global Securities Weighs in on Huntsman Co.&#8217;s Q1 2021 Earnings (NYSE:HUN)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jun 24th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						
+Huntsman Co. (NYSE:HUN) &#8211; Research analysts at  Seaport Global Securities reduced their Q1 2021 EPS estimates for Huntsman  in a report issued on  Monday, June 22nd. Seaport Global Securities analyst M. Harrison now anticipates...&nbsp;<a href='https://transcriptdaily.com/2020/06/24/seaport-global-securities-weighs-in-on-huntsman-co-s-q1-2021-earnings-nysehun.html'></a>					</div></a>
+				</section> <!-- end archive -->
+				
+				<div class="navigation" style="margin-bottom:10px;">
+					<a href="https://transcriptdaily.com/page/2?s=TSM" >Next &raquo;</a>				</div><!--end .navigation-->
+
+			<div class="bottom-square-ad">
+				<script type="text/javascript">
+				(function() {
+				var html = "javascript:\"<body style='margin: 0;'><script src='https://www.googletagservices.com/tag/js/gpt.js'>googletag.pubads().set('page_url','"+window.location.href+"').definePassback('/8095840/342.network-acn.com_desktop_300x250', [300, 250]).display();<\/script></body>\"";
+				document.write('<iframe width="300" height="250" frameBorder="0" scrolling="no" marginheight="0" marginwidth="0" src="'+encodeURI(html)+'"></iframe>');
+				})();
+				</script>
+			</div> <!-- end first .bottom-square-ad -->
+
+			<div class="bottom-square-ad">
+				<script type="text/javascript">
+				(function() {
+				var html = "javascript:\"<body style='margin: 0;'><script src='https://www.googletagservices.com/tag/js/gpt.js'>googletag.pubads().set('page_url','"+window.location.href+"').definePassback('/8095840/342.network-acn.com_desktop_300x250', [300, 250]).display();<\/script></body>\"";
+				document.write('<iframe width="300" height="250" frameBorder="0" scrolling="no" marginheight="0" marginwidth="0" src="'+encodeURI(html)+'"></iframe>');
+				})();
+				</script>
+			</div> <!-- end second .bottom-square-ad -->
+
+		</main> <!-- end main -->
+	<aside>
+	<iframe src="https://marketbeat.com/scripts/MoreOnMarketBeat.aspx" width="336" height="600" frameborder="no"></iframe><br><br>
+	
+	
+<!-- first square unit -->
+
+<div class="ad336x280">
+<!-- Network Wide AdSense Unit - Top Sidebar Position -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9373162611283935" data-ad-slot="1875628183" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<!-- End AdSense Unit -->
+</div>
+
+<!-- end first square unit -->
+
+<!-- second square unit -->
+<div class="ad336x280">
+<!-- Network Wide AdSense Unit - Middle Sidebar Position -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9373162611283935" data-ad-slot="9445683366" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<!-- End AdSense Unit -->
+</div>
+
+<!-- end second square unit -->
+
+
+<!-- OptIn Form -->
+
+<!-- Start Sidebar Registration -->
+    <div class="sidebar-email">
+                        <h3>Free Email Newsletter</h3>
+         	Complete the form below to receive the latest headlines and analysts' recommendations for your stocks with our free daily email newsletter:<br/>
+        <form method="get" action="https://www.marketbeat.com/newsletter/default.aspx">
+        <input id="RegisterEmailSidebar" name="RegisterEmail" type="email" placeholder="Your Email Address">
+        <input type="hidden" id="Hidden1" name="RegistrationCode" value="Transcript Daily-Sidebar">
+        <input type="hidden" id="Hidden2" name="RegisterTicker" value="NYSE:TSM" />        <input type="submit" name="submit" onclick="return CheckEmail('RegisterEmailSidebar', 'ShowSuggestionSidebar');" value="Subscribe Now (Free Sign-Up)" class="button" style="width:336px;height:30px">
+    <div id="ShowSuggestionSidebar" style="padding-top:7px"></div>
+    </form>
+    </div>
+
+<!-- End Sidebar Registration -->
+
+<div>
+<a class="twitter-follow-button"
+  href="https://twitter.com/TranscriptDaily"
+  data-size="large">
+Follow @TranscriptDaily</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+
+<!-- Start IMS -->
+<div id="TranscriptDaily_ROS_RightRail_1" class="text-center">
+			<script type="text/javascript">
+			apntag.anq.push(function() {
+				apntag.showTag('TranscriptDaily_ROS_RightRail_1');
+			});
+			</script>
+		</div>
+<!-- End IMS --> 
+
+
+<!-- start Recent Posts -->
+        <br/>
+        <div>
+        <h3>Recent Posts</h3>
+            <ul>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/ishares-north-american-tech-software-etf-batsigv-shares-bought-by-focused-wealth-management-inc.html">iShares North American Tech-Software ETF (BATS:IGV) Shares Bought by Focused Wealth Management Inc</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/stonebridge-financial-planning-group-llc-cuts-stake-in-invesco-dynamic-leisure-and-entertainment-etf-nysearcapej.html">Stonebridge Financial Planning Group LLC Cuts Stake in Invesco Dynamic Leisure and Entertainment ETF (NYSEARCA:PEJ)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/stonebridge-financial-planning-group-llc-buys-250-shares-of-target-co-nysetgt.html">Stonebridge Financial Planning Group LLC Buys 250 Shares of Target Co. (NYSE:TGT)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/stonebridge-financial-planning-group-llc-has-30000-position-in-flowserve-corp-nysefls.html">Stonebridge Financial Planning Group LLC Has $30,000 Position in Flowserve Corp (NYSE:FLS)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/stonebridge-financial-planning-group-llc-has-45000-stock-position-in-invesco-sp-500-pure-value-etf-nysearcarpv.html">Stonebridge Financial Planning Group LLC Has $45,000 Stock Position in Invesco S&#038;P 500 Pure Value ETF (NYSEARCA:RPV)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/cubic-asset-management-llc-has-8-11-million-stock-position-in-alphabet-inc-nasdaqgoog.html">Cubic Asset Management LLC Has $8.11 Million Stock Position in Alphabet Inc (NASDAQ:GOOG)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/tabula-rasa-healthcare-inc-nasdaqtrhc-shares-sold-by-nn-investment-partners-holdings-n-v.html">Tabula Rasa HealthCare Inc (NASDAQ:TRHC) Shares Sold by NN Investment Partners Holdings N.V.</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-raises-stock-holdings-in-cvs-health-corp-nysecvs.html">NN Investment Partners Holdings N.V. Raises Stock Holdings in CVS Health Corp (NYSE:CVS)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-has-14-65-million-holdings-in-atmos-energy-co-nyseato.html">NN Investment Partners Holdings N.V. Has $14.65 Million Holdings in Atmos Energy Co. (NYSE:ATO)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-makes-new-investment-in-extra-space-storage-inc-nyseexr.html">NN Investment Partners Holdings N.V. Makes New Investment in Extra Space Storage, Inc. (NYSE:EXR)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-acquires-14497-shares-of-clorox-co-nyseclx.html">NN Investment Partners Holdings N.V. Acquires 14,497 Shares of Clorox Co (NYSE:CLX)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-has-16-51-million-holdings-in-honeywell-international-inc-nysehon.html">NN Investment Partners Holdings N.V. Has $16.51 Million Holdings in Honeywell International Inc. (NYSE:HON)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/wp-carey-inc-nysewpc-shares-bought-by-nn-investment-partners-holdings-n-v.html">WP Carey Inc (NYSE:WPC) Shares Bought by NN Investment Partners Holdings N.V.</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-decreases-position-in-alphabet-inc-nasdaqgoog.html">NN Investment Partners Holdings N.V. Decreases Position in Alphabet Inc (NASDAQ:GOOG)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-has-21-70-million-stock-holdings-in-3m-co-nysemmm.html">NN Investment Partners Holdings N.V. Has $21.70 Million Stock Holdings in 3M Co (NYSE:MMM)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/salesforce-com-inc-nysecrm-shares-acquired-by-nn-investment-partners-holdings-n-v.html">salesforce.com, inc. (NYSE:CRM) Shares Acquired by NN Investment Partners Holdings N.V.</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-has-22-41-million-holdings-in-roper-technologies-inc-nyserop.html">NN Investment Partners Holdings N.V. Has $22.41 Million Holdings in Roper Technologies Inc (NYSE:ROP)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/dxc-technology-co-nysedxc-shares-acquired-by-heritage-investors-management-corp.html">DXC Technology Co (NYSE:DXC) Shares Acquired by Heritage Investors Management Corp</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/heritage-investors-management-corp-boosts-stock-holdings-in-cvs-health-corp-nysecvs.html">Heritage Investors Management Corp Boosts Stock Holdings in CVS Health Corp (NYSE:CVS)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/csx-co-nasdaqcsx-shares-bought-by-nn-investment-partners-holdings-n-v.html">CSX Co. (NASDAQ:CSX) Shares Bought by NN Investment Partners Holdings N.V.</a></li>
+                        </ul>
+        </div>  
+
+<!-- end recent posts -->
+</aside><!--end #sidebar-->
+<div style="clear: both;"></div>
+	</div> <!-- end .width-limiter -->
+<footer class="full-width">
+			<div class="width-limiter">
+				<div id="footer-info" class="add-padding">
+					<nav class="navigation"><ul id="menu-categories-for-menus-1" class="menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-79"><a href="https://transcriptdaily.com/headlines">Headlines</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-75"><a href="https://transcriptdaily.com/business">Business</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-77"><a href="https://transcriptdaily.com/markets">Markets</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80"><a href="https://transcriptdaily.com/politics">Politics</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78"><a href="https://transcriptdaily.com/technology">Technology</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-76"><a href="https://transcriptdaily.com/health">Health</a></li>
+</ul></nav>					<span id="copyright">
+						&copy; 2006-2020 <a href="https://transcriptdaily.com">Transcript Daily</a>
+					</span>
+				</div><!-- end #footer-info -->
+			</div>	
+		</footer>
+		<script type='text/javascript' src='https://transcriptdaily.com/wp-includes/js/wp-embed.min.js?ver=5.4.2'></script>
+
+<!-- MarketBeat News Network StatCounter Code -->
+<script type="text/javascript">var sc_project=9021069; var sc_invisible=1; var sc_security="fdde5482"; var sc_https=1; </script>
+<script type="text/javascript" src="https://www.statcounter.com/counter/counter.js"></script>
+<noscript><img class="statcounter" src="https://c.statcounter.com/9021069/0/fdde5482/1/" height="1" width="1"></noscript>
+<!-- End MarketBeat News Network StatCounter Code -->
+
+<!-- Start of StatCounter Code for Transcript Daily -->
+<script type="text/javascript">
+var sc_project=11301659; 
+var sc_invisible=1; 
+var sc_security="a399788a"; 
+var sc_https=1; 
+var scJsHost = (("https:" == document.location.protocol) ? "https://secure." : "http://www.");
+</script>
+<script type="text/javascript" src="https://www.statcounter.com/counter/counter.js"></script><noscript><img class="statcounter" src="//c.statcounter.com/11301659/0/a399788a/1/" alt="Web Analytics"></a></noscript>
+<!-- End of StatCounter Code for Transcript Daily -->
+	
+
+<!-- Begin Social Sharing -->
+	<!-- End Social Sharing -->
+
+<!-- Begin Internal Tracking Pixel 2 -->
+<script type='text/javascript'>document.write('<img src="https://www.american' + 'consumernews.net/scripts/viewcount.ashx?ArticleHistoryID=57857590&PostDate=2020-7-26&type=f&id=7547600&domain=transcriptdaily.com&referrer=' + encodeURIComponent(document.referrer) + '" />');</script>
+<!-- End Internal Tracking Pixel 2-->
+
+<!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "16807273" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=16807273&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+
+
+</div>
+
+
+
+	</body>
+</html>

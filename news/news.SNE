@@ -1,0 +1,834 @@
+<!doctype html>
+<html lang="en" style="display:block;min-width:1070px;">
+<head>
+<meta name="distribution" content="global" />
+<meta name="robots" content="follow, all" />
+ <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<meta name="google-site-verification" content="GTY8q3lGYJyB0uT2U_vjhGkaQdrK17O9i9M5MPMBBa0" />
+<meta name="norton-safeweb-site-verification" content="7jyvwknvdv-yfjlzt3cdz5l34h9x7f-83bdh3x3k8mjo4bci55-m3zptqbcd9hef8-62ff6hrcor8prt-i1fw6lej5kw6wovojjadjkw228gbvsi8kc6hb8n1lb270tm" />
+<meta name="viewport" content="width=1070">
+	
+<meta name="googlebot" content="noindex,follow"> 
+
+<!-- Escape from Frames -->
+<script type="text/javascript">if(self==top){document.documentElement.style.display="block"}else{top.location=self.location}</script>
+<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+<link rel="stylesheet" href="https://transcriptdaily.com/wp-content/themes/newsalambre/style.css?v=3" type="text/css" media="screen" />
+<link href="https://transcriptdaily.com/feed" rel="alternate" title="Transcript Daily RSS Feed" type="application/rss+xml" />
+<link href="https://transcriptdaily.com/feed/atom" rel="alternate" title="Transcript Daily Atom Feed" type="application/atom+xml" />
+<link href="https://transcriptdaily.com/xmlrpc.php" rel="pingback" />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Transcript Daily &raquo; Search Results for &#8220;SNE&#8221; Feed" href="https://transcriptdaily.com/search/SNE/feed/rss2/" />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://transcriptdaily.com/wp-includes/css/dist/block-library/style.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='https://api.w.org/' href='https://transcriptdaily.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://transcriptdaily.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://transcriptdaily.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.4.2" />
+<link rel="icon" href="https://transcriptdaily.com/wp-content/uploads/2017/04/Transcript-Daily-Iconpng-06.png" sizes="32x32" />
+<link rel="icon" href="https://transcriptdaily.com/wp-content/uploads/2017/04/Transcript-Daily-Iconpng-06.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://transcriptdaily.com/wp-content/uploads/2017/04/Transcript-Daily-Iconpng-06.png" />
+<meta name="msapplication-TileImage" content="https://transcriptdaily.com/wp-content/uploads/2017/04/Transcript-Daily-Iconpng-06.png" />
+
+<!-- Start Meta Data -->
+<title>Walt Disney Co (NYSE:DIS) Shares Purchased by Dupont Capital Management Corp - Transcript Daily</title>
+
+<!-- End Meta Data -->
+	
+	
+<script type='text/javascript'>var PopupAdChannel=''; </script>
+  <link rel="manifest" href="/manifest.json">
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"></script>
+  <script>
+  	function registerUserChange(action) {
+		OneSignal.getUserId( function(userId) {
+			OneSignalIdString = userId;
+			var Domain = 'transcriptdaily.com';
+			var url = "https://www.marketbeat.com/scripts/OneSignalTracking.ashx?OneSignalID=" + OneSignalIdString + "&domain=" + Domain + "&action=" + action;
+			var xhr = new XMLHttpRequest();
+			xhr.open('GET', url);
+			xhr.onload = function () {
+				if (xhr.status !== 200) {
+					console.log('GET failed.  Returned status of ' + xhr.status);
+				}
+			};
+			xhr.send();
+		});
+	}
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(["init", {
+      appId: "881bfa77-26cb-4cd6-9aa9-572b33abb76a",
+      safari_web_id: 'web.onesignal.auto.1d2463f6-17a6-4c7e-80c3-735ae8ddc977', 
+      autoRegister: false,
+      autoResubscribe: true,		
+      notifyButton: {
+        enable: false /* Set to false to hide */
+      },
+ welcomeNotification: {
+        "title": "Join Wall Street's Brightest Minds.",
+        "message": "Receive research in your inbox from top analysts, before the market opens. Click here to learn how.",
+         "url": "https://www.marketbeat.com/subscribe/subscribe.aspx?ReferralType=OneSignalThankYou&ProductCode=1997t"
+    }
+    },
+		OneSignal.once('subscriptionChange', function (isSubscribed) {
+			if(isSubscribed) {
+				registerUserChange("subscribe");
+			}
+			else {
+				registerUserChange("unsubscribe");
+			}
+			
+		  })
+	]);
+	if((navigator.userAgent.toLowerCase().indexOf('firefox') > -1)||((navigator.userAgent.toLowerCase().indexOf('safari') > -1)&&(!(navigator.userAgent.toLowerCase().indexOf('chrome') > -1)))){
+		OneSignal.showSlidedownPrompt();
+	} else {
+		OneSignal.showNativePrompt();		
+	}
+  </script>
+<script type="text/javascript">var vbnfgha = '211626'; var ertdfga = '13739-bup-ac'; var qhyuioa = '53938'; var AdClientID = qhyuioa + vbnfgha + ertdfga; AdClientID = AdClientID.split("").reverse().join("");</script>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: AdClientID,
+          enable_page_level_ads: true
+     });
+</script>
+<!-- Start IMS -->
+<script type="text/javascript">
+		var apntag = apntag || {};
+		apntag.anq = apntag.anq || [];
+		(function() {
+			var d = document, e = d.createElement('script'), p = d.getElementsByTagName('head')[0];
+			e.type = 'text/javascript';  e.async = true;
+			e.src = '//acdn.adnxs.com/ast/ast.js';
+			p.insertBefore(e, p.firstChild);
+		})();
+
+		
+		apntag.anq.push(function() {
+			apntag.setPageOpts({
+				member: 6989
+			});
+		});
+
+		apntag.anq.push(function() {
+
+      		apntag.defineTag({
+				tagId: 13207769,
+				sizes: [[300,250],[300,600],[300,1050]],
+				keywords: {'position': ['RightRail_1']},
+				targetId: 'TranscriptDaily_ROS_RightRail_1'
+			});
+					});
+
+		apntag.anq.push(function() {
+			apntag.loadTags();
+		});
+		</script>
+	
+<script type="text/javascript">
+(function() {
+window.advBidxc = window.advBidxc || {};
+window.advBidxc.startTime = new Date().getTime();
+function loadScript(tagSrc) {
+var scriptTag = document.createElement('script'),
+placeTag = document.getElementsByTagName("script")[0];
+scriptTag.type = 'text/javascript';
+scriptTag.async = true;
+scriptTag.src = tagSrc;
+placeTag.parentNode.insertBefore(scriptTag, placeTag);
+}
+var mnSrc = '//hbx.media.net/bidexchange.js?cid=8CU2C156D&version=5.1' + '&dn=' +
+window.location.hostname;
+loadScript(mnSrc);
+})();
+</script>
+<!-- End IMS --> 
+	
+
+</head>
+<body>
+<div id="wrap">
+
+<!-- Start MarketBeat Modern Popup -->
+<link rel="stylesheet" type="text/css" media="all" href="https://www.marketbeat.com/scripts/modal/modernpopup.css?v=11"/>
+<script type="text/javascript" src="https://www.marketbeat.com/scripts/modal/modernpopup.js?v=52"></script>
+
+	<script type="text/javascript">LoadPopupRatings('ModernNonMarketsPopup-Transcript Daily', 'transcriptdaily.com');</script>
+<!-- End MarketBeat Modern Popup -->
+	
+<header>
+	<div id="top-bar">
+		<div class="width-limiter">
+				<!-- top nav bar -->
+				<nav class="navigation"><ul id="menu-top-menu" class="menu"><li id="menu-item-81" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-81"><a href="https://transcriptdaily.com">Home</a></li>
+<li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83"><a href="https://transcriptdaily.com/privacy-policy">Privacy Policy</a></li>
+<li id="menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84"><a href="https://transcriptdaily.com/about-contact">About/Contact</a></li>
+</ul></nav>				<form id="searchform" action="https://transcriptdaily.com/" method="get">
+					<div id="search">
+						<input id="s" class="searchinput" name="s" onclick="this.value='';" type="text" />
+						<input class="searchsubmit" type="submit" value="SEARCH" />
+					</div>
+				</form><!-- end: searchform -->
+		</div><!-- end: width-limiter in top-bar -->
+	</div><!-- end: top-bar -->
+	<div class="width-limiter add-padding"><!-- start: width-limiter with logo and space for alternate header unit -->
+		<a class="logo-link" href="https://transcriptdaily.com"><img id="logo" src="/wp-content/uploads/2017/04/Transcript-Daily-Logo-04.png" alt="Transcript Daily logo"></a>
+
+<!-- Begin Header Unit -->
+<div id="AlternateHeaderUnit">
+		
+		<iframe src="https://marketbeat.com/scripts/HeaderAdNewsSites.ashx" width="728" height="90" frameborder="no" scrolling="no"></iframe>
+			</div> 
+
+<!-- End Header Unit-->
+	</div> <!-- end: width-limiter with logo and space for alternate header unit -->
+	<div id="menu">
+		<div class="width-limiter" id="nav-main">
+			<!-- start main category menu -->
+			<nav class="navigation"><ul id="menu-categories-for-menus" class="menu"><li id="menu-item-79" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-79"><a href="https://transcriptdaily.com/headlines">Headlines</a></li>
+<li id="menu-item-75" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-75"><a href="https://transcriptdaily.com/business">Business</a></li>
+<li id="menu-item-77" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-77"><a href="https://transcriptdaily.com/markets">Markets</a></li>
+<li id="menu-item-80" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80"><a href="https://transcriptdaily.com/politics">Politics</a></li>
+<li id="menu-item-78" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78"><a href="https://transcriptdaily.com/technology">Technology</a></li>
+<li id="menu-item-76" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-76"><a href="https://transcriptdaily.com/health">Health</a></li>
+</ul></nav>		</div> <!-- end: width-limiter for menu -->
+	</div> <!-- end: menu -->
+</header> <!-- end: header -->
+	<div class="width-limiter main-content">
+		
+<main>
+						<h1 class="archive-category"><a href="https://transcriptdaily.com">Home</a> &raquo; Search Results</h1>
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/walt-disney-co-nysedis-shares-purchased-by-dupont-capital-management-corp.html" rel="bookmark" title="Walt Disney Co (NYSE:DIS) Shares Purchased by Dupont Capital Management Corp">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Walt Disney Co (NYSE:DIS) Shares Purchased by Dupont Capital Management Corp" />
+					<h2>Walt Disney Co (NYSE:DIS) Shares Purchased by Dupont Capital Management Corp</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Dupont Capital Management Corp increased its holdings in shares of  Walt Disney Co (NYSE:DIS) by 3.7% in the second quarter, Holdings Channel reports. The firm owned 210,023 shares of the entertainment giant&#8217;s stock after buying...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/walt-disney-co-nysedis-shares-purchased-by-dupont-capital-management-corp.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/walt-disney-co-nysedis-position-boosted-by-cornell-pochily-investment-advisors-inc.html" rel="bookmark" title="Walt Disney Co (NYSE:DIS) Position Boosted by Cornell Pochily Investment Advisors Inc.">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Walt Disney Co (NYSE:DIS) Position Boosted by Cornell Pochily Investment Advisors Inc." />
+					<h2>Walt Disney Co (NYSE:DIS) Position Boosted by Cornell Pochily Investment Advisors Inc.</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Cornell Pochily Investment Advisors Inc. raised its holdings in shares of  Walt Disney Co (NYSE:DIS) by 6.4% during the 2nd quarter, HoldingsChannel reports. The fund owned 5,859 shares of the entertainment giant&#8217;s stock after...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/walt-disney-co-nysedis-position-boosted-by-cornell-pochily-investment-advisors-inc.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/ledyard-national-bank-has-1-68-million-position-in-walt-disney-co-nysedis.html" rel="bookmark" title="Ledyard National Bank Has $1.68 Million Position in Walt Disney Co (NYSE:DIS)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Ledyard National Bank Has $1.68 Million Position in Walt Disney Co (NYSE:DIS)" />
+					<h2>Ledyard National Bank Has $1.68 Million Position in Walt Disney Co (NYSE:DIS)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Ledyard National Bank cut its position in  Walt Disney Co (NYSE:DIS) by 12.8% in the 2nd quarter, according to its most recent Form 13F filing with the Securities and Exchange Commission. The fund owned 15,061 shares of the entertainment...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/ledyard-national-bank-has-1-68-million-position-in-walt-disney-co-nysedis.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/insider-buying-ausnet-services-ltd-asxast-insider-purchases-a19775-00-in-stock.html" rel="bookmark" title="Insider Buying: Ausnet Services Ltd (ASX:AST) Insider Purchases A$19,775.00 in Stock">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/ausnet-services-logo.gif&amp;h=100&amp;w=100&amp;zc=1" alt="Insider Buying: Ausnet Services Ltd (ASX:AST) Insider Purchases A$19,775.00 in Stock" />
+					<h2>Insider Buying: Ausnet Services Ltd (ASX:AST) Insider Purchases A$19,775.00 in Stock</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Ausnet Services Ltd (ASX:AST) insider Nora Scheinkestel acquired 11,300 shares of the stock in a transaction on Tuesday, July 21st. The stock was bought at an average cost of A$1.75 ($1.20) per share, for a total transaction of A$19,775.00...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/insider-buying-ausnet-services-ltd-asxast-insider-purchases-a19775-00-in-stock.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/25/walt-disney-co-nysedis-shares-sold-by-cmh-wealth-management-llc.html" rel="bookmark" title="Walt Disney Co (NYSE:DIS) Shares Sold by CMH Wealth Management LLC">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Walt Disney Co (NYSE:DIS) Shares Sold by CMH Wealth Management LLC" />
+					<h2>Walt Disney Co (NYSE:DIS) Shares Sold by CMH Wealth Management LLC</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 25th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						CMH Wealth Management LLC cut its holdings in  Walt Disney Co (NYSE:DIS) by 2.9% in the 2nd quarter, according to its most recent 13F filing with the SEC. The firm owned 26,695 shares of the entertainment giant&#8217;s stock after...&nbsp;<a href='https://transcriptdaily.com/2020/07/25/walt-disney-co-nysedis-shares-sold-by-cmh-wealth-management-llc.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/25/walt-disney-co-nysedis-shares-bought-by-atwater-malick-llc.html" rel="bookmark" title="Walt Disney Co (NYSE:DIS) Shares Bought by Atwater Malick LLC">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Walt Disney Co (NYSE:DIS) Shares Bought by Atwater Malick LLC" />
+					<h2>Walt Disney Co (NYSE:DIS) Shares Bought by Atwater Malick LLC</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 25th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Atwater Malick LLC boosted its holdings in shares of  Walt Disney Co (NYSE:DIS) by 3.3% during the 2nd quarter, according to its most recent filing with the Securities and Exchange Commission (SEC). The institutional investor  owned...&nbsp;<a href='https://transcriptdaily.com/2020/07/25/walt-disney-co-nysedis-shares-bought-by-atwater-malick-llc.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/25/walt-disney-co-nysedis-stock-holdings-decreased-by-kavar-capital-partners-llc.html" rel="bookmark" title="Walt Disney Co (NYSE:DIS) Stock Holdings Decreased by Kavar Capital Partners LLC">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Walt Disney Co (NYSE:DIS) Stock Holdings Decreased by Kavar Capital Partners LLC" />
+					<h2>Walt Disney Co (NYSE:DIS) Stock Holdings Decreased by Kavar Capital Partners LLC</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 25th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Kavar Capital Partners LLC lowered its stake in  Walt Disney Co (NYSE:DIS) by 2.0% in the 2nd quarter, according to its most recent filing with the SEC. The fund owned 28,237 shares of the entertainment giant&#8217;s stock after selling...&nbsp;<a href='https://transcriptdaily.com/2020/07/25/walt-disney-co-nysedis-stock-holdings-decreased-by-kavar-capital-partners-llc.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/25/irisnet-one-day-trading-volume-reaches-6-00-million-iris.html" rel="bookmark" title="IRISnet One Day Trading Volume Reaches $6.00 Million (IRIS)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=wp-content/themes/newswire/images/image-pending.gif&amp;h=100&amp;w=100&amp;zc=1" alt="IRISnet One Day Trading Volume Reaches $6.00 Million (IRIS)" />
+					<h2>IRISnet One Day Trading Volume Reaches $6.00 Million (IRIS)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 25th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						IRISnet (CURRENCY:IRIS) traded 1.1% lower  against the U.S. dollar during the 24 hour period ending at 8:00 AM E.T. on July 25th. One IRISnet coin can currently be purchased for approximately $0.0545 or 0.00000568 BTC on major cryptocurrency...&nbsp;<a href='https://transcriptdaily.com/2020/07/25/irisnet-one-day-trading-volume-reaches-6-00-million-iris.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/24/walt-disney-co-nysedis-shares-acquired-by-tarbox-family-office-inc.html" rel="bookmark" title="Walt Disney Co (NYSE:DIS) Shares Acquired by Tarbox Family Office Inc.">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Walt Disney Co (NYSE:DIS) Shares Acquired by Tarbox Family Office Inc." />
+					<h2>Walt Disney Co (NYSE:DIS) Shares Acquired by Tarbox Family Office Inc.</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 24th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Tarbox Family Office Inc. raised its holdings in shares of  Walt Disney Co (NYSE:DIS) by 9.4% in the 2nd quarter, according to the company in its most recent 13F filing with the Securities and Exchange Commission. The firm owned 4,555...&nbsp;<a href='https://transcriptdaily.com/2020/07/24/walt-disney-co-nysedis-shares-acquired-by-tarbox-family-office-inc.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/24/narwhal-capital-management-decreases-position-in-walt-disney-co-nysedis.html" rel="bookmark" title="Narwhal Capital Management Decreases Position in Walt Disney Co (NYSE:DIS)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Narwhal Capital Management Decreases Position in Walt Disney Co (NYSE:DIS)" />
+					<h2>Narwhal Capital Management Decreases Position in Walt Disney Co (NYSE:DIS)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 24th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Narwhal Capital Management lowered its stake in shares of  Walt Disney Co (NYSE:DIS) by 3.0% in the 2nd quarter, according to the company in its most recent 13F filing with the Securities &amp; Exchange Commission. The fund owned 58,260...&nbsp;<a href='https://transcriptdaily.com/2020/07/24/narwhal-capital-management-decreases-position-in-walt-disney-co-nysedis.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/24/cra-financial-services-llc-sells-741-shares-of-walt-disney-co-nysedis.html" rel="bookmark" title="CRA Financial Services LLC Sells 741 Shares of Walt Disney Co (NYSE:DIS)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="CRA Financial Services LLC Sells 741 Shares of Walt Disney Co (NYSE:DIS)" />
+					<h2>CRA Financial Services LLC Sells 741 Shares of Walt Disney Co (NYSE:DIS)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 24th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						CRA Financial Services LLC decreased its position in shares of  Walt Disney Co (NYSE:DIS) by 5.1% during the 2nd quarter, according to its most recent filing with the Securities and Exchange Commission (SEC). The fund owned 13,684...&nbsp;<a href='https://transcriptdaily.com/2020/07/24/cra-financial-services-llc-sells-741-shares-of-walt-disney-co-nysedis.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/24/walt-disney-co-nysedis-shares-sold-by-transform-wealth-llc.html" rel="bookmark" title="Walt Disney Co (NYSE:DIS) Shares Sold by Transform Wealth LLC">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Walt Disney Co (NYSE:DIS) Shares Sold by Transform Wealth LLC" />
+					<h2>Walt Disney Co (NYSE:DIS) Shares Sold by Transform Wealth LLC</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 24th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Transform Wealth LLC trimmed its position in shares of  Walt Disney Co (NYSE:DIS) by 89.9% in the second quarter, HoldingsChannel reports. The firm owned 6,036 shares of the entertainment giant&#8217;s stock after selling 53,815 shares...&nbsp;<a href='https://transcriptdaily.com/2020/07/24/walt-disney-co-nysedis-shares-sold-by-transform-wealth-llc.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/24/tsp-capital-management-group-llc-purchases-new-holdings-in-walt-disney-co-nysedis.html" rel="bookmark" title="TSP Capital Management Group LLC Purchases New Holdings in Walt Disney Co (NYSE:DIS)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="TSP Capital Management Group LLC Purchases New Holdings in Walt Disney Co (NYSE:DIS)" />
+					<h2>TSP Capital Management Group LLC Purchases New Holdings in Walt Disney Co (NYSE:DIS)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 24th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						TSP Capital Management Group LLC purchased a new stake in shares of  Walt Disney Co (NYSE:DIS) in the second quarter, according to its most recent disclosure with the Securities &amp; Exchange Commission. The firm purchased 10,248...&nbsp;<a href='https://transcriptdaily.com/2020/07/24/tsp-capital-management-group-llc-purchases-new-holdings-in-walt-disney-co-nysedis.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/24/brightworth-has-6-61-million-stake-in-walt-disney-co-nysedis.html" rel="bookmark" title="Brightworth Has $6.61 Million Stake in Walt Disney Co (NYSE:DIS)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Brightworth Has $6.61 Million Stake in Walt Disney Co (NYSE:DIS)" />
+					<h2>Brightworth Has $6.61 Million Stake in Walt Disney Co (NYSE:DIS)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 24th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Brightworth raised its holdings in  Walt Disney Co (NYSE:DIS) by 0.8% during the 2nd quarter, according to its most recent filing with the Securities and Exchange Commission. The fund owned 59,255 shares of the entertainment giant&#8217;s...&nbsp;<a href='https://transcriptdaily.com/2020/07/24/brightworth-has-6-61-million-stake-in-walt-disney-co-nysedis.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/24/walt-disney-co-nysedis-shares-sold-by-hodges-capital-management-inc.html" rel="bookmark" title="Walt Disney Co (NYSE:DIS) Shares Sold by Hodges Capital Management Inc.">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Walt Disney Co (NYSE:DIS) Shares Sold by Hodges Capital Management Inc." />
+					<h2>Walt Disney Co (NYSE:DIS) Shares Sold by Hodges Capital Management Inc.</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 24th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Hodges Capital Management Inc. decreased its position in shares of  Walt Disney Co (NYSE:DIS) by 32.5% in the second quarter, according to its most recent Form 13F filing with the Securities &amp; Exchange Commission. The firm owned...&nbsp;<a href='https://transcriptdaily.com/2020/07/24/walt-disney-co-nysedis-shares-sold-by-hodges-capital-management-inc.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/24/intl-fcstone-nasdaqsnex-upgraded-by-valuengine-to-sell.html" rel="bookmark" title="INTL FCStone (NASDAQ:SNEX) Upgraded by ValuEngine to Sell">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="INTL FCStone (NASDAQ:SNEX) Upgraded by ValuEngine to Sell" />
+					<h2>INTL FCStone (NASDAQ:SNEX) Upgraded by ValuEngine to Sell</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 24th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						ValuEngine upgraded shares of INTL FCStone (NASDAQ:SNEX) from a strong sell rating to a sell rating in a research note released on Monday, ValuEngine reports.
+Separately, TheStreet downgraded INTL FCStone from a b rating to a c+ rating...&nbsp;<a href='https://transcriptdaily.com/2020/07/24/intl-fcstone-nasdaqsnex-upgraded-by-valuengine-to-sell.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/23/cerebellum-gp-llc-buys-new-holdings-in-walt-disney-co-nysedis.html" rel="bookmark" title="Cerebellum GP LLC Buys New Holdings in Walt Disney Co (NYSE:DIS)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Cerebellum GP LLC Buys New Holdings in Walt Disney Co (NYSE:DIS)" />
+					<h2>Cerebellum GP LLC Buys New Holdings in Walt Disney Co (NYSE:DIS)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 23rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Cerebellum GP LLC bought a new stake in shares of  Walt Disney Co (NYSE:DIS) during the 2nd quarter, according to the company in its most recent Form 13F filing with the Securities and Exchange Commission. The firm bought 1,323 shares...&nbsp;<a href='https://transcriptdaily.com/2020/07/23/cerebellum-gp-llc-buys-new-holdings-in-walt-disney-co-nysedis.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/23/weybosset-research-management-llc-takes-206000-position-in-walt-disney-co-nysedis.html" rel="bookmark" title="Weybosset Research &#038; Management LLC Takes $206,000 Position in Walt Disney Co (NYSE:DIS)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Weybosset Research &#038; Management LLC Takes $206,000 Position in Walt Disney Co (NYSE:DIS)" />
+					<h2>Weybosset Research &#038; Management LLC Takes $206,000 Position in Walt Disney Co (NYSE:DIS)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 23rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Weybosset Research &#038; Management LLC purchased a new stake in shares of  Walt Disney Co (NYSE:DIS) during the 2nd quarter, according to the company in its most recent disclosure with the Securities and Exchange Commission (SEC)....&nbsp;<a href='https://transcriptdaily.com/2020/07/23/weybosset-research-management-llc-takes-206000-position-in-walt-disney-co-nysedis.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/23/walt-disney-co-nysedis-shares-purchased-by-benin-management-corp.html" rel="bookmark" title="Walt Disney Co (NYSE:DIS) Shares Purchased by Benin Management CORP">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Walt Disney Co (NYSE:DIS) Shares Purchased by Benin Management CORP" />
+					<h2>Walt Disney Co (NYSE:DIS) Shares Purchased by Benin Management CORP</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 23rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Benin Management CORP raised its holdings in  Walt Disney Co (NYSE:DIS) by 1.7% during the second quarter, according to the company in its most recent Form 13F filing with the SEC. The firm owned 19,484 shares of the entertainment...&nbsp;<a href='https://transcriptdaily.com/2020/07/23/walt-disney-co-nysedis-shares-purchased-by-benin-management-corp.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/23/bfsg-llc-trims-stock-holdings-in-walt-disney-co-nysedis.html" rel="bookmark" title="Bfsg LLC Trims Stock Holdings in Walt Disney Co (NYSE:DIS)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Bfsg LLC Trims Stock Holdings in Walt Disney Co (NYSE:DIS)" />
+					<h2>Bfsg LLC Trims Stock Holdings in Walt Disney Co (NYSE:DIS)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 23rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Bfsg LLC decreased its position in shares of  Walt Disney Co (NYSE:DIS) by 33.9% during the 2nd quarter, according to its most recent disclosure with the SEC. The firm owned 3,501 shares of the entertainment giant&#8217;s stock after...&nbsp;<a href='https://transcriptdaily.com/2020/07/23/bfsg-llc-trims-stock-holdings-in-walt-disney-co-nysedis.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/23/franklin-parlapiano-turner-welch-llc-lowers-stock-position-in-walt-disney-co-nysedis.html" rel="bookmark" title="Franklin Parlapiano Turner &#038; Welch LLC Lowers Stock Position in Walt Disney Co (NYSE:DIS)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Franklin Parlapiano Turner &#038; Welch LLC Lowers Stock Position in Walt Disney Co (NYSE:DIS)" />
+					<h2>Franklin Parlapiano Turner &#038; Welch LLC Lowers Stock Position in Walt Disney Co (NYSE:DIS)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 23rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Franklin Parlapiano Turner &#038; Welch LLC lessened its stake in  Walt Disney Co (NYSE:DIS) by 2.3% in the 2nd quarter, according to the company in its most recent 13F filing with the Securities and Exchange Commission (SEC). The...&nbsp;<a href='https://transcriptdaily.com/2020/07/23/franklin-parlapiano-turner-welch-llc-lowers-stock-position-in-walt-disney-co-nysedis.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/23/vantage-investment-partners-llc-purchases-210-shares-of-walt-disney-co-nysedis.html" rel="bookmark" title="Vantage Investment Partners LLC Purchases 210 Shares of Walt Disney Co (NYSE:DIS)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Vantage Investment Partners LLC Purchases 210 Shares of Walt Disney Co (NYSE:DIS)" />
+					<h2>Vantage Investment Partners LLC Purchases 210 Shares of Walt Disney Co (NYSE:DIS)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 23rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Vantage Investment Partners LLC increased its position in  Walt Disney Co (NYSE:DIS) by 2.2% during the 2nd quarter, HoldingsChannel.com reports. The fund owned 9,838 shares of the entertainment giant&#8217;s stock after buying an...&nbsp;<a href='https://transcriptdaily.com/2020/07/23/vantage-investment-partners-llc-purchases-210-shares-of-walt-disney-co-nysedis.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/23/mg-investment-management-ltd-sells-658221-shares-of-walt-disney-co-nysedis.html" rel="bookmark" title="M&#038;G Investment Management Ltd. Sells 658,221 Shares of Walt Disney Co (NYSE:DIS)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="M&#038;G Investment Management Ltd. Sells 658,221 Shares of Walt Disney Co (NYSE:DIS)" />
+					<h2>M&#038;G Investment Management Ltd. Sells 658,221 Shares of Walt Disney Co (NYSE:DIS)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 23rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						M&#038;G Investment Management Ltd. decreased its position in  Walt Disney Co (NYSE:DIS) by 62.2% during the second quarter, according to the company in its most recent filing with the Securities and Exchange Commission (SEC). The...&nbsp;<a href='https://transcriptdaily.com/2020/07/23/mg-investment-management-ltd-sells-658221-shares-of-walt-disney-co-nysedis.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/23/walt-disney-co-nysedis-holdings-decreased-by-banque-cantonale-vaudoise.html" rel="bookmark" title="Walt Disney Co (NYSE:DIS) Holdings Decreased by Banque Cantonale Vaudoise">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Walt Disney Co (NYSE:DIS) Holdings Decreased by Banque Cantonale Vaudoise" />
+					<h2>Walt Disney Co (NYSE:DIS) Holdings Decreased by Banque Cantonale Vaudoise</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 23rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Banque Cantonale Vaudoise lowered its position in  Walt Disney Co (NYSE:DIS) by 23.8% during the second quarter, according to its most recent Form 13F filing with the Securities and Exchange Commission (SEC). The institutional investor...&nbsp;<a href='https://transcriptdaily.com/2020/07/23/walt-disney-co-nysedis-holdings-decreased-by-banque-cantonale-vaudoise.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/23/liberty-capital-management-inc-sells-1270-shares-of-walt-disney-co-nysedis.html" rel="bookmark" title="Liberty Capital Management Inc. Sells 1,270 Shares of Walt Disney Co (NYSE:DIS)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Liberty Capital Management Inc. Sells 1,270 Shares of Walt Disney Co (NYSE:DIS)" />
+					<h2>Liberty Capital Management Inc. Sells 1,270 Shares of Walt Disney Co (NYSE:DIS)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 23rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Liberty Capital Management Inc. decreased its holdings in shares of  Walt Disney Co (NYSE:DIS) by 4.3% in the 2nd quarter, according to the company in its most recent 13F filing with the Securities &amp; Exchange Commission. The firm...&nbsp;<a href='https://transcriptdaily.com/2020/07/23/liberty-capital-management-inc-sells-1270-shares-of-walt-disney-co-nysedis.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/23/comparing-intercontinental-exchange-nyseice-and-intl-fcstone-nysesnex.html" rel="bookmark" title="Comparing Intercontinental Exchange (NYSE:ICE) and INTL FCStone (NYSE:SNEX)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/IntercontinentalExchange_logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Comparing Intercontinental Exchange (NYSE:ICE) and INTL FCStone (NYSE:SNEX)" />
+					<h2>Comparing Intercontinental Exchange (NYSE:ICE) and INTL FCStone (NYSE:SNEX)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 23rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						INTL FCStone (NASDAQ:SNEX) and Intercontinental Exchange (NYSE:ICE) are both finance companies, but which is the superior business? We will compare the two businesses based on the strength of their risk, valuation, profitability, analyst...&nbsp;<a href='https://transcriptdaily.com/2020/07/23/comparing-intercontinental-exchange-nyseice-and-intl-fcstone-nysesnex.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/22/walt-disney-co-nysedis-shares-sold-by-spinnaker-trust.html" rel="bookmark" title="Walt Disney Co (NYSE:DIS) Shares Sold by Spinnaker Trust">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Walt Disney Co (NYSE:DIS) Shares Sold by Spinnaker Trust" />
+					<h2>Walt Disney Co (NYSE:DIS) Shares Sold by Spinnaker Trust</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 22nd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Spinnaker Trust lessened its stake in  Walt Disney Co (NYSE:DIS) by 2.8% during the second quarter, HoldingsChannel.com reports. The firm owned 37,933 shares of the entertainment giant&#8217;s stock after selling 1,087 shares during...&nbsp;<a href='https://transcriptdaily.com/2020/07/22/walt-disney-co-nysedis-shares-sold-by-spinnaker-trust.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/22/harbour-capital-advisors-llc-buys-710-shares-of-walt-disney-co-nysedis.html" rel="bookmark" title="Harbour Capital Advisors LLC Buys 710 Shares of Walt Disney Co (NYSE:DIS)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Harbour Capital Advisors LLC Buys 710 Shares of Walt Disney Co (NYSE:DIS)" />
+					<h2>Harbour Capital Advisors LLC Buys 710 Shares of Walt Disney Co (NYSE:DIS)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 22nd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Harbour Capital Advisors LLC grew its stake in  Walt Disney Co (NYSE:DIS) by 4.0% in the second quarter, HoldingsChannel.com reports. The fund owned 18,477 shares of the entertainment giant&#8217;s stock after acquiring an additional...&nbsp;<a href='https://transcriptdaily.com/2020/07/22/harbour-capital-advisors-llc-buys-710-shares-of-walt-disney-co-nysedis.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/22/private-advisory-group-llc-decreases-stake-in-walt-disney-co-nysedis.html" rel="bookmark" title="Private Advisory Group LLC Decreases Stake in Walt Disney Co (NYSE:DIS)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Private Advisory Group LLC Decreases Stake in Walt Disney Co (NYSE:DIS)" />
+					<h2>Private Advisory Group LLC Decreases Stake in Walt Disney Co (NYSE:DIS)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 22nd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Private Advisory Group LLC trimmed its holdings in  Walt Disney Co (NYSE:DIS) by 9.3% during the second quarter, HoldingsChannel.com reports. The fund owned 38,941 shares of the entertainment giant&#8217;s stock after selling 4,001...&nbsp;<a href='https://transcriptdaily.com/2020/07/22/private-advisory-group-llc-decreases-stake-in-walt-disney-co-nysedis.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/22/walt-disney-co-nysedis-position-trimmed-by-eastern-bank.html" rel="bookmark" title="Walt Disney Co (NYSE:DIS) Position Trimmed by Eastern Bank">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Walt Disney Co (NYSE:DIS) Position Trimmed by Eastern Bank" />
+					<h2>Walt Disney Co (NYSE:DIS) Position Trimmed by Eastern Bank</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 22nd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Eastern Bank reduced its stake in  Walt Disney Co (NYSE:DIS) by 6.4% in the 2nd quarter, according to the company in its most recent filing with the SEC. The fund owned 31,899 shares of the entertainment giant&#8217;s stock after selling...&nbsp;<a href='https://transcriptdaily.com/2020/07/22/walt-disney-co-nysedis-position-trimmed-by-eastern-bank.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/22/insight-2811-inc-sells-517-shares-of-walt-disney-co-nysedis.html" rel="bookmark" title="Insight 2811 Inc. Sells 517 Shares of Walt Disney Co (NYSE:DIS)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Insight 2811 Inc. Sells 517 Shares of Walt Disney Co (NYSE:DIS)" />
+					<h2>Insight 2811 Inc. Sells 517 Shares of Walt Disney Co (NYSE:DIS)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 22nd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Insight 2811 Inc. lessened its stake in  Walt Disney Co (NYSE:DIS) by 17.4% in the second quarter, according to the company in its most recent disclosure with the Securities &amp; Exchange Commission. The institutional investor  owned...&nbsp;<a href='https://transcriptdaily.com/2020/07/22/insight-2811-inc-sells-517-shares-of-walt-disney-co-nysedis.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/22/svenska-handelsbanken-ab-publ-lowers-holdings-in-walt-disney-co-nysedis.html" rel="bookmark" title="Svenska Handelsbanken AB publ Lowers Holdings in Walt Disney Co (NYSE:DIS)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Svenska Handelsbanken AB publ Lowers Holdings in Walt Disney Co (NYSE:DIS)" />
+					<h2>Svenska Handelsbanken AB publ Lowers Holdings in Walt Disney Co (NYSE:DIS)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 22nd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Svenska Handelsbanken AB publ lessened its stake in  Walt Disney Co (NYSE:DIS) by 44.1% in the 2nd quarter, according to the company in its most recent 13F filing with the Securities and Exchange Commission (SEC). The fund owned 11,800...&nbsp;<a href='https://transcriptdaily.com/2020/07/22/svenska-handelsbanken-ab-publ-lowers-holdings-in-walt-disney-co-nysedis.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/22/brookstone-capital-management-decreases-stake-in-walt-disney-co-nysedis.html" rel="bookmark" title="Brookstone Capital Management Decreases Stake in Walt Disney Co (NYSE:DIS)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Brookstone Capital Management Decreases Stake in Walt Disney Co (NYSE:DIS)" />
+					<h2>Brookstone Capital Management Decreases Stake in Walt Disney Co (NYSE:DIS)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 22nd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Brookstone Capital Management cut its holdings in  Walt Disney Co (NYSE:DIS) by 45.6% during the second quarter, according to the company in its most recent Form 13F filing with the Securities and Exchange Commission (SEC). The institutional...&nbsp;<a href='https://transcriptdaily.com/2020/07/22/brookstone-capital-management-decreases-stake-in-walt-disney-co-nysedis.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/22/price-wealth-llc-reduces-holdings-in-walt-disney-co-nysedis.html" rel="bookmark" title="Price Wealth LLC Reduces Holdings in Walt Disney Co (NYSE:DIS)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Price Wealth LLC Reduces Holdings in Walt Disney Co (NYSE:DIS)" />
+					<h2>Price Wealth LLC Reduces Holdings in Walt Disney Co (NYSE:DIS)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 22nd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Price Wealth LLC decreased its position in shares of  Walt Disney Co (NYSE:DIS) by 35.8% during the 2nd quarter, according to its most recent filing with the Securities and Exchange Commission (SEC). The firm owned 249 shares of the...&nbsp;<a href='https://transcriptdaily.com/2020/07/22/price-wealth-llc-reduces-holdings-in-walt-disney-co-nysedis.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/22/abundance-wealth-counselors-purchases-5266-shares-of-walt-disney-co-nysedis.html" rel="bookmark" title="Abundance Wealth Counselors Purchases 5,266 Shares of Walt Disney Co (NYSE:DIS)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Abundance Wealth Counselors Purchases 5,266 Shares of Walt Disney Co (NYSE:DIS)" />
+					<h2>Abundance Wealth Counselors Purchases 5,266 Shares of Walt Disney Co (NYSE:DIS)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 22nd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Abundance Wealth Counselors raised its stake in shares of  Walt Disney Co (NYSE:DIS) by 223.1% during the 2nd quarter, according to the company in its most recent 13F filing with the Securities and Exchange Commission. The institutional...&nbsp;<a href='https://transcriptdaily.com/2020/07/22/abundance-wealth-counselors-purchases-5266-shares-of-walt-disney-co-nysedis.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/22/boothe-investment-group-inc-takes-3-47-million-position-in-walt-disney-co-nysedis.html" rel="bookmark" title="Boothe Investment Group Inc. Takes $3.47 Million Position in Walt Disney Co (NYSE:DIS)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Boothe Investment Group Inc. Takes $3.47 Million Position in Walt Disney Co (NYSE:DIS)" />
+					<h2>Boothe Investment Group Inc. Takes $3.47 Million Position in Walt Disney Co (NYSE:DIS)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 22nd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Boothe Investment Group Inc. bought a new stake in shares of  Walt Disney Co (NYSE:DIS) during the 2nd quarter, according to its most recent Form 13F filing with the Securities and Exchange Commission (SEC). The fund bought 31,080...&nbsp;<a href='https://transcriptdaily.com/2020/07/22/boothe-investment-group-inc-takes-3-47-million-position-in-walt-disney-co-nysedis.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/22/intl-fcstone-nasdaqsnex-versus-t-rowe-price-group-nasdaqtrow-critical-analysis.html" rel="bookmark" title="INTL FCStone (NASDAQ:SNEX) versus T. Rowe Price Group (NASDAQ:TROW) Critical Analysis">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="INTL FCStone (NASDAQ:SNEX) versus T. Rowe Price Group (NASDAQ:TROW) Critical Analysis" />
+					<h2>INTL FCStone (NASDAQ:SNEX) versus T. Rowe Price Group (NASDAQ:TROW) Critical Analysis</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 22nd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						T. Rowe Price Group (NASDAQ:TROW) and INTL FCStone (NASDAQ:SNEX) are both finance companies, but which is the superior investment? We will contrast the two companies based on the strength of their analyst recommendations, risk, valuation,...&nbsp;<a href='https://transcriptdaily.com/2020/07/22/intl-fcstone-nasdaqsnex-versus-t-rowe-price-group-nasdaqtrow-critical-analysis.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/22/reilly-financial-advisors-llc-has-2-85-million-position-in-walt-disney-co-nysedis.html" rel="bookmark" title="Reilly Financial Advisors LLC Has $2.85 Million Position in Walt Disney Co (NYSE:DIS)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Reilly Financial Advisors LLC Has $2.85 Million Position in Walt Disney Co (NYSE:DIS)" />
+					<h2>Reilly Financial Advisors LLC Has $2.85 Million Position in Walt Disney Co (NYSE:DIS)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 22nd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Reilly Financial Advisors LLC lowered its holdings in  Walt Disney Co (NYSE:DIS) by 65.9% in the 2nd quarter, according to the company in its most recent filing with the Securities and Exchange Commission. The firm owned 25,543 shares...&nbsp;<a href='https://transcriptdaily.com/2020/07/22/reilly-financial-advisors-llc-has-2-85-million-position-in-walt-disney-co-nysedis.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/21/walt-disney-co-nysedis-shares-purchased-by-bcs-wealth-management.html" rel="bookmark" title="Walt Disney Co (NYSE:DIS) Shares Purchased by BCS Wealth Management">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Walt Disney Co (NYSE:DIS) Shares Purchased by BCS Wealth Management" />
+					<h2>Walt Disney Co (NYSE:DIS) Shares Purchased by BCS Wealth Management</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 21st, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						BCS Wealth Management raised its stake in  Walt Disney Co (NYSE:DIS) by 50.0% in the second quarter, according to the company in its most recent disclosure with the Securities &amp; Exchange Commission. The fund owned 3,523 shares...&nbsp;<a href='https://transcriptdaily.com/2020/07/21/walt-disney-co-nysedis-shares-purchased-by-bcs-wealth-management.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/21/walt-disney-co-nysedis-shares-purchased-by-meridian-financial-partners-llc.html" rel="bookmark" title="Walt Disney Co (NYSE:DIS) Shares Purchased by Meridian Financial Partners LLC">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Walt Disney Co (NYSE:DIS) Shares Purchased by Meridian Financial Partners LLC" />
+					<h2>Walt Disney Co (NYSE:DIS) Shares Purchased by Meridian Financial Partners LLC</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 21st, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Meridian Financial Partners LLC raised its stake in  Walt Disney Co (NYSE:DIS) by 25.7% during the second quarter, according to the company in its most recent 13F filing with the Securities &amp; Exchange Commission. The fund owned...&nbsp;<a href='https://transcriptdaily.com/2020/07/21/walt-disney-co-nysedis-shares-purchased-by-meridian-financial-partners-llc.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/21/bbva-usa-bancshares-inc-has-13-17-million-stake-in-walt-disney-co-nysedis.html" rel="bookmark" title="BBVA USA Bancshares Inc. Has $13.17 Million Stake in Walt Disney Co (NYSE:DIS)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="BBVA USA Bancshares Inc. Has $13.17 Million Stake in Walt Disney Co (NYSE:DIS)" />
+					<h2>BBVA USA Bancshares Inc. Has $13.17 Million Stake in Walt Disney Co (NYSE:DIS)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 21st, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						BBVA USA Bancshares Inc. lifted its position in  Walt Disney Co (NYSE:DIS) by 14.4% in the second quarter, HoldingsChannel.com reports. The firm owned 118,082 shares of the entertainment giant&#8217;s stock after acquiring an additional...&nbsp;<a href='https://transcriptdaily.com/2020/07/21/bbva-usa-bancshares-inc-has-13-17-million-stake-in-walt-disney-co-nysedis.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/21/walt-disney-co-nysedis-shares-purchased-by-atalanta-sosnoff-capital-llc.html" rel="bookmark" title="Walt Disney Co (NYSE:DIS) Shares Purchased by Atalanta Sosnoff Capital LLC">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Walt Disney Co (NYSE:DIS) Shares Purchased by Atalanta Sosnoff Capital LLC" />
+					<h2>Walt Disney Co (NYSE:DIS) Shares Purchased by Atalanta Sosnoff Capital LLC</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 21st, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Atalanta Sosnoff Capital LLC boosted its stake in  Walt Disney Co (NYSE:DIS) by 8.1% in the 2nd quarter, Holdings Channel reports. The firm owned 274,625 shares of the entertainment giant&#8217;s stock after purchasing an additional...&nbsp;<a href='https://transcriptdaily.com/2020/07/21/walt-disney-co-nysedis-shares-purchased-by-atalanta-sosnoff-capital-llc.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/21/walt-disney-co-nysedis-receives-124-96-average-target-price-from-analysts.html" rel="bookmark" title="Walt Disney Co (NYSE:DIS) Receives $124.96 Average Target Price from Analysts">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Walt Disney Co (NYSE:DIS) Receives $124.96 Average Target Price from Analysts" />
+					<h2>Walt Disney Co (NYSE:DIS) Receives $124.96 Average Target Price from Analysts</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 21st, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Walt Disney Co (NYSE:DIS) has been assigned a consensus recommendation of &#8220;Hold&#8221; from the thirty ratings firms that are currently  covering the company, MarketBeat Ratings reports. Two research analysts have rated the stock...&nbsp;<a href='https://transcriptdaily.com/2020/07/21/walt-disney-co-nysedis-receives-124-96-average-target-price-from-analysts.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/21/wolff-financial-management-llc-increases-stock-holdings-in-walt-disney-co-nysedis.html" rel="bookmark" title="Wolff Financial Management LLC Increases Stock Holdings in Walt Disney Co (NYSE:DIS)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Wolff Financial Management LLC Increases Stock Holdings in Walt Disney Co (NYSE:DIS)" />
+					<h2>Wolff Financial Management LLC Increases Stock Holdings in Walt Disney Co (NYSE:DIS)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 21st, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Wolff Financial Management LLC lifted its stake in shares of  Walt Disney Co (NYSE:DIS) by 8.8% in the 2nd quarter, according to its most recent 13F filing with the Securities and Exchange Commission. The fund owned 3,025 shares of...&nbsp;<a href='https://transcriptdaily.com/2020/07/21/wolff-financial-management-llc-increases-stock-holdings-in-walt-disney-co-nysedis.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/21/lpl-financial-nasdaqlpla-vs-intl-fcstone-nasdaqsnex-critical-survey.html" rel="bookmark" title="LPL Financial (NASDAQ:LPLA) vs. INTL FCStone (NASDAQ:SNEX) Critical Survey">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="LPL Financial (NASDAQ:LPLA) vs. INTL FCStone (NASDAQ:SNEX) Critical Survey" />
+					<h2>LPL Financial (NASDAQ:LPLA) vs. INTL FCStone (NASDAQ:SNEX) Critical Survey</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 21st, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						LPL Financial (NASDAQ:LPLA) and INTL FCStone (NASDAQ:SNEX) are both finance companies, but which is the better investment? We will compare the two companies based on the strength of their analyst recommendations, institutional ownership,...&nbsp;<a href='https://transcriptdaily.com/2020/07/21/lpl-financial-nasdaqlpla-vs-intl-fcstone-nasdaqsnex-critical-survey.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/21/oneascent-financial-services-llc-buys-391-shares-of-sony-corp-nysesne.html" rel="bookmark" title="OneAscent Financial Services LLC Buys 391 Shares of Sony Corp (NYSE:SNE)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sony-co-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="OneAscent Financial Services LLC Buys 391 Shares of Sony Corp (NYSE:SNE)" />
+					<h2>OneAscent Financial Services LLC Buys 391 Shares of Sony Corp (NYSE:SNE)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 21st, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						OneAscent Financial Services LLC grew its stake in shares of  Sony Corp (NYSE:SNE) by 6.1% during the 2nd quarter, according to the company in its most recent disclosure with the Securities &amp; Exchange Commission. The firm owned...&nbsp;<a href='https://transcriptdaily.com/2020/07/21/oneascent-financial-services-llc-buys-391-shares-of-sony-corp-nysesne.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/21/sg-americas-securities-llc-has-28-89-million-stake-in-walt-disney-co-nysedis.html" rel="bookmark" title="SG Americas Securities LLC Has $28.89 Million Stake in Walt Disney Co (NYSE:DIS)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="SG Americas Securities LLC Has $28.89 Million Stake in Walt Disney Co (NYSE:DIS)" />
+					<h2>SG Americas Securities LLC Has $28.89 Million Stake in Walt Disney Co (NYSE:DIS)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 21st, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						SG Americas Securities LLC raised its stake in shares of  Walt Disney Co (NYSE:DIS) by 61.1% during the 2nd quarter, according to the company in its most recent Form 13F filing with the Securities and Exchange Commission (SEC). The...&nbsp;<a href='https://transcriptdaily.com/2020/07/21/sg-americas-securities-llc-has-28-89-million-stake-in-walt-disney-co-nysedis.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/20/empirical-finance-llc-acquires-1507-shares-of-walt-disney-co-nysedis.html" rel="bookmark" title="Empirical Finance LLC Acquires 1,507 Shares of Walt Disney Co (NYSE:DIS)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Empirical Finance LLC Acquires 1,507 Shares of Walt Disney Co (NYSE:DIS)" />
+					<h2>Empirical Finance LLC Acquires 1,507 Shares of Walt Disney Co (NYSE:DIS)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 20th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Empirical Finance LLC boosted its holdings in shares of  Walt Disney Co (NYSE:DIS) by 14.1% in the 2nd quarter, according to the company in its most recent 13F filing with the Securities &amp; Exchange Commission. The firm owned 12,230...&nbsp;<a href='https://transcriptdaily.com/2020/07/20/empirical-finance-llc-acquires-1507-shares-of-walt-disney-co-nysedis.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/20/belpointe-asset-management-llc-has-2-23-million-holdings-in-walt-disney-co-nysedis.html" rel="bookmark" title="Belpointe Asset Management LLC Has $2.23 Million Holdings in Walt Disney Co (NYSE:DIS)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Belpointe Asset Management LLC Has $2.23 Million Holdings in Walt Disney Co (NYSE:DIS)" />
+					<h2>Belpointe Asset Management LLC Has $2.23 Million Holdings in Walt Disney Co (NYSE:DIS)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 20th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Belpointe Asset Management LLC raised its position in shares of  Walt Disney Co (NYSE:DIS) by 6.9% in the second quarter, according to its most recent 13F filing with the Securities and Exchange Commission (SEC). The institutional...&nbsp;<a href='https://transcriptdaily.com/2020/07/20/belpointe-asset-management-llc-has-2-23-million-holdings-in-walt-disney-co-nysedis.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/20/buckingham-capital-management-inc-boosts-stock-holdings-in-walt-disney-co-nysedis.html" rel="bookmark" title="Buckingham Capital Management Inc. Boosts Stock Holdings in Walt Disney Co (NYSE:DIS)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/walt-disney-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Buckingham Capital Management Inc. Boosts Stock Holdings in Walt Disney Co (NYSE:DIS)" />
+					<h2>Buckingham Capital Management Inc. Boosts Stock Holdings in Walt Disney Co (NYSE:DIS)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 20th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Buckingham Capital Management Inc. raised its holdings in shares of  Walt Disney Co (NYSE:DIS) by 4.7% during the second quarter, according to its most recent filing with the SEC. The firm owned 61,439 shares of the entertainment giant&#8217;s...&nbsp;<a href='https://transcriptdaily.com/2020/07/20/buckingham-capital-management-inc-boosts-stock-holdings-in-walt-disney-co-nysedis.html'></a>					</div></a>
+				</section> <!-- end archive -->
+				
+				<div class="navigation" style="margin-bottom:10px;">
+					<a href="https://transcriptdaily.com/page/2?s=SNE" >Next &raquo;</a>				</div><!--end .navigation-->
+
+			<div class="bottom-square-ad">
+				<script type="text/javascript">
+				(function() {
+				var html = "javascript:\"<body style='margin: 0;'><script src='https://www.googletagservices.com/tag/js/gpt.js'>googletag.pubads().set('page_url','"+window.location.href+"').definePassback('/8095840/342.network-acn.com_desktop_300x250', [300, 250]).display();<\/script></body>\"";
+				document.write('<iframe width="300" height="250" frameBorder="0" scrolling="no" marginheight="0" marginwidth="0" src="'+encodeURI(html)+'"></iframe>');
+				})();
+				</script>
+			</div> <!-- end first .bottom-square-ad -->
+
+			<div class="bottom-square-ad">
+				<script type="text/javascript">
+				(function() {
+				var html = "javascript:\"<body style='margin: 0;'><script src='https://www.googletagservices.com/tag/js/gpt.js'>googletag.pubads().set('page_url','"+window.location.href+"').definePassback('/8095840/342.network-acn.com_desktop_300x250', [300, 250]).display();<\/script></body>\"";
+				document.write('<iframe width="300" height="250" frameBorder="0" scrolling="no" marginheight="0" marginwidth="0" src="'+encodeURI(html)+'"></iframe>');
+				})();
+				</script>
+			</div> <!-- end second .bottom-square-ad -->
+
+		</main> <!-- end main -->
+	<aside>
+	<iframe src="https://marketbeat.com/scripts/MoreOnMarketBeat.aspx" width="336" height="600" frameborder="no"></iframe><br><br>
+	
+	
+<!-- first square unit -->
+
+<div class="ad336x280">
+<!-- Network Wide AdSense Unit - Top Sidebar Position -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9373162611283935" data-ad-slot="1875628183" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<!-- End AdSense Unit -->
+</div>
+
+<!-- end first square unit -->
+
+<!-- second square unit -->
+<div class="ad336x280">
+<!-- Network Wide AdSense Unit - Middle Sidebar Position -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9373162611283935" data-ad-slot="9445683366" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<!-- End AdSense Unit -->
+</div>
+
+<!-- end second square unit -->
+
+
+<!-- OptIn Form -->
+
+<!-- Start Sidebar Registration -->
+    <div class="sidebar-email">
+                        <h3>Free Email Newsletter</h3>
+         	Complete the form below to receive the latest headlines and analysts' recommendations for your stocks with our free daily email newsletter:<br/>
+        <form method="get" action="https://www.marketbeat.com/newsletter/default.aspx">
+        <input id="RegisterEmailSidebar" name="RegisterEmail" type="email" placeholder="Your Email Address">
+        <input type="hidden" id="Hidden1" name="RegistrationCode" value="Transcript Daily-Sidebar">
+        <input type="hidden" id="Hidden2" name="RegisterTicker" value="NYSE:DIS" />        <input type="submit" name="submit" onclick="return CheckEmail('RegisterEmailSidebar', 'ShowSuggestionSidebar');" value="Subscribe Now (Free Sign-Up)" class="button" style="width:336px;height:30px">
+    <div id="ShowSuggestionSidebar" style="padding-top:7px"></div>
+    </form>
+    </div>
+
+<!-- End Sidebar Registration -->
+
+<div>
+<a class="twitter-follow-button"
+  href="https://twitter.com/TranscriptDaily"
+  data-size="large">
+Follow @TranscriptDaily</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+
+<!-- Start IMS -->
+<div id="TranscriptDaily_ROS_RightRail_1" class="text-center">
+			<script type="text/javascript">
+			apntag.anq.push(function() {
+				apntag.showTag('TranscriptDaily_ROS_RightRail_1');
+			});
+			</script>
+		</div>
+<!-- End IMS --> 
+
+
+<!-- start Recent Posts -->
+        <br/>
+        <div>
+        <h3>Recent Posts</h3>
+            <ul>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/ishares-north-american-tech-software-etf-batsigv-shares-bought-by-focused-wealth-management-inc.html">iShares North American Tech-Software ETF (BATS:IGV) Shares Bought by Focused Wealth Management Inc</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/stonebridge-financial-planning-group-llc-cuts-stake-in-invesco-dynamic-leisure-and-entertainment-etf-nysearcapej.html">Stonebridge Financial Planning Group LLC Cuts Stake in Invesco Dynamic Leisure and Entertainment ETF (NYSEARCA:PEJ)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/stonebridge-financial-planning-group-llc-buys-250-shares-of-target-co-nysetgt.html">Stonebridge Financial Planning Group LLC Buys 250 Shares of Target Co. (NYSE:TGT)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/stonebridge-financial-planning-group-llc-has-30000-position-in-flowserve-corp-nysefls.html">Stonebridge Financial Planning Group LLC Has $30,000 Position in Flowserve Corp (NYSE:FLS)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/stonebridge-financial-planning-group-llc-has-45000-stock-position-in-invesco-sp-500-pure-value-etf-nysearcarpv.html">Stonebridge Financial Planning Group LLC Has $45,000 Stock Position in Invesco S&#038;P 500 Pure Value ETF (NYSEARCA:RPV)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/cubic-asset-management-llc-has-8-11-million-stock-position-in-alphabet-inc-nasdaqgoog.html">Cubic Asset Management LLC Has $8.11 Million Stock Position in Alphabet Inc (NASDAQ:GOOG)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/tabula-rasa-healthcare-inc-nasdaqtrhc-shares-sold-by-nn-investment-partners-holdings-n-v.html">Tabula Rasa HealthCare Inc (NASDAQ:TRHC) Shares Sold by NN Investment Partners Holdings N.V.</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-raises-stock-holdings-in-cvs-health-corp-nysecvs.html">NN Investment Partners Holdings N.V. Raises Stock Holdings in CVS Health Corp (NYSE:CVS)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-has-14-65-million-holdings-in-atmos-energy-co-nyseato.html">NN Investment Partners Holdings N.V. Has $14.65 Million Holdings in Atmos Energy Co. (NYSE:ATO)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-makes-new-investment-in-extra-space-storage-inc-nyseexr.html">NN Investment Partners Holdings N.V. Makes New Investment in Extra Space Storage, Inc. (NYSE:EXR)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-acquires-14497-shares-of-clorox-co-nyseclx.html">NN Investment Partners Holdings N.V. Acquires 14,497 Shares of Clorox Co (NYSE:CLX)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-has-16-51-million-holdings-in-honeywell-international-inc-nysehon.html">NN Investment Partners Holdings N.V. Has $16.51 Million Holdings in Honeywell International Inc. (NYSE:HON)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/wp-carey-inc-nysewpc-shares-bought-by-nn-investment-partners-holdings-n-v.html">WP Carey Inc (NYSE:WPC) Shares Bought by NN Investment Partners Holdings N.V.</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-decreases-position-in-alphabet-inc-nasdaqgoog.html">NN Investment Partners Holdings N.V. Decreases Position in Alphabet Inc (NASDAQ:GOOG)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-has-21-70-million-stock-holdings-in-3m-co-nysemmm.html">NN Investment Partners Holdings N.V. Has $21.70 Million Stock Holdings in 3M Co (NYSE:MMM)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/salesforce-com-inc-nysecrm-shares-acquired-by-nn-investment-partners-holdings-n-v.html">salesforce.com, inc. (NYSE:CRM) Shares Acquired by NN Investment Partners Holdings N.V.</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-has-22-41-million-holdings-in-roper-technologies-inc-nyserop.html">NN Investment Partners Holdings N.V. Has $22.41 Million Holdings in Roper Technologies Inc (NYSE:ROP)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/dxc-technology-co-nysedxc-shares-acquired-by-heritage-investors-management-corp.html">DXC Technology Co (NYSE:DXC) Shares Acquired by Heritage Investors Management Corp</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/heritage-investors-management-corp-boosts-stock-holdings-in-cvs-health-corp-nysecvs.html">Heritage Investors Management Corp Boosts Stock Holdings in CVS Health Corp (NYSE:CVS)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/csx-co-nasdaqcsx-shares-bought-by-nn-investment-partners-holdings-n-v.html">CSX Co. (NASDAQ:CSX) Shares Bought by NN Investment Partners Holdings N.V.</a></li>
+                        </ul>
+        </div>  
+
+<!-- end recent posts -->
+</aside><!--end #sidebar-->
+<div style="clear: both;"></div>
+	</div> <!-- end .width-limiter -->
+<footer class="full-width">
+			<div class="width-limiter">
+				<div id="footer-info" class="add-padding">
+					<nav class="navigation"><ul id="menu-categories-for-menus-1" class="menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-79"><a href="https://transcriptdaily.com/headlines">Headlines</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-75"><a href="https://transcriptdaily.com/business">Business</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-77"><a href="https://transcriptdaily.com/markets">Markets</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80"><a href="https://transcriptdaily.com/politics">Politics</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78"><a href="https://transcriptdaily.com/technology">Technology</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-76"><a href="https://transcriptdaily.com/health">Health</a></li>
+</ul></nav>					<span id="copyright">
+						&copy; 2006-2020 <a href="https://transcriptdaily.com">Transcript Daily</a>
+					</span>
+				</div><!-- end #footer-info -->
+			</div>	
+		</footer>
+		<script type='text/javascript' src='https://transcriptdaily.com/wp-includes/js/wp-embed.min.js?ver=5.4.2'></script>
+
+<!-- MarketBeat News Network StatCounter Code -->
+<script type="text/javascript">var sc_project=9021069; var sc_invisible=1; var sc_security="fdde5482"; var sc_https=1; </script>
+<script type="text/javascript" src="https://www.statcounter.com/counter/counter.js"></script>
+<noscript><img class="statcounter" src="https://c.statcounter.com/9021069/0/fdde5482/1/" height="1" width="1"></noscript>
+<!-- End MarketBeat News Network StatCounter Code -->
+
+<!-- Start of StatCounter Code for Transcript Daily -->
+<script type="text/javascript">
+var sc_project=11301659; 
+var sc_invisible=1; 
+var sc_security="a399788a"; 
+var sc_https=1; 
+var scJsHost = (("https:" == document.location.protocol) ? "https://secure." : "http://www.");
+</script>
+<script type="text/javascript" src="https://www.statcounter.com/counter/counter.js"></script><noscript><img class="statcounter" src="//c.statcounter.com/11301659/0/a399788a/1/" alt="Web Analytics"></a></noscript>
+<!-- End of StatCounter Code for Transcript Daily -->
+	
+
+<!-- Begin Social Sharing -->
+	<!-- End Social Sharing -->
+
+<!-- Begin Internal Tracking Pixel 2 -->
+<script type='text/javascript'>document.write('<img src="https://www.american' + 'consumernews.net/scripts/viewcount.ashx?ArticleHistoryID=57857590&PostDate=2020-7-26&type=f&id=7547600&domain=transcriptdaily.com&referrer=' + encodeURIComponent(document.referrer) + '" />');</script>
+<!-- End Internal Tracking Pixel 2-->
+
+<!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "16807273" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=16807273&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+
+
+</div>
+
+
+
+	</body>
+</html>

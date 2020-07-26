@@ -1,0 +1,642 @@
+<!doctype html>
+<html lang="en" style="display:block;min-width:1070px;">
+<head>
+<meta name="distribution" content="global" />
+<meta name="robots" content="follow, all" />
+ <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<meta name="google-site-verification" content="GTY8q3lGYJyB0uT2U_vjhGkaQdrK17O9i9M5MPMBBa0" />
+<meta name="norton-safeweb-site-verification" content="7jyvwknvdv-yfjlzt3cdz5l34h9x7f-83bdh3x3k8mjo4bci55-m3zptqbcd9hef8-62ff6hrcor8prt-i1fw6lej5kw6wovojjadjkw228gbvsi8kc6hb8n1lb270tm" />
+<meta name="viewport" content="width=1070">
+	
+<meta name="googlebot" content="noindex,follow"> 
+
+<!-- Escape from Frames -->
+<script type="text/javascript">if(self==top){document.documentElement.style.display="block"}else{top.location=self.location}</script>
+<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+<link rel="stylesheet" href="https://transcriptdaily.com/wp-content/themes/newsalambre/style.css?v=3" type="text/css" media="screen" />
+<link href="https://transcriptdaily.com/feed" rel="alternate" title="Transcript Daily RSS Feed" type="application/rss+xml" />
+<link href="https://transcriptdaily.com/feed/atom" rel="alternate" title="Transcript Daily Atom Feed" type="application/atom+xml" />
+<link href="https://transcriptdaily.com/xmlrpc.php" rel="pingback" />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Transcript Daily &raquo; Search Results for &#8220;NDAQ&#8221; Feed" href="https://transcriptdaily.com/search/NDAQ/feed/rss2/" />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://transcriptdaily.com/wp-includes/css/dist/block-library/style.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='https://api.w.org/' href='https://transcriptdaily.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://transcriptdaily.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://transcriptdaily.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.4.2" />
+<link rel="icon" href="https://transcriptdaily.com/wp-content/uploads/2017/04/Transcript-Daily-Iconpng-06.png" sizes="32x32" />
+<link rel="icon" href="https://transcriptdaily.com/wp-content/uploads/2017/04/Transcript-Daily-Iconpng-06.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://transcriptdaily.com/wp-content/uploads/2017/04/Transcript-Daily-Iconpng-06.png" />
+<meta name="msapplication-TileImage" content="https://transcriptdaily.com/wp-content/uploads/2017/04/Transcript-Daily-Iconpng-06.png" />
+
+<!-- Start Meta Data -->
+<title>Nasdaq (NASDAQ:NDAQ) Raised to &#8220;Strong-Buy&#8221; at BidaskClub - Transcript Daily</title>
+
+<!-- End Meta Data -->
+	
+	
+<script type='text/javascript'>var PopupAdChannel=''; </script>
+  <link rel="manifest" href="/manifest.json">
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"></script>
+  <script>
+  	function registerUserChange(action) {
+		OneSignal.getUserId( function(userId) {
+			OneSignalIdString = userId;
+			var Domain = 'transcriptdaily.com';
+			var url = "https://www.marketbeat.com/scripts/OneSignalTracking.ashx?OneSignalID=" + OneSignalIdString + "&domain=" + Domain + "&action=" + action;
+			var xhr = new XMLHttpRequest();
+			xhr.open('GET', url);
+			xhr.onload = function () {
+				if (xhr.status !== 200) {
+					console.log('GET failed.  Returned status of ' + xhr.status);
+				}
+			};
+			xhr.send();
+		});
+	}
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(["init", {
+      appId: "881bfa77-26cb-4cd6-9aa9-572b33abb76a",
+      safari_web_id: 'web.onesignal.auto.1d2463f6-17a6-4c7e-80c3-735ae8ddc977', 
+      autoRegister: false,
+      autoResubscribe: true,		
+      notifyButton: {
+        enable: false /* Set to false to hide */
+      },
+ welcomeNotification: {
+        "title": "Join Wall Street's Brightest Minds.",
+        "message": "Receive research in your inbox from top analysts, before the market opens. Click here to learn how.",
+         "url": "https://www.marketbeat.com/subscribe/subscribe.aspx?ReferralType=OneSignalThankYou&ProductCode=1997t"
+    }
+    },
+		OneSignal.once('subscriptionChange', function (isSubscribed) {
+			if(isSubscribed) {
+				registerUserChange("subscribe");
+			}
+			else {
+				registerUserChange("unsubscribe");
+			}
+			
+		  })
+	]);
+	if((navigator.userAgent.toLowerCase().indexOf('firefox') > -1)||((navigator.userAgent.toLowerCase().indexOf('safari') > -1)&&(!(navigator.userAgent.toLowerCase().indexOf('chrome') > -1)))){
+		OneSignal.showSlidedownPrompt();
+	} else {
+		OneSignal.showNativePrompt();		
+	}
+  </script>
+<script type="text/javascript">var vbnfgha = '211626'; var ertdfga = '13739-bup-ac'; var qhyuioa = '53938'; var AdClientID = qhyuioa + vbnfgha + ertdfga; AdClientID = AdClientID.split("").reverse().join("");</script>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: AdClientID,
+          enable_page_level_ads: true
+     });
+</script>
+<!-- Start IMS -->
+<script type="text/javascript">
+		var apntag = apntag || {};
+		apntag.anq = apntag.anq || [];
+		(function() {
+			var d = document, e = d.createElement('script'), p = d.getElementsByTagName('head')[0];
+			e.type = 'text/javascript';  e.async = true;
+			e.src = '//acdn.adnxs.com/ast/ast.js';
+			p.insertBefore(e, p.firstChild);
+		})();
+
+		
+		apntag.anq.push(function() {
+			apntag.setPageOpts({
+				member: 6989
+			});
+		});
+
+		apntag.anq.push(function() {
+
+      		apntag.defineTag({
+				tagId: 13207769,
+				sizes: [[300,250],[300,600],[300,1050]],
+				keywords: {'position': ['RightRail_1']},
+				targetId: 'TranscriptDaily_ROS_RightRail_1'
+			});
+					});
+
+		apntag.anq.push(function() {
+			apntag.loadTags();
+		});
+		</script>
+	
+<script type="text/javascript">
+(function() {
+window.advBidxc = window.advBidxc || {};
+window.advBidxc.startTime = new Date().getTime();
+function loadScript(tagSrc) {
+var scriptTag = document.createElement('script'),
+placeTag = document.getElementsByTagName("script")[0];
+scriptTag.type = 'text/javascript';
+scriptTag.async = true;
+scriptTag.src = tagSrc;
+placeTag.parentNode.insertBefore(scriptTag, placeTag);
+}
+var mnSrc = '//hbx.media.net/bidexchange.js?cid=8CU2C156D&version=5.1' + '&dn=' +
+window.location.hostname;
+loadScript(mnSrc);
+})();
+</script>
+<!-- End IMS --> 
+	
+
+</head>
+<body>
+<div id="wrap">
+
+<!-- Start MarketBeat Modern Popup -->
+<link rel="stylesheet" type="text/css" media="all" href="https://www.marketbeat.com/scripts/modal/modernpopup.css?v=11"/>
+<script type="text/javascript" src="https://www.marketbeat.com/scripts/modal/modernpopup.js?v=52"></script>
+
+	<script type="text/javascript">LoadPopupRatings('ModernNonMarketsPopup-Transcript Daily', 'transcriptdaily.com');</script>
+<!-- End MarketBeat Modern Popup -->
+	
+<header>
+	<div id="top-bar">
+		<div class="width-limiter">
+				<!-- top nav bar -->
+				<nav class="navigation"><ul id="menu-top-menu" class="menu"><li id="menu-item-81" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-81"><a href="https://transcriptdaily.com">Home</a></li>
+<li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83"><a href="https://transcriptdaily.com/privacy-policy">Privacy Policy</a></li>
+<li id="menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84"><a href="https://transcriptdaily.com/about-contact">About/Contact</a></li>
+</ul></nav>				<form id="searchform" action="https://transcriptdaily.com/" method="get">
+					<div id="search">
+						<input id="s" class="searchinput" name="s" onclick="this.value='';" type="text" />
+						<input class="searchsubmit" type="submit" value="SEARCH" />
+					</div>
+				</form><!-- end: searchform -->
+		</div><!-- end: width-limiter in top-bar -->
+	</div><!-- end: top-bar -->
+	<div class="width-limiter add-padding"><!-- start: width-limiter with logo and space for alternate header unit -->
+		<a class="logo-link" href="https://transcriptdaily.com"><img id="logo" src="/wp-content/uploads/2017/04/Transcript-Daily-Logo-04.png" alt="Transcript Daily logo"></a>
+
+<!-- Begin Header Unit -->
+<div id="AlternateHeaderUnit">
+		
+		<iframe src="https://marketbeat.com/scripts/HeaderAdNewsSites.ashx" width="728" height="90" frameborder="no" scrolling="no"></iframe>
+			</div> 
+
+<!-- End Header Unit-->
+	</div> <!-- end: width-limiter with logo and space for alternate header unit -->
+	<div id="menu">
+		<div class="width-limiter" id="nav-main">
+			<!-- start main category menu -->
+			<nav class="navigation"><ul id="menu-categories-for-menus" class="menu"><li id="menu-item-79" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-79"><a href="https://transcriptdaily.com/headlines">Headlines</a></li>
+<li id="menu-item-75" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-75"><a href="https://transcriptdaily.com/business">Business</a></li>
+<li id="menu-item-77" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-77"><a href="https://transcriptdaily.com/markets">Markets</a></li>
+<li id="menu-item-80" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80"><a href="https://transcriptdaily.com/politics">Politics</a></li>
+<li id="menu-item-78" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78"><a href="https://transcriptdaily.com/technology">Technology</a></li>
+<li id="menu-item-76" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-76"><a href="https://transcriptdaily.com/health">Health</a></li>
+</ul></nav>		</div> <!-- end: width-limiter for menu -->
+	</div> <!-- end: menu -->
+</header> <!-- end: header -->
+	<div class="width-limiter main-content">
+		
+<main>
+						<h1 class="archive-category"><a href="https://transcriptdaily.com">Home</a> &raquo; Search Results</h1>
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/nasdaq-nasdaqndaq-raised-to-strong-buy-at-bidaskclub.html" rel="bookmark" title="Nasdaq (NASDAQ:NDAQ) Raised to &#8220;Strong-Buy&#8221; at BidaskClub">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nasdaq-omx-group-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Nasdaq (NASDAQ:NDAQ) Raised to &#8220;Strong-Buy&#8221; at BidaskClub" />
+					<h2>Nasdaq (NASDAQ:NDAQ) Raised to &#8220;Strong-Buy&#8221; at BidaskClub</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						BidaskClub upgraded shares of Nasdaq (NASDAQ:NDAQ) from a buy rating to a strong-buy rating in a research report released on Thursday, BidAskClub reports.
+A number of other equities analysts also recently commented on the stock. Deutsche...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/nasdaq-nasdaqndaq-raised-to-strong-buy-at-bidaskclub.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/25/leavell-investment-management-inc-sells-103-shares-of-nasdaq-inc-nasdaqndaq.html" rel="bookmark" title="Leavell Investment Management Inc. Sells 103 Shares of Nasdaq Inc (NASDAQ:NDAQ)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nasdaq-omx-group-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Leavell Investment Management Inc. Sells 103 Shares of Nasdaq Inc (NASDAQ:NDAQ)" />
+					<h2>Leavell Investment Management Inc. Sells 103 Shares of Nasdaq Inc (NASDAQ:NDAQ)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 25th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Leavell Investment Management Inc. decreased its position in shares of  Nasdaq Inc (NASDAQ:NDAQ) by 1.0% in the 2nd quarter, according to its most recent Form 13F filing with the Securities &amp; Exchange Commission. The firm owned...&nbsp;<a href='https://transcriptdaily.com/2020/07/25/leavell-investment-management-inc-sells-103-shares-of-nasdaq-inc-nasdaqndaq.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/25/nasdaq-nasdaqndaq-posts-quarterly-earnings-results-beats-expectations-by-0-09-eps.html" rel="bookmark" title="Nasdaq (NASDAQ:NDAQ) Posts Quarterly  Earnings Results, Beats Expectations By $0.09 EPS">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nasdaq-omx-group-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Nasdaq (NASDAQ:NDAQ) Posts Quarterly  Earnings Results, Beats Expectations By $0.09 EPS" />
+					<h2>Nasdaq (NASDAQ:NDAQ) Posts Quarterly  Earnings Results, Beats Expectations By $0.09 EPS</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 25th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Nasdaq (NASDAQ:NDAQ) announced its earnings results on Wednesday. The financial services provider reported $1.54 earnings per share for the quarter, topping the Thomson Reuters&#8217; consensus estimate of $1.45 by $0.09, MarketWatch...&nbsp;<a href='https://transcriptdaily.com/2020/07/25/nasdaq-nasdaqndaq-posts-quarterly-earnings-results-beats-expectations-by-0-09-eps.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/25/nasdaq-inc-ndaq-to-go-ex-dividend-on-september-10th.html" rel="bookmark" title="Nasdaq Inc (NDAQ) To Go Ex-Dividend on September 10th">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nasdaq-omx-group-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Nasdaq Inc (NDAQ) To Go Ex-Dividend on September 10th" />
+					<h2>Nasdaq Inc (NDAQ) To Go Ex-Dividend on September 10th</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 25th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Nasdaq Inc (NASDAQ:NDAQ) declared a quarterly dividend on Thursday, July 23rd, Wall Street Journal reports. Stockholders of record on Friday, September 11th will be paid a dividend of 0.49 per share by the financial services provider...&nbsp;<a href='https://transcriptdaily.com/2020/07/25/nasdaq-inc-ndaq-to-go-ex-dividend-on-september-10th.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/25/nasdaq-nasdaqndaq-cut-to-market-perform-at-raymond-james.html" rel="bookmark" title="Nasdaq (NASDAQ:NDAQ) Cut to Market Perform at Raymond James">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nasdaq-omx-group-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Nasdaq (NASDAQ:NDAQ) Cut to Market Perform at Raymond James" />
+					<h2>Nasdaq (NASDAQ:NDAQ) Cut to Market Perform at Raymond James</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 25th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Raymond James cut shares of Nasdaq (NASDAQ:NDAQ) from an outperform rating to a market perform rating in a research note published on Tuesday, Benzinga reports. The analysts noted that the move was a valuation call.
+Several other equities...&nbsp;<a href='https://transcriptdaily.com/2020/07/25/nasdaq-nasdaqndaq-cut-to-market-perform-at-raymond-james.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/24/piper-sandler-weighs-in-on-nasdaq-incs-fy2020-earnings-nasdaqndaq.html" rel="bookmark" title="Piper Sandler Weighs in on Nasdaq Inc&#8217;s FY2020 Earnings (NASDAQ:NDAQ)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nasdaq-omx-group-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Piper Sandler Weighs in on Nasdaq Inc&#8217;s FY2020 Earnings (NASDAQ:NDAQ)" />
+					<h2>Piper Sandler Weighs in on Nasdaq Inc&#8217;s FY2020 Earnings (NASDAQ:NDAQ)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 24th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						
+Nasdaq Inc (NASDAQ:NDAQ) &#8211; Stock analysts at  Piper Sandler upped their FY2020 earnings per share (EPS) estimates for shares of Nasdaq  in a research report issued to clients and investors on  Wednesday, July 22nd. Piper Sandler...&nbsp;<a href='https://transcriptdaily.com/2020/07/24/piper-sandler-weighs-in-on-nasdaq-incs-fy2020-earnings-nasdaqndaq.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/24/nasdaq-nasdaqndaq-coverage-initiated-at-oppenheimer.html" rel="bookmark" title="Nasdaq (NASDAQ:NDAQ) Coverage Initiated at Oppenheimer">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nasdaq-omx-group-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Nasdaq (NASDAQ:NDAQ) Coverage Initiated at Oppenheimer" />
+					<h2>Nasdaq (NASDAQ:NDAQ) Coverage Initiated at Oppenheimer</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 24th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Equities researchers at Oppenheimer started coverage on shares of Nasdaq (NASDAQ:NDAQ) in a research note issued on Wednesday, TipRanks reports. The firm set a &#8220;buy&#8221; rating and a $141.00 price target on the financial services...&nbsp;<a href='https://transcriptdaily.com/2020/07/24/nasdaq-nasdaqndaq-coverage-initiated-at-oppenheimer.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/23/nasdaq-nasdaqndaq-cut-to-hold-at-argus.html" rel="bookmark" title="Nasdaq (NASDAQ:NDAQ) Cut to Hold at Argus">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nasdaq-omx-group-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Nasdaq (NASDAQ:NDAQ) Cut to Hold at Argus" />
+					<h2>Nasdaq (NASDAQ:NDAQ) Cut to Hold at Argus</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 23rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Nasdaq (NASDAQ:NDAQ) was downgraded by stock analysts at Argus from a &#8220;buy&#8221; rating to a &#8220;hold&#8221; rating in a report issued on Thursday, Marketbeat Ratings reports. They currently have a $120.00 price objective...&nbsp;<a href='https://transcriptdaily.com/2020/07/23/nasdaq-nasdaqndaq-cut-to-hold-at-argus.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/23/deutsche-bank-increases-nasdaq-nasdaqndaq-price-target-to-143-00.html" rel="bookmark" title="Deutsche Bank Increases Nasdaq (NASDAQ:NDAQ) Price Target to $143.00">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nasdaq-omx-group-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Deutsche Bank Increases Nasdaq (NASDAQ:NDAQ) Price Target to $143.00" />
+					<h2>Deutsche Bank Increases Nasdaq (NASDAQ:NDAQ) Price Target to $143.00</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 23rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Nasdaq (NASDAQ:NDAQ) had its target price boosted by Deutsche Bank  from $133.00 to $143.00 in a research note issued on Thursday, The Fly reports. The firm currently has a &#8220;buy&#8221; rating on the financial services provider&#8217;s...&nbsp;<a href='https://transcriptdaily.com/2020/07/23/deutsche-bank-increases-nasdaq-nasdaqndaq-price-target-to-143-00.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/23/citigroup-increases-nasdaq-nasdaqndaq-price-target-to-127-00.html" rel="bookmark" title="Citigroup Increases Nasdaq (NASDAQ:NDAQ) Price Target to $127.00">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nasdaq-omx-group-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Citigroup Increases Nasdaq (NASDAQ:NDAQ) Price Target to $127.00" />
+					<h2>Citigroup Increases Nasdaq (NASDAQ:NDAQ) Price Target to $127.00</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 23rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Nasdaq (NASDAQ:NDAQ) had its price target lifted by Citigroup from $107.00 to $127.00 in a research report sent to investors on Monday, BenzingaRatingsTable reports. They currently have a neutral rating on the financial services provider&#8217;s...&nbsp;<a href='https://transcriptdaily.com/2020/07/23/citigroup-increases-nasdaq-nasdaqndaq-price-target-to-127-00.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/22/nasdaq-inc-nasdaqndaq-shares-sold-by-svenska-handelsbanken-ab-publ.html" rel="bookmark" title="Nasdaq Inc (NASDAQ:NDAQ) Shares Sold by Svenska Handelsbanken AB publ">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nasdaq-omx-group-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Nasdaq Inc (NASDAQ:NDAQ) Shares Sold by Svenska Handelsbanken AB publ" />
+					<h2>Nasdaq Inc (NASDAQ:NDAQ) Shares Sold by Svenska Handelsbanken AB publ</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 22nd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Svenska Handelsbanken AB publ lowered its stake in shares of  Nasdaq Inc (NASDAQ:NDAQ) by 19.1% in the second quarter, according to its most recent 13F filing with the Securities &amp; Exchange Commission. The firm owned 22,400 shares...&nbsp;<a href='https://transcriptdaily.com/2020/07/22/nasdaq-inc-nasdaqndaq-shares-sold-by-svenska-handelsbanken-ab-publ.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/18/nasdaq-nasdaqndaq-and-intl-fcstone-nasdaqsnex-critical-comparison.html" rel="bookmark" title="Nasdaq (NASDAQ:NDAQ) and INTL FCStone (NASDAQ:SNEX) Critical Comparison">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Nasdaq (NASDAQ:NDAQ) and INTL FCStone (NASDAQ:SNEX) Critical Comparison" />
+					<h2>Nasdaq (NASDAQ:NDAQ) and INTL FCStone (NASDAQ:SNEX) Critical Comparison</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 18th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Nasdaq (NASDAQ:NDAQ) and INTL FCStone (NASDAQ:SNEX) are both finance companies, but which is the superior business? We will compare the two businesses based on the strength of their institutional ownership, analyst recommendations,...&nbsp;<a href='https://transcriptdaily.com/2020/07/18/nasdaq-nasdaqndaq-and-intl-fcstone-nasdaqsnex-critical-comparison.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/16/nasdaq-nasdaqndaq-pt-raised-to-141-00-at-oppenheimer.html" rel="bookmark" title="Nasdaq (NASDAQ:NDAQ) PT Raised to $141.00 at Oppenheimer">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nasdaq-omx-group-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Nasdaq (NASDAQ:NDAQ) PT Raised to $141.00 at Oppenheimer" />
+					<h2>Nasdaq (NASDAQ:NDAQ) PT Raised to $141.00 at Oppenheimer</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 16th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Nasdaq (NASDAQ:NDAQ) had its target price increased by analysts at Oppenheimer  from $135.00 to $141.00 in a research note issued on Monday, BenzingaRatingsTable reports. The brokerage currently has an &#8220;outperform&#8221; rating...&nbsp;<a href='https://transcriptdaily.com/2020/07/16/nasdaq-nasdaqndaq-pt-raised-to-141-00-at-oppenheimer.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/16/piper-sandler-comments-on-nasdaq-incs-q1-2021-earnings-nasdaqndaq.html" rel="bookmark" title="Piper Sandler Comments on Nasdaq Inc&#8217;s Q1 2021 Earnings (NASDAQ:NDAQ)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nasdaq-omx-group-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Piper Sandler Comments on Nasdaq Inc&#8217;s Q1 2021 Earnings (NASDAQ:NDAQ)" />
+					<h2>Piper Sandler Comments on Nasdaq Inc&#8217;s Q1 2021 Earnings (NASDAQ:NDAQ)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 16th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						
+Nasdaq Inc (NASDAQ:NDAQ) &#8211;  Piper Sandler raised their Q1 2021 earnings per share (EPS) estimates for Nasdaq  in a research report issued to clients and investors on  Friday, July 10th. Piper Sandler analyst R. Repetto now expects...&nbsp;<a href='https://transcriptdaily.com/2020/07/16/piper-sandler-comments-on-nasdaq-incs-q1-2021-earnings-nasdaqndaq.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/15/jefferies-financial-group-comments-on-nasdaq-incs-q3-2020-earnings-nasdaqndaq.html" rel="bookmark" title="Jefferies Financial Group Comments on Nasdaq Inc&#8217;s Q3 2020 Earnings (NASDAQ:NDAQ)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nasdaq-omx-group-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Jefferies Financial Group Comments on Nasdaq Inc&#8217;s Q3 2020 Earnings (NASDAQ:NDAQ)" />
+					<h2>Jefferies Financial Group Comments on Nasdaq Inc&#8217;s Q3 2020 Earnings (NASDAQ:NDAQ)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 15th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						
+Nasdaq Inc (NASDAQ:NDAQ) &#8211; Stock analysts at  Jefferies Financial Group raised their Q3 2020 earnings per share estimates for Nasdaq  in a research note issued on  Wednesday, July 8th. Jefferies Financial Group analyst D. Fannon...&nbsp;<a href='https://transcriptdaily.com/2020/07/15/jefferies-financial-group-comments-on-nasdaq-incs-q3-2020-earnings-nasdaqndaq.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/14/bank-of-america-increases-nasdaq-nasdaqndaq-price-target-to-140-00.html" rel="bookmark" title="Bank of America Increases Nasdaq (NASDAQ:NDAQ) Price Target to $140.00">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nasdaq-omx-group-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Bank of America Increases Nasdaq (NASDAQ:NDAQ) Price Target to $140.00" />
+					<h2>Bank of America Increases Nasdaq (NASDAQ:NDAQ) Price Target to $140.00</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 14th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Nasdaq (NASDAQ:NDAQ) had its target price increased by Bank of America from $128.00 to $140.00 in a report released on Friday morning, BenzingaRatingsTable reports. Bank of America currently has a buy rating on the financial services...&nbsp;<a href='https://transcriptdaily.com/2020/07/14/bank-of-america-increases-nasdaq-nasdaqndaq-price-target-to-140-00.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/11/nasdaq-nasdaqndaq-pt-raised-to-130-00-at-raymond-james.html" rel="bookmark" title="Nasdaq (NASDAQ:NDAQ) PT Raised to $130.00 at Raymond James">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nasdaq-omx-group-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Nasdaq (NASDAQ:NDAQ) PT Raised to $130.00 at Raymond James" />
+					<h2>Nasdaq (NASDAQ:NDAQ) PT Raised to $130.00 at Raymond James</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 11th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Nasdaq (NASDAQ:NDAQ) had its price objective hoisted by Raymond James from $117.00 to $130.00 in a research report report published on Friday, BenzingaRatingsTable reports. The brokerage currently has an outperform rating on the financial...&nbsp;<a href='https://transcriptdaily.com/2020/07/11/nasdaq-nasdaqndaq-pt-raised-to-130-00-at-raymond-james.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/10/nasdaq-nasdaqndaq-price-target-raised-to-135-00.html" rel="bookmark" title="Nasdaq (NASDAQ:NDAQ) Price Target Raised to $135.00">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nasdaq-omx-group-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Nasdaq (NASDAQ:NDAQ) Price Target Raised to $135.00" />
+					<h2>Nasdaq (NASDAQ:NDAQ) Price Target Raised to $135.00</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 10th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Nasdaq (NASDAQ:NDAQ) had its price target lifted by analysts at Wells Fargo &#038; Co  from $115.00 to $135.00 in a report issued on Friday, BenzingaRatingsTable reports. The firm presently has an &#8220;overweight&#8221; rating on...&nbsp;<a href='https://transcriptdaily.com/2020/07/10/nasdaq-nasdaqndaq-price-target-raised-to-135-00.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/10/q2-2020-eps-estimates-for-nasdaq-inc-increased-by-analyst-nasdaqndaq.html" rel="bookmark" title="Q2 2020 EPS Estimates for Nasdaq Inc Increased by Analyst (NASDAQ:NDAQ)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nasdaq-omx-group-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Q2 2020 EPS Estimates for Nasdaq Inc Increased by Analyst (NASDAQ:NDAQ)" />
+					<h2>Q2 2020 EPS Estimates for Nasdaq Inc Increased by Analyst (NASDAQ:NDAQ)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 10th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						
+Nasdaq Inc (NASDAQ:NDAQ) &#8211; Equities researchers at  Piper Sandler increased their Q2 2020 earnings estimates for Nasdaq  in a research report issued to clients and investors on  Tuesday, July 7th. Piper Sandler analyst R. Repetto...&nbsp;<a href='https://transcriptdaily.com/2020/07/10/q2-2020-eps-estimates-for-nasdaq-inc-increased-by-analyst-nasdaqndaq.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/09/deutsche-bank-boosts-nasdaq-nasdaqndaq-price-target-to-133-00.html" rel="bookmark" title="Deutsche Bank Boosts Nasdaq (NASDAQ:NDAQ) Price Target to $133.00">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nasdaq-omx-group-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Deutsche Bank Boosts Nasdaq (NASDAQ:NDAQ) Price Target to $133.00" />
+					<h2>Deutsche Bank Boosts Nasdaq (NASDAQ:NDAQ) Price Target to $133.00</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 9th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Nasdaq (NASDAQ:NDAQ) had its target price upped by equities research analysts at Deutsche Bank  from $131.00 to $133.00 in a research report issued to clients and investors on Thursday, BenzingaRatingsTable reports. The firm presently...&nbsp;<a href='https://transcriptdaily.com/2020/07/09/deutsche-bank-boosts-nasdaq-nasdaqndaq-price-target-to-133-00.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/03/brokerages-anticipate-nasdaq-inc-nasdaqndaq-to-post-1-41-earnings-per-share.html" rel="bookmark" title="Brokerages Anticipate Nasdaq Inc (NASDAQ:NDAQ) to Post $1.41 Earnings Per Share">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nasdaq-omx-group-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Brokerages Anticipate Nasdaq Inc (NASDAQ:NDAQ) to Post $1.41 Earnings Per Share" />
+					<h2>Brokerages Anticipate Nasdaq Inc (NASDAQ:NDAQ) to Post $1.41 Earnings Per Share</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 3rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Wall Street brokerages expect Nasdaq Inc (NASDAQ:NDAQ) to post earnings of $1.41 per share for the current fiscal quarter, Zacks Investment Research reports. Five analysts have made estimates for Nasdaq&#8217;s earnings, with the lowest...&nbsp;<a href='https://transcriptdaily.com/2020/07/03/brokerages-anticipate-nasdaq-inc-nasdaqndaq-to-post-1-41-earnings-per-share.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/02/nasdaq-inc-nasdaqndaq-shares-sold-by-thomasville-national-bank.html" rel="bookmark" title="Nasdaq Inc (NASDAQ:NDAQ) Shares Sold by Thomasville National Bank">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nasdaq-omx-group-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Nasdaq Inc (NASDAQ:NDAQ) Shares Sold by Thomasville National Bank" />
+					<h2>Nasdaq Inc (NASDAQ:NDAQ) Shares Sold by Thomasville National Bank</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 2nd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Thomasville National Bank lowered its stake in shares of  Nasdaq Inc (NASDAQ:NDAQ) by 4.2% during the second quarter, according to its most recent Form 13F filing with the SEC. The fund owned 2,100 shares of the financial services...&nbsp;<a href='https://transcriptdaily.com/2020/07/02/nasdaq-inc-nasdaqndaq-shares-sold-by-thomasville-national-bank.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/30/nasdaq-inc-nasdaqndaq-receives-average-rating-of-buy-from-analysts.html" rel="bookmark" title="Nasdaq Inc (NASDAQ:NDAQ) Receives Average Rating of &#8220;Buy&#8221; from Analysts">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nasdaq-omx-group-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Nasdaq Inc (NASDAQ:NDAQ) Receives Average Rating of &#8220;Buy&#8221; from Analysts" />
+					<h2>Nasdaq Inc (NASDAQ:NDAQ) Receives Average Rating of &#8220;Buy&#8221; from Analysts</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jun 30th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Nasdaq Inc (NASDAQ:NDAQ) has received an average recommendation of &#8220;Buy&#8221; from the twelve brokerages that are  covering the company, MarketBeat reports. Five analysts have rated the stock with a hold rating and seven have...&nbsp;<a href='https://transcriptdaily.com/2020/06/30/nasdaq-inc-nasdaqndaq-receives-average-rating-of-buy-from-analysts.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/28/state-of-tennessee-treasury-department-boosts-stake-in-nasdaq-inc-nasdaqndaq.html" rel="bookmark" title="State of Tennessee Treasury Department Boosts Stake in Nasdaq Inc (NASDAQ:NDAQ)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nasdaq-omx-group-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="State of Tennessee Treasury Department Boosts Stake in Nasdaq Inc (NASDAQ:NDAQ)" />
+					<h2>State of Tennessee Treasury Department Boosts Stake in Nasdaq Inc (NASDAQ:NDAQ)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jun 28th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						State of Tennessee Treasury Department raised its position in shares of  Nasdaq Inc (NASDAQ:NDAQ) by 68.1% in the first quarter, according to the company in its most recent Form 13F filing with the Securities and Exchange Commission....&nbsp;<a href='https://transcriptdaily.com/2020/06/28/state-of-tennessee-treasury-department-boosts-stake-in-nasdaq-inc-nasdaqndaq.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/28/nasdaq-inc-nasdaqndaq-shares-purchased-by-optimal-asset-management-inc.html" rel="bookmark" title="Nasdaq Inc (NASDAQ:NDAQ) Shares Purchased by Optimal Asset Management Inc.">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nasdaq-omx-group-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Nasdaq Inc (NASDAQ:NDAQ) Shares Purchased by Optimal Asset Management Inc." />
+					<h2>Nasdaq Inc (NASDAQ:NDAQ) Shares Purchased by Optimal Asset Management Inc.</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jun 28th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Optimal Asset Management Inc. boosted its holdings in  Nasdaq Inc (NASDAQ:NDAQ) by 101.0% during the first quarter, according to the company in its most recent filing with the Securities and Exchange Commission. The fund owned 5,456...&nbsp;<a href='https://transcriptdaily.com/2020/06/28/nasdaq-inc-nasdaqndaq-shares-purchased-by-optimal-asset-management-inc.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/26/apg-asset-management-n-v-grows-stock-holdings-in-nasdaq-inc-nasdaqndaq.html" rel="bookmark" title="APG Asset Management N.V. Grows Stock Holdings in Nasdaq Inc (NASDAQ:NDAQ)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nasdaq-omx-group-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="APG Asset Management N.V. Grows Stock Holdings in Nasdaq Inc (NASDAQ:NDAQ)" />
+					<h2>APG Asset Management N.V. Grows Stock Holdings in Nasdaq Inc (NASDAQ:NDAQ)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jun 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						APG Asset Management N.V. grew its holdings in shares of  Nasdaq Inc (NASDAQ:NDAQ) by 73.9% in the 1st quarter, Holdings Channel.com reports. The institutional investor  owned 138,829 shares of the financial services provider&#8217;s...&nbsp;<a href='https://transcriptdaily.com/2020/06/26/apg-asset-management-n-v-grows-stock-holdings-in-nasdaq-inc-nasdaqndaq.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/24/nasdaq-nasdaqndaq-upgraded-by-bidaskclub-to-buy.html" rel="bookmark" title="Nasdaq (NASDAQ:NDAQ) Upgraded by BidaskClub to Buy">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nasdaq-omx-group-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Nasdaq (NASDAQ:NDAQ) Upgraded by BidaskClub to Buy" />
+					<h2>Nasdaq (NASDAQ:NDAQ) Upgraded by BidaskClub to Buy</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jun 24th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						BidaskClub upgraded shares of Nasdaq (NASDAQ:NDAQ) from a hold rating to a buy rating in a report released on Tuesday, BidAskClub reports.
+A number of other equities analysts also recently commented on NDAQ. Oppenheimer  restated an...&nbsp;<a href='https://transcriptdaily.com/2020/06/24/nasdaq-nasdaqndaq-upgraded-by-bidaskclub-to-buy.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/22/peapack-gladstone-financial-corp-increases-position-in-nasdaq-inc-nasdaqndaq.html" rel="bookmark" title="Peapack Gladstone Financial Corp Increases Position in Nasdaq Inc (NASDAQ:NDAQ)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nasdaq-omx-group-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Peapack Gladstone Financial Corp Increases Position in Nasdaq Inc (NASDAQ:NDAQ)" />
+					<h2>Peapack Gladstone Financial Corp Increases Position in Nasdaq Inc (NASDAQ:NDAQ)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jun 22nd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Peapack Gladstone Financial Corp raised its holdings in shares of  Nasdaq Inc (NASDAQ:NDAQ) by 10.5% in the 1st quarter, according to its most recent 13F filing with the Securities and Exchange Commission. The institutional investor...&nbsp;<a href='https://transcriptdaily.com/2020/06/22/peapack-gladstone-financial-corp-increases-position-in-nasdaq-inc-nasdaqndaq.html'></a>					</div></a>
+				</section> <!-- end archive -->
+				
+				<div class="navigation" style="margin-bottom:10px;">
+									</div><!--end .navigation-->
+
+			<div class="bottom-square-ad">
+				<script type="text/javascript">
+				(function() {
+				var html = "javascript:\"<body style='margin: 0;'><script src='https://www.googletagservices.com/tag/js/gpt.js'>googletag.pubads().set('page_url','"+window.location.href+"').definePassback('/8095840/342.network-acn.com_desktop_300x250', [300, 250]).display();<\/script></body>\"";
+				document.write('<iframe width="300" height="250" frameBorder="0" scrolling="no" marginheight="0" marginwidth="0" src="'+encodeURI(html)+'"></iframe>');
+				})();
+				</script>
+			</div> <!-- end first .bottom-square-ad -->
+
+			<div class="bottom-square-ad">
+				<script type="text/javascript">
+				(function() {
+				var html = "javascript:\"<body style='margin: 0;'><script src='https://www.googletagservices.com/tag/js/gpt.js'>googletag.pubads().set('page_url','"+window.location.href+"').definePassback('/8095840/342.network-acn.com_desktop_300x250', [300, 250]).display();<\/script></body>\"";
+				document.write('<iframe width="300" height="250" frameBorder="0" scrolling="no" marginheight="0" marginwidth="0" src="'+encodeURI(html)+'"></iframe>');
+				})();
+				</script>
+			</div> <!-- end second .bottom-square-ad -->
+
+		</main> <!-- end main -->
+	<aside>
+	<iframe src="https://marketbeat.com/scripts/MoreOnMarketBeat.aspx" width="336" height="600" frameborder="no"></iframe><br><br>
+	
+	
+<!-- first square unit -->
+
+<div class="ad336x280">
+<!-- Network Wide AdSense Unit - Top Sidebar Position -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9373162611283935" data-ad-slot="1875628183" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<!-- End AdSense Unit -->
+</div>
+
+<!-- end first square unit -->
+
+<!-- second square unit -->
+<div class="ad336x280">
+<!-- Network Wide AdSense Unit - Middle Sidebar Position -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9373162611283935" data-ad-slot="9445683366" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<!-- End AdSense Unit -->
+</div>
+
+<!-- end second square unit -->
+
+
+<!-- OptIn Form -->
+
+<!-- Start Sidebar Registration -->
+    <div class="sidebar-email">
+                        <h3>Free Email Newsletter</h3>
+         	Complete the form below to receive the latest headlines and analysts' recommendations for your stocks with our free daily email newsletter:<br/>
+        <form method="get" action="https://www.marketbeat.com/newsletter/default.aspx">
+        <input id="RegisterEmailSidebar" name="RegisterEmail" type="email" placeholder="Your Email Address">
+        <input type="hidden" id="Hidden1" name="RegistrationCode" value="Transcript Daily-Sidebar">
+        <input type="hidden" id="Hidden2" name="RegisterTicker" value="NASDAQ:NDAQ" />        <input type="submit" name="submit" onclick="return CheckEmail('RegisterEmailSidebar', 'ShowSuggestionSidebar');" value="Subscribe Now (Free Sign-Up)" class="button" style="width:336px;height:30px">
+    <div id="ShowSuggestionSidebar" style="padding-top:7px"></div>
+    </form>
+    </div>
+
+<!-- End Sidebar Registration -->
+
+<div>
+<a class="twitter-follow-button"
+  href="https://twitter.com/TranscriptDaily"
+  data-size="large">
+Follow @TranscriptDaily</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+
+<!-- Start IMS -->
+<div id="TranscriptDaily_ROS_RightRail_1" class="text-center">
+			<script type="text/javascript">
+			apntag.anq.push(function() {
+				apntag.showTag('TranscriptDaily_ROS_RightRail_1');
+			});
+			</script>
+		</div>
+<!-- End IMS --> 
+
+
+<!-- start Recent Posts -->
+        <br/>
+        <div>
+        <h3>Recent Posts</h3>
+            <ul>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/ishares-north-american-tech-software-etf-batsigv-shares-bought-by-focused-wealth-management-inc.html">iShares North American Tech-Software ETF (BATS:IGV) Shares Bought by Focused Wealth Management Inc</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/stonebridge-financial-planning-group-llc-cuts-stake-in-invesco-dynamic-leisure-and-entertainment-etf-nysearcapej.html">Stonebridge Financial Planning Group LLC Cuts Stake in Invesco Dynamic Leisure and Entertainment ETF (NYSEARCA:PEJ)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/stonebridge-financial-planning-group-llc-buys-250-shares-of-target-co-nysetgt.html">Stonebridge Financial Planning Group LLC Buys 250 Shares of Target Co. (NYSE:TGT)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/stonebridge-financial-planning-group-llc-has-30000-position-in-flowserve-corp-nysefls.html">Stonebridge Financial Planning Group LLC Has $30,000 Position in Flowserve Corp (NYSE:FLS)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/stonebridge-financial-planning-group-llc-has-45000-stock-position-in-invesco-sp-500-pure-value-etf-nysearcarpv.html">Stonebridge Financial Planning Group LLC Has $45,000 Stock Position in Invesco S&#038;P 500 Pure Value ETF (NYSEARCA:RPV)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/cubic-asset-management-llc-has-8-11-million-stock-position-in-alphabet-inc-nasdaqgoog.html">Cubic Asset Management LLC Has $8.11 Million Stock Position in Alphabet Inc (NASDAQ:GOOG)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/tabula-rasa-healthcare-inc-nasdaqtrhc-shares-sold-by-nn-investment-partners-holdings-n-v.html">Tabula Rasa HealthCare Inc (NASDAQ:TRHC) Shares Sold by NN Investment Partners Holdings N.V.</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-raises-stock-holdings-in-cvs-health-corp-nysecvs.html">NN Investment Partners Holdings N.V. Raises Stock Holdings in CVS Health Corp (NYSE:CVS)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-has-14-65-million-holdings-in-atmos-energy-co-nyseato.html">NN Investment Partners Holdings N.V. Has $14.65 Million Holdings in Atmos Energy Co. (NYSE:ATO)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-makes-new-investment-in-extra-space-storage-inc-nyseexr.html">NN Investment Partners Holdings N.V. Makes New Investment in Extra Space Storage, Inc. (NYSE:EXR)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-acquires-14497-shares-of-clorox-co-nyseclx.html">NN Investment Partners Holdings N.V. Acquires 14,497 Shares of Clorox Co (NYSE:CLX)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-has-16-51-million-holdings-in-honeywell-international-inc-nysehon.html">NN Investment Partners Holdings N.V. Has $16.51 Million Holdings in Honeywell International Inc. (NYSE:HON)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/wp-carey-inc-nysewpc-shares-bought-by-nn-investment-partners-holdings-n-v.html">WP Carey Inc (NYSE:WPC) Shares Bought by NN Investment Partners Holdings N.V.</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-decreases-position-in-alphabet-inc-nasdaqgoog.html">NN Investment Partners Holdings N.V. Decreases Position in Alphabet Inc (NASDAQ:GOOG)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-has-21-70-million-stock-holdings-in-3m-co-nysemmm.html">NN Investment Partners Holdings N.V. Has $21.70 Million Stock Holdings in 3M Co (NYSE:MMM)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/salesforce-com-inc-nysecrm-shares-acquired-by-nn-investment-partners-holdings-n-v.html">salesforce.com, inc. (NYSE:CRM) Shares Acquired by NN Investment Partners Holdings N.V.</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-has-22-41-million-holdings-in-roper-technologies-inc-nyserop.html">NN Investment Partners Holdings N.V. Has $22.41 Million Holdings in Roper Technologies Inc (NYSE:ROP)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/dxc-technology-co-nysedxc-shares-acquired-by-heritage-investors-management-corp.html">DXC Technology Co (NYSE:DXC) Shares Acquired by Heritage Investors Management Corp</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/heritage-investors-management-corp-boosts-stock-holdings-in-cvs-health-corp-nysecvs.html">Heritage Investors Management Corp Boosts Stock Holdings in CVS Health Corp (NYSE:CVS)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/csx-co-nasdaqcsx-shares-bought-by-nn-investment-partners-holdings-n-v.html">CSX Co. (NASDAQ:CSX) Shares Bought by NN Investment Partners Holdings N.V.</a></li>
+                        </ul>
+        </div>  
+
+<!-- end recent posts -->
+</aside><!--end #sidebar-->
+<div style="clear: both;"></div>
+	</div> <!-- end .width-limiter -->
+<footer class="full-width">
+			<div class="width-limiter">
+				<div id="footer-info" class="add-padding">
+					<nav class="navigation"><ul id="menu-categories-for-menus-1" class="menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-79"><a href="https://transcriptdaily.com/headlines">Headlines</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-75"><a href="https://transcriptdaily.com/business">Business</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-77"><a href="https://transcriptdaily.com/markets">Markets</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80"><a href="https://transcriptdaily.com/politics">Politics</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78"><a href="https://transcriptdaily.com/technology">Technology</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-76"><a href="https://transcriptdaily.com/health">Health</a></li>
+</ul></nav>					<span id="copyright">
+						&copy; 2006-2020 <a href="https://transcriptdaily.com">Transcript Daily</a>
+					</span>
+				</div><!-- end #footer-info -->
+			</div>	
+		</footer>
+		<script type='text/javascript' src='https://transcriptdaily.com/wp-includes/js/wp-embed.min.js?ver=5.4.2'></script>
+
+<!-- MarketBeat News Network StatCounter Code -->
+<script type="text/javascript">var sc_project=9021069; var sc_invisible=1; var sc_security="fdde5482"; var sc_https=1; </script>
+<script type="text/javascript" src="https://www.statcounter.com/counter/counter.js"></script>
+<noscript><img class="statcounter" src="https://c.statcounter.com/9021069/0/fdde5482/1/" height="1" width="1"></noscript>
+<!-- End MarketBeat News Network StatCounter Code -->
+
+<!-- Start of StatCounter Code for Transcript Daily -->
+<script type="text/javascript">
+var sc_project=11301659; 
+var sc_invisible=1; 
+var sc_security="a399788a"; 
+var sc_https=1; 
+var scJsHost = (("https:" == document.location.protocol) ? "https://secure." : "http://www.");
+</script>
+<script type="text/javascript" src="https://www.statcounter.com/counter/counter.js"></script><noscript><img class="statcounter" src="//c.statcounter.com/11301659/0/a399788a/1/" alt="Web Analytics"></a></noscript>
+<!-- End of StatCounter Code for Transcript Daily -->
+	
+
+<!-- Begin Social Sharing -->
+	<!-- End Social Sharing -->
+
+<!-- Begin Internal Tracking Pixel 2 -->
+<script type='text/javascript'>document.write('<img src="https://www.american' + 'consumernews.net/scripts/viewcount.ashx?ArticleHistoryID=57857590&PostDate=2020-7-26&type=f&id=7547600&domain=transcriptdaily.com&referrer=' + encodeURIComponent(document.referrer) + '" />');</script>
+<!-- End Internal Tracking Pixel 2-->
+
+<!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "16807273" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=16807273&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+
+
+</div>
+
+
+
+	</body>
+</html>

@@ -1,0 +1,853 @@
+<!doctype html>
+<html lang="en" style="display:block;min-width:1070px;">
+<head>
+<meta name="distribution" content="global" />
+<meta name="robots" content="follow, all" />
+ <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<meta name="google-site-verification" content="GTY8q3lGYJyB0uT2U_vjhGkaQdrK17O9i9M5MPMBBa0" />
+<meta name="norton-safeweb-site-verification" content="7jyvwknvdv-yfjlzt3cdz5l34h9x7f-83bdh3x3k8mjo4bci55-m3zptqbcd9hef8-62ff6hrcor8prt-i1fw6lej5kw6wovojjadjkw228gbvsi8kc6hb8n1lb270tm" />
+<meta name="viewport" content="width=1070">
+	
+<meta name="googlebot" content="noindex,follow"> 
+
+<!-- Escape from Frames -->
+<script type="text/javascript">if(self==top){document.documentElement.style.display="block"}else{top.location=self.location}</script>
+<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+<link rel="stylesheet" href="https://transcriptdaily.com/wp-content/themes/newsalambre/style.css?v=3" type="text/css" media="screen" />
+<link href="https://transcriptdaily.com/feed" rel="alternate" title="Transcript Daily RSS Feed" type="application/rss+xml" />
+<link href="https://transcriptdaily.com/feed/atom" rel="alternate" title="Transcript Daily Atom Feed" type="application/atom+xml" />
+<link href="https://transcriptdaily.com/xmlrpc.php" rel="pingback" />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Transcript Daily &raquo; Search Results for &#8220;SRE&#8221; Feed" href="https://transcriptdaily.com/search/SRE/feed/rss2/" />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://transcriptdaily.com/wp-includes/css/dist/block-library/style.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='https://api.w.org/' href='https://transcriptdaily.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://transcriptdaily.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://transcriptdaily.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.4.2" />
+<link rel="icon" href="https://transcriptdaily.com/wp-content/uploads/2017/04/Transcript-Daily-Iconpng-06.png" sizes="32x32" />
+<link rel="icon" href="https://transcriptdaily.com/wp-content/uploads/2017/04/Transcript-Daily-Iconpng-06.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://transcriptdaily.com/wp-content/uploads/2017/04/Transcript-Daily-Iconpng-06.png" />
+<meta name="msapplication-TileImage" content="https://transcriptdaily.com/wp-content/uploads/2017/04/Transcript-Daily-Iconpng-06.png" />
+
+<!-- Start Meta Data -->
+<title>Swiss Re (OTCMKTS:SSREF) Earns Buy Rating from JPMorgan Chase &#038; Co. - Transcript Daily</title>
+
+<!-- End Meta Data -->
+	
+	
+<script type='text/javascript'>var PopupAdChannel=''; </script>
+  <link rel="manifest" href="/manifest.json">
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"></script>
+  <script>
+  	function registerUserChange(action) {
+		OneSignal.getUserId( function(userId) {
+			OneSignalIdString = userId;
+			var Domain = 'transcriptdaily.com';
+			var url = "https://www.marketbeat.com/scripts/OneSignalTracking.ashx?OneSignalID=" + OneSignalIdString + "&domain=" + Domain + "&action=" + action;
+			var xhr = new XMLHttpRequest();
+			xhr.open('GET', url);
+			xhr.onload = function () {
+				if (xhr.status !== 200) {
+					console.log('GET failed.  Returned status of ' + xhr.status);
+				}
+			};
+			xhr.send();
+		});
+	}
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(["init", {
+      appId: "881bfa77-26cb-4cd6-9aa9-572b33abb76a",
+      safari_web_id: 'web.onesignal.auto.1d2463f6-17a6-4c7e-80c3-735ae8ddc977', 
+      autoRegister: false,
+      autoResubscribe: true,		
+      notifyButton: {
+        enable: false /* Set to false to hide */
+      },
+ welcomeNotification: {
+        "title": "Join Wall Street's Brightest Minds.",
+        "message": "Receive research in your inbox from top analysts, before the market opens. Click here to learn how.",
+         "url": "https://www.marketbeat.com/subscribe/subscribe.aspx?ReferralType=OneSignalThankYou&ProductCode=1997t"
+    }
+    },
+		OneSignal.once('subscriptionChange', function (isSubscribed) {
+			if(isSubscribed) {
+				registerUserChange("subscribe");
+			}
+			else {
+				registerUserChange("unsubscribe");
+			}
+			
+		  })
+	]);
+	if((navigator.userAgent.toLowerCase().indexOf('firefox') > -1)||((navigator.userAgent.toLowerCase().indexOf('safari') > -1)&&(!(navigator.userAgent.toLowerCase().indexOf('chrome') > -1)))){
+		OneSignal.showSlidedownPrompt();
+	} else {
+		OneSignal.showNativePrompt();		
+	}
+  </script>
+<script type="text/javascript">var vbnfgha = '211626'; var ertdfga = '13739-bup-ac'; var qhyuioa = '53938'; var AdClientID = qhyuioa + vbnfgha + ertdfga; AdClientID = AdClientID.split("").reverse().join("");</script>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: AdClientID,
+          enable_page_level_ads: true
+     });
+</script>
+<!-- Start IMS -->
+<script type="text/javascript">
+		var apntag = apntag || {};
+		apntag.anq = apntag.anq || [];
+		(function() {
+			var d = document, e = d.createElement('script'), p = d.getElementsByTagName('head')[0];
+			e.type = 'text/javascript';  e.async = true;
+			e.src = '//acdn.adnxs.com/ast/ast.js';
+			p.insertBefore(e, p.firstChild);
+		})();
+
+		
+		apntag.anq.push(function() {
+			apntag.setPageOpts({
+				member: 6989
+			});
+		});
+
+		apntag.anq.push(function() {
+
+      		apntag.defineTag({
+				tagId: 13207769,
+				sizes: [[300,250],[300,600],[300,1050]],
+				keywords: {'position': ['RightRail_1']},
+				targetId: 'TranscriptDaily_ROS_RightRail_1'
+			});
+					});
+
+		apntag.anq.push(function() {
+			apntag.loadTags();
+		});
+		</script>
+	
+<script type="text/javascript">
+(function() {
+window.advBidxc = window.advBidxc || {};
+window.advBidxc.startTime = new Date().getTime();
+function loadScript(tagSrc) {
+var scriptTag = document.createElement('script'),
+placeTag = document.getElementsByTagName("script")[0];
+scriptTag.type = 'text/javascript';
+scriptTag.async = true;
+scriptTag.src = tagSrc;
+placeTag.parentNode.insertBefore(scriptTag, placeTag);
+}
+var mnSrc = '//hbx.media.net/bidexchange.js?cid=8CU2C156D&version=5.1' + '&dn=' +
+window.location.hostname;
+loadScript(mnSrc);
+})();
+</script>
+<!-- End IMS --> 
+	
+
+</head>
+<body>
+<div id="wrap">
+
+<!-- Start MarketBeat Modern Popup -->
+<link rel="stylesheet" type="text/css" media="all" href="https://www.marketbeat.com/scripts/modal/modernpopup.css?v=11"/>
+<script type="text/javascript" src="https://www.marketbeat.com/scripts/modal/modernpopup.js?v=52"></script>
+
+	<script type="text/javascript">LoadPopupRatings('ModernNonMarketsPopup-Transcript Daily', 'transcriptdaily.com');</script>
+<!-- End MarketBeat Modern Popup -->
+	
+<header>
+	<div id="top-bar">
+		<div class="width-limiter">
+				<!-- top nav bar -->
+				<nav class="navigation"><ul id="menu-top-menu" class="menu"><li id="menu-item-81" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-81"><a href="https://transcriptdaily.com">Home</a></li>
+<li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83"><a href="https://transcriptdaily.com/privacy-policy">Privacy Policy</a></li>
+<li id="menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84"><a href="https://transcriptdaily.com/about-contact">About/Contact</a></li>
+</ul></nav>				<form id="searchform" action="https://transcriptdaily.com/" method="get">
+					<div id="search">
+						<input id="s" class="searchinput" name="s" onclick="this.value='';" type="text" />
+						<input class="searchsubmit" type="submit" value="SEARCH" />
+					</div>
+				</form><!-- end: searchform -->
+		</div><!-- end: width-limiter in top-bar -->
+	</div><!-- end: top-bar -->
+	<div class="width-limiter add-padding"><!-- start: width-limiter with logo and space for alternate header unit -->
+		<a class="logo-link" href="https://transcriptdaily.com"><img id="logo" src="/wp-content/uploads/2017/04/Transcript-Daily-Logo-04.png" alt="Transcript Daily logo"></a>
+
+<!-- Begin Header Unit -->
+<div id="AlternateHeaderUnit">
+		
+		<iframe src="https://marketbeat.com/scripts/HeaderAdNewsSites.ashx" width="728" height="90" frameborder="no" scrolling="no"></iframe>
+			</div> 
+
+<!-- End Header Unit-->
+	</div> <!-- end: width-limiter with logo and space for alternate header unit -->
+	<div id="menu">
+		<div class="width-limiter" id="nav-main">
+			<!-- start main category menu -->
+			<nav class="navigation"><ul id="menu-categories-for-menus" class="menu"><li id="menu-item-79" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-79"><a href="https://transcriptdaily.com/headlines">Headlines</a></li>
+<li id="menu-item-75" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-75"><a href="https://transcriptdaily.com/business">Business</a></li>
+<li id="menu-item-77" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-77"><a href="https://transcriptdaily.com/markets">Markets</a></li>
+<li id="menu-item-80" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80"><a href="https://transcriptdaily.com/politics">Politics</a></li>
+<li id="menu-item-78" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78"><a href="https://transcriptdaily.com/technology">Technology</a></li>
+<li id="menu-item-76" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-76"><a href="https://transcriptdaily.com/health">Health</a></li>
+</ul></nav>		</div> <!-- end: width-limiter for menu -->
+	</div> <!-- end: menu -->
+</header> <!-- end: header -->
+	<div class="width-limiter main-content">
+		
+<main>
+						<h1 class="archive-category"><a href="https://transcriptdaily.com">Home</a> &raquo; Search Results</h1>
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/swiss-re-otcmktsssref-earns-buy-rating-from-jpmorgan-chase-co.html" rel="bookmark" title="Swiss Re (OTCMKTS:SSREF) Earns Buy Rating from JPMorgan Chase &#038; Co.">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Swiss Re (OTCMKTS:SSREF) Earns Buy Rating from JPMorgan Chase &#038; Co." />
+					<h2>Swiss Re (OTCMKTS:SSREF) Earns Buy Rating from JPMorgan Chase &#038; Co.</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						JPMorgan Chase &#038; Co. reiterated their buy rating on shares of Swiss Re (OTCMKTS:SSREF)  in a research report report published on Thursday morning, AnalystRatings.com reports.
+Separately, Royal Bank of Canada  restated a buy rating...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/swiss-re-otcmktsssref-earns-buy-rating-from-jpmorgan-chase-co.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/25/strs-ohio-buys-41797-shares-of-sempra-energy-nysesre.html" rel="bookmark" title="Strs Ohio Buys 41,797 Shares of Sempra Energy (NYSE:SRE)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sempra-energy-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Strs Ohio Buys 41,797 Shares of Sempra Energy (NYSE:SRE)" />
+					<h2>Strs Ohio Buys 41,797 Shares of Sempra Energy (NYSE:SRE)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 25th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Strs Ohio lifted its stake in  Sempra Energy (NYSE:SRE) by 11.2% during the second quarter, according to its most recent 13F filing with the SEC. The institutional investor  owned 416,028 shares of the utilities provider&#8217;s stock...&nbsp;<a href='https://transcriptdaily.com/2020/07/25/strs-ohio-buys-41797-shares-of-sempra-energy-nysesre.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/24/mn-services-vermogensbeheer-b-v-buys-15900-shares-of-sempra-energy-nysesre.html" rel="bookmark" title="Mn Services Vermogensbeheer B.V. Buys 15,900 Shares of Sempra Energy (NYSE:SRE)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sempra-energy-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Mn Services Vermogensbeheer B.V. Buys 15,900 Shares of Sempra Energy (NYSE:SRE)" />
+					<h2>Mn Services Vermogensbeheer B.V. Buys 15,900 Shares of Sempra Energy (NYSE:SRE)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 24th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Mn Services Vermogensbeheer B.V. grew its stake in shares of  Sempra Energy (NYSE:SRE) by 6.8% during the second quarter, according to its most recent Form 13F filing with the Securities and Exchange Commission. The fund owned 249,125...&nbsp;<a href='https://transcriptdaily.com/2020/07/24/mn-services-vermogensbeheer-b-v-buys-15900-shares-of-sempra-energy-nysesre.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/23/mg-investment-management-ltd-buys-new-holdings-in-sempra-energy-nysesre.html" rel="bookmark" title="M&#038;G Investment Management Ltd. Buys New Holdings in Sempra Energy (NYSE:SRE)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sempra-energy-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="M&#038;G Investment Management Ltd. Buys New Holdings in Sempra Energy (NYSE:SRE)" />
+					<h2>M&#038;G Investment Management Ltd. Buys New Holdings in Sempra Energy (NYSE:SRE)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 23rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						M&#038;G Investment Management Ltd. bought a new stake in  Sempra Energy (NYSE:SRE) during the second quarter, according to the company in its most recent filing with the Securities &amp; Exchange Commission. The firm bought 163,428...&nbsp;<a href='https://transcriptdaily.com/2020/07/23/mg-investment-management-ltd-buys-new-holdings-in-sempra-energy-nysesre.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/23/sempra-energy-nysesre-receives-buy-rating-from-royal-bank-of-canada.html" rel="bookmark" title="Sempra Energy (NYSE:SRE) Receives Buy Rating from Royal Bank of Canada">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sempra-energy-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Sempra Energy (NYSE:SRE) Receives Buy Rating from Royal Bank of Canada" />
+					<h2>Sempra Energy (NYSE:SRE) Receives Buy Rating from Royal Bank of Canada</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 23rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Sempra Energy (NYSE:SRE)&#8216;s stock had its &#8220;buy&#8221; rating reiterated by equities research analysts at Royal Bank of Canada in a research report issued on Thursday, AnalystRatings.com reports.
+A number of other equities...&nbsp;<a href='https://transcriptdaily.com/2020/07/23/sempra-energy-nysesre-receives-buy-rating-from-royal-bank-of-canada.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/23/sempra-energy-nysesre-shares-bought-by-sumitomo-life-insurance-co.html" rel="bookmark" title="Sempra Energy (NYSE:SRE) Shares Bought by Sumitomo Life Insurance Co.">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sempra-energy-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Sempra Energy (NYSE:SRE) Shares Bought by Sumitomo Life Insurance Co." />
+					<h2>Sempra Energy (NYSE:SRE) Shares Bought by Sumitomo Life Insurance Co.</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 23rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Sumitomo Life Insurance Co. raised its holdings in  Sempra Energy (NYSE:SRE) by 53.2% during the second quarter, according to the company in its most recent filing with the Securities &amp; Exchange Commission. The institutional investor...&nbsp;<a href='https://transcriptdaily.com/2020/07/23/sempra-energy-nysesre-shares-bought-by-sumitomo-life-insurance-co.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/23/swiss-re-vtxsren-given-a-chf-93-price-target-at-ubs-group.html" rel="bookmark" title="Swiss Re (VTX:SREN) Given a CHF 93 Price Target at UBS Group">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/swiss-re-ag-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Swiss Re (VTX:SREN) Given a CHF 93 Price Target at UBS Group" />
+					<h2>Swiss Re (VTX:SREN) Given a CHF 93 Price Target at UBS Group</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 23rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Swiss Re (VTX:SREN) has been assigned a CHF 93 price target by investment analysts at UBS Group  in a research report issued to clients and investors on Thursday, Borsen Zeitung reports. The brokerage presently has a &#8220;buy&#8221;...&nbsp;<a href='https://transcriptdaily.com/2020/07/23/swiss-re-vtxsren-given-a-chf-93-price-target-at-ubs-group.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/23/swiss-re-vtxsren-given-a-chf-100-price-target-by-royal-bank-of-canada-analysts.html" rel="bookmark" title="Swiss Re (VTX:SREN) Given a CHF 100 Price Target by Royal Bank of Canada Analysts">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/swiss-re-ag-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Swiss Re (VTX:SREN) Given a CHF 100 Price Target by Royal Bank of Canada Analysts" />
+					<h2>Swiss Re (VTX:SREN) Given a CHF 100 Price Target by Royal Bank of Canada Analysts</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 23rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Swiss Re (VTX:SREN) received a CHF 100 price target from research analysts at Royal Bank of Canada  in a report issued on Thursday, Borsen Zeitung reports. The firm currently has a &#8220;buy&#8221; rating on the stock.
+Several other...&nbsp;<a href='https://transcriptdaily.com/2020/07/23/swiss-re-vtxsren-given-a-chf-100-price-target-by-royal-bank-of-canada-analysts.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/23/smith-graham-co-investment-advisors-lp-has-2-97-million-position-in-sempra-energy-nysesre.html" rel="bookmark" title="Smith Graham &#038; Co. Investment Advisors LP Has $2.97 Million Position in Sempra Energy (NYSE:SRE)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sempra-energy-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Smith Graham &#038; Co. Investment Advisors LP Has $2.97 Million Position in Sempra Energy (NYSE:SRE)" />
+					<h2>Smith Graham &#038; Co. Investment Advisors LP Has $2.97 Million Position in Sempra Energy (NYSE:SRE)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 23rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Smith Graham &#038; Co. Investment Advisors LP increased its position in  Sempra Energy (NYSE:SRE) by 0.3% in the 2nd quarter, according to its most recent disclosure with the Securities and Exchange Commission (SEC). The firm owned...&nbsp;<a href='https://transcriptdaily.com/2020/07/23/smith-graham-co-investment-advisors-lp-has-2-97-million-position-in-sempra-energy-nysesre.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/23/sempra-energy-nysesre-stock-rating-upgraded-by-keycorp.html" rel="bookmark" title="Sempra Energy (NYSE:SRE) Stock Rating Upgraded by KeyCorp">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sempra-energy-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Sempra Energy (NYSE:SRE) Stock Rating Upgraded by KeyCorp" />
+					<h2>Sempra Energy (NYSE:SRE) Stock Rating Upgraded by KeyCorp</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 23rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Sempra Energy (NYSE:SRE) was upgraded by investment analysts at KeyCorp from a &#8220;sector weight&#8221; rating to an &#8220;overweight&#8221; rating in a research note issued on Tuesday, MarketBeat Ratings reports. The brokerage...&nbsp;<a href='https://transcriptdaily.com/2020/07/23/sempra-energy-nysesre-stock-rating-upgraded-by-keycorp.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/22/schroder-real-estate-investment-trst-ltd-srei-to-go-ex-dividend-on-july-30th.html" rel="bookmark" title="Schroder Real Estate Investment Trst Ltd (SREI) To Go Ex-Dividend on July 30th">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Schroder Real Estate Investment Trst Ltd (SREI) To Go Ex-Dividend on July 30th" />
+					<h2>Schroder Real Estate Investment Trst Ltd (SREI) To Go Ex-Dividend on July 30th</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 22nd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Schroder Real Estate Investment Trst Ltd (LON:SREI) declared a  dividend on Monday, July 20th, Upcoming.Co.Uk reports. Investors of record on Thursday, July 30th will be given a dividend of GBX 0.39 ($0.00) per share by the real estate...&nbsp;<a href='https://transcriptdaily.com/2020/07/22/schroder-real-estate-investment-trst-ltd-srei-to-go-ex-dividend-on-july-30th.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/22/royal-bank-of-canada-reiterates-buy-rating-for-swiss-re-otcmktsssref.html" rel="bookmark" title="Royal Bank of Canada Reiterates &#8220;Buy&#8221; Rating for Swiss Re (OTCMKTS:SSREF)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Royal Bank of Canada Reiterates &#8220;Buy&#8221; Rating for Swiss Re (OTCMKTS:SSREF)" />
+					<h2>Royal Bank of Canada Reiterates &#8220;Buy&#8221; Rating for Swiss Re (OTCMKTS:SSREF)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 22nd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Swiss Re (OTCMKTS:SSREF)&#8216;s stock had its &#8220;buy&#8221; rating reaffirmed by stock analysts at Royal Bank of Canada in a report released on Monday, AnalystRatings.com reports.
+Separately, JPMorgan Chase &#038; Co.  reaffirmed...&nbsp;<a href='https://transcriptdaily.com/2020/07/22/royal-bank-of-canada-reiterates-buy-rating-for-swiss-re-otcmktsssref.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/22/sempra-energy-nysesre-expected-to-post-q2-2020-earnings-of-1-82-per-share.html" rel="bookmark" title="Sempra Energy (NYSE:SRE) Expected to Post Q2 2020 Earnings of $1.82 Per Share">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sempra-energy-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Sempra Energy (NYSE:SRE) Expected to Post Q2 2020 Earnings of $1.82 Per Share" />
+					<h2>Sempra Energy (NYSE:SRE) Expected to Post Q2 2020 Earnings of $1.82 Per Share</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 22nd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						
+Sempra Energy (NYSE:SRE) &#8211; Analysts at  Seaport Global Securities issued their Q2 2020 earnings per share (EPS) estimates for shares of Sempra Energy  in a research note issued on  Thursday, July 16th. Seaport Global Securities...&nbsp;<a href='https://transcriptdaily.com/2020/07/22/sempra-energy-nysesre-expected-to-post-q2-2020-earnings-of-1-82-per-share.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/21/sempra-energy-nysesre-price-target-raised-to-143-00-at-morgan-stanley.html" rel="bookmark" title="Sempra Energy (NYSE:SRE) Price Target Raised to $143.00 at Morgan Stanley">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sempra-energy-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Sempra Energy (NYSE:SRE) Price Target Raised to $143.00 at Morgan Stanley" />
+					<h2>Sempra Energy (NYSE:SRE) Price Target Raised to $143.00 at Morgan Stanley</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 21st, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Sempra Energy (NYSE:SRE) had its target price raised by Morgan Stanley from $140.00 to $143.00 in a report published on Friday morning, BenzingaRatingsTable reports. Morgan Stanley currently has an equal weight rating on the utilities...&nbsp;<a href='https://transcriptdaily.com/2020/07/21/sempra-energy-nysesre-price-target-raised-to-143-00-at-morgan-stanley.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/16/servicesource-international-inc-nasdaqsrev-major-shareholder-edenbrook-capital-llc-purchases-53074-shares.html" rel="bookmark" title="Servicesource International Inc (NASDAQ:SREV) Major Shareholder Edenbrook Capital, Llc Purchases 53,074 Shares">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/servicesource-international-inc-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Servicesource International Inc (NASDAQ:SREV) Major Shareholder Edenbrook Capital, Llc Purchases 53,074 Shares" />
+					<h2>Servicesource International Inc (NASDAQ:SREV) Major Shareholder Edenbrook Capital, Llc Purchases 53,074 Shares</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 16th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Servicesource International Inc (NASDAQ:SREV) major shareholder Edenbrook Capital, Llc acquired 53,074 shares of Servicesource International stock in a transaction that occurred on Tuesday, July 14th. The stock was bought at an average...&nbsp;<a href='https://transcriptdaily.com/2020/07/16/servicesource-international-inc-nasdaqsrev-major-shareholder-edenbrook-capital-llc-purchases-53074-shares.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/16/cypress-wealth-services-llc-sells-316-shares-of-sempra-energy-nysesre.html" rel="bookmark" title="Cypress Wealth Services LLC Sells 316 Shares of Sempra Energy (NYSE:SRE)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sempra-energy-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Cypress Wealth Services LLC Sells 316 Shares of Sempra Energy (NYSE:SRE)" />
+					<h2>Cypress Wealth Services LLC Sells 316 Shares of Sempra Energy (NYSE:SRE)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 16th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Cypress Wealth Services LLC reduced its stake in  Sempra Energy (NYSE:SRE) by 13.9% in the second quarter, Holdings Channel.com reports. The institutional investor  owned 1,958 shares of the utilities provider&#8217;s stock after selling...&nbsp;<a href='https://transcriptdaily.com/2020/07/16/cypress-wealth-services-llc-sells-316-shares-of-sempra-energy-nysesre.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/13/swiss-re-vtxsren-given-a-chf-95-price-target-by-deutsche-bank-analysts.html" rel="bookmark" title="Swiss Re (VTX:SREN) Given a CHF 95 Price Target by Deutsche Bank Analysts">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/swiss-re-ag-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Swiss Re (VTX:SREN) Given a CHF 95 Price Target by Deutsche Bank Analysts" />
+					<h2>Swiss Re (VTX:SREN) Given a CHF 95 Price Target by Deutsche Bank Analysts</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 13th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Deutsche Bank set a CHF 95 price target on Swiss Re (VTX:SREN)  in a research report released on Thursday, Borsen Zeitung reports. The brokerage currently has a neutral rating on the stock.
+SREN has been the subject of several other...&nbsp;<a href='https://transcriptdaily.com/2020/07/13/swiss-re-vtxsren-given-a-chf-95-price-target-by-deutsche-bank-analysts.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/10/swiss-re-ltd-ss-ssrey-overweight-rating-reiterated-at-jpmorgan-chase-co.html" rel="bookmark" title="SWISS RE LTD/S&#8217;s (SSREY) &#8220;Overweight&#8221; Rating Reiterated at JPMorgan Chase &#038; Co.">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/swiss-re-ag---logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="SWISS RE LTD/S&#8217;s (SSREY) &#8220;Overweight&#8221; Rating Reiterated at JPMorgan Chase &#038; Co." />
+					<h2>SWISS RE LTD/S&#8217;s (SSREY) &#8220;Overweight&#8221; Rating Reiterated at JPMorgan Chase &#038; Co.</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 10th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						JPMorgan Chase &#038; Co. reiterated their overweight rating on shares of SWISS RE LTD/S (OTCMKTS:SSREY)  in a research note issued to investors on Tuesday, The Fly reports.
+Several other equities research analysts have also weighed...&nbsp;<a href='https://transcriptdaily.com/2020/07/10/swiss-re-ltd-ss-ssrey-overweight-rating-reiterated-at-jpmorgan-chase-co.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/10/swiss-re-vtxsren-given-a-chf-96-price-target-at-jpmorgan-chase-co.html" rel="bookmark" title="Swiss Re (VTX:SREN) Given a CHF 96 Price Target at JPMorgan Chase &#038; Co.">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/swiss-re-ag-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Swiss Re (VTX:SREN) Given a CHF 96 Price Target at JPMorgan Chase &#038; Co." />
+					<h2>Swiss Re (VTX:SREN) Given a CHF 96 Price Target at JPMorgan Chase &#038; Co.</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 10th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						JPMorgan Chase &#038; Co. set a CHF 96 price target on Swiss Re (VTX:SREN)  in a research note released on Tuesday morning, Borsen Zeitung reports. The firm currently has a buy rating on the stock.
+Several other equities analysts have...&nbsp;<a href='https://transcriptdaily.com/2020/07/10/swiss-re-vtxsren-given-a-chf-96-price-target-at-jpmorgan-chase-co.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/09/servicesource-international-nasdaqsrev-rating-lowered-to-sell-at-zacks-investment-research.html" rel="bookmark" title="Servicesource International (NASDAQ:SREV) Rating Lowered to Sell at Zacks Investment Research">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/servicesource-international-inc-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Servicesource International (NASDAQ:SREV) Rating Lowered to Sell at Zacks Investment Research" />
+					<h2>Servicesource International (NASDAQ:SREV) Rating Lowered to Sell at Zacks Investment Research</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 9th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Servicesource International (NASDAQ:SREV) was downgraded by Zacks Investment Research from a &#8220;hold&#8221; rating to a &#8220;sell&#8221; rating in a research note issued to investors on Tuesday, Zacks.com reports. 
+According...&nbsp;<a href='https://transcriptdaily.com/2020/07/09/servicesource-international-nasdaqsrev-rating-lowered-to-sell-at-zacks-investment-research.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/07/sirius-real-estate-limited-sre-to-issue-dividend-of-0-02-on-august-20th.html" rel="bookmark" title="Sirius Real Estate Limited (SRE) to Issue Dividend of &euro;0.02 on  August 20th">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sirius-real-estate-limited-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Sirius Real Estate Limited (SRE) to Issue Dividend of &euro;0.02 on  August 20th" />
+					<h2>Sirius Real Estate Limited (SRE) to Issue Dividend of &euro;0.02 on  August 20th</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 7th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Sirius Real Estate Limited (LON:SRE) announced a  dividend on Monday, June 1st, Upcoming.Co.Uk reports. Stockholders of record on Thursday, July 9th will be given a dividend of &euro;0.02 ($0.02) per share on Thursday, August 20th....&nbsp;<a href='https://transcriptdaily.com/2020/07/07/sirius-real-estate-limited-sre-to-issue-dividend-of-0-02-on-august-20th.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/07/sirius-real-estate-limited-lonsre-raises-dividend-to-0-02-per-share.html" rel="bookmark" title="Sirius Real Estate Limited (LON:SRE) Raises Dividend to &euro;0.02 Per Share">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sirius-real-estate-limited-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Sirius Real Estate Limited (LON:SRE) Raises Dividend to &euro;0.02 Per Share" />
+					<h2>Sirius Real Estate Limited (LON:SRE) Raises Dividend to &euro;0.02 Per Share</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 7th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Sirius Real Estate Limited (LON:SRE) announced a  dividend on Monday, June 1st, Upcoming.Co.Uk reports. Stockholders of record on Thursday, July 9th will be paid a dividend of &euro;0.02 ($0.02) per share on Thursday, August 20th....&nbsp;<a href='https://transcriptdaily.com/2020/07/07/sirius-real-estate-limited-lonsre-raises-dividend-to-0-02-per-share.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/06/short-interest-in-servicesource-international-inc-nasdaqsrev-grows-by-71-4.html" rel="bookmark" title="Short Interest in Servicesource International Inc (NASDAQ:SREV) Grows By 71.4%">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/servicesource-international-inc-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Short Interest in Servicesource International Inc (NASDAQ:SREV) Grows By 71.4%" />
+					<h2>Short Interest in Servicesource International Inc (NASDAQ:SREV) Grows By 71.4%</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 6th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Servicesource International Inc (NASDAQ:SREV) saw a significant increase in short interest during the month of June. As of June 30th, there was short interest totalling 438,000 shares,  an increase of 71.4% from the June 15th total...&nbsp;<a href='https://transcriptdaily.com/2020/07/06/short-interest-in-servicesource-international-inc-nasdaqsrev-grows-by-71-4.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/05/brokerages-expect-sempra-energy-nysesre-will-post-quarterly-sales-of-2-39-billion.html" rel="bookmark" title="Brokerages Expect Sempra Energy (NYSE:SRE) Will Post Quarterly Sales of $2.39 Billion">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sempra-energy-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Brokerages Expect Sempra Energy (NYSE:SRE) Will Post Quarterly Sales of $2.39 Billion" />
+					<h2>Brokerages Expect Sempra Energy (NYSE:SRE) Will Post Quarterly Sales of $2.39 Billion</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 5th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Analysts expect Sempra Energy (NYSE:SRE) to report $2.39 billion in sales for the current quarter, according to Zacks. Two analysts have issued estimates for Sempra Energy&#8217;s earnings, with the lowest sales estimate coming in...&nbsp;<a href='https://transcriptdaily.com/2020/07/05/brokerages-expect-sempra-energy-nysesre-will-post-quarterly-sales-of-2-39-billion.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/05/sempra-energy-nysesre-expected-to-announce-earnings-of-1-18-per-share.html" rel="bookmark" title="Sempra Energy (NYSE:SRE) Expected to Announce Earnings of $1.18 Per Share">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sempra-energy-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Sempra Energy (NYSE:SRE) Expected to Announce Earnings of $1.18 Per Share" />
+					<h2>Sempra Energy (NYSE:SRE) Expected to Announce Earnings of $1.18 Per Share</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 5th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Equities research analysts expect that Sempra Energy (NYSE:SRE) will post $1.18 earnings per share for the current quarter, according to Zacks Investment Research. Two analysts have issued estimates for Sempra Energy&#8217;s earnings,...&nbsp;<a href='https://transcriptdaily.com/2020/07/05/sempra-energy-nysesre-expected-to-announce-earnings-of-1-18-per-share.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/05/swiss-re-ltd-s-otcmktsssrey-raised-to-hold-at-zacks-investment-research.html" rel="bookmark" title="SWISS RE LTD/S (OTCMKTS:SSREY) Raised to Hold at Zacks Investment Research">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/swiss-re-ag---logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="SWISS RE LTD/S (OTCMKTS:SSREY) Raised to Hold at Zacks Investment Research" />
+					<h2>SWISS RE LTD/S (OTCMKTS:SSREY) Raised to Hold at Zacks Investment Research</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 5th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Zacks Investment Research upgraded shares of SWISS RE LTD/S (OTCMKTS:SSREY) from a sell rating to a hold rating in a research report report published on Saturday morning, Zacks.com reports. 
+According to Zacks, &#8220;Swiss Reinsurance...&nbsp;<a href='https://transcriptdaily.com/2020/07/05/swiss-re-ltd-s-otcmktsssrey-raised-to-hold-at-zacks-investment-research.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/05/sirius-real-estate-lonsre-stock-rating-reaffirmed-by-peel-hunt.html" rel="bookmark" title="Sirius Real Estate (LON:SRE) Stock Rating Reaffirmed by Peel Hunt">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sirius-real-estate-limited-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Sirius Real Estate (LON:SRE) Stock Rating Reaffirmed by Peel Hunt" />
+					<h2>Sirius Real Estate (LON:SRE) Stock Rating Reaffirmed by Peel Hunt</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 5th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Peel Hunt reaffirmed their buy rating on shares of Sirius Real Estate (LON:SRE)  in a report released on Wednesday, ThisIsMoney.Co.Uk reports.
+Separately, Berenberg Bank  restated a buy rating and set a GBX 91 ($1.12) price objective...&nbsp;<a href='https://transcriptdaily.com/2020/07/05/sirius-real-estate-lonsre-stock-rating-reaffirmed-by-peel-hunt.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/04/schroder-real-estate-investment-trst-lonsrei-stock-price-passes-below-two-hundred-day-moving-average-of-44-08.html" rel="bookmark" title="Schroder Real Estate Investment Trst (LON:SREI) Stock Price Passes Below Two Hundred Day Moving Average of $44.08">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Schroder Real Estate Investment Trst (LON:SREI) Stock Price Passes Below Two Hundred Day Moving Average of $44.08" />
+					<h2>Schroder Real Estate Investment Trst (LON:SREI) Stock Price Passes Below Two Hundred Day Moving Average of $44.08</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 4th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Schroder Real Estate Investment Trst Ltd (LON:SREI) shares crossed below its two hundred day moving average during trading on Thursday . The stock has a two hundred day moving average of $44.08 and traded as low as $31.04. Schroder...&nbsp;<a href='https://transcriptdaily.com/2020/07/04/schroder-real-estate-investment-trst-lonsrei-stock-price-passes-below-two-hundred-day-moving-average-of-44-08.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/04/servicesource-international-inc-nasdaqsrev-major-shareholder-purchases-113562-30-in-stock.html" rel="bookmark" title="Servicesource International Inc (NASDAQ:SREV) Major Shareholder Purchases $113,562.30 in Stock">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/servicesource-international-inc-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Servicesource International Inc (NASDAQ:SREV) Major Shareholder Purchases $113,562.30 in Stock" />
+					<h2>Servicesource International Inc (NASDAQ:SREV) Major Shareholder Purchases $113,562.30 in Stock</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 4th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Servicesource International Inc (NASDAQ:SREV) major shareholder Edenbrook Capital, Llc purchased 73,266 shares of the company&#8217;s stock in a transaction that occurred on Tuesday, June 30th. The stock was bought at an average cost...&nbsp;<a href='https://transcriptdaily.com/2020/07/04/servicesource-international-inc-nasdaqsrev-major-shareholder-purchases-113562-30-in-stock.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/03/storebrand-asa-otcmktssredf-stock-price-passes-below-200-day-moving-average-of-5-86.html" rel="bookmark" title="Storebrand ASA (OTCMKTS:SREDF) Stock Price Passes Below 200 Day Moving Average of $5.86">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Storebrand ASA (OTCMKTS:SREDF) Stock Price Passes Below 200 Day Moving Average of $5.86" />
+					<h2>Storebrand ASA (OTCMKTS:SREDF) Stock Price Passes Below 200 Day Moving Average of $5.86</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 3rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Storebrand ASA (OTCMKTS:SREDF)&#8217;s share price crossed below its 200-day moving average during trading on Wednesday . The stock has a 200-day moving average of $5.86 and traded as low as $5.23. Storebrand ASA shares last traded...&nbsp;<a href='https://transcriptdaily.com/2020/07/03/storebrand-asa-otcmktssredf-stock-price-passes-below-200-day-moving-average-of-5-86.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/02/swiss-re-vtxsren-given-a-chf-91-price-target-at-barclays.html" rel="bookmark" title="Swiss Re (VTX:SREN) Given a CHF 91 Price Target at Barclays">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/swiss-re-ag-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Swiss Re (VTX:SREN) Given a CHF 91 Price Target at Barclays" />
+					<h2>Swiss Re (VTX:SREN) Given a CHF 91 Price Target at Barclays</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 2nd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Barclays set a CHF 91 price objective on Swiss Re (VTX:SREN)  in a research report sent to investors on Wednesday morning, Borsen Zeitung reports. The brokerage currently has a buy rating on the stock.
+A number of other research analysts...&nbsp;<a href='https://transcriptdaily.com/2020/07/02/swiss-re-vtxsren-given-a-chf-91-price-target-at-barclays.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/02/swiss-re-ltd-ss-ssrey-overweight-rating-reaffirmed-at-barclays.html" rel="bookmark" title="SWISS RE LTD/S&#8217;s (SSREY) Overweight Rating Reaffirmed at Barclays">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/swiss-re-ag---logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="SWISS RE LTD/S&#8217;s (SSREY) Overweight Rating Reaffirmed at Barclays" />
+					<h2>SWISS RE LTD/S&#8217;s (SSREY) Overweight Rating Reaffirmed at Barclays</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 2nd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Barclays reiterated their overweight rating on shares of SWISS RE LTD/S (OTCMKTS:SSREY)  in a research report sent to investors on Wednesday, The Fly reports.
+Other equities analysts have also issued research reports about the stock....&nbsp;<a href='https://transcriptdaily.com/2020/07/02/swiss-re-ltd-ss-ssrey-overweight-rating-reaffirmed-at-barclays.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/01/servicesource-international-nasdaqsrev-stock-crosses-above-200-day-moving-average-of-1-45-2.html" rel="bookmark" title="Servicesource International (NASDAQ:SREV) Stock Crosses Above 200 Day Moving Average of $1.45">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/servicesource-international-inc-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Servicesource International (NASDAQ:SREV) Stock Crosses Above 200 Day Moving Average of $1.45" />
+					<h2>Servicesource International (NASDAQ:SREV) Stock Crosses Above 200 Day Moving Average of $1.45</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 1st, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Servicesource International Inc (NASDAQ:SREV)&#8217;s share price crossed above its two hundred day moving average during trading on Monday . The stock has a two hundred day moving average of $1.45 and traded as high as $1.77. Servicesource...&nbsp;<a href='https://transcriptdaily.com/2020/07/01/servicesource-international-nasdaqsrev-stock-crosses-above-200-day-moving-average-of-1-45-2.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/01/servicesource-international-nasdaqsrev-stock-crosses-above-200-day-moving-average-of-1-45.html" rel="bookmark" title="Servicesource International (NASDAQ:SREV) Stock Crosses Above 200 Day Moving Average of $1.45">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/servicesource-international-inc-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Servicesource International (NASDAQ:SREV) Stock Crosses Above 200 Day Moving Average of $1.45" />
+					<h2>Servicesource International (NASDAQ:SREV) Stock Crosses Above 200 Day Moving Average of $1.45</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 1st, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Servicesource International Inc (NASDAQ:SREV)&#8217;s share price crossed above its two hundred day moving average during trading on Monday . The stock has a two hundred day moving average of $1.45 and traded as high as $1.77. Servicesource...&nbsp;<a href='https://transcriptdaily.com/2020/07/01/servicesource-international-nasdaqsrev-stock-crosses-above-200-day-moving-average-of-1-45.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/01/swiss-re-otcmktsssref-shares-down-1-3.html" rel="bookmark" title="Swiss Re (OTCMKTS:SSREF)  Shares Down 1.3%">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Swiss Re (OTCMKTS:SSREF)  Shares Down 1.3%" />
+					<h2>Swiss Re (OTCMKTS:SSREF)  Shares Down 1.3%</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 1st, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Swiss Re AG (OTCMKTS:SSREF)&#8217;s share price fell 1.3% on Monday . The stock traded as low as $75.77 and last traded at $75.77, 1,082 shares traded hands during trading. A decline of 62% from the average session volume of 2,855...&nbsp;<a href='https://transcriptdaily.com/2020/07/01/swiss-re-otcmktsssref-shares-down-1-3.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/01/sempra-energy-nysesre-issues-fy20-earnings-guidance.html" rel="bookmark" title="Sempra Energy (NYSE:SRE) Issues FY20 Earnings Guidance">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sempra-energy-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Sempra Energy (NYSE:SRE) Issues FY20 Earnings Guidance" />
+					<h2>Sempra Energy (NYSE:SRE) Issues FY20 Earnings Guidance</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 1st, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Sempra Energy (NYSE:SRE) updated its FY20 earnings guidance on Tuesday. The company provided earnings per share (EPS) guidance of $7.20-7.80 for the period, compared to the Thomson Reuters consensus estimate of $7.06. Sempra Energy...&nbsp;<a href='https://transcriptdaily.com/2020/07/01/sempra-energy-nysesre-issues-fy20-earnings-guidance.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/30/sempra-energy-nysesre-issues-fy-2020after-hours-earnings-guidance.html" rel="bookmark" title="Sempra Energy (NYSE:SRE) Issues FY 2020
+After-Hours Earnings Guidance">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sempra-energy-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Sempra Energy (NYSE:SRE) Issues FY 2020
+After-Hours Earnings Guidance" />
+					<h2>Sempra Energy (NYSE:SRE) Issues FY 2020
+After-Hours Earnings Guidance</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jun 30th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Sempra Energy (NYSE:SRE) updated its FY 2020
+After-Hours earnings guidance on Tuesday. The company provided earnings per share (EPS) guidance of 7.20-7.80 for the period, compared to the Thomson Reuters consensus estimate of $7.35....&nbsp;<a href='https://transcriptdaily.com/2020/06/30/sempra-energy-nysesre-issues-fy-2020after-hours-earnings-guidance.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/30/servicesource-international-nasdaqsrev-raised-to-hold-at-zacks-investment-research.html" rel="bookmark" title="Servicesource International (NASDAQ:SREV) Raised to Hold at Zacks Investment Research">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/servicesource-international-inc-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Servicesource International (NASDAQ:SREV) Raised to Hold at Zacks Investment Research" />
+					<h2>Servicesource International (NASDAQ:SREV) Raised to Hold at Zacks Investment Research</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jun 30th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Servicesource International (NASDAQ:SREV) was upgraded by Zacks Investment Research from a &#8220;sell&#8221; rating to a &#8220;hold&#8221; rating in a report issued on Tuesday, Zacks.com reports. 
+According to Zacks, &#8220;ServiceSource...&nbsp;<a href='https://transcriptdaily.com/2020/06/30/servicesource-international-nasdaqsrev-raised-to-hold-at-zacks-investment-research.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/28/skandinaviska-enskilda-banken-ab-publ-buys-4639-shares-of-sempra-energy-nysesre.html" rel="bookmark" title="Skandinaviska Enskilda Banken AB publ Buys 4,639 Shares of Sempra Energy (NYSE:SRE)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sempra-energy-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Skandinaviska Enskilda Banken AB publ Buys 4,639 Shares of Sempra Energy (NYSE:SRE)" />
+					<h2>Skandinaviska Enskilda Banken AB publ Buys 4,639 Shares of Sempra Energy (NYSE:SRE)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jun 28th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Skandinaviska Enskilda Banken AB publ raised its stake in  Sempra Energy (NYSE:SRE) by 12.6% in the 1st quarter, according to the company in its most recent disclosure with the Securities and Exchange Commission. The institutional...&nbsp;<a href='https://transcriptdaily.com/2020/06/28/skandinaviska-enskilda-banken-ab-publ-buys-4639-shares-of-sempra-energy-nysesre.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/28/johnson-investment-counsel-inc-sells-3758-shares-of-sempra-energy-nysesre.html" rel="bookmark" title="Johnson Investment Counsel Inc. Sells 3,758 Shares of Sempra Energy (NYSE:SRE)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sempra-energy-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Johnson Investment Counsel Inc. Sells 3,758 Shares of Sempra Energy (NYSE:SRE)" />
+					<h2>Johnson Investment Counsel Inc. Sells 3,758 Shares of Sempra Energy (NYSE:SRE)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jun 28th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Johnson Investment Counsel Inc. cut its holdings in  Sempra Energy (NYSE:SRE) by 65.9% in the first quarter, Holdings Channel.com reports. The fund owned 1,941 shares of the utilities provider&#8217;s stock after selling 3,758 shares...&nbsp;<a href='https://transcriptdaily.com/2020/06/28/johnson-investment-counsel-inc-sells-3758-shares-of-sempra-energy-nysesre.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/27/integrated-wealth-concepts-llc-buys-650-shares-of-sempra-energy-nysesre.html" rel="bookmark" title="Integrated Wealth Concepts LLC Buys 650 Shares of Sempra Energy (NYSE:SRE)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sempra-energy-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Integrated Wealth Concepts LLC Buys 650 Shares of Sempra Energy (NYSE:SRE)" />
+					<h2>Integrated Wealth Concepts LLC Buys 650 Shares of Sempra Energy (NYSE:SRE)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jun 27th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Integrated Wealth Concepts LLC lifted its stake in shares of  Sempra Energy (NYSE:SRE) by 49.0% in the 1st quarter, according to the company in its most recent 13F filing with the SEC. The institutional investor  owned 1,977 shares...&nbsp;<a href='https://transcriptdaily.com/2020/06/27/integrated-wealth-concepts-llc-buys-650-shares-of-sempra-energy-nysesre.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/27/mercer-global-advisors-inc-adv-grows-stock-holdings-in-sempra-energy-nysesre.html" rel="bookmark" title="Mercer Global Advisors Inc. ADV Grows Stock Holdings in Sempra Energy (NYSE:SRE)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sempra-energy-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Mercer Global Advisors Inc. ADV Grows Stock Holdings in Sempra Energy (NYSE:SRE)" />
+					<h2>Mercer Global Advisors Inc. ADV Grows Stock Holdings in Sempra Energy (NYSE:SRE)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jun 27th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Mercer Global Advisors Inc. ADV grew its holdings in shares of  Sempra Energy (NYSE:SRE) by 11.8% in the 1st quarter, according to the company in its most recent disclosure with the Securities &amp; Exchange Commission. The firm owned...&nbsp;<a href='https://transcriptdaily.com/2020/06/27/mercer-global-advisors-inc-adv-grows-stock-holdings-in-sempra-energy-nysesre.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/27/sempra-energy-nysesre-shares-acquired-by-mercer-global-advisors-inc-adv.html" rel="bookmark" title="Sempra Energy (NYSE:SRE) Shares Acquired by Mercer Global Advisors Inc. ADV">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sempra-energy-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Sempra Energy (NYSE:SRE) Shares Acquired by Mercer Global Advisors Inc. ADV" />
+					<h2>Sempra Energy (NYSE:SRE) Shares Acquired by Mercer Global Advisors Inc. ADV</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jun 27th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Mercer Global Advisors Inc. ADV increased its position in  Sempra Energy (NYSE:SRE) by 11.8% during the first quarter, according to the company in its most recent 13F filing with the Securities &amp; Exchange Commission. The firm owned...&nbsp;<a href='https://transcriptdaily.com/2020/06/27/sempra-energy-nysesre-shares-acquired-by-mercer-global-advisors-inc-adv.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/27/swiss-re-ltd-s-otcmktsssrey-downgraded-by-zacks-investment-research.html" rel="bookmark" title="SWISS RE LTD/S (OTCMKTS:SSREY) Downgraded by Zacks Investment Research">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/swiss-re-ag---logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="SWISS RE LTD/S (OTCMKTS:SSREY) Downgraded by Zacks Investment Research" />
+					<h2>SWISS RE LTD/S (OTCMKTS:SSREY) Downgraded by Zacks Investment Research</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jun 27th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Zacks Investment Research lowered shares of SWISS RE LTD/S (OTCMKTS:SSREY) from a hold rating to a sell rating in a research report report published on Wednesday, Zacks.com reports. 
+According to Zacks, &#8220;Swiss Reinsurance Company...&nbsp;<a href='https://transcriptdaily.com/2020/06/27/swiss-re-ltd-s-otcmktsssrey-downgraded-by-zacks-investment-research.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/26/storebrand-asa-otcmktssredf-stock-price-down-6-3-2.html" rel="bookmark" title="Storebrand ASA (OTCMKTS:SREDF) Stock Price Down 6.3%">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Storebrand ASA (OTCMKTS:SREDF) Stock Price Down 6.3%" />
+					<h2>Storebrand ASA (OTCMKTS:SREDF) Stock Price Down 6.3%</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jun 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Storebrand ASA (OTCMKTS:SREDF) dropped 6.3% during mid-day trading on Wednesday . The stock traded as low as $5.50 and last traded at $5.50, approximately 1,000 shares changed hands during mid-day trading. A decline of 87% from the...&nbsp;<a href='https://transcriptdaily.com/2020/06/26/storebrand-asa-otcmktssredf-stock-price-down-6-3-2.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/26/swiss-re-ltd-s-otcmktsssrey-given-average-rating-of-hold-by-brokerages.html" rel="bookmark" title="SWISS RE LTD/S (OTCMKTS:SSREY) Given Average Rating of &#8220;Hold&#8221; by Brokerages">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/swiss-re-ag---logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="SWISS RE LTD/S (OTCMKTS:SSREY) Given Average Rating of &#8220;Hold&#8221; by Brokerages" />
+					<h2>SWISS RE LTD/S (OTCMKTS:SSREY) Given Average Rating of &#8220;Hold&#8221; by Brokerages</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jun 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						SWISS RE LTD/S (OTCMKTS:SSREY) has been given a consensus recommendation of &#8220;Hold&#8221; by the eight research firms that are  covering the company, Marketbeat reports. Two analysts have rated the stock with a sell rating, two...&nbsp;<a href='https://transcriptdaily.com/2020/06/26/swiss-re-ltd-s-otcmktsssrey-given-average-rating-of-hold-by-brokerages.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/26/storebrand-asa-otcmktssredf-stock-price-down-6-3.html" rel="bookmark" title="Storebrand ASA (OTCMKTS:SREDF) Stock Price Down 6.3%">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Storebrand ASA (OTCMKTS:SREDF) Stock Price Down 6.3%" />
+					<h2>Storebrand ASA (OTCMKTS:SREDF) Stock Price Down 6.3%</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jun 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Storebrand ASA (OTCMKTS:SREDF)&#8217;s stock price dropped 6.3% on Wednesday . The stock traded as low as $5.50 and last traded at $5.50, approximately 1,000 shares changed hands during mid-day trading. A decline of 87% from the average...&nbsp;<a href='https://transcriptdaily.com/2020/06/26/storebrand-asa-otcmktssredf-stock-price-down-6-3.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/26/sempra-energy-target-of-unusually-high-options-trading-nysesre.html" rel="bookmark" title="Sempra Energy Target of Unusually High Options Trading (NYSE:SRE)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sempra-energy-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Sempra Energy Target of Unusually High Options Trading (NYSE:SRE)" />
+					<h2>Sempra Energy Target of Unusually High Options Trading (NYSE:SRE)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jun 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Sempra Energy (NYSE:SRE) was the target of some unusual options trading activity on Thursday. Traders bought  1,140 put options on the company. This is an increase of approximately 720% compared to the average volume of 139 put options.
+A...&nbsp;<a href='https://transcriptdaily.com/2020/06/26/sempra-energy-target-of-unusually-high-options-trading-nysesre.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/26/sempra-energy-target-of-unusually-large-options-trading-nysesre.html" rel="bookmark" title="Sempra Energy Target of Unusually Large Options Trading (NYSE:SRE)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sempra-energy-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Sempra Energy Target of Unusually Large Options Trading (NYSE:SRE)" />
+					<h2>Sempra Energy Target of Unusually Large Options Trading (NYSE:SRE)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jun 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Sempra Energy (NYSE:SRE) was the target of some unusual options trading activity on Thursday. Stock investors bought  1,140 put options on the stock. This is an increase of approximately 720% compared to the average daily volume of...&nbsp;<a href='https://transcriptdaily.com/2020/06/26/sempra-energy-target-of-unusually-large-options-trading-nysesre.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/06/26/brokerages-set-sempra-energy-nysesre-target-price-at-147-75.html" rel="bookmark" title="Brokerages Set Sempra Energy (NYSE:SRE) Target Price at $147.75">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sempra-energy-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Brokerages Set Sempra Energy (NYSE:SRE) Target Price at $147.75" />
+					<h2>Brokerages Set Sempra Energy (NYSE:SRE) Target Price at $147.75</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jun 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Shares of Sempra Energy (NYSE:SRE) have been given a consensus recommendation of &#8220;Buy&#8221; by the eighteen research firms that are presently  covering the stock, MarketBeat.com reports. Eight investment analysts have rated...&nbsp;<a href='https://transcriptdaily.com/2020/06/26/brokerages-set-sempra-energy-nysesre-target-price-at-147-75.html'></a>					</div></a>
+				</section> <!-- end archive -->
+				
+				<div class="navigation" style="margin-bottom:10px;">
+					<a href="https://transcriptdaily.com/page/2?s=SRE" >Next &raquo;</a>				</div><!--end .navigation-->
+
+			<div class="bottom-square-ad">
+				<script type="text/javascript">
+				(function() {
+				var html = "javascript:\"<body style='margin: 0;'><script src='https://www.googletagservices.com/tag/js/gpt.js'>googletag.pubads().set('page_url','"+window.location.href+"').definePassback('/8095840/342.network-acn.com_desktop_300x250', [300, 250]).display();<\/script></body>\"";
+				document.write('<iframe width="300" height="250" frameBorder="0" scrolling="no" marginheight="0" marginwidth="0" src="'+encodeURI(html)+'"></iframe>');
+				})();
+				</script>
+			</div> <!-- end first .bottom-square-ad -->
+
+			<div class="bottom-square-ad">
+				<script type="text/javascript">
+				(function() {
+				var html = "javascript:\"<body style='margin: 0;'><script src='https://www.googletagservices.com/tag/js/gpt.js'>googletag.pubads().set('page_url','"+window.location.href+"').definePassback('/8095840/342.network-acn.com_desktop_300x250', [300, 250]).display();<\/script></body>\"";
+				document.write('<iframe width="300" height="250" frameBorder="0" scrolling="no" marginheight="0" marginwidth="0" src="'+encodeURI(html)+'"></iframe>');
+				})();
+				</script>
+			</div> <!-- end second .bottom-square-ad -->
+
+		</main> <!-- end main -->
+	<aside>
+	<iframe src="https://marketbeat.com/scripts/MoreOnMarketBeat.aspx" width="336" height="600" frameborder="no"></iframe><br><br>
+	
+	
+<!-- first square unit -->
+
+<div class="ad336x280">
+<!-- Network Wide AdSense Unit - Top Sidebar Position -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9373162611283935" data-ad-slot="1875628183" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<!-- End AdSense Unit -->
+</div>
+
+<!-- end first square unit -->
+
+<!-- second square unit -->
+<div class="ad336x280">
+<!-- Network Wide AdSense Unit - Middle Sidebar Position -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9373162611283935" data-ad-slot="9445683366" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<!-- End AdSense Unit -->
+</div>
+
+<!-- end second square unit -->
+
+
+<!-- OptIn Form -->
+
+<!-- Start Sidebar Registration -->
+    <div class="sidebar-email">
+                        <h3>Free Email Newsletter</h3>
+         	Complete the form below to receive the latest headlines and analysts' recommendations for your stocks with our free daily email newsletter:<br/>
+        <form method="get" action="https://www.marketbeat.com/newsletter/default.aspx">
+        <input id="RegisterEmailSidebar" name="RegisterEmail" type="email" placeholder="Your Email Address">
+        <input type="hidden" id="Hidden1" name="RegistrationCode" value="Transcript Daily-Sidebar">
+        <input type="hidden" id="Hidden2" name="RegisterTicker" value="OTCMKTS:SSREF" />        <input type="submit" name="submit" onclick="return CheckEmail('RegisterEmailSidebar', 'ShowSuggestionSidebar');" value="Subscribe Now (Free Sign-Up)" class="button" style="width:336px;height:30px">
+    <div id="ShowSuggestionSidebar" style="padding-top:7px"></div>
+    </form>
+    </div>
+
+<!-- End Sidebar Registration -->
+
+<div>
+<a class="twitter-follow-button"
+  href="https://twitter.com/TranscriptDaily"
+  data-size="large">
+Follow @TranscriptDaily</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+
+<!-- Start IMS -->
+<div id="TranscriptDaily_ROS_RightRail_1" class="text-center">
+			<script type="text/javascript">
+			apntag.anq.push(function() {
+				apntag.showTag('TranscriptDaily_ROS_RightRail_1');
+			});
+			</script>
+		</div>
+<!-- End IMS --> 
+
+
+<!-- start Recent Posts -->
+        <br/>
+        <div>
+        <h3>Recent Posts</h3>
+            <ul>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/ishares-north-american-tech-software-etf-batsigv-shares-bought-by-focused-wealth-management-inc.html">iShares North American Tech-Software ETF (BATS:IGV) Shares Bought by Focused Wealth Management Inc</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/stonebridge-financial-planning-group-llc-cuts-stake-in-invesco-dynamic-leisure-and-entertainment-etf-nysearcapej.html">Stonebridge Financial Planning Group LLC Cuts Stake in Invesco Dynamic Leisure and Entertainment ETF (NYSEARCA:PEJ)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/stonebridge-financial-planning-group-llc-buys-250-shares-of-target-co-nysetgt.html">Stonebridge Financial Planning Group LLC Buys 250 Shares of Target Co. (NYSE:TGT)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/stonebridge-financial-planning-group-llc-has-30000-position-in-flowserve-corp-nysefls.html">Stonebridge Financial Planning Group LLC Has $30,000 Position in Flowserve Corp (NYSE:FLS)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/stonebridge-financial-planning-group-llc-has-45000-stock-position-in-invesco-sp-500-pure-value-etf-nysearcarpv.html">Stonebridge Financial Planning Group LLC Has $45,000 Stock Position in Invesco S&#038;P 500 Pure Value ETF (NYSEARCA:RPV)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/cubic-asset-management-llc-has-8-11-million-stock-position-in-alphabet-inc-nasdaqgoog.html">Cubic Asset Management LLC Has $8.11 Million Stock Position in Alphabet Inc (NASDAQ:GOOG)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/tabula-rasa-healthcare-inc-nasdaqtrhc-shares-sold-by-nn-investment-partners-holdings-n-v.html">Tabula Rasa HealthCare Inc (NASDAQ:TRHC) Shares Sold by NN Investment Partners Holdings N.V.</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-raises-stock-holdings-in-cvs-health-corp-nysecvs.html">NN Investment Partners Holdings N.V. Raises Stock Holdings in CVS Health Corp (NYSE:CVS)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-has-14-65-million-holdings-in-atmos-energy-co-nyseato.html">NN Investment Partners Holdings N.V. Has $14.65 Million Holdings in Atmos Energy Co. (NYSE:ATO)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-makes-new-investment-in-extra-space-storage-inc-nyseexr.html">NN Investment Partners Holdings N.V. Makes New Investment in Extra Space Storage, Inc. (NYSE:EXR)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-acquires-14497-shares-of-clorox-co-nyseclx.html">NN Investment Partners Holdings N.V. Acquires 14,497 Shares of Clorox Co (NYSE:CLX)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-has-16-51-million-holdings-in-honeywell-international-inc-nysehon.html">NN Investment Partners Holdings N.V. Has $16.51 Million Holdings in Honeywell International Inc. (NYSE:HON)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/wp-carey-inc-nysewpc-shares-bought-by-nn-investment-partners-holdings-n-v.html">WP Carey Inc (NYSE:WPC) Shares Bought by NN Investment Partners Holdings N.V.</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-decreases-position-in-alphabet-inc-nasdaqgoog.html">NN Investment Partners Holdings N.V. Decreases Position in Alphabet Inc (NASDAQ:GOOG)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-has-21-70-million-stock-holdings-in-3m-co-nysemmm.html">NN Investment Partners Holdings N.V. Has $21.70 Million Stock Holdings in 3M Co (NYSE:MMM)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/salesforce-com-inc-nysecrm-shares-acquired-by-nn-investment-partners-holdings-n-v.html">salesforce.com, inc. (NYSE:CRM) Shares Acquired by NN Investment Partners Holdings N.V.</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-has-22-41-million-holdings-in-roper-technologies-inc-nyserop.html">NN Investment Partners Holdings N.V. Has $22.41 Million Holdings in Roper Technologies Inc (NYSE:ROP)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/dxc-technology-co-nysedxc-shares-acquired-by-heritage-investors-management-corp.html">DXC Technology Co (NYSE:DXC) Shares Acquired by Heritage Investors Management Corp</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/heritage-investors-management-corp-boosts-stock-holdings-in-cvs-health-corp-nysecvs.html">Heritage Investors Management Corp Boosts Stock Holdings in CVS Health Corp (NYSE:CVS)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/csx-co-nasdaqcsx-shares-bought-by-nn-investment-partners-holdings-n-v.html">CSX Co. (NASDAQ:CSX) Shares Bought by NN Investment Partners Holdings N.V.</a></li>
+                        </ul>
+        </div>  
+
+<!-- end recent posts -->
+</aside><!--end #sidebar-->
+<div style="clear: both;"></div>
+	</div> <!-- end .width-limiter -->
+<footer class="full-width">
+			<div class="width-limiter">
+				<div id="footer-info" class="add-padding">
+					<nav class="navigation"><ul id="menu-categories-for-menus-1" class="menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-79"><a href="https://transcriptdaily.com/headlines">Headlines</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-75"><a href="https://transcriptdaily.com/business">Business</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-77"><a href="https://transcriptdaily.com/markets">Markets</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80"><a href="https://transcriptdaily.com/politics">Politics</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78"><a href="https://transcriptdaily.com/technology">Technology</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-76"><a href="https://transcriptdaily.com/health">Health</a></li>
+</ul></nav>					<span id="copyright">
+						&copy; 2006-2020 <a href="https://transcriptdaily.com">Transcript Daily</a>
+					</span>
+				</div><!-- end #footer-info -->
+			</div>	
+		</footer>
+		<script type='text/javascript' src='https://transcriptdaily.com/wp-includes/js/wp-embed.min.js?ver=5.4.2'></script>
+
+<!-- MarketBeat News Network StatCounter Code -->
+<script type="text/javascript">var sc_project=9021069; var sc_invisible=1; var sc_security="fdde5482"; var sc_https=1; </script>
+<script type="text/javascript" src="https://www.statcounter.com/counter/counter.js"></script>
+<noscript><img class="statcounter" src="https://c.statcounter.com/9021069/0/fdde5482/1/" height="1" width="1"></noscript>
+<!-- End MarketBeat News Network StatCounter Code -->
+
+<!-- Start of StatCounter Code for Transcript Daily -->
+<script type="text/javascript">
+var sc_project=11301659; 
+var sc_invisible=1; 
+var sc_security="a399788a"; 
+var sc_https=1; 
+var scJsHost = (("https:" == document.location.protocol) ? "https://secure." : "http://www.");
+</script>
+<script type="text/javascript" src="https://www.statcounter.com/counter/counter.js"></script><noscript><img class="statcounter" src="//c.statcounter.com/11301659/0/a399788a/1/" alt="Web Analytics"></a></noscript>
+<!-- End of StatCounter Code for Transcript Daily -->
+	
+
+<!-- Begin Social Sharing -->
+	<!-- End Social Sharing -->
+
+<!-- Begin Internal Tracking Pixel 2 -->
+<script type='text/javascript'>document.write('<img src="https://www.american' + 'consumernews.net/scripts/viewcount.ashx?ArticleHistoryID=57857590&PostDate=2020-7-26&type=f&id=7547600&domain=transcriptdaily.com&referrer=' + encodeURIComponent(document.referrer) + '" />');</script>
+<!-- End Internal Tracking Pixel 2-->
+
+<!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "16807273" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=16807273&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+
+
+</div>
+
+
+
+	</body>
+</html>

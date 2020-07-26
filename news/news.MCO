@@ -1,0 +1,851 @@
+<!doctype html>
+<html lang="en" style="display:block;min-width:1070px;">
+<head>
+<meta name="distribution" content="global" />
+<meta name="robots" content="follow, all" />
+ <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<meta name="google-site-verification" content="GTY8q3lGYJyB0uT2U_vjhGkaQdrK17O9i9M5MPMBBa0" />
+<meta name="norton-safeweb-site-verification" content="7jyvwknvdv-yfjlzt3cdz5l34h9x7f-83bdh3x3k8mjo4bci55-m3zptqbcd9hef8-62ff6hrcor8prt-i1fw6lej5kw6wovojjadjkw228gbvsi8kc6hb8n1lb270tm" />
+<meta name="viewport" content="width=1070">
+	
+<meta name="googlebot" content="noindex,follow"> 
+
+<!-- Escape from Frames -->
+<script type="text/javascript">if(self==top){document.documentElement.style.display="block"}else{top.location=self.location}</script>
+<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+<link rel="stylesheet" href="https://transcriptdaily.com/wp-content/themes/newsalambre/style.css?v=3" type="text/css" media="screen" />
+<link href="https://transcriptdaily.com/feed" rel="alternate" title="Transcript Daily RSS Feed" type="application/rss+xml" />
+<link href="https://transcriptdaily.com/feed/atom" rel="alternate" title="Transcript Daily Atom Feed" type="application/atom+xml" />
+<link href="https://transcriptdaily.com/xmlrpc.php" rel="pingback" />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Transcript Daily &raquo; Search Results for &#8220;MCO&#8221; Feed" href="https://transcriptdaily.com/search/MCO/feed/rss2/" />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://transcriptdaily.com/wp-includes/css/dist/block-library/style.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='https://api.w.org/' href='https://transcriptdaily.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://transcriptdaily.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://transcriptdaily.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.4.2" />
+<link rel="icon" href="https://transcriptdaily.com/wp-content/uploads/2017/04/Transcript-Daily-Iconpng-06.png" sizes="32x32" />
+<link rel="icon" href="https://transcriptdaily.com/wp-content/uploads/2017/04/Transcript-Daily-Iconpng-06.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://transcriptdaily.com/wp-content/uploads/2017/04/Transcript-Daily-Iconpng-06.png" />
+<meta name="msapplication-TileImage" content="https://transcriptdaily.com/wp-content/uploads/2017/04/Transcript-Daily-Iconpng-06.png" />
+
+<!-- Start Meta Data -->
+<title>Dupont Capital Management Corp Sells 178 Shares of Moody&#8217;s Co. (NYSE:MCO) - Transcript Daily</title>
+
+<!-- End Meta Data -->
+	
+	
+<script type='text/javascript'>var PopupAdChannel=''; </script>
+  <link rel="manifest" href="/manifest.json">
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"></script>
+  <script>
+  	function registerUserChange(action) {
+		OneSignal.getUserId( function(userId) {
+			OneSignalIdString = userId;
+			var Domain = 'transcriptdaily.com';
+			var url = "https://www.marketbeat.com/scripts/OneSignalTracking.ashx?OneSignalID=" + OneSignalIdString + "&domain=" + Domain + "&action=" + action;
+			var xhr = new XMLHttpRequest();
+			xhr.open('GET', url);
+			xhr.onload = function () {
+				if (xhr.status !== 200) {
+					console.log('GET failed.  Returned status of ' + xhr.status);
+				}
+			};
+			xhr.send();
+		});
+	}
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(["init", {
+      appId: "881bfa77-26cb-4cd6-9aa9-572b33abb76a",
+      safari_web_id: 'web.onesignal.auto.1d2463f6-17a6-4c7e-80c3-735ae8ddc977', 
+      autoRegister: false,
+      autoResubscribe: true,		
+      notifyButton: {
+        enable: false /* Set to false to hide */
+      },
+ welcomeNotification: {
+        "title": "Join Wall Street's Brightest Minds.",
+        "message": "Receive research in your inbox from top analysts, before the market opens. Click here to learn how.",
+         "url": "https://www.marketbeat.com/subscribe/subscribe.aspx?ReferralType=OneSignalThankYou&ProductCode=1997t"
+    }
+    },
+		OneSignal.once('subscriptionChange', function (isSubscribed) {
+			if(isSubscribed) {
+				registerUserChange("subscribe");
+			}
+			else {
+				registerUserChange("unsubscribe");
+			}
+			
+		  })
+	]);
+	if((navigator.userAgent.toLowerCase().indexOf('firefox') > -1)||((navigator.userAgent.toLowerCase().indexOf('safari') > -1)&&(!(navigator.userAgent.toLowerCase().indexOf('chrome') > -1)))){
+		OneSignal.showSlidedownPrompt();
+	} else {
+		OneSignal.showNativePrompt();		
+	}
+  </script>
+<script type="text/javascript">var vbnfgha = '211626'; var ertdfga = '13739-bup-ac'; var qhyuioa = '53938'; var AdClientID = qhyuioa + vbnfgha + ertdfga; AdClientID = AdClientID.split("").reverse().join("");</script>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: AdClientID,
+          enable_page_level_ads: true
+     });
+</script>
+<!-- Start IMS -->
+<script type="text/javascript">
+		var apntag = apntag || {};
+		apntag.anq = apntag.anq || [];
+		(function() {
+			var d = document, e = d.createElement('script'), p = d.getElementsByTagName('head')[0];
+			e.type = 'text/javascript';  e.async = true;
+			e.src = '//acdn.adnxs.com/ast/ast.js';
+			p.insertBefore(e, p.firstChild);
+		})();
+
+		
+		apntag.anq.push(function() {
+			apntag.setPageOpts({
+				member: 6989
+			});
+		});
+
+		apntag.anq.push(function() {
+
+      		apntag.defineTag({
+				tagId: 13207769,
+				sizes: [[300,250],[300,600],[300,1050]],
+				keywords: {'position': ['RightRail_1']},
+				targetId: 'TranscriptDaily_ROS_RightRail_1'
+			});
+					});
+
+		apntag.anq.push(function() {
+			apntag.loadTags();
+		});
+		</script>
+	
+<script type="text/javascript">
+(function() {
+window.advBidxc = window.advBidxc || {};
+window.advBidxc.startTime = new Date().getTime();
+function loadScript(tagSrc) {
+var scriptTag = document.createElement('script'),
+placeTag = document.getElementsByTagName("script")[0];
+scriptTag.type = 'text/javascript';
+scriptTag.async = true;
+scriptTag.src = tagSrc;
+placeTag.parentNode.insertBefore(scriptTag, placeTag);
+}
+var mnSrc = '//hbx.media.net/bidexchange.js?cid=8CU2C156D&version=5.1' + '&dn=' +
+window.location.hostname;
+loadScript(mnSrc);
+})();
+</script>
+<!-- End IMS --> 
+	
+
+</head>
+<body>
+<div id="wrap">
+
+<!-- Start MarketBeat Modern Popup -->
+<link rel="stylesheet" type="text/css" media="all" href="https://www.marketbeat.com/scripts/modal/modernpopup.css?v=11"/>
+<script type="text/javascript" src="https://www.marketbeat.com/scripts/modal/modernpopup.js?v=52"></script>
+
+	<script type="text/javascript">LoadPopupRatings('ModernNonMarketsPopup-Transcript Daily', 'transcriptdaily.com');</script>
+<!-- End MarketBeat Modern Popup -->
+	
+<header>
+	<div id="top-bar">
+		<div class="width-limiter">
+				<!-- top nav bar -->
+				<nav class="navigation"><ul id="menu-top-menu" class="menu"><li id="menu-item-81" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-81"><a href="https://transcriptdaily.com">Home</a></li>
+<li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83"><a href="https://transcriptdaily.com/privacy-policy">Privacy Policy</a></li>
+<li id="menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84"><a href="https://transcriptdaily.com/about-contact">About/Contact</a></li>
+</ul></nav>				<form id="searchform" action="https://transcriptdaily.com/" method="get">
+					<div id="search">
+						<input id="s" class="searchinput" name="s" onclick="this.value='';" type="text" />
+						<input class="searchsubmit" type="submit" value="SEARCH" />
+					</div>
+				</form><!-- end: searchform -->
+		</div><!-- end: width-limiter in top-bar -->
+	</div><!-- end: top-bar -->
+	<div class="width-limiter add-padding"><!-- start: width-limiter with logo and space for alternate header unit -->
+		<a class="logo-link" href="https://transcriptdaily.com"><img id="logo" src="/wp-content/uploads/2017/04/Transcript-Daily-Logo-04.png" alt="Transcript Daily logo"></a>
+
+<!-- Begin Header Unit -->
+<div id="AlternateHeaderUnit">
+		
+		<iframe src="https://marketbeat.com/scripts/HeaderAdNewsSites.ashx" width="728" height="90" frameborder="no" scrolling="no"></iframe>
+			</div> 
+
+<!-- End Header Unit-->
+	</div> <!-- end: width-limiter with logo and space for alternate header unit -->
+	<div id="menu">
+		<div class="width-limiter" id="nav-main">
+			<!-- start main category menu -->
+			<nav class="navigation"><ul id="menu-categories-for-menus" class="menu"><li id="menu-item-79" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-79"><a href="https://transcriptdaily.com/headlines">Headlines</a></li>
+<li id="menu-item-75" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-75"><a href="https://transcriptdaily.com/business">Business</a></li>
+<li id="menu-item-77" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-77"><a href="https://transcriptdaily.com/markets">Markets</a></li>
+<li id="menu-item-80" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80"><a href="https://transcriptdaily.com/politics">Politics</a></li>
+<li id="menu-item-78" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78"><a href="https://transcriptdaily.com/technology">Technology</a></li>
+<li id="menu-item-76" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-76"><a href="https://transcriptdaily.com/health">Health</a></li>
+</ul></nav>		</div> <!-- end: width-limiter for menu -->
+	</div> <!-- end: menu -->
+</header> <!-- end: header -->
+	<div class="width-limiter main-content">
+		
+<main>
+						<h1 class="archive-category"><a href="https://transcriptdaily.com">Home</a> &raquo; Search Results</h1>
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/dupont-capital-management-corp-sells-178-shares-of-moodys-co-nysemco.html" rel="bookmark" title="Dupont Capital Management Corp Sells 178 Shares of Moody&#8217;s Co. (NYSE:MCO)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/moodys-corporation-logo.gif&amp;h=100&amp;w=100&amp;zc=1" alt="Dupont Capital Management Corp Sells 178 Shares of Moody&#8217;s Co. (NYSE:MCO)" />
+					<h2>Dupont Capital Management Corp Sells 178 Shares of Moody&#8217;s Co. (NYSE:MCO)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Dupont Capital Management Corp lowered its stake in shares of  Moody&#8217;s Co. (NYSE:MCO) by 0.6% during the second quarter, according to the company in its most recent disclosure with the Securities and Exchange Commission. The...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/dupont-capital-management-corp-sells-178-shares-of-moodys-co-nysemco.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/bidaskclub-downgrades-alarmcom-nasdaqalrm-to-buy.html" rel="bookmark" title="BidaskClub Downgrades AlarmCom (NASDAQ:ALRM) to Buy">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/alarmcom-hldg-inc-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="BidaskClub Downgrades AlarmCom (NASDAQ:ALRM) to Buy" />
+					<h2>BidaskClub Downgrades AlarmCom (NASDAQ:ALRM) to Buy</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						BidaskClub downgraded shares of AlarmCom (NASDAQ:ALRM) from a strong-buy rating to a buy rating in a research report sent to investors on Saturday, BidAskClub reports.
+Several other brokerages also recently weighed in on ALRM. Maxim...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/bidaskclub-downgrades-alarmcom-nasdaqalrm-to-buy.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/pimco-total-return-etf-nysearcabond-holdings-boosted-by-hamilton-wealth-llc.html" rel="bookmark" title="Pimco Total Return ETF (NYSEARCA:BOND) Holdings Boosted by Hamilton Wealth LLC">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Pimco Total Return ETF (NYSEARCA:BOND) Holdings Boosted by Hamilton Wealth LLC" />
+					<h2>Pimco Total Return ETF (NYSEARCA:BOND) Holdings Boosted by Hamilton Wealth LLC</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Hamilton Wealth LLC raised its stake in shares of  Pimco Total Return ETF (NYSEARCA:BOND) by 13.3% in the second quarter, according to its most recent 13F filing with the Securities &amp; Exchange Commission. The firm owned 42,851...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/pimco-total-return-etf-nysearcabond-holdings-boosted-by-hamilton-wealth-llc.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/heritage-investors-management-corp-purchases-4320-shares-of-emcor-group-inc-nyseeme.html" rel="bookmark" title="Heritage Investors Management Corp Purchases 4,320 Shares of Emcor Group Inc (NYSE:EME)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/emcor-group-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Heritage Investors Management Corp Purchases 4,320 Shares of Emcor Group Inc (NYSE:EME)" />
+					<h2>Heritage Investors Management Corp Purchases 4,320 Shares of Emcor Group Inc (NYSE:EME)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Heritage Investors Management Corp lifted its position in shares of  Emcor Group Inc (NYSE:EME) by 63.0% during the second quarter, Holdings Channel.com reports. The firm owned 11,180 shares of the construction company&#8217;s stock...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/heritage-investors-management-corp-purchases-4320-shares-of-emcor-group-inc-nyseeme.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/25/strs-ohio-decreases-stake-in-moodys-co-nysemco.html" rel="bookmark" title="Strs Ohio Decreases Stake in Moody&#8217;s Co. (NYSE:MCO)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/moodys-corporation-logo.gif&amp;h=100&amp;w=100&amp;zc=1" alt="Strs Ohio Decreases Stake in Moody&#8217;s Co. (NYSE:MCO)" />
+					<h2>Strs Ohio Decreases Stake in Moody&#8217;s Co. (NYSE:MCO)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 25th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Strs Ohio reduced its holdings in  Moody&#8217;s Co. (NYSE:MCO) by 7.4% during the 2nd quarter, according to the company in its most recent Form 13F filing with the Securities and Exchange Commission. The institutional investor  owned...&nbsp;<a href='https://transcriptdaily.com/2020/07/25/strs-ohio-decreases-stake-in-moodys-co-nysemco.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/25/denali-advisors-llc-raises-stake-in-gamco-investors-inc-nysegbl.html" rel="bookmark" title="Denali Advisors LLC Raises Stake in Gamco Investors Inc (NYSE:GBL)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/gamco-investors-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Denali Advisors LLC Raises Stake in Gamco Investors Inc (NYSE:GBL)" />
+					<h2>Denali Advisors LLC Raises Stake in Gamco Investors Inc (NYSE:GBL)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 25th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Denali Advisors LLC increased its stake in shares of  Gamco Investors Inc (NYSE:GBL) by 16.2% during the second quarter, according to its most recent filing with the SEC. The institutional investor  owned 65,442 shares of the closed-end...&nbsp;<a href='https://transcriptdaily.com/2020/07/25/denali-advisors-llc-raises-stake-in-gamco-investors-inc-nysegbl.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/25/bmo-capital-markets-begins-coverage-on-kimco-realty-nysekim.html" rel="bookmark" title="BMO Capital Markets Begins Coverage on Kimco Realty (NYSE:KIM)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/kimco-realty-corp-logo.jpg?v2&amp;h=100&amp;w=100&amp;zc=1" alt="BMO Capital Markets Begins Coverage on Kimco Realty (NYSE:KIM)" />
+					<h2>BMO Capital Markets Begins Coverage on Kimco Realty (NYSE:KIM)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 25th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						BMO Capital Markets started coverage on shares of Kimco Realty (NYSE:KIM) in a report issued on Tuesday, TipRanks reports. The firm issued a hold rating and a $12.00 price target on the real estate investment trust&#8217;s stock.
+A...&nbsp;<a href='https://transcriptdaily.com/2020/07/25/bmo-capital-markets-begins-coverage-on-kimco-realty-nysekim.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/25/amcon-distributing-co-nyseamericandit-declares-quarterly-dividend-of-0-18.html" rel="bookmark" title="AMCON Distributing Co (NYSEAMERICAN:DIT) Declares Quarterly Dividend of $0.18">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="AMCON Distributing Co (NYSEAMERICAN:DIT) Declares Quarterly Dividend of $0.18" />
+					<h2>AMCON Distributing Co (NYSEAMERICAN:DIT) Declares Quarterly Dividend of $0.18</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 25th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						AMCON Distributing Co (NYSEAMERICAN:DIT) announced a quarterly dividend on Thursday, July 23rd, Wall Street Journal reports. Stockholders of record on Friday, July 31st will be given a dividend of 0.18 per share on Monday, August 24th....&nbsp;<a href='https://transcriptdaily.com/2020/07/25/amcon-distributing-co-nyseamericandit-declares-quarterly-dividend-of-0-18.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/24/mco-price-down-1-3-over-last-week-mco.html" rel="bookmark" title="MCO Price Down 1.3% Over Last Week (MCO)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/cryptocurrencies/1776.png&amp;h=100&amp;w=100&amp;zc=1" alt="MCO Price Down 1.3% Over Last Week (MCO)" />
+					<h2>MCO Price Down 1.3% Over Last Week (MCO)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 24th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						MCO (CURRENCY:MCO) traded 1.3% lower  against the dollar during the 24 hour period ending at 10:00 AM ET on July 24th. MCO has a total market cap of $63.72 million and $18.87 million worth of MCO was traded on exchanges in the last...&nbsp;<a href='https://transcriptdaily.com/2020/07/24/mco-price-down-1-3-over-last-week-mco.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/24/q2-2020-eps-estimates-for-kimco-realty-corp-decreased-by-analyst-nysekim.html" rel="bookmark" title="Q2 2020 EPS Estimates for Kimco Realty Corp Decreased by Analyst (NYSE:KIM)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/kimco-realty-corp-logo.jpg?v2&amp;h=100&amp;w=100&amp;zc=1" alt="Q2 2020 EPS Estimates for Kimco Realty Corp Decreased by Analyst (NYSE:KIM)" />
+					<h2>Q2 2020 EPS Estimates for Kimco Realty Corp Decreased by Analyst (NYSE:KIM)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 24th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						
+Kimco Realty Corp (NYSE:KIM) &#8211; Stock analysts at  Capital One Financial cut their Q2 2020 earnings estimates for shares of Kimco Realty  in a research note issued to investors on  Tuesday, July 21st. Capital One Financial analyst...&nbsp;<a href='https://transcriptdaily.com/2020/07/24/q2-2020-eps-estimates-for-kimco-realty-corp-decreased-by-analyst-nysekim.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/23/moodys-co-to-post-fy2022-earnings-of-10-35-per-share-william-blair-forecasts-nysemco.html" rel="bookmark" title="Moody&#8217;s Co. to Post FY2022 Earnings of $10.35 Per Share, William Blair Forecasts (NYSE:MCO)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/moodys-corporation-logo.gif&amp;h=100&amp;w=100&amp;zc=1" alt="Moody&#8217;s Co. to Post FY2022 Earnings of $10.35 Per Share, William Blair Forecasts (NYSE:MCO)" />
+					<h2>Moody&#8217;s Co. to Post FY2022 Earnings of $10.35 Per Share, William Blair Forecasts (NYSE:MCO)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 23rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						
+Moody&#8217;s Co. (NYSE:MCO) &#8211; Equities researchers at  William Blair issued their FY2022 earnings estimates for shares of Moody&#8217;s  in a research note issued to investors on  Tuesday, July 21st. William Blair analyst A....&nbsp;<a href='https://transcriptdaily.com/2020/07/23/moodys-co-to-post-fy2022-earnings-of-10-35-per-share-william-blair-forecasts-nysemco.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/23/moodys-co-nysemco-shares-bought-by-fdx-advisors-inc.html" rel="bookmark" title="Moody&#8217;s Co. (NYSE:MCO) Shares Bought by FDx Advisors Inc.">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/moodys-corporation-logo.gif&amp;h=100&amp;w=100&amp;zc=1" alt="Moody&#8217;s Co. (NYSE:MCO) Shares Bought by FDx Advisors Inc." />
+					<h2>Moody&#8217;s Co. (NYSE:MCO) Shares Bought by FDx Advisors Inc.</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 23rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						FDx Advisors Inc. lifted its stake in shares of  Moody&#8217;s Co. (NYSE:MCO) by 39.9% in the second quarter, according to its most recent Form 13F filing with the Securities and Exchange Commission. The institutional investor  owned...&nbsp;<a href='https://transcriptdaily.com/2020/07/23/moodys-co-nysemco-shares-bought-by-fdx-advisors-inc.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/23/pimco-investment-grade-corporate-bond-index-exchange-traded-fund-nysearcacorp-trading-up-0-2.html" rel="bookmark" title="PIMCO Investment Grade Corporate Bond Index Exchange-Traded Fund (NYSEARCA:CORP) Trading Up 0.2%">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="PIMCO Investment Grade Corporate Bond Index Exchange-Traded Fund (NYSEARCA:CORP) Trading Up 0.2%" />
+					<h2>PIMCO Investment Grade Corporate Bond Index Exchange-Traded Fund (NYSEARCA:CORP) Trading Up 0.2%</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 23rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						PIMCO Investment Grade Corporate Bond Index Exchange-Traded Fund (NYSEARCA:CORP) shares traded up 0.2% during mid-day trading on Tuesday . The stock traded as high as $116.70 and last traded at $116.59, 245,900 shares were traded ...&nbsp;<a href='https://transcriptdaily.com/2020/07/23/pimco-investment-grade-corporate-bond-index-exchange-traded-fund-nysearcacorp-trading-up-0-2.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/23/pimco-low-duration-exchange-traded-fund-nysearcaldur-trading-0-1-higher.html" rel="bookmark" title="PIMCO Low Duration Exchange-Traded Fund (NYSEARCA:LDUR) Trading 0.1% Higher">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="PIMCO Low Duration Exchange-Traded Fund (NYSEARCA:LDUR) Trading 0.1% Higher" />
+					<h2>PIMCO Low Duration Exchange-Traded Fund (NYSEARCA:LDUR) Trading 0.1% Higher</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 23rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						PIMCO Low Duration Exchange-Traded Fund (NYSEARCA:LDUR) traded up 0.1% on Tuesday . The company traded as high as $102.41 and last traded at $101.98, 52,400 shares were traded  during mid-day trading. An increase of 14% from the average...&nbsp;<a href='https://transcriptdaily.com/2020/07/23/pimco-low-duration-exchange-traded-fund-nysearcaldur-trading-0-1-higher.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/23/pimco-0-5-year-high-yield-corporate-bond-index-exchange-traded-fund-nysearcahys-stock-price-up-0-5.html" rel="bookmark" title="PIMCO 0-5 Year High Yield Corporate Bond Index Exchange-Traded Fund (NYSEARCA:HYS) Stock Price Up 0.5%">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="PIMCO 0-5 Year High Yield Corporate Bond Index Exchange-Traded Fund (NYSEARCA:HYS) Stock Price Up 0.5%" />
+					<h2>PIMCO 0-5 Year High Yield Corporate Bond Index Exchange-Traded Fund (NYSEARCA:HYS) Stock Price Up 0.5%</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 23rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						PIMCO 0-5 Year High Yield Corporate Bond Index Exchange-Traded Fund (NYSEARCA:HYS) traded up 0.5% on Tuesday . The stock traded as high as $93.77 and last traded at $93.57, 73,400 shares were traded  during trading. A decline of 81%...&nbsp;<a href='https://transcriptdaily.com/2020/07/23/pimco-0-5-year-high-yield-corporate-bond-index-exchange-traded-fund-nysearcahys-stock-price-up-0-5.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/23/capital-one-financial-comments-on-kimco-realty-corps-q1-2021-earnings-nysekim.html" rel="bookmark" title="Capital One Financial Comments on Kimco Realty Corp&#8217;s Q1 2021 Earnings (NYSE:KIM)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/kimco-realty-corp-logo.jpg?v2&amp;h=100&amp;w=100&amp;zc=1" alt="Capital One Financial Comments on Kimco Realty Corp&#8217;s Q1 2021 Earnings (NYSE:KIM)" />
+					<h2>Capital One Financial Comments on Kimco Realty Corp&#8217;s Q1 2021 Earnings (NYSE:KIM)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 23rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						
+Kimco Realty Corp (NYSE:KIM) &#8211;  Capital One Financial boosted their Q1 2021 EPS estimates for shares of Kimco Realty  in a report issued on  Tuesday, July 21st. Capital One Financial analyst C. Lucas now anticipates that the...&nbsp;<a href='https://transcriptdaily.com/2020/07/23/capital-one-financial-comments-on-kimco-realty-corps-q1-2021-earnings-nysekim.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/23/piper-sandler-weighs-in-on-kimco-realty-corps-q2-2020-earnings-nysekim.html" rel="bookmark" title="Piper Sandler Weighs in on Kimco Realty Corp&#8217;s Q2 2020 Earnings (NYSE:KIM)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/kimco-realty-corp-logo.jpg?v2&amp;h=100&amp;w=100&amp;zc=1" alt="Piper Sandler Weighs in on Kimco Realty Corp&#8217;s Q2 2020 Earnings (NYSE:KIM)" />
+					<h2>Piper Sandler Weighs in on Kimco Realty Corp&#8217;s Q2 2020 Earnings (NYSE:KIM)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 23rd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						
+Kimco Realty Corp (NYSE:KIM) &#8211; Investment analysts at  Piper Sandler decreased their Q2 2020 earnings estimates for shares of Kimco Realty  in a report issued on  Monday, July 20th. Piper Sandler analyst A. Goldfarb now forecasts...&nbsp;<a href='https://transcriptdaily.com/2020/07/23/piper-sandler-weighs-in-on-kimco-realty-corps-q2-2020-earnings-nysekim.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/22/moodys-co-nysemco-position-trimmed-by-spinnaker-trust.html" rel="bookmark" title="Moody&#8217;s Co. (NYSE:MCO) Position Trimmed by Spinnaker Trust">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/moodys-corporation-logo.gif&amp;h=100&amp;w=100&amp;zc=1" alt="Moody&#8217;s Co. (NYSE:MCO) Position Trimmed by Spinnaker Trust" />
+					<h2>Moody&#8217;s Co. (NYSE:MCO) Position Trimmed by Spinnaker Trust</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 22nd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Spinnaker Trust lowered its position in shares of  Moody&#8217;s Co. (NYSE:MCO) by 10.7% in the 2nd quarter, according to its most recent disclosure with the SEC. The fund owned 1,665 shares of the business services provider&#8217;s...&nbsp;<a href='https://transcriptdaily.com/2020/07/22/moodys-co-nysemco-position-trimmed-by-spinnaker-trust.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/22/alarmcom-nasdaqalrm-hits-new-52-week-high-at-72-64.html" rel="bookmark" title="AlarmCom (NASDAQ:ALRM) Hits New 52-Week High at $72.64">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/alarmcom-hldg-inc-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="AlarmCom (NASDAQ:ALRM) Hits New 52-Week High at $72.64" />
+					<h2>AlarmCom (NASDAQ:ALRM) Hits New 52-Week High at $72.64</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 22nd, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						AlarmCom Hldg Inc (NASDAQ:ALRM) shares reached a new 52-week high on Monday . The stock traded as high as $72.64 and last traded at $72.45, with a volume of 7299 shares changing hands. The stock had previously closed at $70.89.
+A number...&nbsp;<a href='https://transcriptdaily.com/2020/07/22/alarmcom-nasdaqalrm-hits-new-52-week-high-at-72-64.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/21/zumcoin-trading-down-8-6-this-week-zum.html" rel="bookmark" title="ZumCoin Trading Down 8.6% This Week (ZUM)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=wp-content/themes/newswire/images/image-pending.gif&amp;h=100&amp;w=100&amp;zc=1" alt="ZumCoin Trading Down 8.6% This Week (ZUM)" />
+					<h2>ZumCoin Trading Down 8.6% This Week (ZUM)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 21st, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						ZumCoin (CURRENCY:ZUM) traded 0.6% higher  against the U.S. dollar during the 24 hour period ending at 13:00 PM E.T. on July 21st. In the last seven days, ZumCoin has traded 8.6% lower  against the U.S. dollar. One ZumCoin coin can...&nbsp;<a href='https://transcriptdaily.com/2020/07/21/zumcoin-trading-down-8-6-this-week-zum.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/21/sumco-corp-adr-otcmktssuopy-lowered-to-sell-at-zacks-investment-research.html" rel="bookmark" title="SUMCO CORP/ADR (OTCMKTS:SUOPY) Lowered to Sell at Zacks Investment Research">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sumco-corporation-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="SUMCO CORP/ADR (OTCMKTS:SUOPY) Lowered to Sell at Zacks Investment Research" />
+					<h2>SUMCO CORP/ADR (OTCMKTS:SUOPY) Lowered to Sell at Zacks Investment Research</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 21st, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						SUMCO CORP/ADR (OTCMKTS:SUOPY) was downgraded by Zacks Investment Research from a &#8220;hold&#8221; rating to a &#8220;sell&#8221; rating in a research report issued on Tuesday, Zacks.com reports. 
+According to Zacks, &#8220;Sumco...&nbsp;<a href='https://transcriptdaily.com/2020/07/21/sumco-corp-adr-otcmktssuopy-lowered-to-sell-at-zacks-investment-research.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/21/pimco-total-return-etf-nysearcabond-is-hudson-capital-management-llcs-4th-largest-position.html" rel="bookmark" title="Pimco Total Return ETF (NYSEARCA:BOND) is Hudson Capital Management LLC&#8217;s 4th Largest Position">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Pimco Total Return ETF (NYSEARCA:BOND) is Hudson Capital Management LLC&#8217;s 4th Largest Position" />
+					<h2>Pimco Total Return ETF (NYSEARCA:BOND) is Hudson Capital Management LLC&#8217;s 4th Largest Position</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 21st, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Hudson Capital Management LLC grew its position in  Pimco Total Return ETF (NYSEARCA:BOND) by 9.3% in the second quarter, according to its most recent Form 13F filing with the Securities and Exchange Commission. The institutional investor...&nbsp;<a href='https://transcriptdaily.com/2020/07/21/pimco-total-return-etf-nysearcabond-is-hudson-capital-management-llcs-4th-largest-position.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/21/goldman-sachs-group-begins-coverage-on-sumco-corp-adr-otcmktssuopy.html" rel="bookmark" title="Goldman Sachs Group Begins Coverage on SUMCO CORP/ADR (OTCMKTS:SUOPY)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sumco-corporation-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Goldman Sachs Group Begins Coverage on SUMCO CORP/ADR (OTCMKTS:SUOPY)" />
+					<h2>Goldman Sachs Group Begins Coverage on SUMCO CORP/ADR (OTCMKTS:SUOPY)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 21st, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Goldman Sachs Group initiated coverage on shares of SUMCO CORP/ADR (OTCMKTS:SUOPY) in a research note published on Friday, The Fly reports. The firm issued a conviction-buy rating on the stock.
+SUOPY has been the topic of a number...&nbsp;<a href='https://transcriptdaily.com/2020/07/21/goldman-sachs-group-begins-coverage-on-sumco-corp-adr-otcmktssuopy.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/21/sumco-corp-adr-otcmktssuopy-coverage-initiated-at-citigroup.html" rel="bookmark" title="SUMCO CORP/ADR (OTCMKTS:SUOPY) Coverage Initiated at Citigroup">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sumco-corporation-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="SUMCO CORP/ADR (OTCMKTS:SUOPY) Coverage Initiated at Citigroup" />
+					<h2>SUMCO CORP/ADR (OTCMKTS:SUOPY) Coverage Initiated at Citigroup</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 21st, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Citigroup initiated coverage on shares of SUMCO CORP/ADR (OTCMKTS:SUOPY) in a report issued on Friday morning, The Fly reports. The brokerage issued a buy rating on the stock.
+A number of other analysts have also recently issued reports...&nbsp;<a href='https://transcriptdaily.com/2020/07/21/sumco-corp-adr-otcmktssuopy-coverage-initiated-at-citigroup.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/20/hardy-reed-llc-purchases-shares-of-3206-alarmcom-hldg-inc-nasdaqalrm.html" rel="bookmark" title="Hardy Reed LLC Purchases Shares of 3,206 AlarmCom Hldg Inc (NASDAQ:ALRM)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/alarmcom-hldg-inc-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Hardy Reed LLC Purchases Shares of 3,206 AlarmCom Hldg Inc (NASDAQ:ALRM)" />
+					<h2>Hardy Reed LLC Purchases Shares of 3,206 AlarmCom Hldg Inc (NASDAQ:ALRM)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 20th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Hardy Reed LLC purchased a new stake in shares of  AlarmCom Hldg Inc (NASDAQ:ALRM) in the second quarter, according to the company in its most recent filing with the SEC. The fund purchased 3,206 shares of the software maker&#8217;s...&nbsp;<a href='https://transcriptdaily.com/2020/07/20/hardy-reed-llc-purchases-shares-of-3206-alarmcom-hldg-inc-nasdaqalrm.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/20/zumcoin-zum-market-capitalization-reaches-1-30-million.html" rel="bookmark" title="ZumCoin (ZUM) Market Capitalization Reaches $1.30 Million">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=wp-content/themes/newswire/images/image-pending.gif&amp;h=100&amp;w=100&amp;zc=1" alt="ZumCoin (ZUM) Market Capitalization Reaches $1.30 Million" />
+					<h2>ZumCoin (ZUM) Market Capitalization Reaches $1.30 Million</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 20th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						ZumCoin (CURRENCY:ZUM) traded down 3.2% against the dollar during the 1-day period ending at 15:00 PM Eastern on July 20th. ZumCoin has a total market cap of $1.30 million and $47.00 worth of ZumCoin was traded on exchanges in the...&nbsp;<a href='https://transcriptdaily.com/2020/07/20/zumcoin-zum-market-capitalization-reaches-1-30-million.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/20/pimco-1-5-year-u-s-tips-index-exchange-traded-fund-nysearcastpz-reaches-new-52-week-high-at-53-49.html" rel="bookmark" title="PIMCO 1-5 Year U.S. TIPS Index Exchange-Traded Fund (NYSEARCA:STPZ) Reaches New 52-Week High at $53.49">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="PIMCO 1-5 Year U.S. TIPS Index Exchange-Traded Fund (NYSEARCA:STPZ) Reaches New 52-Week High at $53.49" />
+					<h2>PIMCO 1-5 Year U.S. TIPS Index Exchange-Traded Fund (NYSEARCA:STPZ) Reaches New 52-Week High at $53.49</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 20th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						PIMCO 1-5 Year U.S. TIPS Index Exchange-Traded Fund (NYSEARCA:STPZ) shares hit a new 52-week high on Monday . The company traded as high as $53.49 and last traded at $53.49, with a volume of 100 shares changing hands. The stock had...&nbsp;<a href='https://transcriptdaily.com/2020/07/20/pimco-1-5-year-u-s-tips-index-exchange-traded-fund-nysearcastpz-reaches-new-52-week-high-at-53-49.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/20/wfd-unibail-rodamco-otcmktsunblf-receives-hold-rating-from-jefferies-financial-group.html" rel="bookmark" title="WFD Unibail Rodamco (OTCMKTS:UNBLF) Receives &#8220;Hold&#8221; Rating from Jefferies Financial Group">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="WFD Unibail Rodamco (OTCMKTS:UNBLF) Receives &#8220;Hold&#8221; Rating from Jefferies Financial Group" />
+					<h2>WFD Unibail Rodamco (OTCMKTS:UNBLF) Receives &#8220;Hold&#8221; Rating from Jefferies Financial Group</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 20th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Jefferies Financial Group reiterated their hold rating on shares of WFD Unibail Rodamco (OTCMKTS:UNBLF)  in a research report released on Thursday, The Fly reports.
+A number of other equities analysts also recently commented on UNBLF....&nbsp;<a href='https://transcriptdaily.com/2020/07/20/wfd-unibail-rodamco-otcmktsunblf-receives-hold-rating-from-jefferies-financial-group.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/19/zumcoin-zum-price-down-1-1-over-last-7-days.html" rel="bookmark" title="ZumCoin (ZUM) Price Down 1.1% Over Last 7 Days">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=wp-content/themes/newswire/images/image-pending.gif&amp;h=100&amp;w=100&amp;zc=1" alt="ZumCoin (ZUM) Price Down 1.1% Over Last 7 Days" />
+					<h2>ZumCoin (ZUM) Price Down 1.1% Over Last 7 Days</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 19th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						ZumCoin (CURRENCY:ZUM) traded up 2.4% against the U.S. dollar during the one day period ending at 18:00 PM ET on July 19th. One ZumCoin coin can now be purchased for approximately $0.0014 or 0.00000015 BTC on major cryptocurrency exchanges....&nbsp;<a href='https://transcriptdaily.com/2020/07/19/zumcoin-zum-price-down-1-1-over-last-7-days.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/19/analysts-anticipate-kimco-realty-corp-nysekim-will-post-quarterly-sales-of-257-04-million.html" rel="bookmark" title="Analysts Anticipate Kimco Realty Corp (NYSE:KIM) Will Post Quarterly Sales of $257.04 Million">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/kimco-realty-corp-logo.jpg?v2&amp;h=100&amp;w=100&amp;zc=1" alt="Analysts Anticipate Kimco Realty Corp (NYSE:KIM) Will Post Quarterly Sales of $257.04 Million" />
+					<h2>Analysts Anticipate Kimco Realty Corp (NYSE:KIM) Will Post Quarterly Sales of $257.04 Million</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 19th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Analysts expect Kimco Realty Corp (NYSE:KIM) to report sales of $257.04 million for the current quarter, Zacks reports. Eight analysts have made estimates for Kimco Realty&#8217;s earnings, with the highest sales estimate coming in...&nbsp;<a href='https://transcriptdaily.com/2020/07/19/analysts-anticipate-kimco-realty-corp-nysekim-will-post-quarterly-sales-of-257-04-million.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/19/analysts-expect-kimco-realty-corp-nysekim-will-announce-earnings-of-0-26-per-share.html" rel="bookmark" title="Analysts Expect Kimco Realty Corp (NYSE:KIM) Will Announce Earnings of $0.26 Per Share">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/kimco-realty-corp-logo.jpg?v2&amp;h=100&amp;w=100&amp;zc=1" alt="Analysts Expect Kimco Realty Corp (NYSE:KIM) Will Announce Earnings of $0.26 Per Share" />
+					<h2>Analysts Expect Kimco Realty Corp (NYSE:KIM) Will Announce Earnings of $0.26 Per Share</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 19th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Equities research analysts predict that Kimco Realty Corp (NYSE:KIM) will announce earnings per share (EPS) of $0.26 for the current fiscal quarter, Zacks Investment Research reports. Eight analysts have provided estimates for Kimco...&nbsp;<a href='https://transcriptdaily.com/2020/07/19/analysts-expect-kimco-realty-corp-nysekim-will-announce-earnings-of-0-26-per-share.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/19/amcor-nyseamcr-downgraded-by-zacks-investment-research.html" rel="bookmark" title="Amcor (NYSE:AMCR) Downgraded by Zacks Investment Research">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Amcor (NYSE:AMCR) Downgraded by Zacks Investment Research" />
+					<h2>Amcor (NYSE:AMCR) Downgraded by Zacks Investment Research</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 19th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Zacks Investment Research downgraded shares of Amcor (NYSE:AMCR) from a buy rating to a hold rating in a research report released on Wednesday morning, Zacks.com reports. 
+According to Zacks, &#8220;Bemis Company, Inc. is a major supplier...&nbsp;<a href='https://transcriptdaily.com/2020/07/19/amcor-nyseamcr-downgraded-by-zacks-investment-research.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/18/moodys-co-nysemco-shares-sold-by-san-francisco-sentry-investment-group-ca.html" rel="bookmark" title="Moody&#8217;s Co. (NYSE:MCO) Shares Sold by San Francisco Sentry Investment Group CA">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/moodys-corporation-logo.gif&amp;h=100&amp;w=100&amp;zc=1" alt="Moody&#8217;s Co. (NYSE:MCO) Shares Sold by San Francisco Sentry Investment Group CA" />
+					<h2>Moody&#8217;s Co. (NYSE:MCO) Shares Sold by San Francisco Sentry Investment Group CA</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 18th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						San Francisco Sentry Investment Group CA reduced its stake in shares of  Moody&#8217;s Co. (NYSE:MCO) by 38.8% during the second quarter, Holdings Channel.com reports. The firm owned 663 shares of the business services provider&#8217;s...&nbsp;<a href='https://transcriptdaily.com/2020/07/18/moodys-co-nysemco-shares-sold-by-san-francisco-sentry-investment-group-ca.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/18/stewart-patten-co-llc-sells-8670-shares-of-amcor-plc-nyseamcr.html" rel="bookmark" title="Stewart &#038; Patten Co. LLC Sells 8,670 Shares of Amcor plc (NYSE:AMCR)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Stewart &#038; Patten Co. LLC Sells 8,670 Shares of Amcor plc (NYSE:AMCR)" />
+					<h2>Stewart &#038; Patten Co. LLC Sells 8,670 Shares of Amcor plc (NYSE:AMCR)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 18th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Stewart &#038; Patten Co. LLC trimmed its stake in  Amcor plc (NYSE:AMCR) by 10.6% during the second quarter, HoldingsChannel.com reports. The fund owned 73,115 shares of the company&#8217;s stock after selling 8,670 shares during...&nbsp;<a href='https://transcriptdaily.com/2020/07/18/stewart-patten-co-llc-sells-8670-shares-of-amcor-plc-nyseamcr.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/18/vident-investment-advisory-llc-purchases-shares-of-23276-moodys-co-nysemco.html" rel="bookmark" title="Vident Investment Advisory LLC Purchases Shares of 23,276 Moody&#8217;s Co. (NYSE:MCO)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/moodys-corporation-logo.gif&amp;h=100&amp;w=100&amp;zc=1" alt="Vident Investment Advisory LLC Purchases Shares of 23,276 Moody&#8217;s Co. (NYSE:MCO)" />
+					<h2>Vident Investment Advisory LLC Purchases Shares of 23,276 Moody&#8217;s Co. (NYSE:MCO)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 18th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Vident Investment Advisory LLC acquired a new position in  Moody&#8217;s Co. (NYSE:MCO) in the 2nd quarter, according to its most recent 13F filing with the Securities &amp; Exchange Commission. The firm acquired 23,276 shares of the...&nbsp;<a href='https://transcriptdaily.com/2020/07/18/vident-investment-advisory-llc-purchases-shares-of-23276-moodys-co-nysemco.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/18/gamco-investors-nysegbl-releases-q2-2020after-hours-earnings-guidance.html" rel="bookmark" title="Gamco Investors (NYSE:GBL) Releases Q2 2020
+After-Hours Earnings Guidance">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/gamco-investors-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Gamco Investors (NYSE:GBL) Releases Q2 2020
+After-Hours Earnings Guidance" />
+					<h2>Gamco Investors (NYSE:GBL) Releases Q2 2020
+After-Hours Earnings Guidance</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 18th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Gamco Investors (NYSE:GBL) updated its second quarter 2020
+After-Hours earnings guidance on Thursday. The company provided earnings per share (EPS) guidance of 0.39-0.43 for the period. 
+Shares of NYSE GBL opened at $12.56 on Friday....&nbsp;<a href='https://transcriptdaily.com/2020/07/18/gamco-investors-nysegbl-releases-q2-2020after-hours-earnings-guidance.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/18/redpoint-investment-management-pty-ltd-reduces-holdings-in-moodys-co-nysemco.html" rel="bookmark" title="Redpoint Investment Management Pty Ltd Reduces Holdings in Moody&#8217;s Co. (NYSE:MCO)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/moodys-corporation-logo.gif&amp;h=100&amp;w=100&amp;zc=1" alt="Redpoint Investment Management Pty Ltd Reduces Holdings in Moody&#8217;s Co. (NYSE:MCO)" />
+					<h2>Redpoint Investment Management Pty Ltd Reduces Holdings in Moody&#8217;s Co. (NYSE:MCO)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 18th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Redpoint Investment Management Pty Ltd lowered its stake in shares of  Moody&#8217;s Co. (NYSE:MCO) by 5.7% in the second quarter, according to its most recent Form 13F filing with the Securities and Exchange Commission. The institutional...&nbsp;<a href='https://transcriptdaily.com/2020/07/18/redpoint-investment-management-pty-ltd-reduces-holdings-in-moodys-co-nysemco.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/17/nachman-norwood-parrott-inc-has-330000-stock-position-in-moodys-co-nysemco.html" rel="bookmark" title="Nachman Norwood &#038; Parrott Inc Has $330,000 Stock Position in Moody&#8217;s Co. (NYSE:MCO)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/moodys-corporation-logo.gif&amp;h=100&amp;w=100&amp;zc=1" alt="Nachman Norwood &#038; Parrott Inc Has $330,000 Stock Position in Moody&#8217;s Co. (NYSE:MCO)" />
+					<h2>Nachman Norwood &#038; Parrott Inc Has $330,000 Stock Position in Moody&#8217;s Co. (NYSE:MCO)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 17th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Nachman Norwood &#038; Parrott Inc lessened its holdings in shares of  Moody&#8217;s Co. (NYSE:MCO) by 45.5% during the second quarter, according to the company in its most recent Form 13F filing with the Securities &amp; Exchange...&nbsp;<a href='https://transcriptdaily.com/2020/07/17/nachman-norwood-parrott-inc-has-330000-stock-position-in-moodys-co-nysemco.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/17/columbus-mckinnon-nasdaqcmco-now-covered-by-da-davidson.html" rel="bookmark" title="Columbus McKinnon (NASDAQ:CMCO) Now Covered by DA Davidson">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/columbus-mckinnon-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Columbus McKinnon (NASDAQ:CMCO) Now Covered by DA Davidson" />
+					<h2>Columbus McKinnon (NASDAQ:CMCO) Now Covered by DA Davidson</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 17th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Investment analysts at DA Davidson assumed coverage on shares of Columbus McKinnon (NASDAQ:CMCO) in a research report issued to clients and investors on Wednesday, MarketBeat Ratings reports. The firm set a &#8220;neutral&#8221; rating...&nbsp;<a href='https://transcriptdaily.com/2020/07/17/columbus-mckinnon-nasdaqcmco-now-covered-by-da-davidson.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/16/first-citizens-bank-trust-co-raises-stock-holdings-in-kimco-realty-corp-nysekim.html" rel="bookmark" title="First Citizens Bank &#038; Trust Co. Raises Stock Holdings in Kimco Realty Corp (NYSE:KIM)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/kimco-realty-corp-logo.jpg?v2&amp;h=100&amp;w=100&amp;zc=1" alt="First Citizens Bank &#038; Trust Co. Raises Stock Holdings in Kimco Realty Corp (NYSE:KIM)" />
+					<h2>First Citizens Bank &#038; Trust Co. Raises Stock Holdings in Kimco Realty Corp (NYSE:KIM)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 16th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						First Citizens Bank &#038; Trust Co. increased its stake in shares of  Kimco Realty Corp (NYSE:KIM) by 157.1% in the second quarter, according to its most recent 13F filing with the Securities and Exchange Commission (SEC). The fund...&nbsp;<a href='https://transcriptdaily.com/2020/07/16/first-citizens-bank-trust-co-raises-stock-holdings-in-kimco-realty-corp-nysekim.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/16/rothschild-co-wealth-management-uk-ltd-sells-151666-shares-of-moodys-co-nysemco.html" rel="bookmark" title="Rothschild &#038; Co Wealth Management UK Ltd Sells 151,666 Shares of Moody&#8217;s Co. (NYSE:MCO)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/moodys-corporation-logo.gif&amp;h=100&amp;w=100&amp;zc=1" alt="Rothschild &#038; Co Wealth Management UK Ltd Sells 151,666 Shares of Moody&#8217;s Co. (NYSE:MCO)" />
+					<h2>Rothschild &#038; Co Wealth Management UK Ltd Sells 151,666 Shares of Moody&#8217;s Co. (NYSE:MCO)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 16th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Rothschild &#038; Co Wealth Management UK Ltd trimmed its stake in  Moody&#8217;s Co. (NYSE:MCO) by 7.8% during the second quarter, according to its most recent filing with the Securities &amp; Exchange Commission. The fund owned 1,787,436...&nbsp;<a href='https://transcriptdaily.com/2020/07/16/rothschild-co-wealth-management-uk-ltd-sells-151666-shares-of-moodys-co-nysemco.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/16/howe-rusling-inc-sells-552-shares-of-moodys-co-nysemco.html" rel="bookmark" title="Howe &#038; Rusling Inc. Sells 552 Shares of Moody&#8217;s Co. (NYSE:MCO)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/moodys-corporation-logo.gif&amp;h=100&amp;w=100&amp;zc=1" alt="Howe &#038; Rusling Inc. Sells 552 Shares of Moody&#8217;s Co. (NYSE:MCO)" />
+					<h2>Howe &#038; Rusling Inc. Sells 552 Shares of Moody&#8217;s Co. (NYSE:MCO)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 16th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Howe &#038; Rusling Inc. cut its holdings in shares of  Moody&#8217;s Co. (NYSE:MCO) by 25.3% during the 2nd quarter, according to its most recent disclosure with the Securities and Exchange Commission. The firm owned 1,631 shares...&nbsp;<a href='https://transcriptdaily.com/2020/07/16/howe-rusling-inc-sells-552-shares-of-moodys-co-nysemco.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/16/capital-insight-partners-llc-has-2-52-million-holdings-in-moodys-co-nysemco.html" rel="bookmark" title="Capital Insight Partners LLC Has $2.52 Million Holdings in Moody&#8217;s Co. (NYSE:MCO)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/moodys-corporation-logo.gif&amp;h=100&amp;w=100&amp;zc=1" alt="Capital Insight Partners LLC Has $2.52 Million Holdings in Moody&#8217;s Co. (NYSE:MCO)" />
+					<h2>Capital Insight Partners LLC Has $2.52 Million Holdings in Moody&#8217;s Co. (NYSE:MCO)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 16th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Capital Insight Partners LLC trimmed its position in  Moody&#8217;s Co. (NYSE:MCO) by 3.1% in the second quarter, according to its most recent filing with the Securities and Exchange Commission (SEC). The institutional investor  owned...&nbsp;<a href='https://transcriptdaily.com/2020/07/16/capital-insight-partners-llc-has-2-52-million-holdings-in-moodys-co-nysemco.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/16/arlington-financial-advisors-llc-buys-shares-of-16045-pimco-rafi-esg-u-s-etf-nysearcarafe.html" rel="bookmark" title="Arlington Financial Advisors LLC Buys Shares of 16,045 Pimco Rafi Esg U.S. Etf (NYSEARCA:RAFE)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Arlington Financial Advisors LLC Buys Shares of 16,045 Pimco Rafi Esg U.S. Etf (NYSEARCA:RAFE)" />
+					<h2>Arlington Financial Advisors LLC Buys Shares of 16,045 Pimco Rafi Esg U.S. Etf (NYSEARCA:RAFE)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 16th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Arlington Financial Advisors LLC bought a new stake in shares of  Pimco Rafi Esg U.S. Etf (NYSEARCA:RAFE) in the second quarter, according to the company in its most recent Form 13F filing with the Securities and Exchange Commission....&nbsp;<a href='https://transcriptdaily.com/2020/07/16/arlington-financial-advisors-llc-buys-shares-of-16045-pimco-rafi-esg-u-s-etf-nysearcarafe.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/16/quantum-otcmktsqmco-lowered-to-sell-at-zacks-investment-research.html" rel="bookmark" title="Quantum (OTCMKTS:QMCO) Lowered to &#8220;Sell&#8221; at Zacks Investment Research">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Quantum (OTCMKTS:QMCO) Lowered to &#8220;Sell&#8221; at Zacks Investment Research" />
+					<h2>Quantum (OTCMKTS:QMCO) Lowered to &#8220;Sell&#8221; at Zacks Investment Research</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 16th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Quantum (OTCMKTS:QMCO) was downgraded by Zacks Investment Research from a &#8220;hold&#8221; rating to a &#8220;sell&#8221; rating in a note issued to investors on Thursday, Zacks.com reports. 
+According to Zacks, &#8220;Quantum is...&nbsp;<a href='https://transcriptdaily.com/2020/07/16/quantum-otcmktsqmco-lowered-to-sell-at-zacks-investment-research.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/16/pacifica-partners-inc-has-4-19-million-stock-holdings-in-pimco-total-return-etf-nysearcabond.html" rel="bookmark" title="Pacifica Partners Inc. Has $4.19 Million Stock Holdings in Pimco Total Return ETF (NYSEARCA:BOND)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Pacifica Partners Inc. Has $4.19 Million Stock Holdings in Pimco Total Return ETF (NYSEARCA:BOND)" />
+					<h2>Pacifica Partners Inc. Has $4.19 Million Stock Holdings in Pimco Total Return ETF (NYSEARCA:BOND)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 16th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Pacifica Partners Inc. boosted its stake in  Pimco Total Return ETF (NYSEARCA:BOND) by 2.9% in the second quarter, according to its most recent Form 13F filing with the Securities and Exchange Commission. The firm owned 37,765 shares...&nbsp;<a href='https://transcriptdaily.com/2020/07/16/pacifica-partners-inc-has-4-19-million-stock-holdings-in-pimco-total-return-etf-nysearcabond.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/16/cascade-investment-advisors-inc-has-84000-position-in-kimco-realty-corp-nysekim.html" rel="bookmark" title="Cascade Investment Advisors Inc. Has $84,000 Position in Kimco Realty Corp (NYSE:KIM)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/kimco-realty-corp-logo.jpg?v2&amp;h=100&amp;w=100&amp;zc=1" alt="Cascade Investment Advisors Inc. Has $84,000 Position in Kimco Realty Corp (NYSE:KIM)" />
+					<h2>Cascade Investment Advisors Inc. Has $84,000 Position in Kimco Realty Corp (NYSE:KIM)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 16th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Cascade Investment Advisors Inc. reduced its stake in shares of  Kimco Realty Corp (NYSE:KIM) by 98.9% in the 2nd quarter, according to its most recent Form 13F filing with the Securities and Exchange Commission (SEC). The institutional...&nbsp;<a href='https://transcriptdaily.com/2020/07/16/cascade-investment-advisors-inc-has-84000-position-in-kimco-realty-corp-nysekim.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/16/cascade-investment-advisors-inc-cuts-stake-in-moodys-co-nysemco.html" rel="bookmark" title="Cascade Investment Advisors Inc. Cuts Stake in Moody&#8217;s Co. (NYSE:MCO)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/moodys-corporation-logo.gif&amp;h=100&amp;w=100&amp;zc=1" alt="Cascade Investment Advisors Inc. Cuts Stake in Moody&#8217;s Co. (NYSE:MCO)" />
+					<h2>Cascade Investment Advisors Inc. Cuts Stake in Moody&#8217;s Co. (NYSE:MCO)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 16th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Cascade Investment Advisors Inc. lowered its position in shares of  Moody&#8217;s Co. (NYSE:MCO) by 12.5% in the second quarter, Holdings Channel reports. The institutional investor  owned 350 shares of the business services provider&#8217;s...&nbsp;<a href='https://transcriptdaily.com/2020/07/16/cascade-investment-advisors-inc-cuts-stake-in-moodys-co-nysemco.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/16/analysts-expect-amcor-plc-nyseamcr-to-post-0-19-earnings-per-share.html" rel="bookmark" title="Analysts Expect Amcor plc (NYSE:AMCR) to Post $0.19 Earnings Per Share">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Analysts Expect Amcor plc (NYSE:AMCR) to Post $0.19 Earnings Per Share" />
+					<h2>Analysts Expect Amcor plc (NYSE:AMCR) to Post $0.19 Earnings Per Share</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 16th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Equities research analysts forecast that Amcor plc (NYSE:AMCR) will post earnings per share (EPS) of $0.19 for the current fiscal quarter, Zacks reports. Two analysts have provided estimates for Amcor&#8217;s earnings. The lowest EPS...&nbsp;<a href='https://transcriptdaily.com/2020/07/16/analysts-expect-amcor-plc-nyseamcr-to-post-0-19-earnings-per-share.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/15/alarmcom-nasdaqalrm-price-target-raised-to-72-00.html" rel="bookmark" title="AlarmCom (NASDAQ:ALRM) Price Target Raised to $72.00">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/alarmcom-hldg-inc-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="AlarmCom (NASDAQ:ALRM) Price Target Raised to $72.00" />
+					<h2>AlarmCom (NASDAQ:ALRM) Price Target Raised to $72.00</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 15th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						AlarmCom (NASDAQ:ALRM) had its target price boosted by stock analysts at Northland Securities  from $58.00 to $72.00 in a research note issued to investors on Wednesday, The Fly reports. The firm currently has an &#8220;outperform&#8221;...&nbsp;<a href='https://transcriptdaily.com/2020/07/15/alarmcom-nasdaqalrm-price-target-raised-to-72-00.html'></a>					</div></a>
+				</section> <!-- end archive -->
+				
+				<div class="navigation" style="margin-bottom:10px;">
+					<a href="https://transcriptdaily.com/page/2?s=MCO" >Next &raquo;</a>				</div><!--end .navigation-->
+
+			<div class="bottom-square-ad">
+				<script type="text/javascript">
+				(function() {
+				var html = "javascript:\"<body style='margin: 0;'><script src='https://www.googletagservices.com/tag/js/gpt.js'>googletag.pubads().set('page_url','"+window.location.href+"').definePassback('/8095840/342.network-acn.com_desktop_300x250', [300, 250]).display();<\/script></body>\"";
+				document.write('<iframe width="300" height="250" frameBorder="0" scrolling="no" marginheight="0" marginwidth="0" src="'+encodeURI(html)+'"></iframe>');
+				})();
+				</script>
+			</div> <!-- end first .bottom-square-ad -->
+
+			<div class="bottom-square-ad">
+				<script type="text/javascript">
+				(function() {
+				var html = "javascript:\"<body style='margin: 0;'><script src='https://www.googletagservices.com/tag/js/gpt.js'>googletag.pubads().set('page_url','"+window.location.href+"').definePassback('/8095840/342.network-acn.com_desktop_300x250', [300, 250]).display();<\/script></body>\"";
+				document.write('<iframe width="300" height="250" frameBorder="0" scrolling="no" marginheight="0" marginwidth="0" src="'+encodeURI(html)+'"></iframe>');
+				})();
+				</script>
+			</div> <!-- end second .bottom-square-ad -->
+
+		</main> <!-- end main -->
+	<aside>
+	<iframe src="https://marketbeat.com/scripts/MoreOnMarketBeat.aspx" width="336" height="600" frameborder="no"></iframe><br><br>
+	
+	
+<!-- first square unit -->
+
+<div class="ad336x280">
+<!-- Network Wide AdSense Unit - Top Sidebar Position -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9373162611283935" data-ad-slot="1875628183" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<!-- End AdSense Unit -->
+</div>
+
+<!-- end first square unit -->
+
+<!-- second square unit -->
+<div class="ad336x280">
+<!-- Network Wide AdSense Unit - Middle Sidebar Position -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9373162611283935" data-ad-slot="9445683366" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<!-- End AdSense Unit -->
+</div>
+
+<!-- end second square unit -->
+
+
+<!-- OptIn Form -->
+
+<!-- Start Sidebar Registration -->
+    <div class="sidebar-email">
+                        <h3>Free Email Newsletter</h3>
+         	Complete the form below to receive the latest headlines and analysts' recommendations for your stocks with our free daily email newsletter:<br/>
+        <form method="get" action="https://www.marketbeat.com/newsletter/default.aspx">
+        <input id="RegisterEmailSidebar" name="RegisterEmail" type="email" placeholder="Your Email Address">
+        <input type="hidden" id="Hidden1" name="RegistrationCode" value="Transcript Daily-Sidebar">
+        <input type="hidden" id="Hidden2" name="RegisterTicker" value="NYSE:MCO" />        <input type="submit" name="submit" onclick="return CheckEmail('RegisterEmailSidebar', 'ShowSuggestionSidebar');" value="Subscribe Now (Free Sign-Up)" class="button" style="width:336px;height:30px">
+    <div id="ShowSuggestionSidebar" style="padding-top:7px"></div>
+    </form>
+    </div>
+
+<!-- End Sidebar Registration -->
+
+<div>
+<a class="twitter-follow-button"
+  href="https://twitter.com/TranscriptDaily"
+  data-size="large">
+Follow @TranscriptDaily</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+
+<!-- Start IMS -->
+<div id="TranscriptDaily_ROS_RightRail_1" class="text-center">
+			<script type="text/javascript">
+			apntag.anq.push(function() {
+				apntag.showTag('TranscriptDaily_ROS_RightRail_1');
+			});
+			</script>
+		</div>
+<!-- End IMS --> 
+
+
+<!-- start Recent Posts -->
+        <br/>
+        <div>
+        <h3>Recent Posts</h3>
+            <ul>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/ishares-north-american-tech-software-etf-batsigv-shares-bought-by-focused-wealth-management-inc.html">iShares North American Tech-Software ETF (BATS:IGV) Shares Bought by Focused Wealth Management Inc</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/stonebridge-financial-planning-group-llc-cuts-stake-in-invesco-dynamic-leisure-and-entertainment-etf-nysearcapej.html">Stonebridge Financial Planning Group LLC Cuts Stake in Invesco Dynamic Leisure and Entertainment ETF (NYSEARCA:PEJ)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/stonebridge-financial-planning-group-llc-buys-250-shares-of-target-co-nysetgt.html">Stonebridge Financial Planning Group LLC Buys 250 Shares of Target Co. (NYSE:TGT)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/stonebridge-financial-planning-group-llc-has-30000-position-in-flowserve-corp-nysefls.html">Stonebridge Financial Planning Group LLC Has $30,000 Position in Flowserve Corp (NYSE:FLS)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/stonebridge-financial-planning-group-llc-has-45000-stock-position-in-invesco-sp-500-pure-value-etf-nysearcarpv.html">Stonebridge Financial Planning Group LLC Has $45,000 Stock Position in Invesco S&#038;P 500 Pure Value ETF (NYSEARCA:RPV)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/cubic-asset-management-llc-has-8-11-million-stock-position-in-alphabet-inc-nasdaqgoog.html">Cubic Asset Management LLC Has $8.11 Million Stock Position in Alphabet Inc (NASDAQ:GOOG)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/tabula-rasa-healthcare-inc-nasdaqtrhc-shares-sold-by-nn-investment-partners-holdings-n-v.html">Tabula Rasa HealthCare Inc (NASDAQ:TRHC) Shares Sold by NN Investment Partners Holdings N.V.</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-raises-stock-holdings-in-cvs-health-corp-nysecvs.html">NN Investment Partners Holdings N.V. Raises Stock Holdings in CVS Health Corp (NYSE:CVS)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-has-14-65-million-holdings-in-atmos-energy-co-nyseato.html">NN Investment Partners Holdings N.V. Has $14.65 Million Holdings in Atmos Energy Co. (NYSE:ATO)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-makes-new-investment-in-extra-space-storage-inc-nyseexr.html">NN Investment Partners Holdings N.V. Makes New Investment in Extra Space Storage, Inc. (NYSE:EXR)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-acquires-14497-shares-of-clorox-co-nyseclx.html">NN Investment Partners Holdings N.V. Acquires 14,497 Shares of Clorox Co (NYSE:CLX)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-has-16-51-million-holdings-in-honeywell-international-inc-nysehon.html">NN Investment Partners Holdings N.V. Has $16.51 Million Holdings in Honeywell International Inc. (NYSE:HON)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/wp-carey-inc-nysewpc-shares-bought-by-nn-investment-partners-holdings-n-v.html">WP Carey Inc (NYSE:WPC) Shares Bought by NN Investment Partners Holdings N.V.</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-decreases-position-in-alphabet-inc-nasdaqgoog.html">NN Investment Partners Holdings N.V. Decreases Position in Alphabet Inc (NASDAQ:GOOG)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-has-21-70-million-stock-holdings-in-3m-co-nysemmm.html">NN Investment Partners Holdings N.V. Has $21.70 Million Stock Holdings in 3M Co (NYSE:MMM)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/salesforce-com-inc-nysecrm-shares-acquired-by-nn-investment-partners-holdings-n-v.html">salesforce.com, inc. (NYSE:CRM) Shares Acquired by NN Investment Partners Holdings N.V.</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-has-22-41-million-holdings-in-roper-technologies-inc-nyserop.html">NN Investment Partners Holdings N.V. Has $22.41 Million Holdings in Roper Technologies Inc (NYSE:ROP)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/dxc-technology-co-nysedxc-shares-acquired-by-heritage-investors-management-corp.html">DXC Technology Co (NYSE:DXC) Shares Acquired by Heritage Investors Management Corp</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/heritage-investors-management-corp-boosts-stock-holdings-in-cvs-health-corp-nysecvs.html">Heritage Investors Management Corp Boosts Stock Holdings in CVS Health Corp (NYSE:CVS)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/csx-co-nasdaqcsx-shares-bought-by-nn-investment-partners-holdings-n-v.html">CSX Co. (NASDAQ:CSX) Shares Bought by NN Investment Partners Holdings N.V.</a></li>
+                        </ul>
+        </div>  
+
+<!-- end recent posts -->
+</aside><!--end #sidebar-->
+<div style="clear: both;"></div>
+	</div> <!-- end .width-limiter -->
+<footer class="full-width">
+			<div class="width-limiter">
+				<div id="footer-info" class="add-padding">
+					<nav class="navigation"><ul id="menu-categories-for-menus-1" class="menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-79"><a href="https://transcriptdaily.com/headlines">Headlines</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-75"><a href="https://transcriptdaily.com/business">Business</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-77"><a href="https://transcriptdaily.com/markets">Markets</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80"><a href="https://transcriptdaily.com/politics">Politics</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78"><a href="https://transcriptdaily.com/technology">Technology</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-76"><a href="https://transcriptdaily.com/health">Health</a></li>
+</ul></nav>					<span id="copyright">
+						&copy; 2006-2020 <a href="https://transcriptdaily.com">Transcript Daily</a>
+					</span>
+				</div><!-- end #footer-info -->
+			</div>	
+		</footer>
+		<script type='text/javascript' src='https://transcriptdaily.com/wp-includes/js/wp-embed.min.js?ver=5.4.2'></script>
+
+<!-- MarketBeat News Network StatCounter Code -->
+<script type="text/javascript">var sc_project=9021069; var sc_invisible=1; var sc_security="fdde5482"; var sc_https=1; </script>
+<script type="text/javascript" src="https://www.statcounter.com/counter/counter.js"></script>
+<noscript><img class="statcounter" src="https://c.statcounter.com/9021069/0/fdde5482/1/" height="1" width="1"></noscript>
+<!-- End MarketBeat News Network StatCounter Code -->
+
+<!-- Start of StatCounter Code for Transcript Daily -->
+<script type="text/javascript">
+var sc_project=11301659; 
+var sc_invisible=1; 
+var sc_security="a399788a"; 
+var sc_https=1; 
+var scJsHost = (("https:" == document.location.protocol) ? "https://secure." : "http://www.");
+</script>
+<script type="text/javascript" src="https://www.statcounter.com/counter/counter.js"></script><noscript><img class="statcounter" src="//c.statcounter.com/11301659/0/a399788a/1/" alt="Web Analytics"></a></noscript>
+<!-- End of StatCounter Code for Transcript Daily -->
+	
+
+<!-- Begin Social Sharing -->
+	<!-- End Social Sharing -->
+
+<!-- Begin Internal Tracking Pixel 2 -->
+<script type='text/javascript'>document.write('<img src="https://www.american' + 'consumernews.net/scripts/viewcount.ashx?ArticleHistoryID=57857590&PostDate=2020-7-26&type=f&id=7547600&domain=transcriptdaily.com&referrer=' + encodeURIComponent(document.referrer) + '" />');</script>
+<!-- End Internal Tracking Pixel 2-->
+
+<!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "16807273" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=16807273&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+
+
+</div>
+
+
+
+	</body>
+</html>

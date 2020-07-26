@@ -1,0 +1,866 @@
+<!doctype html>
+<html lang="en" style="display:block;min-width:1070px;">
+<head>
+<meta name="distribution" content="global" />
+<meta name="robots" content="follow, all" />
+ <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<meta name="google-site-verification" content="GTY8q3lGYJyB0uT2U_vjhGkaQdrK17O9i9M5MPMBBa0" />
+<meta name="norton-safeweb-site-verification" content="7jyvwknvdv-yfjlzt3cdz5l34h9x7f-83bdh3x3k8mjo4bci55-m3zptqbcd9hef8-62ff6hrcor8prt-i1fw6lej5kw6wovojjadjkw228gbvsi8kc6hb8n1lb270tm" />
+<meta name="viewport" content="width=1070">
+	
+<meta name="googlebot" content="noindex,follow"> 
+
+<!-- Escape from Frames -->
+<script type="text/javascript">if(self==top){document.documentElement.style.display="block"}else{top.location=self.location}</script>
+<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+<link rel="stylesheet" href="https://transcriptdaily.com/wp-content/themes/newsalambre/style.css?v=3" type="text/css" media="screen" />
+<link href="https://transcriptdaily.com/feed" rel="alternate" title="Transcript Daily RSS Feed" type="application/rss+xml" />
+<link href="https://transcriptdaily.com/feed/atom" rel="alternate" title="Transcript Daily Atom Feed" type="application/atom+xml" />
+<link href="https://transcriptdaily.com/xmlrpc.php" rel="pingback" />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Transcript Daily &raquo; Search Results for &#8220;PG&#8221; Feed" href="https://transcriptdaily.com/search/PG/feed/rss2/" />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://transcriptdaily.com/wp-includes/css/dist/block-library/style.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='https://api.w.org/' href='https://transcriptdaily.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://transcriptdaily.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://transcriptdaily.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.4.2" />
+<link rel="icon" href="https://transcriptdaily.com/wp-content/uploads/2017/04/Transcript-Daily-Iconpng-06.png" sizes="32x32" />
+<link rel="icon" href="https://transcriptdaily.com/wp-content/uploads/2017/04/Transcript-Daily-Iconpng-06.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://transcriptdaily.com/wp-content/uploads/2017/04/Transcript-Daily-Iconpng-06.png" />
+<meta name="msapplication-TileImage" content="https://transcriptdaily.com/wp-content/uploads/2017/04/Transcript-Daily-Iconpng-06.png" />
+
+<!-- Start Meta Data -->
+<title>Argus Upgrades Tesla (NASDAQ:TSLA) to &#8220;Buy&#8221; - Transcript Daily</title>
+
+<!-- End Meta Data -->
+	
+	
+<script type='text/javascript'>var PopupAdChannel=''; </script>
+  <link rel="manifest" href="/manifest.json">
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"></script>
+  <script>
+  	function registerUserChange(action) {
+		OneSignal.getUserId( function(userId) {
+			OneSignalIdString = userId;
+			var Domain = 'transcriptdaily.com';
+			var url = "https://www.marketbeat.com/scripts/OneSignalTracking.ashx?OneSignalID=" + OneSignalIdString + "&domain=" + Domain + "&action=" + action;
+			var xhr = new XMLHttpRequest();
+			xhr.open('GET', url);
+			xhr.onload = function () {
+				if (xhr.status !== 200) {
+					console.log('GET failed.  Returned status of ' + xhr.status);
+				}
+			};
+			xhr.send();
+		});
+	}
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(["init", {
+      appId: "881bfa77-26cb-4cd6-9aa9-572b33abb76a",
+      safari_web_id: 'web.onesignal.auto.1d2463f6-17a6-4c7e-80c3-735ae8ddc977', 
+      autoRegister: false,
+      autoResubscribe: true,		
+      notifyButton: {
+        enable: false /* Set to false to hide */
+      },
+ welcomeNotification: {
+        "title": "Join Wall Street's Brightest Minds.",
+        "message": "Receive research in your inbox from top analysts, before the market opens. Click here to learn how.",
+         "url": "https://www.marketbeat.com/subscribe/subscribe.aspx?ReferralType=OneSignalThankYou&ProductCode=1997t"
+    }
+    },
+		OneSignal.once('subscriptionChange', function (isSubscribed) {
+			if(isSubscribed) {
+				registerUserChange("subscribe");
+			}
+			else {
+				registerUserChange("unsubscribe");
+			}
+			
+		  })
+	]);
+	if((navigator.userAgent.toLowerCase().indexOf('firefox') > -1)||((navigator.userAgent.toLowerCase().indexOf('safari') > -1)&&(!(navigator.userAgent.toLowerCase().indexOf('chrome') > -1)))){
+		OneSignal.showSlidedownPrompt();
+	} else {
+		OneSignal.showNativePrompt();		
+	}
+  </script>
+<script type="text/javascript">var vbnfgha = '211626'; var ertdfga = '13739-bup-ac'; var qhyuioa = '53938'; var AdClientID = qhyuioa + vbnfgha + ertdfga; AdClientID = AdClientID.split("").reverse().join("");</script>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: AdClientID,
+          enable_page_level_ads: true
+     });
+</script>
+<!-- Start IMS -->
+<script type="text/javascript">
+		var apntag = apntag || {};
+		apntag.anq = apntag.anq || [];
+		(function() {
+			var d = document, e = d.createElement('script'), p = d.getElementsByTagName('head')[0];
+			e.type = 'text/javascript';  e.async = true;
+			e.src = '//acdn.adnxs.com/ast/ast.js';
+			p.insertBefore(e, p.firstChild);
+		})();
+
+		
+		apntag.anq.push(function() {
+			apntag.setPageOpts({
+				member: 6989
+			});
+		});
+
+		apntag.anq.push(function() {
+
+      		apntag.defineTag({
+				tagId: 13207769,
+				sizes: [[300,250],[300,600],[300,1050]],
+				keywords: {'position': ['RightRail_1']},
+				targetId: 'TranscriptDaily_ROS_RightRail_1'
+			});
+					});
+
+		apntag.anq.push(function() {
+			apntag.loadTags();
+		});
+		</script>
+	
+<script type="text/javascript">
+(function() {
+window.advBidxc = window.advBidxc || {};
+window.advBidxc.startTime = new Date().getTime();
+function loadScript(tagSrc) {
+var scriptTag = document.createElement('script'),
+placeTag = document.getElementsByTagName("script")[0];
+scriptTag.type = 'text/javascript';
+scriptTag.async = true;
+scriptTag.src = tagSrc;
+placeTag.parentNode.insertBefore(scriptTag, placeTag);
+}
+var mnSrc = '//hbx.media.net/bidexchange.js?cid=8CU2C156D&version=5.1' + '&dn=' +
+window.location.hostname;
+loadScript(mnSrc);
+})();
+</script>
+<!-- End IMS --> 
+	
+
+</head>
+<body>
+<div id="wrap">
+
+<!-- Start MarketBeat Modern Popup -->
+<link rel="stylesheet" type="text/css" media="all" href="https://www.marketbeat.com/scripts/modal/modernpopup.css?v=11"/>
+<script type="text/javascript" src="https://www.marketbeat.com/scripts/modal/modernpopup.js?v=52"></script>
+
+	<script type="text/javascript">LoadPopupRatings('ModernNonMarketsPopup-Transcript Daily', 'transcriptdaily.com');</script>
+<!-- End MarketBeat Modern Popup -->
+	
+<header>
+	<div id="top-bar">
+		<div class="width-limiter">
+				<!-- top nav bar -->
+				<nav class="navigation"><ul id="menu-top-menu" class="menu"><li id="menu-item-81" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-81"><a href="https://transcriptdaily.com">Home</a></li>
+<li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83"><a href="https://transcriptdaily.com/privacy-policy">Privacy Policy</a></li>
+<li id="menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84"><a href="https://transcriptdaily.com/about-contact">About/Contact</a></li>
+</ul></nav>				<form id="searchform" action="https://transcriptdaily.com/" method="get">
+					<div id="search">
+						<input id="s" class="searchinput" name="s" onclick="this.value='';" type="text" />
+						<input class="searchsubmit" type="submit" value="SEARCH" />
+					</div>
+				</form><!-- end: searchform -->
+		</div><!-- end: width-limiter in top-bar -->
+	</div><!-- end: top-bar -->
+	<div class="width-limiter add-padding"><!-- start: width-limiter with logo and space for alternate header unit -->
+		<a class="logo-link" href="https://transcriptdaily.com"><img id="logo" src="/wp-content/uploads/2017/04/Transcript-Daily-Logo-04.png" alt="Transcript Daily logo"></a>
+
+<!-- Begin Header Unit -->
+<div id="AlternateHeaderUnit">
+		
+		<iframe src="https://marketbeat.com/scripts/HeaderAdNewsSites.ashx" width="728" height="90" frameborder="no" scrolling="no"></iframe>
+			</div> 
+
+<!-- End Header Unit-->
+	</div> <!-- end: width-limiter with logo and space for alternate header unit -->
+	<div id="menu">
+		<div class="width-limiter" id="nav-main">
+			<!-- start main category menu -->
+			<nav class="navigation"><ul id="menu-categories-for-menus" class="menu"><li id="menu-item-79" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-79"><a href="https://transcriptdaily.com/headlines">Headlines</a></li>
+<li id="menu-item-75" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-75"><a href="https://transcriptdaily.com/business">Business</a></li>
+<li id="menu-item-77" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-77"><a href="https://transcriptdaily.com/markets">Markets</a></li>
+<li id="menu-item-80" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80"><a href="https://transcriptdaily.com/politics">Politics</a></li>
+<li id="menu-item-78" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78"><a href="https://transcriptdaily.com/technology">Technology</a></li>
+<li id="menu-item-76" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-76"><a href="https://transcriptdaily.com/health">Health</a></li>
+</ul></nav>		</div> <!-- end: width-limiter for menu -->
+	</div> <!-- end: menu -->
+</header> <!-- end: header -->
+	<div class="width-limiter main-content">
+		
+<main>
+						<h1 class="archive-category"><a href="https://transcriptdaily.com">Home</a> &raquo; Search Results</h1>
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/argus-upgrades-tesla-nasdaqtsla-to-buy.html" rel="bookmark" title="Argus Upgrades Tesla (NASDAQ:TSLA) to &#8220;Buy&#8221;">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/tesla-motors-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Argus Upgrades Tesla (NASDAQ:TSLA) to &#8220;Buy&#8221;" />
+					<h2>Argus Upgrades Tesla (NASDAQ:TSLA) to &#8220;Buy&#8221;</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Tesla (NASDAQ:TSLA) was upgraded by investment analysts at Argus from a &#8220;hold&#8221; rating to a &#8220;buy&#8221; rating in a report released on Friday, MarketBeat Ratings reports.
+Several other equities analysts have also weighed...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/argus-upgrades-tesla-nasdaqtsla-to-buy.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/rogers-communications-nyserci-upgraded-to-buy-at-veritas-investment-research.html" rel="bookmark" title="Rogers Communications (NYSE:RCI) Upgraded to &#8220;Buy&#8221; at Veritas Investment Research">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/rogers-communications-inc-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Rogers Communications (NYSE:RCI) Upgraded to &#8220;Buy&#8221; at Veritas Investment Research" />
+					<h2>Rogers Communications (NYSE:RCI) Upgraded to &#8220;Buy&#8221; at Veritas Investment Research</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Veritas Investment Research upgraded shares of Rogers Communications (NYSE:RCI) (TSE:RCI.B) from a sell rating to a buy rating in a report released on Thursday morning, The Fly reports.
+A number of other equities research analysts...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/rogers-communications-nyserci-upgraded-to-buy-at-veritas-investment-research.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/proofpoint-nasdaqpfpt-upgraded-to-hold-by-bidaskclub-2.html" rel="bookmark" title="Proofpoint (NASDAQ:PFPT) Upgraded to &#8220;Hold&#8221; by BidaskClub">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/proofpoint-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Proofpoint (NASDAQ:PFPT) Upgraded to &#8220;Hold&#8221; by BidaskClub" />
+					<h2>Proofpoint (NASDAQ:PFPT) Upgraded to &#8220;Hold&#8221; by BidaskClub</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						BidaskClub upgraded shares of Proofpoint (NASDAQ:PFPT) from a sell rating to a hold rating in a research note released on Saturday, BidAskClub reports.
+Several other equities analysts have also weighed in on the company. Northland...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/proofpoint-nasdaqpfpt-upgraded-to-hold-by-bidaskclub-2.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/jpmorgan-chase-co-nysejpm-stock-rating-upgraded-by-goldman-sachs-group.html" rel="bookmark" title="JPMorgan Chase &#038; Co. (NYSE:JPM) Stock Rating Upgraded by Goldman Sachs Group">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/jpmorgan-chase-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="JPMorgan Chase &#038; Co. (NYSE:JPM) Stock Rating Upgraded by Goldman Sachs Group" />
+					<h2>JPMorgan Chase &#038; Co. (NYSE:JPM) Stock Rating Upgraded by Goldman Sachs Group</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						JPMorgan Chase &#038; Co. (NYSE:JPM) was upgraded by investment analysts at Goldman Sachs Group from a &#8220;neutral&#8221; rating to a &#8220;buy&#8221; rating in a research note issued on Friday, MarketBeat Ratings reports.
+Several...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/jpmorgan-chase-co-nysejpm-stock-rating-upgraded-by-goldman-sachs-group.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/zacks-investment-research-upgrades-qurate-retail-inc-series-a-nasdaqqrtea-to-buy.html" rel="bookmark" title="Zacks Investment Research Upgrades Qurate Retail Inc Series A (NASDAQ:QRTEA) to &#8220;Buy&#8221;">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/liberty-media-corp-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Zacks Investment Research Upgrades Qurate Retail Inc Series A (NASDAQ:QRTEA) to &#8220;Buy&#8221;" />
+					<h2>Zacks Investment Research Upgrades Qurate Retail Inc Series A (NASDAQ:QRTEA) to &#8220;Buy&#8221;</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Qurate Retail Inc Series A (NASDAQ:QRTEA) was upgraded by Zacks Investment Research from a &#8220;hold&#8221; rating to a &#8220;buy&#8221; rating in a research note issued to investors on Friday, Zacks.com reports. The brokerage presently...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/zacks-investment-research-upgrades-qurate-retail-inc-series-a-nasdaqqrtea-to-buy.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/jmp-securities-raises-tpg-specialty-lending-nysetslx-price-target-to-18-50.html" rel="bookmark" title="JMP Securities Raises TPG Specialty Lending (NYSE:TSLX) Price Target to $18.50">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/tpg-specialty-lending-inc-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="JMP Securities Raises TPG Specialty Lending (NYSE:TSLX) Price Target to $18.50" />
+					<h2>JMP Securities Raises TPG Specialty Lending (NYSE:TSLX) Price Target to $18.50</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						TPG Specialty Lending (NYSE:TSLX) had its price objective increased by equities research analysts at JMP Securities  from $18.00 to $18.50 in a report issued on Friday, BenzingaRatingsTable reports. The firm currently has a &#8220;market...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/jmp-securities-raises-tpg-specialty-lending-nysetslx-price-target-to-18-50.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/eplus-nasdaqplus-upgraded-at-zacks-investment-research.html" rel="bookmark" title="ePlus (NASDAQ:PLUS) Upgraded at Zacks Investment Research">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/eplus-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="ePlus (NASDAQ:PLUS) Upgraded at Zacks Investment Research" />
+					<h2>ePlus (NASDAQ:PLUS) Upgraded at Zacks Investment Research</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Zacks Investment Research upgraded shares of ePlus (NASDAQ:PLUS) from a strong sell rating to a hold rating in a report published on Thursday, Zacks.com reports. 
+According to Zacks, &#8220;ePlus inc. is a leading provider of technology...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/eplus-nasdaqplus-upgraded-at-zacks-investment-research.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/robert-w-baird-upgrades-federal-realty-investment-trust-nysefrt-to-outperform.html" rel="bookmark" title="Robert W. Baird Upgrades Federal Realty Investment Trust (NYSE:FRT) to &#8220;Outperform&#8221;">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/federal-realty-inv-trust-logo.gif&amp;h=100&amp;w=100&amp;zc=1" alt="Robert W. Baird Upgrades Federal Realty Investment Trust (NYSE:FRT) to &#8220;Outperform&#8221;" />
+					<h2>Robert W. Baird Upgrades Federal Realty Investment Trust (NYSE:FRT) to &#8220;Outperform&#8221;</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Federal Realty Investment Trust (NYSE:FRT) was upgraded by research analysts at Robert W. Baird from a &#8220;neutral&#8221; rating to an &#8220;outperform&#8221; rating in a research report issued to clients and investors on Friday,...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/robert-w-baird-upgrades-federal-realty-investment-trust-nysefrt-to-outperform.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/amdocs-nasdaqdox-upgraded-to-hold-at-bidaskclub.html" rel="bookmark" title="Amdocs (NASDAQ:DOX) Upgraded to Hold at BidaskClub">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/amdocs-limited-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Amdocs (NASDAQ:DOX) Upgraded to Hold at BidaskClub" />
+					<h2>Amdocs (NASDAQ:DOX) Upgraded to Hold at BidaskClub</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						BidaskClub upgraded shares of Amdocs (NASDAQ:DOX) from a sell rating to a hold rating in a research report released on Saturday morning, BidAskClub reports.
+Other research analysts have also recently issued research reports about the...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/amdocs-nasdaqdox-upgraded-to-hold-at-bidaskclub.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/cincinnati-financial-nasdaqcinf-upgraded-to-hold-by-bidaskclub.html" rel="bookmark" title="Cincinnati Financial (NASDAQ:CINF) Upgraded to Hold by BidaskClub">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/cincinnati-financial-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Cincinnati Financial (NASDAQ:CINF) Upgraded to Hold by BidaskClub" />
+					<h2>Cincinnati Financial (NASDAQ:CINF) Upgraded to Hold by BidaskClub</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						BidaskClub upgraded shares of Cincinnati Financial (NASDAQ:CINF) from a sell rating to a hold rating in a research report released on Saturday, BidAskClub reports.
+CINF has been the subject of a number of other research reports. MKM...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/cincinnati-financial-nasdaqcinf-upgraded-to-hold-by-bidaskclub.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/plains-gp-nysepagp-upgraded-to-strong-buy-by-zacks-investment-research.html" rel="bookmark" title="Plains GP (NYSE:PAGP) Upgraded to &#8220;Strong-Buy&#8221; by Zacks Investment Research">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/plains-gp-holdings-lp-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Plains GP (NYSE:PAGP) Upgraded to &#8220;Strong-Buy&#8221; by Zacks Investment Research" />
+					<h2>Plains GP (NYSE:PAGP) Upgraded to &#8220;Strong-Buy&#8221; by Zacks Investment Research</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Zacks Investment Research upgraded shares of Plains GP (NYSE:PAGP) from a hold rating to a strong-buy rating in a report issued on Saturday, Zacks.com reports. They currently have $9.50 target price on the pipeline company&#8217;s...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/plains-gp-nysepagp-upgraded-to-strong-buy-by-zacks-investment-research.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/pdc-energy-nasdaqpdce-upgraded-to-buy-by-zacks-investment-research-2.html" rel="bookmark" title="PDC Energy (NASDAQ:PDCE) Upgraded to &#8220;Buy&#8221; by Zacks Investment Research">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/pdc-energy-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="PDC Energy (NASDAQ:PDCE) Upgraded to &#8220;Buy&#8221; by Zacks Investment Research" />
+					<h2>PDC Energy (NASDAQ:PDCE) Upgraded to &#8220;Buy&#8221; by Zacks Investment Research</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Zacks Investment Research upgraded shares of PDC Energy (NASDAQ:PDCE) from a hold rating to a buy rating in a research note published on Saturday, Zacks.com reports. Zacks Investment Research currently has $17.00 price target on the...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/pdc-energy-nasdaqpdce-upgraded-to-buy-by-zacks-investment-research-2.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/coca-cola-femsa-nysekof-upgraded-to-hold-at-zacks-investment-research-2.html" rel="bookmark" title="Coca-Cola FEMSA (NYSE:KOF) Upgraded to &#8220;Hold&#8221; at Zacks Investment Research">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/coca-cola-femsa-logo.gif&amp;h=100&amp;w=100&amp;zc=1" alt="Coca-Cola FEMSA (NYSE:KOF) Upgraded to &#8220;Hold&#8221; at Zacks Investment Research" />
+					<h2>Coca-Cola FEMSA (NYSE:KOF) Upgraded to &#8220;Hold&#8221; at Zacks Investment Research</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Zacks Investment Research upgraded shares of Coca-Cola FEMSA (NYSE:KOF) from a strong sell rating to a hold rating in a report released on Saturday morning, Zacks.com reports. 
+According to Zacks, &#8220;Coca-Cola Femsa S.A., through...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/coca-cola-femsa-nysekof-upgraded-to-hold-at-zacks-investment-research-2.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/graham-nyseghm-stock-rating-upgraded-by-valuengine.html" rel="bookmark" title="Graham (NYSE:GHM) Stock Rating Upgraded by ValuEngine">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/graham-logo.gif&amp;h=100&amp;w=100&amp;zc=1" alt="Graham (NYSE:GHM) Stock Rating Upgraded by ValuEngine" />
+					<h2>Graham (NYSE:GHM) Stock Rating Upgraded by ValuEngine</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						ValuEngine upgraded shares of Graham (NYSE:GHM) from a hold rating to a buy rating in a research report report published on Thursday morning, ValuEngine reports.
+A number of other research firms have also issued reports on GHM. Maxim...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/graham-nyseghm-stock-rating-upgraded-by-valuengine.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/surgery-partners-nasdaqsgry-upgraded-to-buy-by-bidaskclub.html" rel="bookmark" title="Surgery Partners (NASDAQ:SGRY) Upgraded to Buy by BidaskClub">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/surgery-partners-inc-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Surgery Partners (NASDAQ:SGRY) Upgraded to Buy by BidaskClub" />
+					<h2>Surgery Partners (NASDAQ:SGRY) Upgraded to Buy by BidaskClub</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						BidaskClub upgraded shares of Surgery Partners (NASDAQ:SGRY) from a hold rating to a buy rating in a research report sent to investors on Saturday, BidAskClub reports.
+A number of other research analysts also recently commented on...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/surgery-partners-nasdaqsgry-upgraded-to-buy-by-bidaskclub.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/del-taco-restaurants-nasdaqtaco-upgraded-by-bidaskclub-to-buy.html" rel="bookmark" title="Del Taco Restaurants (NASDAQ:TACO) Upgraded by BidaskClub to &#8220;Buy&#8221;">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/levy-acquisition-corp-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Del Taco Restaurants (NASDAQ:TACO) Upgraded by BidaskClub to &#8220;Buy&#8221;" />
+					<h2>Del Taco Restaurants (NASDAQ:TACO) Upgraded by BidaskClub to &#8220;Buy&#8221;</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						BidaskClub upgraded shares of Del Taco Restaurants (NASDAQ:TACO) from a hold rating to a buy rating in a research note released on Saturday morning, BidAskClub reports.
+TACO has been the topic of a number of other research reports....&nbsp;<a href='https://transcriptdaily.com/2020/07/26/del-taco-restaurants-nasdaqtaco-upgraded-by-bidaskclub-to-buy.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/schnitzer-steel-industries-nasdaqschn-upgraded-by-bidaskclub-to-buy.html" rel="bookmark" title="Schnitzer Steel Industries (NASDAQ:SCHN) Upgraded by BidaskClub to &#8220;Buy&#8221;">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/schnitzer-steel-industries-inc-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Schnitzer Steel Industries (NASDAQ:SCHN) Upgraded by BidaskClub to &#8220;Buy&#8221;" />
+					<h2>Schnitzer Steel Industries (NASDAQ:SCHN) Upgraded by BidaskClub to &#8220;Buy&#8221;</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						BidaskClub upgraded shares of Schnitzer Steel Industries (NASDAQ:SCHN) from a hold rating to a buy rating in a research note released on Saturday, BidAskClub reports.
+Separately, Zacks Investment Research raised shares of Schnitzer...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/schnitzer-steel-industries-nasdaqschn-upgraded-by-bidaskclub-to-buy.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/oxford-immunotec-global-nasdaqoxfd-upgraded-to-hold-at-bidaskclub.html" rel="bookmark" title="Oxford Immunotec Global (NASDAQ:OXFD) Upgraded to &#8220;Hold&#8221; at BidaskClub">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/oxford-immunotec-global-plc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Oxford Immunotec Global (NASDAQ:OXFD) Upgraded to &#8220;Hold&#8221; at BidaskClub" />
+					<h2>Oxford Immunotec Global (NASDAQ:OXFD) Upgraded to &#8220;Hold&#8221; at BidaskClub</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						BidaskClub upgraded shares of Oxford Immunotec Global (NASDAQ:OXFD) from a sell rating to a hold rating in a report published on Saturday, BidAskClub reports.
+Several other equities analysts have also weighed in on the stock. Zacks...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/oxford-immunotec-global-nasdaqoxfd-upgraded-to-hold-at-bidaskclub.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/bidaskclub-upgrades-ny-mtg-tr-inc-sh-nasdaqnymt-to-buy.html" rel="bookmark" title="BidaskClub Upgrades NY MTG TR INC/SH (NASDAQ:NYMT) to Buy">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/new-york-mortgage-trust-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="BidaskClub Upgrades NY MTG TR INC/SH (NASDAQ:NYMT) to Buy" />
+					<h2>BidaskClub Upgrades NY MTG TR INC/SH (NASDAQ:NYMT) to Buy</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						BidaskClub upgraded shares of NY MTG TR INC/SH (NASDAQ:NYMT) from a hold rating to a buy rating in a report issued on Saturday morning, BidAskClub reports.
+Several other brokerages have also weighed in on NYMT. Nomura  reissued a buy...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/bidaskclub-upgrades-ny-mtg-tr-inc-sh-nasdaqnymt-to-buy.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/repligen-nasdaqrgen-upgraded-to-strong-buy-by-bidaskclub.html" rel="bookmark" title="Repligen (NASDAQ:RGEN) Upgraded to &#8220;Strong-Buy&#8221; by BidaskClub">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/repligen-corp-logo.gif&amp;h=100&amp;w=100&amp;zc=1" alt="Repligen (NASDAQ:RGEN) Upgraded to &#8220;Strong-Buy&#8221; by BidaskClub" />
+					<h2>Repligen (NASDAQ:RGEN) Upgraded to &#8220;Strong-Buy&#8221; by BidaskClub</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						BidaskClub upgraded shares of Repligen (NASDAQ:RGEN) from a buy rating to a strong-buy rating in a research note issued to investors on Saturday morning, BidAskClub reports.
+Several other equities research analysts also recently weighed...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/repligen-nasdaqrgen-upgraded-to-strong-buy-by-bidaskclub.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/open-text-nasdaqotex-upgraded-to-buy-by-bidaskclub.html" rel="bookmark" title="Open Text (NASDAQ:OTEX) Upgraded to Buy by BidaskClub">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/OpenText_Logo_cmyk-resized-600.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Open Text (NASDAQ:OTEX) Upgraded to Buy by BidaskClub" />
+					<h2>Open Text (NASDAQ:OTEX) Upgraded to Buy by BidaskClub</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						BidaskClub upgraded shares of Open Text (NASDAQ:OTEX) (TSE:OTC) from a hold rating to a buy rating in a research note published on Saturday morning, BidAskClub reports.
+A number of other equities analysts have also recently issued...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/open-text-nasdaqotex-upgraded-to-buy-by-bidaskclub.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/myokardia-nasdaqmyok-upgraded-to-buy-by-zacks-investment-research.html" rel="bookmark" title="Myokardia (NASDAQ:MYOK) Upgraded to &#8220;Buy&#8221; by Zacks Investment Research">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/myokardia-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Myokardia (NASDAQ:MYOK) Upgraded to &#8220;Buy&#8221; by Zacks Investment Research" />
+					<h2>Myokardia (NASDAQ:MYOK) Upgraded to &#8220;Buy&#8221; by Zacks Investment Research</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Zacks Investment Research upgraded shares of Myokardia (NASDAQ:MYOK) from a hold rating to a buy rating in a research note issued to investors on Saturday, Zacks.com reports. The firm currently has $105.00 price target on the biotechnology...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/myokardia-nasdaqmyok-upgraded-to-buy-by-zacks-investment-research.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/ross-stores-nasdaqrost-stock-rating-upgraded-by-bidaskclub.html" rel="bookmark" title="Ross Stores (NASDAQ:ROST) Stock Rating Upgraded by BidaskClub">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/ross-stores-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Ross Stores (NASDAQ:ROST) Stock Rating Upgraded by BidaskClub" />
+					<h2>Ross Stores (NASDAQ:ROST) Stock Rating Upgraded by BidaskClub</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						BidaskClub upgraded shares of Ross Stores (NASDAQ:ROST) from a sell rating to a hold rating in a report issued on Saturday morning, BidAskClub reports.
+Several other research firms also recently commented on ROST. Morgan Stanley  restated...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/ross-stores-nasdaqrost-stock-rating-upgraded-by-bidaskclub.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/bidaskclub-upgrades-pra-health-sciences-nasdaqprah-to-buy.html" rel="bookmark" title="BidaskClub Upgrades PRA Health Sciences (NASDAQ:PRAH) to Buy">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/pra-health-sciences-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="BidaskClub Upgrades PRA Health Sciences (NASDAQ:PRAH) to Buy" />
+					<h2>BidaskClub Upgrades PRA Health Sciences (NASDAQ:PRAH) to Buy</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						BidaskClub upgraded shares of PRA Health Sciences (NASDAQ:PRAH) from a hold rating to a buy rating in a report issued on Saturday, BidAskClub reports.
+A number of other analysts have also weighed in on the stock. Robert W. Baird cut...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/bidaskclub-upgrades-pra-health-sciences-nasdaqprah-to-buy.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/news-nasdaqnwsa-upgraded-by-bidaskclub-to-buy.html" rel="bookmark" title="News (NASDAQ:NWSA) Upgraded by BidaskClub to &#8220;Buy&#8221;">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/news-co-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="News (NASDAQ:NWSA) Upgraded by BidaskClub to &#8220;Buy&#8221;" />
+					<h2>News (NASDAQ:NWSA) Upgraded by BidaskClub to &#8220;Buy&#8221;</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						BidaskClub upgraded shares of News (NASDAQ:NWSA) from a hold rating to a buy rating in a research note published on Saturday morning, BidAskClub reports.
+Other analysts also recently issued research reports about the company. TheStreet...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/news-nasdaqnwsa-upgraded-by-bidaskclub-to-buy.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/rent-a-center-nasdaqrcii-upgraded-to-buy-at-bidaskclub-2.html" rel="bookmark" title="Rent-A-Center (NASDAQ:RCII) Upgraded to &#8220;Buy&#8221; at BidaskClub">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/rent-a-center-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Rent-A-Center (NASDAQ:RCII) Upgraded to &#8220;Buy&#8221; at BidaskClub" />
+					<h2>Rent-A-Center (NASDAQ:RCII) Upgraded to &#8220;Buy&#8221; at BidaskClub</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						BidaskClub upgraded shares of Rent-A-Center (NASDAQ:RCII) from a hold rating to a buy rating in a research report report published on Saturday, BidAskClub reports.
+Several other equities research analysts have also recently issued...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/rent-a-center-nasdaqrcii-upgraded-to-buy-at-bidaskclub-2.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/grandfield-dodd-llc-buys-3122-shares-of-ppg-industries-inc-nyseppg.html" rel="bookmark" title="Grandfield &#038; Dodd LLC Buys 3,122 Shares of PPG Industries, Inc. (NYSE:PPG)">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/ppg-industries-inc-logo.png?v2&amp;h=100&amp;w=100&amp;zc=1" alt="Grandfield &#038; Dodd LLC Buys 3,122 Shares of PPG Industries, Inc. (NYSE:PPG)" />
+					<h2>Grandfield &#038; Dodd LLC Buys 3,122 Shares of PPG Industries, Inc. (NYSE:PPG)</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Grandfield &#038; Dodd LLC lifted its stake in shares of  PPG Industries, Inc. (NYSE:PPG) by 2.9% in the 2nd quarter, according to its most recent Form 13F filing with the Securities &amp; Exchange Commission. The institutional investor...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/grandfield-dodd-llc-buys-3122-shares-of-ppg-industries-inc-nyseppg.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/randstad-hldg-n-adr-otcmktsranjy-upgraded-to-buy-by-zacks-investment-research.html" rel="bookmark" title="RANDSTAD HLDG N/ADR (OTCMKTS:RANJY) Upgraded to &#8220;Buy&#8221; by Zacks Investment Research">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/randstad-hldgs-nv-unsp-adr-each-repr-05-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="RANDSTAD HLDG N/ADR (OTCMKTS:RANJY) Upgraded to &#8220;Buy&#8221; by Zacks Investment Research" />
+					<h2>RANDSTAD HLDG N/ADR (OTCMKTS:RANJY) Upgraded to &#8220;Buy&#8221; by Zacks Investment Research</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Zacks Investment Research upgraded shares of RANDSTAD HLDG N/ADR (OTCMKTS:RANJY) from a strong sell rating to a buy rating in a report issued on Saturday morning, Zacks.com reports. Zacks Investment Research currently has $28.00 price...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/randstad-hldg-n-adr-otcmktsranjy-upgraded-to-buy-by-zacks-investment-research.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/mr-cooper-group-nasdaqcoop-upgraded-by-bidaskclub-to-buy.html" rel="bookmark" title="Mr. Cooper Group (NASDAQ:COOP) Upgraded by BidaskClub to &#8220;Buy&#8221;">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Mr. Cooper Group (NASDAQ:COOP) Upgraded by BidaskClub to &#8220;Buy&#8221;" />
+					<h2>Mr. Cooper Group (NASDAQ:COOP) Upgraded by BidaskClub to &#8220;Buy&#8221;</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						BidaskClub upgraded shares of Mr. Cooper Group (NASDAQ:COOP) from a hold rating to a buy rating in a report released on Saturday, BidAskClub reports.
+Several other analysts also recently weighed in on COOP. Zacks Investment Research...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/mr-cooper-group-nasdaqcoop-upgraded-by-bidaskclub-to-buy.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/cardtronics-nasdaqcatm-upgraded-to-hold-at-bidaskclub.html" rel="bookmark" title="Cardtronics (NASDAQ:CATM) Upgraded to Hold at BidaskClub">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/cardtronics-logo.gif&amp;h=100&amp;w=100&amp;zc=1" alt="Cardtronics (NASDAQ:CATM) Upgraded to Hold at BidaskClub" />
+					<h2>Cardtronics (NASDAQ:CATM) Upgraded to Hold at BidaskClub</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						BidaskClub upgraded shares of Cardtronics (NASDAQ:CATM) from a sell rating to a hold rating in a research note published on Saturday morning, BidAskClub reports.
+CATM has been the subject of several other research reports. Barrington...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/cardtronics-nasdaqcatm-upgraded-to-hold-at-bidaskclub.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/bidaskclub-upgrades-entegris-nasdaqentg-to-strong-buy.html" rel="bookmark" title="BidaskClub Upgrades Entegris (NASDAQ:ENTG) to Strong-Buy">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/entegris-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="BidaskClub Upgrades Entegris (NASDAQ:ENTG) to Strong-Buy" />
+					<h2>BidaskClub Upgrades Entegris (NASDAQ:ENTG) to Strong-Buy</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						BidaskClub upgraded shares of Entegris (NASDAQ:ENTG) from a buy rating to a strong-buy rating in a report published on Saturday morning, BidAskClub reports.
+A number of other research firms have also weighed in on ENTG. Deutsche Bank...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/bidaskclub-upgrades-entegris-nasdaqentg-to-strong-buy.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/cambium-networks-nasdaqcmbm-upgraded-to-buy-by-bidaskclub.html" rel="bookmark" title="Cambium Networks (NASDAQ:CMBM) Upgraded to Buy by BidaskClub">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Cambium Networks (NASDAQ:CMBM) Upgraded to Buy by BidaskClub" />
+					<h2>Cambium Networks (NASDAQ:CMBM) Upgraded to Buy by BidaskClub</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						BidaskClub upgraded shares of Cambium Networks (NASDAQ:CMBM) from a hold rating to a buy rating in a research note published on Saturday morning, BidAskClub reports.
+Other equities analysts have also issued reports about the company....&nbsp;<a href='https://transcriptdaily.com/2020/07/26/cambium-networks-nasdaqcmbm-upgraded-to-buy-by-bidaskclub.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/fox-nasdaqfox-upgraded-to-buy-by-loop-capital.html" rel="bookmark" title="FOX (NASDAQ:FOX) Upgraded to &#8220;Buy&#8221; by Loop Capital">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/twenty-first-century-fox-inc-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="FOX (NASDAQ:FOX) Upgraded to &#8220;Buy&#8221; by Loop Capital" />
+					<h2>FOX (NASDAQ:FOX) Upgraded to &#8220;Buy&#8221; by Loop Capital</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Loop Capital upgraded shares of FOX (NASDAQ:FOX) to a buy rating in a report released on Friday, Stock Target Advisor reports. Loop Capital currently has $33.00 target price on the stock.
+A number of other research analysts have also...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/fox-nasdaqfox-upgraded-to-buy-by-loop-capital.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/cheesecake-factory-nasdaqcake-upgraded-by-bidaskclub-to-hold.html" rel="bookmark" title="Cheesecake Factory (NASDAQ:CAKE) Upgraded by BidaskClub to Hold">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/cheesecake-factory-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="Cheesecake Factory (NASDAQ:CAKE) Upgraded by BidaskClub to Hold" />
+					<h2>Cheesecake Factory (NASDAQ:CAKE) Upgraded by BidaskClub to Hold</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						BidaskClub upgraded shares of Cheesecake Factory (NASDAQ:CAKE) from a sell rating to a hold rating in a research note issued to investors on Saturday, BidAskClub reports.
+Several other research analysts also recently commented on the...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/cheesecake-factory-nasdaqcake-upgraded-by-bidaskclub-to-hold.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/golden-star-resources-nasdaqgss-upgraded-at-bidaskclub.html" rel="bookmark" title="Golden Star Resources (NASDAQ:GSS) Upgraded at BidaskClub">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Golden Star Resources (NASDAQ:GSS) Upgraded at BidaskClub" />
+					<h2>Golden Star Resources (NASDAQ:GSS) Upgraded at BidaskClub</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						BidaskClub upgraded shares of Golden Star Resources (NASDAQ:GSS) from a buy rating to a strong-buy rating in a research report report published on Saturday morning, BidAskClub reports.
+Shares of NASDAQ GSS opened at $3.54 on Friday....&nbsp;<a href='https://transcriptdaily.com/2020/07/26/golden-star-resources-nasdaqgss-upgraded-at-bidaskclub.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/lands-end-nasdaqle-upgraded-to-hold-at-bidaskclub.html" rel="bookmark" title="Lands&#8217; End (NASDAQ:LE) Upgraded to &#8220;Hold&#8221; at BidaskClub">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/lands-end-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Lands&#8217; End (NASDAQ:LE) Upgraded to &#8220;Hold&#8221; at BidaskClub" />
+					<h2>Lands&#8217; End (NASDAQ:LE) Upgraded to &#8220;Hold&#8221; at BidaskClub</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						BidaskClub upgraded shares of Lands&#8217; End (NASDAQ:LE) from a sell rating to a hold rating in a research note issued to investors on Saturday, BidAskClub reports.
+Separately, TheStreet lowered Lands&#8217; End from a c rating to...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/lands-end-nasdaqle-upgraded-to-hold-at-bidaskclub.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/peapack-gladstone-financial-co-nasdaqpgc-given-average-rating-of-hold-by-analysts.html" rel="bookmark" title="Peapack-Gladstone Financial Co. (NASDAQ:PGC) Given Average Rating of &#8220;Hold&#8221; by Analysts">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/peapack-gladstone-financial-corporation-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Peapack-Gladstone Financial Co. (NASDAQ:PGC) Given Average Rating of &#8220;Hold&#8221; by Analysts" />
+					<h2>Peapack-Gladstone Financial Co. (NASDAQ:PGC) Given Average Rating of &#8220;Hold&#8221; by Analysts</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Peapack-Gladstone Financial Co. (NASDAQ:PGC) has been given an average recommendation of &#8220;Hold&#8221; by the six brokerages that are currently  covering the stock, Marketbeat.com reports. Two research analysts have rated the...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/peapack-gladstone-financial-co-nasdaqpgc-given-average-rating-of-hold-by-analysts.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/sociedad-quimica-y-minera-de-chile-nysesqm-upgraded-at-zacks-investment-research.html" rel="bookmark" title="Sociedad Quimica y Minera de Chile (NYSE:SQM) Upgraded at Zacks Investment Research">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sociedad-quimica-y-minera-de-chile-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Sociedad Quimica y Minera de Chile (NYSE:SQM) Upgraded at Zacks Investment Research" />
+					<h2>Sociedad Quimica y Minera de Chile (NYSE:SQM) Upgraded at Zacks Investment Research</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/lasteadman" title="Posts by Lauren Steadman" rel="author">Lauren Steadman</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Zacks Investment Research upgraded shares of Sociedad Quimica y Minera de Chile (NYSE:SQM) from a hold rating to a buy rating in a report published on Thursday morning, Zacks.com reports. Zacks Investment Research currently has $33.00...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/sociedad-quimica-y-minera-de-chile-nysesqm-upgraded-at-zacks-investment-research.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/rexford-industrial-realty-nyserexr-upgraded-at-zacks-investment-research.html" rel="bookmark" title="Rexford Industrial Realty (NYSE:REXR) Upgraded at Zacks Investment Research">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/rexford-industrial-realty-inc-logo.jpg?v2&amp;h=100&amp;w=100&amp;zc=1" alt="Rexford Industrial Realty (NYSE:REXR) Upgraded at Zacks Investment Research" />
+					<h2>Rexford Industrial Realty (NYSE:REXR) Upgraded at Zacks Investment Research</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Zacks Investment Research upgraded shares of Rexford Industrial Realty (NYSE:REXR) from a hold rating to a buy rating in a research report report published on Thursday morning, Zacks.com reports. Zacks Investment Research currently...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/rexford-industrial-realty-nyserexr-upgraded-at-zacks-investment-research.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/encore-capital-group-inc-nasdaqecpg-receives-average-rating-of-hold-from-analysts.html" rel="bookmark" title="Encore Capital Group, Inc. (NASDAQ:ECPG) Receives Average Rating of &#8220;Hold&#8221; from Analysts">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/encore-capital-group-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Encore Capital Group, Inc. (NASDAQ:ECPG) Receives Average Rating of &#8220;Hold&#8221; from Analysts" />
+					<h2>Encore Capital Group, Inc. (NASDAQ:ECPG) Receives Average Rating of &#8220;Hold&#8221; from Analysts</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jocasey" title="Posts by Joseph Casey" rel="author">Joseph Casey</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Shares of Encore Capital Group, Inc. (NASDAQ:ECPG) have been given an average rating of &#8220;Hold&#8221; by the six brokerages that are currently  covering the stock, MarketBeat.com reports. One analyst  has rated the stock with...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/encore-capital-group-inc-nasdaqecpg-receives-average-rating-of-hold-from-analysts.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/nicolet-bankshares-nasdaqncbs-upgraded-to-buy-at-zacks-investment-research.html" rel="bookmark" title="Nicolet Bankshares (NASDAQ:NCBS) Upgraded to &#8220;Buy&#8221; at Zacks Investment Research">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nicolet-bankshares-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Nicolet Bankshares (NASDAQ:NCBS) Upgraded to &#8220;Buy&#8221; at Zacks Investment Research" />
+					<h2>Nicolet Bankshares (NASDAQ:NCBS) Upgraded to &#8220;Buy&#8221; at Zacks Investment Research</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Zacks Investment Research upgraded shares of Nicolet Bankshares (NASDAQ:NCBS) from a hold rating to a buy rating in a report issued on Saturday morning, Zacks.com reports. The brokerage currently has $63.00 price target on the bank&#8217;s...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/nicolet-bankshares-nasdaqncbs-upgraded-to-buy-at-zacks-investment-research.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/safe-bulkers-nysesb-upgraded-by-zacks-investment-research-to-hold.html" rel="bookmark" title="Safe Bulkers (NYSE:SB) Upgraded by Zacks Investment Research to &#8220;Hold&#8221;">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/safe-bulkers-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Safe Bulkers (NYSE:SB) Upgraded by Zacks Investment Research to &#8220;Hold&#8221;" />
+					<h2>Safe Bulkers (NYSE:SB) Upgraded by Zacks Investment Research to &#8220;Hold&#8221;</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Zacks Investment Research upgraded shares of Safe Bulkers (NYSE:SB) from a sell rating to a hold rating in a report released on Saturday, Zacks.com reports. 
+According to Zacks, &#8220;SAFE BULKERS is an international provider of marine...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/safe-bulkers-nysesb-upgraded-by-zacks-investment-research-to-hold.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/taseko-mines-nyseamericantgb-upgraded-to-buy-by-zacks-investment-research.html" rel="bookmark" title="Taseko Mines (NYSEAMERICAN:TGB) Upgraded to Buy by Zacks Investment Research">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/taseko-mines-limited-logo.gif&amp;h=100&amp;w=100&amp;zc=1" alt="Taseko Mines (NYSEAMERICAN:TGB) Upgraded to Buy by Zacks Investment Research" />
+					<h2>Taseko Mines (NYSEAMERICAN:TGB) Upgraded to Buy by Zacks Investment Research</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Zacks Investment Research upgraded shares of Taseko Mines (NYSEAMERICAN:TGB) (TSE:TKO) from a hold rating to a buy rating in a report published on Saturday morning, Zacks.com reports. Zacks Investment Research currently has $0.75 price...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/taseko-mines-nyseamericantgb-upgraded-to-buy-by-zacks-investment-research.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/stepan-nysescl-upgraded-to-hold-at-zacks-investment-research.html" rel="bookmark" title="Stepan (NYSE:SCL) Upgraded to Hold at Zacks Investment Research">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/stepan-company-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Stepan (NYSE:SCL) Upgraded to Hold at Zacks Investment Research" />
+					<h2>Stepan (NYSE:SCL) Upgraded to Hold at Zacks Investment Research</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Zacks Investment Research upgraded shares of Stepan (NYSE:SCL) from a sell rating to a hold rating in a report released on Saturday, Zacks.com reports. 
+According to Zacks, &#8220;Stepan Company is a major manufacturer of specialty...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/stepan-nysescl-upgraded-to-hold-at-zacks-investment-research.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/americas-silver-nyseamericanusas-upgraded-by-zacks-investment-research-to-hold.html" rel="bookmark" title="Americas Silver (NYSEAMERICAN:USAS) Upgraded by Zacks Investment Research to Hold">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/americas-silver-co--no-par-value-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Americas Silver (NYSEAMERICAN:USAS) Upgraded by Zacks Investment Research to Hold" />
+					<h2>Americas Silver (NYSEAMERICAN:USAS) Upgraded by Zacks Investment Research to Hold</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Zacks Investment Research upgraded shares of Americas Silver (NYSEAMERICAN:USAS) from a sell rating to a hold rating in a research report released on Saturday morning, Zacks.com reports. 
+According to Zacks, &#8220;Americas Gold And...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/americas-silver-nyseamericanusas-upgraded-by-zacks-investment-research-to-hold.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/rush-enterprises-nasdaqrusha-upgraded-by-zacks-investment-research-to-strong-buy.html" rel="bookmark" title="Rush Enterprises (NASDAQ:RUSHA) Upgraded by Zacks Investment Research to Strong-Buy">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/rush-enterprises-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Rush Enterprises (NASDAQ:RUSHA) Upgraded by Zacks Investment Research to Strong-Buy" />
+					<h2>Rush Enterprises (NASDAQ:RUSHA) Upgraded by Zacks Investment Research to Strong-Buy</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/liflegge" title="Posts by Linda Flegge" rel="author">Linda Flegge</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Zacks Investment Research upgraded shares of Rush Enterprises (NASDAQ:RUSHA) from a hold rating to a strong-buy rating in a report released on Saturday morning, Zacks.com reports. The brokerage currently has $56.00 price target on...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/rush-enterprises-nasdaqrusha-upgraded-by-zacks-investment-research-to-strong-buy.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/pbf-logistics-nysepbfx-upgraded-by-zacks-investment-research-to-buy.html" rel="bookmark" title="PBF Logistics (NYSE:PBFX) Upgraded by Zacks Investment Research to &#8220;Buy&#8221;">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/pbf-logistics-lp-logo.png&amp;h=100&amp;w=100&amp;zc=1" alt="PBF Logistics (NYSE:PBFX) Upgraded by Zacks Investment Research to &#8220;Buy&#8221;" />
+					<h2>PBF Logistics (NYSE:PBFX) Upgraded by Zacks Investment Research to &#8220;Buy&#8221;</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						PBF Logistics (NYSE:PBFX) was upgraded by Zacks Investment Research from a &#8220;hold&#8221; rating to a &#8220;buy&#8221; rating in a research note issued on Friday, Zacks.com reports. The brokerage presently has a $11.00 price objective...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/pbf-logistics-nysepbfx-upgraded-by-zacks-investment-research-to-buy.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/genfit-s-a-adr-nasdaqgnft-upgraded-to-buy-by-stifel-nicolaus.html" rel="bookmark" title="GENFIT S A/ADR (NASDAQ:GNFT) Upgraded to Buy by Stifel Nicolaus">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="GENFIT S A/ADR (NASDAQ:GNFT) Upgraded to Buy by Stifel Nicolaus" />
+					<h2>GENFIT S A/ADR (NASDAQ:GNFT) Upgraded to Buy by Stifel Nicolaus</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/cawalker" title="Posts by Casey Walker" rel="author">Casey Walker</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Stifel Nicolaus upgraded shares of GENFIT S A/ADR (NASDAQ:GNFT) from a hold rating to a buy rating in a research note released on Thursday morning, BenzingaRatingsTable reports.
+Several other equities analysts have also issued reports...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/genfit-s-a-adr-nasdaqgnft-upgraded-to-buy-by-stifel-nicolaus.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/fifth-third-bancorp-nasdaqfitb-upgraded-by-valuengine-to-hold.html" rel="bookmark" title="Fifth Third Bancorp (NASDAQ:FITB) Upgraded by ValuEngine to Hold">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/316773.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Fifth Third Bancorp (NASDAQ:FITB) Upgraded by ValuEngine to Hold" />
+					<h2>Fifth Third Bancorp (NASDAQ:FITB) Upgraded by ValuEngine to Hold</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						ValuEngine upgraded shares of Fifth Third Bancorp (NASDAQ:FITB) from a sell rating to a hold rating in a research report released on Thursday, ValuEngine reports.
+FITB has been the subject of a number of other reports. UBS Group increased...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/fifth-third-bancorp-nasdaqfitb-upgraded-by-valuengine-to-hold.html'></a>					</div></a>
+				</section> <!-- end archive -->
+								<section class="archive">
+					<a href="https://transcriptdaily.com/2020/07/26/roth-capital-upgrades-clarus-nasdaqclar-to-buy.html" rel="bookmark" title="Roth Capital Upgrades Clarus (NASDAQ:CLAR) to &#8220;Buy&#8221;">
+					<img src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/black-diamond-inc-logo.jpg&amp;h=100&amp;w=100&amp;zc=1" alt="Roth Capital Upgrades Clarus (NASDAQ:CLAR) to &#8220;Buy&#8221;" />
+					<h2>Roth Capital Upgrades Clarus (NASDAQ:CLAR) to &#8220;Buy&#8221;</h2>
+					<p class="postmeta">
+						Posted by <a href="https://transcriptdaily.com/author/jaquigley" title="Posts by James Quigley" rel="author">James Quigley</a> on Jul 26th, 2020 // <span class="comments-link">Comments off</span>					</p><!--end .postmeta-->
+					<div class="entry">
+						Clarus (NASDAQ:CLAR) was upgraded by analysts at Roth Capital from a &#8220;neutral&#8221; rating to a &#8220;buy&#8221; rating in a report issued on Friday, MarketBeat.com reports. The firm presently has a $14.50 target price on the...&nbsp;<a href='https://transcriptdaily.com/2020/07/26/roth-capital-upgrades-clarus-nasdaqclar-to-buy.html'></a>					</div></a>
+				</section> <!-- end archive -->
+				
+				<div class="navigation" style="margin-bottom:10px;">
+					<a href="https://transcriptdaily.com/page/2?s=PG" >Next &raquo;</a>				</div><!--end .navigation-->
+
+			<div class="bottom-square-ad">
+				<script type="text/javascript">
+				(function() {
+				var html = "javascript:\"<body style='margin: 0;'><script src='https://www.googletagservices.com/tag/js/gpt.js'>googletag.pubads().set('page_url','"+window.location.href+"').definePassback('/8095840/342.network-acn.com_desktop_300x250', [300, 250]).display();<\/script></body>\"";
+				document.write('<iframe width="300" height="250" frameBorder="0" scrolling="no" marginheight="0" marginwidth="0" src="'+encodeURI(html)+'"></iframe>');
+				})();
+				</script>
+			</div> <!-- end first .bottom-square-ad -->
+
+			<div class="bottom-square-ad">
+				<script type="text/javascript">
+				(function() {
+				var html = "javascript:\"<body style='margin: 0;'><script src='https://www.googletagservices.com/tag/js/gpt.js'>googletag.pubads().set('page_url','"+window.location.href+"').definePassback('/8095840/342.network-acn.com_desktop_300x250', [300, 250]).display();<\/script></body>\"";
+				document.write('<iframe width="300" height="250" frameBorder="0" scrolling="no" marginheight="0" marginwidth="0" src="'+encodeURI(html)+'"></iframe>');
+				})();
+				</script>
+			</div> <!-- end second .bottom-square-ad -->
+
+		</main> <!-- end main -->
+	<aside>
+	<iframe src="https://marketbeat.com/scripts/MoreOnMarketBeat.aspx" width="336" height="600" frameborder="no"></iframe><br><br>
+	
+	
+<!-- first square unit -->
+
+<div class="ad336x280">
+<!-- Network Wide AdSense Unit - Top Sidebar Position -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9373162611283935" data-ad-slot="1875628183" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<!-- End AdSense Unit -->
+</div>
+
+<!-- end first square unit -->
+
+<!-- second square unit -->
+<div class="ad336x280">
+<!-- Network Wide AdSense Unit - Middle Sidebar Position -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9373162611283935" data-ad-slot="9445683366" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<!-- End AdSense Unit -->
+</div>
+
+<!-- end second square unit -->
+
+
+<!-- OptIn Form -->
+
+<!-- Start Sidebar Registration -->
+    <div class="sidebar-email">
+                        <h3>Free Email Newsletter</h3>
+         	Complete the form below to receive the latest headlines and analysts' recommendations for your stocks with our free daily email newsletter:<br/>
+        <form method="get" action="https://www.marketbeat.com/newsletter/default.aspx">
+        <input id="RegisterEmailSidebar" name="RegisterEmail" type="email" placeholder="Your Email Address">
+        <input type="hidden" id="Hidden1" name="RegistrationCode" value="Transcript Daily-Sidebar">
+        <input type="hidden" id="Hidden2" name="RegisterTicker" value="NASDAQ:TSLA" />        <input type="submit" name="submit" onclick="return CheckEmail('RegisterEmailSidebar', 'ShowSuggestionSidebar');" value="Subscribe Now (Free Sign-Up)" class="button" style="width:336px;height:30px">
+    <div id="ShowSuggestionSidebar" style="padding-top:7px"></div>
+    </form>
+    </div>
+
+<!-- End Sidebar Registration -->
+
+<div>
+<a class="twitter-follow-button"
+  href="https://twitter.com/TranscriptDaily"
+  data-size="large">
+Follow @TranscriptDaily</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+
+<!-- Start IMS -->
+<div id="TranscriptDaily_ROS_RightRail_1" class="text-center">
+			<script type="text/javascript">
+			apntag.anq.push(function() {
+				apntag.showTag('TranscriptDaily_ROS_RightRail_1');
+			});
+			</script>
+		</div>
+<!-- End IMS --> 
+
+
+<!-- start Recent Posts -->
+        <br/>
+        <div>
+        <h3>Recent Posts</h3>
+            <ul>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/ishares-north-american-tech-software-etf-batsigv-shares-bought-by-focused-wealth-management-inc.html">iShares North American Tech-Software ETF (BATS:IGV) Shares Bought by Focused Wealth Management Inc</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/stonebridge-financial-planning-group-llc-cuts-stake-in-invesco-dynamic-leisure-and-entertainment-etf-nysearcapej.html">Stonebridge Financial Planning Group LLC Cuts Stake in Invesco Dynamic Leisure and Entertainment ETF (NYSEARCA:PEJ)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/stonebridge-financial-planning-group-llc-buys-250-shares-of-target-co-nysetgt.html">Stonebridge Financial Planning Group LLC Buys 250 Shares of Target Co. (NYSE:TGT)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/stonebridge-financial-planning-group-llc-has-30000-position-in-flowserve-corp-nysefls.html">Stonebridge Financial Planning Group LLC Has $30,000 Position in Flowserve Corp (NYSE:FLS)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/stonebridge-financial-planning-group-llc-has-45000-stock-position-in-invesco-sp-500-pure-value-etf-nysearcarpv.html">Stonebridge Financial Planning Group LLC Has $45,000 Stock Position in Invesco S&#038;P 500 Pure Value ETF (NYSEARCA:RPV)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/cubic-asset-management-llc-has-8-11-million-stock-position-in-alphabet-inc-nasdaqgoog.html">Cubic Asset Management LLC Has $8.11 Million Stock Position in Alphabet Inc (NASDAQ:GOOG)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/tabula-rasa-healthcare-inc-nasdaqtrhc-shares-sold-by-nn-investment-partners-holdings-n-v.html">Tabula Rasa HealthCare Inc (NASDAQ:TRHC) Shares Sold by NN Investment Partners Holdings N.V.</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-raises-stock-holdings-in-cvs-health-corp-nysecvs.html">NN Investment Partners Holdings N.V. Raises Stock Holdings in CVS Health Corp (NYSE:CVS)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-has-14-65-million-holdings-in-atmos-energy-co-nyseato.html">NN Investment Partners Holdings N.V. Has $14.65 Million Holdings in Atmos Energy Co. (NYSE:ATO)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-makes-new-investment-in-extra-space-storage-inc-nyseexr.html">NN Investment Partners Holdings N.V. Makes New Investment in Extra Space Storage, Inc. (NYSE:EXR)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-acquires-14497-shares-of-clorox-co-nyseclx.html">NN Investment Partners Holdings N.V. Acquires 14,497 Shares of Clorox Co (NYSE:CLX)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-has-16-51-million-holdings-in-honeywell-international-inc-nysehon.html">NN Investment Partners Holdings N.V. Has $16.51 Million Holdings in Honeywell International Inc. (NYSE:HON)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/wp-carey-inc-nysewpc-shares-bought-by-nn-investment-partners-holdings-n-v.html">WP Carey Inc (NYSE:WPC) Shares Bought by NN Investment Partners Holdings N.V.</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-decreases-position-in-alphabet-inc-nasdaqgoog.html">NN Investment Partners Holdings N.V. Decreases Position in Alphabet Inc (NASDAQ:GOOG)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-has-21-70-million-stock-holdings-in-3m-co-nysemmm.html">NN Investment Partners Holdings N.V. Has $21.70 Million Stock Holdings in 3M Co (NYSE:MMM)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/salesforce-com-inc-nysecrm-shares-acquired-by-nn-investment-partners-holdings-n-v.html">salesforce.com, inc. (NYSE:CRM) Shares Acquired by NN Investment Partners Holdings N.V.</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/nn-investment-partners-holdings-n-v-has-22-41-million-holdings-in-roper-technologies-inc-nyserop.html">NN Investment Partners Holdings N.V. Has $22.41 Million Holdings in Roper Technologies Inc (NYSE:ROP)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/dxc-technology-co-nysedxc-shares-acquired-by-heritage-investors-management-corp.html">DXC Technology Co (NYSE:DXC) Shares Acquired by Heritage Investors Management Corp</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/heritage-investors-management-corp-boosts-stock-holdings-in-cvs-health-corp-nysecvs.html">Heritage Investors Management Corp Boosts Stock Holdings in CVS Health Corp (NYSE:CVS)</a></li>
+                        <li class="recent-posts"><a href="https://transcriptdaily.com/2020/07/26/csx-co-nasdaqcsx-shares-bought-by-nn-investment-partners-holdings-n-v.html">CSX Co. (NASDAQ:CSX) Shares Bought by NN Investment Partners Holdings N.V.</a></li>
+                        </ul>
+        </div>  
+
+<!-- end recent posts -->
+</aside><!--end #sidebar-->
+<div style="clear: both;"></div>
+	</div> <!-- end .width-limiter -->
+<footer class="full-width">
+			<div class="width-limiter">
+				<div id="footer-info" class="add-padding">
+					<nav class="navigation"><ul id="menu-categories-for-menus-1" class="menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-79"><a href="https://transcriptdaily.com/headlines">Headlines</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-75"><a href="https://transcriptdaily.com/business">Business</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-77"><a href="https://transcriptdaily.com/markets">Markets</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80"><a href="https://transcriptdaily.com/politics">Politics</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78"><a href="https://transcriptdaily.com/technology">Technology</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-76"><a href="https://transcriptdaily.com/health">Health</a></li>
+</ul></nav>					<span id="copyright">
+						&copy; 2006-2020 <a href="https://transcriptdaily.com">Transcript Daily</a>
+					</span>
+				</div><!-- end #footer-info -->
+			</div>	
+		</footer>
+		<script type='text/javascript' src='https://transcriptdaily.com/wp-includes/js/wp-embed.min.js?ver=5.4.2'></script>
+
+<!-- MarketBeat News Network StatCounter Code -->
+<script type="text/javascript">var sc_project=9021069; var sc_invisible=1; var sc_security="fdde5482"; var sc_https=1; </script>
+<script type="text/javascript" src="https://www.statcounter.com/counter/counter.js"></script>
+<noscript><img class="statcounter" src="https://c.statcounter.com/9021069/0/fdde5482/1/" height="1" width="1"></noscript>
+<!-- End MarketBeat News Network StatCounter Code -->
+
+<!-- Start of StatCounter Code for Transcript Daily -->
+<script type="text/javascript">
+var sc_project=11301659; 
+var sc_invisible=1; 
+var sc_security="a399788a"; 
+var sc_https=1; 
+var scJsHost = (("https:" == document.location.protocol) ? "https://secure." : "http://www.");
+</script>
+<script type="text/javascript" src="https://www.statcounter.com/counter/counter.js"></script><noscript><img class="statcounter" src="//c.statcounter.com/11301659/0/a399788a/1/" alt="Web Analytics"></a></noscript>
+<!-- End of StatCounter Code for Transcript Daily -->
+	
+
+<!-- Begin Social Sharing -->
+	<!-- End Social Sharing -->
+
+<!-- Begin Internal Tracking Pixel 2 -->
+<script type='text/javascript'>document.write('<img src="https://www.american' + 'consumernews.net/scripts/viewcount.ashx?ArticleHistoryID=57857590&PostDate=2020-7-26&type=f&id=7547600&domain=transcriptdaily.com&referrer=' + encodeURIComponent(document.referrer) + '" />');</script>
+<!-- End Internal Tracking Pixel 2-->
+
+<!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "16807273" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=16807273&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+
+
+</div>
+
+
+
+	</body>
+</html>
