@@ -40,8 +40,8 @@ def Buy():
           today = datetime.datetime.now().date()
           debug_mode=parameters()[9]
           max_orders = parameters()[5]
-          bot_token=parameters()[12]
-          bot_chatID = parameters()[13]
+          bot_token=parameters()[11]
+          bot_chatID = parameters()[12]
           print (bot_token, bot_chatID)
           print ("Global buy parameters configured, moving to market loop")
           #dayofweek=weekday()		  
@@ -205,7 +205,7 @@ def parameters():
     cursor.execute("SELECT * FROM parameters")
     r = cursor.fetchall()
     for row in r:
-        return (row[1]), (row[2]), (row[3]), (row[4]), (row[5]), (row[6]), (row[7]), (row[8]), (row[9]), (row[10]), (row[11]), (row[12]), (row[13])
+        return (row[1]), (row[2]), (row[3]), (row[4]), (row[5]), (row[6]), (row[7]), (row[8]), (row[9]), (row[10]), (row[11]), (row[12])
 
     return 0
 
