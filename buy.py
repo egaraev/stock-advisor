@@ -12,6 +12,9 @@ db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
 cursor = db.cursor()
 cursor.execute("SELECT symbol FROM symbols WHERE active=1")
 symbols=cursor.fetchall()
+bot_token=parameters()[11]
+bot_chatID = parameters()[12]
+print (bot_token, bot_chatID)
 
 def main():
     print('Starting stock buy  module')
