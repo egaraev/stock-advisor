@@ -7,6 +7,7 @@ import smtplib
 #import calendar
 import time
 import datetime
+import requests
 db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
 cursor = db.cursor()
 cursor.execute("SELECT symbol FROM symbols WHERE active=1")
@@ -39,6 +40,8 @@ def Buy():
           today = datetime.datetime.now().date()
           debug_mode=parameters()[9]
           max_orders = parameters()[5]
+          bot_token=parameters()[12]
+          bot_chatID = parameters()[13]
           print ("Global buy parameters configured, moving to market loop")
           #dayofweek=weekday()		  
           timestamp = int(time.time())
@@ -161,7 +164,9 @@ def Buy():
                           sys.exit(1)
                       finally:
                           db.close()
-                      Mail("egaraev@gmail.com", "egaraev@gmail.com", "New purchase", printed, "localhost")						  
+                      Mail("egaraev@gmail.com", "egaraev@gmail.com", "New purchase", printed, "localhost")
+                      Send_to_telegram = telegram_bot_sendtext(printed)
+                      print(Send_to_telegram)			
           else:
               pass
 		  
@@ -169,7 +174,16 @@ def Buy():
         except:
             continue
 
-			
+def telegram_bot_sendtext(bot_message):
+   bot_token = bot_token
+   bot_chatID = bot_chatID
+   send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + bot_message
+
+   response = requests.get(send_text)
+
+   return response.json()
+	
+	
 def Mail(FROM,TO,SUBJECT,TEXT,SERVER):
 
 # Prepare actual message
@@ -190,7 +204,7 @@ def parameters():
     cursor.execute("SELECT * FROM parameters")
     r = cursor.fetchall()
     for row in r:
-        return (row[1]), (row[2]), (row[3]), (row[4]), (row[5]), (row[6]), (row[7]), (row[8]), (row[9]), (row[10]), (row[11])
+        return (row[1]), (row[2]), (row[3]), (row[4]), (row[5]), (row[6]), (row[7]), (row[8]), (row[9]), (row[10]), (row[11]), (row[12]), (row[13])
 
     return 0
 
