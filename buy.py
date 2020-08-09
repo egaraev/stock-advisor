@@ -42,6 +42,7 @@ def Buy():
           max_orders = parameters()[5]
           bot_token=parameters()[12]
           bot_chatID = parameters()[13]
+          print (bot_token, bot_chatID)
           print ("Global buy parameters configured, moving to market loop")
           #dayofweek=weekday()		  
           timestamp = int(time.time())
