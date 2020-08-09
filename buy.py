@@ -12,9 +12,7 @@ db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
 cursor = db.cursor()
 cursor.execute("SELECT symbol FROM symbols WHERE active=1")
 symbols=cursor.fetchall()
-bot_token=parameters()[11]
-bot_chatID = parameters()[12]
-print (bot_token, bot_chatID)
+
 
 def main():
     print('Starting stock buy  module')
@@ -43,9 +41,9 @@ def Buy():
           today = datetime.datetime.now().date()
           debug_mode=parameters()[9]
           max_orders = parameters()[5]
-          #bot_token=parameters()[11]
-          #bot_chatID = parameters()[12]
-          #print (bot_token, bot_chatID)
+          bot_token = parameters()[11]
+          bot_chatID = parameters()[12]
+          print (bot_token, bot_chatID)
           print ("Global buy parameters configured, moving to market loop")
           #dayofweek=weekday()		  
           timestamp = int(time.time())
