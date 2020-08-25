@@ -7,6 +7,7 @@ import smtplib
 #import calendar
 import time
 import datetime
+import requests
 db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
 cursor = db.cursor()
 cursor.execute("SELECT symbol FROM symbols WHERE active=1")
@@ -37,6 +38,9 @@ def Sell():
           currtime = int(time.time())
           debug_mode=parameters()[9]
           max_orders = parameters()[5]
+          telegram_bot_token= parameters()[11]
+          telegram_bot_chatID= parameters()[12]
+          print (telegram_bot_token, telegram_bot_chatID)
           print ("Global buy parameters configured, moving to market loop")
           #dayofweek=weekday()		  
           timestamp = int(time.time())
@@ -141,7 +145,8 @@ def Sell():
                   finally:
                       db.close()
                   Mail("egaraev@gmail.com", "egaraev@gmail.com", "New sell", printed, "localhost")					  
-				  
+                  Send_to_telegram = telegram_bot_sendtext(printed)
+                  print(Send_to_telegram)				  
 
           print ("Starting selling mechanizm for ", market)
           if bought_price_sql != None:
@@ -175,6 +180,8 @@ def Sell():
                       finally:
                           db.close()
                       Mail("egaraev@gmail.com", "egaraev@gmail.com", "New sell", printed, "localhost")
+                      Send_to_telegram = telegram_bot_sendtext(printed)
+                      print(Send_to_telegram)
 				  
                  if  procent_serf<=-7  and  percent_serf_max<0.1:
                       print ('    2  -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting  ' + str(format_float(serf)) + ' USD')
@@ -198,7 +205,8 @@ def Sell():
                       finally:
                           db.close()
                       Mail("egaraev@gmail.com", "egaraev@gmail.com", "New sell", printed, "localhost")
-
+                      Send_to_telegram = telegram_bot_sendtext(printed)
+                      print(Send_to_telegram)
 
                  if  procent_serf>=10:
                       print ('    3 -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting  ' + str(format_float(serf)) + ' USD')
@@ -222,6 +230,8 @@ def Sell():
                       finally:
                           db.close()
                       Mail("egaraev@gmail.com", "egaraev@gmail.com", "New sell, TP", printed, "localhost")
+                      Send_to_telegram = telegram_bot_sendtext(printed)
+                      print(Send_to_telegram)
 
                  if  procent_serf<=-15:
                       print ('    4 -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting  ' + str(format_float(serf)) + ' USD')
@@ -245,7 +255,9 @@ def Sell():
                       finally:
                           db.close()
                       Mail("egaraev@gmail.com", "egaraev@gmail.com", "New sell, SL", printed, "localhost")
-					  
+                      Send_to_telegram = telegram_bot_sendtext(printed)
+                      print(Send_to_telegram)
+
           else:
               pass 
 		  
@@ -253,7 +265,20 @@ def Sell():
         except:
             continue
 
-			
+
+
+	
+def telegram_bot_sendtext(bot_message):
+   bot_token = telegram_bot_token
+   bot_chatID = telegram_bot_chatID
+   send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + bot_message
+
+   response = requests.get(send_text)
+
+   return response.json()	
+
+
+
 def Mail(FROM,TO,SUBJECT,TEXT,SERVER):
 
 # Prepare actual message
@@ -274,7 +299,7 @@ def parameters():
     cursor.execute("SELECT * FROM parameters")
     r = cursor.fetchall()
     for row in r:
-        return (row[1]), (row[2]), (row[3]), (row[4]), (row[5]), (row[6]), (row[7]), (row[8]), (row[9]), (row[10]), (row[11])
+        return (row[1]), (row[2]), (row[3]), (row[4]), (row[5]), (row[6]), (row[7]), (row[8]), (row[9]), (row[10]), (row[11]), (row[12]), (row[13])
 
     return 0
 
