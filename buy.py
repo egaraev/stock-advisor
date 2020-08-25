@@ -43,7 +43,7 @@ def Buy():
           max_orders = parameters()[5]
           telegram_bot_token= parameters()[11]
           telegram_bot_chatID= parameters()[12]
-          print (bot_token, bot_chatID)
+          print (telegram_bot_token, telegram_bot_chatID)
           print ("Global buy parameters configured, moving to market loop")
           #dayofweek=weekday()		  
           timestamp = int(time.time())
