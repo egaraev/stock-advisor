@@ -80,10 +80,10 @@ def Buy():
           #print (heikin_ashi, candle_direction,tweet_positive,tweet_negative,tweet_polarity,tweet_score,candle_score )
 	
 	
-          printed = ("Final test")
-          send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + printed
-          response = requests.get(send_text)
-          print (response.json())
+#          printed = ("Final test")
+#          send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + printed
+#          response = requests.get(send_text)
+#          print (response.json())
 
 
 
@@ -178,8 +178,9 @@ def Buy():
                       finally:
                           db.close()
                       Mail("egaraev@gmail.com", "egaraev@gmail.com", "New purchase", printed, "localhost")
-                      Send_to_telegram = telegram_bot_sendtext(printed)
-                      print(Send_to_telegram)			
+                      send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + printed
+                      response = requests.get(send_text)
+                      print (response.json())		
           else:
               pass
 		  
