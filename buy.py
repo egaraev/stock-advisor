@@ -42,9 +42,9 @@ def Buy():
           today = datetime.datetime.now().date()
           debug_mode=parameters()[9]
           max_orders = parameters()[5]
-          telegram_bot_token= parameters()[11]
-          telegram_bot_chatID= parameters()[12]
-          print (telegram_bot_token, telegram_bot_chatID)
+          bot_token= parameters()[11]
+          bot_chatID= parameters()[12]
+          print (bot_token, bot_chatID)
           print ("Global buy parameters configured, moving to market loop")
           #dayofweek=weekday()		  
           timestamp = int(time.time())
@@ -190,8 +190,6 @@ def Buy():
 
 
 def telegram_bot_sendtext(bot_message):
-   bot_token = telegram_bot_token
-   bot_chatID = telegram_bot_chatID
    send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + bot_message
    response = requests.get(send_text)
    return response.json()
