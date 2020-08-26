@@ -80,7 +80,7 @@ def Buy():
           #print (heikin_ashi, candle_direction,tweet_positive,tweet_negative,tweet_polarity,tweet_score,candle_score )
           printed = ('bla bla bla')
           Send_to_telegram = telegram_bot_sendtext(printed)
-          print(Send_to_telegram)
+          print (Send_to_telegram)
 
 
 		  
