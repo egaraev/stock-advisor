@@ -89,9 +89,9 @@ def Buy():
 #          print (Send_to_telegram)
 
 
-          Send_to_telegram = telegram_bot_sendtext(printed)
+          send_to_telegram = telegram_bot_sendtext(printed)
           #telegram_bot_sendtext(printed)
-          print (Send_to_telegram)		  
+          print (send_to_telegram)		  
           print ("Market parameters configured, moving to buy for ", market)		  
 
           try:
