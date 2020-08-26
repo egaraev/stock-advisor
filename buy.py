@@ -196,7 +196,7 @@ def telegram_bot_sendtext(bot_message):
 
    response = requests.get(send_text)
 
-   return response.json()
+   return response
 	
 	
 def Mail(FROM,TO,SUBJECT,TEXT,SERVER):
