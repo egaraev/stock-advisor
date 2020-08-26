@@ -82,6 +82,8 @@ def Buy():
           bot_token = telegram_bot_token
           bot_chatID = telegram_bot_chatID
           send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + printed
+          response = requests.get(send_text)
+          print (response)
           print (send_text)
           Send_to_telegram = telegram_bot_sendtext(printed)
           print (Send_to_telegram)
