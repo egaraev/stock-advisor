@@ -77,7 +77,7 @@ def Buy():
           candle_pattern=market_values(market,18)
           previous_date = market_values(market,22)
           #print (heikin_ashi, candle_direction,tweet_positive,tweet_negative,tweet_polarity,tweet_score,candle_score )
-          printed = "bla bla bla"
+          printed = ('bla bla bla')
           Send_to_telegram = telegram_bot_sendtext(printed)
           print(Send_to_telegram)
 
