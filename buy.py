@@ -78,18 +78,19 @@ def Buy():
           candle_pattern=market_values(market,18)
           previous_date = market_values(market,22)
           #print (heikin_ashi, candle_direction,tweet_positive,tweet_negative,tweet_polarity,tweet_score,candle_score )
-          printed = ("bla")
-          bot_token = telegram_bot_token
-          bot_chatID = telegram_bot_chatID
-          send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + printed
-          response = requests.get(send_text)
-          print (response.json())
-          print (send_text)
+          printed = ("Final test")
+#         bot_token = telegram_bot_token
+#          bot_chatID = telegram_bot_chatID
+#          send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + printed
+#          response = requests.get(send_text)
+#          print (response.json())
+#          print (send_text)
+#          Send_to_telegram = telegram_bot_sendtext(printed)
+#          print (Send_to_telegram)
+
+
           Send_to_telegram = telegram_bot_sendtext(printed)
-          print (Send_to_telegram)
-
-
-		  
+          print(Send_to_telegram)		  
           print ("Market parameters configured, moving to buy for ", market)		  
 
           try:
