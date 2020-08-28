@@ -8,6 +8,7 @@ import smtplib
 import time
 import datetime
 import requests
+import json
 db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
 cursor = db.cursor()
 cursor.execute("SELECT symbol FROM symbols WHERE active=1")
