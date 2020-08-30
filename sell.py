@@ -163,7 +163,7 @@ def Sell():
 
                  if ((2.0>procent_serf>=0.7 and danger_order==1 and max_percent_sql - procent_serf >= 0.3) or  (max_percent_sql - procent_serf >= 0.8 and 5>=max_percent_sql >= 2 and candle_direction=='D' )   or (max_percent_sql - procent_serf >= 1.5 and 9>=max_percent_sql >= 5 and candle_direction=='D' and hour_candle_direction=='D')):
                       print ('    5  -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting  ' + str(format_float(serf)) + ' USD')
-                      printed = ('  Taking into account current situation on the market, I would advise to sell all our stocks of ' + market + ' for this current price ' + str(format_float(last)) + '  and get   ' + str(format_float(procent_serf)) + ' %')
+                      printed = ('  Taking into account current situation on the market, I would advise to sell all our stocks of ' + market + ' for this current price ' + str(format_float(last)) + '  and get   ' + str(format_float(procent_serf)) + ' %' +' For more details go here: http://139.162.132.189')
                       try:
 
                           db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
@@ -189,7 +189,7 @@ def Sell():
 				  
                  if  procent_serf<=-7  and  percent_serf_max<0.1:
                       print ('    2  -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting  ' + str(format_float(serf)) + ' USD')
-                      printed = ('  Lets sell all this shitty ' + market + ' for this current price ' + str(format_float(last)) + '  and we will lose only  ' + str(format_float(procent_serf)) + ' %, otherwise we can lose much more')
+                      printed = ('  Lets sell all this shitty ' + market + ' for this current price ' + str(format_float(last)) + '  and we will lose only  ' + str(format_float(procent_serf)) + ' %, otherwise we can lose much more ' +' For more details go here: http://139.162.132.189')
                       try:
 
                           db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
@@ -215,7 +215,7 @@ def Sell():
 
                  if  procent_serf>=10:
                       print ('    3 -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting  ' + str(format_float(serf)) + ' USD')
-                      printed = ('    Wow wow, holy shit, we just reached our take profit. Lets sell all our units of ' + market + ' for this great price ' + str(format_float(last)) + '  and get   ' + str(format_float(procent_serf)) + ' %')
+                      printed = ('    Wow wow, holy shit, we just reached our take profit. Lets sell all our units of ' + market + ' for this great price ' + str(format_float(last)) + '  and get   ' + str(format_float(procent_serf)) + ' % ' +' For more details go here: http://139.162.132.189')
                       try:
 
                           db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
@@ -241,7 +241,7 @@ def Sell():
 
                  if  procent_serf<=-15:
                       print ('    4 -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting  ' + str(format_float(serf)) + ' USD')
-                      printed = ('    Fuck, we fucked up, we reached our Stop Loss, so to avoid complete disaster lets sell all this shit  ' + market + ' for this crappy price' + str(format_float(last)) + '  and lose  ' + str(format_float(procent_serf)) + ' % . Fuck fuck!!')
+                      printed = ('    Fuck, we fucked up, we reached our Stop Loss, so to avoid complete disaster lets sell all this shit  ' + market + ' for this crappy price' + str(format_float(last)) + '  and lose  ' + str(format_float(procent_serf)) + ' % . Fuck fuck!! ' +' For more details go here: http://139.162.132.189')
                       try:
 
                           db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
