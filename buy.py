@@ -63,6 +63,8 @@ def Buy():
           tweet_positive=market_values(market,8)
           hour_candle_direction=market_values(market,21)
           tweet_negative=market_values(market,9)
+          tweet_ratio = tweet_positive/tweet_negative
+          print (tweet_ratio)
           ai_price=market_values(market,11)
           if ai_price<last:
              ai_direction="DOWN"
