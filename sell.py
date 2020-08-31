@@ -162,7 +162,7 @@ def Sell():
                  print (percent_serf_max)
                	  
 
-                 if  procent_serf <= -7  and  percent_serf_max < 0.5:
+                 if  procent_serf <= -7  and  percent_serf_max(market) < 0.5:
                       print ('    2  -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting  ' + str(format_float(serf)) + ' USD')
                       #printed = ('  Lets sell all this shitty ' + market + ' for this current price ' + str(format_float(last)) + '  and we will lose only  ' + str(format_float(procent_serf)) + ' %, otherwise we can lose much more ' +' For more details go here: http://139.162.132.189')
                       try:
