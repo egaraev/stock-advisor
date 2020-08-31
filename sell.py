@@ -152,14 +152,14 @@ def Sell():
                   print (response.json())				  
 
           #print ("Starting selling mechanizm for ", market)
-          print (procent_serf)
+          
           if bought_price_sql != None:
                if bought_quantity_sql is None or bought_quantity_sql == 0.0:
                      # print market, bought_quantity_sql, current_balance
                     pass
                             # If curent balance of this currency more then zero
                elif bought_quantity_sql > 0:				  
-                 				  
+                 print (procent_serf)	  
 
                  
                  if ((2.0>procent_serf>=0.7 and danger_order==1 and max_percent_sql - procent_serf >= 0.3) or  (max_percent_sql - procent_serf >= 0.8 and 5>=max_percent_sql >= 2 and candle_direction=='D' )   or (max_percent_sql - procent_serf >= 1.5 and 9>=max_percent_sql >= 5 and candle_direction=='D' and hour_candle_direction=='D')):
