@@ -42,7 +42,7 @@ def Sell():
           bot_token= parameters()[11]
           bot_chatID= parameters()[12]
           #print (bot_token, bot_chatID)
-          print ("Global buy parameters configured, moving to market loop")
+          print ("Global sell parameters configured, moving to market loop")
           #dayofweek=weekday()		  
           timestamp = int(time.time())
           #How much market has been changed
@@ -151,7 +151,7 @@ def Sell():
                   response = requests.get(send_text)
                   print (response.json())				  
 
-          print ("Starting selling mechanizm for ", market)
+          #print ("Starting selling mechanizm for ", market)
           if bought_price_sql != None:
                if bought_quantity_sql is None or bought_quantity_sql == 0.0:
                      # print market, bought_quantity_sql, current_balance
@@ -160,7 +160,7 @@ def Sell():
                elif bought_quantity_sql > 0:				  
 				  
 
-
+                 print ("test")
                  if ((2.0>procent_serf>=0.7 and danger_order==1 and max_percent_sql - procent_serf >= 0.3) or  (max_percent_sql - procent_serf >= 0.8 and 5>=max_percent_sql >= 2 and candle_direction=='D' )   or (max_percent_sql - procent_serf >= 1.5 and 9>=max_percent_sql >= 5 and candle_direction=='D' and hour_candle_direction=='D')):
                       print ('    5  -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting  ' + str(format_float(serf)) + ' USD')
                       printed = ('  Taking into account current situation on the market, I would advise to sell all our stocks of ' + market + ' for this current price ' + str(format_float(last)) + '  and get   ' + str(format_float(procent_serf)) + ' %' +' For more details go here: http://139.162.132.189')
