@@ -159,10 +159,8 @@ def Sell():
                     pass
                             # If curent balance of this currency more then zero
                elif bought_quantity_sql > 0:				  
-#                 if procent_serf<=-10:
-#                     print ("ok")
-#                 else:
-#                     print (float(procent_serf))                	  
+                 print (percent_serf_max)
+               	  
 
                  if  procent_serf <= -7  and  percent_serf_max < 0.5:
                       print ('    2  -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting  ' + str(format_float(serf)) + ' USD')
