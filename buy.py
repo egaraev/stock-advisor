@@ -78,7 +78,7 @@ def Buy():
           candle_score=market_values(market,17)
           news_score=market_values(market,20)
           candle_pattern=market_values(market,18)
-          previous_date = market_values(market,23)
+          previous_date = market_values(market,22)
           #print (heikin_ashi, candle_direction,tweet_positive,tweet_negative,tweet_polarity,tweet_score,candle_score )
           print (previous_date)
 	
