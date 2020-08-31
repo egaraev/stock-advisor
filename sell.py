@@ -63,7 +63,7 @@ def Sell():
           hour_candle_direction=market_values(market,21)
           tweet_positive=market_values(market,8)
           tweet_negative=market_values(market,9)
-          tweet_ratio = float("{0:.4f}".format(tweet_positive/tweet_negative)
+          tweet_ratio = float("{0:.4f}".format(tweet_positive/tweet_negative))
           print (tweet_ratio)
           danger_order=status_orders(market, 29)
           
