@@ -44,7 +44,7 @@ def Buy():
           max_orders = parameters()[5]
           bot_token= parameters()[11]
           bot_chatID= parameters()[12]
-          print (bot_token, bot_chatID)
+          #print (bot_token, bot_chatID)
           print ("Global buy parameters configured, moving to market loop")
           #dayofweek=weekday()		  
           timestamp = int(time.time())
@@ -78,7 +78,7 @@ def Buy():
           candle_score=market_values(market,17)
           news_score=market_values(market,20)
           candle_pattern=market_values(market,18)
-          previous_date = market_values(market,213)
+          previous_date = market_values(market,23)
           #print (heikin_ashi, candle_direction,tweet_positive,tweet_negative,tweet_polarity,tweet_score,candle_score )
           print (previous_date)
 	
