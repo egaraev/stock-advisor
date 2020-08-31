@@ -159,7 +159,7 @@ def Sell():
                     pass
                             # If curent balance of this currency more then zero
                elif bought_quantity_sql > 0:				  
-                 if float(procent_serf)<-1:
+                 if float(procent_serf)<=-1:
                      print ("ok")
                  else:
                      print (float(procent_serf))                	  
