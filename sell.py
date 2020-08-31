@@ -160,7 +160,7 @@ def Sell():
                elif bought_quantity_sql > 0:				  
 				  
 
-                 print ("test")
+                 
                  if ((2.0>procent_serf>=0.7 and danger_order==1 and max_percent_sql - procent_serf >= 0.3) or  (max_percent_sql - procent_serf >= 0.8 and 5>=max_percent_sql >= 2 and candle_direction=='D' )   or (max_percent_sql - procent_serf >= 1.5 and 9>=max_percent_sql >= 5 and candle_direction=='D' and hour_candle_direction=='D')):
                       print ('    5  -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting  ' + str(format_float(serf)) + ' USD')
                       printed = ('  Taking into account current situation on the market, I would advise to sell all our stocks of ' + market + ' for this current price ' + str(format_float(last)) + '  and get   ' + str(format_float(procent_serf)) + ' %' +' For more details go here: http://139.162.132.189')
@@ -239,7 +239,7 @@ def Sell():
                       response = requests.get(send_text)
                       print (response.json())
 
-                 if  procent_serf<=-15:
+                 if  procent_serf<=-15.0:
                       print ('    4 -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting  ' + str(format_float(serf)) + ' USD')
                       printed = ('    Fuck, we fucked up, we reached our Stop Loss, so to avoid complete disaster lets sell all this shit  ' + market + ' for this crappy price' + str(format_float(last)) + '  and lose  ' + str(format_float(procent_serf)) + ' % . Fuck fuck!! ' +' For more details go here: http://139.162.132.189')
                       try:
