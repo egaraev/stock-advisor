@@ -56,7 +56,7 @@ def Sell():
           timestamp_old = int(timestamp_orders(market))
           now = datetime.datetime.now()
           today = datetime.datetime.now().date()
-          print (today)
+#          print (today)
           currenttime = now.strftime("%Y-%m-%d %H:%M")
           heikin_ashi=market_values(market,5)
           candle_direction=market_values(market,7)
