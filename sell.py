@@ -30,7 +30,7 @@ def Sell():
           last= float("{0:.4f}".format(si.get_live_price(market)))
           hist = stock.history(period="1d")
           df = pd.DataFrame(hist)
-          print (last)
+          #print (last)
           day_close = (df['Close'][0].tolist())
           buy_size = parameters()[0] #The size for opening orders for STOP_LOSS mode
           stop_bot_force = parameters()[4]  #If stop_bot_force==1 we  stop bot and close all orders
@@ -41,7 +41,7 @@ def Sell():
           max_orders = parameters()[5]
           bot_token= parameters()[11]
           bot_chatID= parameters()[12]
-          print (bot_token, bot_chatID)
+          #print (bot_token, bot_chatID)
           print ("Global buy parameters configured, moving to market loop")
           #dayofweek=weekday()		  
           timestamp = int(time.time())
@@ -101,7 +101,7 @@ def Sell():
                        cursor.execute("update orders set percent_serf_min=%s where market = %s and active =1 and open_sell=0 ",(procent_serf, market))
                    else:
                        cursor.execute("update orders set percent_serf=%s where market = %s and active =1 and open_sell=0 ",(procent_serf, market))
-               #print (serf)
+               print (procent_serf)
                if percent_serf_min(market)<(-5):
                     cursor.execute("update orders set danger_order = %s where market = %s and active =1" , (1, market))
                if percent_serf_max(market)>2.5:
