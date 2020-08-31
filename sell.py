@@ -159,7 +159,10 @@ def Sell():
                     pass
                             # If curent balance of this currency more then zero
                elif bought_quantity_sql > 0:				  
-                 print (int(procent_serf))                	  
+                 if float(procent_serf)>0:
+                     print ("ok")
+                 else:
+                     print (float(procent_serf))                	  
 
                  
                  if ((2.0>procent_serf>=0.7 and danger_order==1 and max_percent_sql - procent_serf >= 0.3) or  (max_percent_sql - procent_serf >= 0.8 and 5>=max_percent_sql >= 2 and candle_direction=='D' )   or (max_percent_sql - procent_serf >= 1.5 and 9>=max_percent_sql >= 5 and candle_direction=='D' and hour_candle_direction=='D')):
