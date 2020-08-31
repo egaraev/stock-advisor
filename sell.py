@@ -240,7 +240,7 @@ def Sell():
                       response = requests.get(send_text)
                       print (response.json())
 
-                 if  procent_serf<0 and  abs(procent_serf)<= abs(-15.0):
+                 if  procent_serf<0 and  abs(procent_serf)>= abs(-15.0):
                       print ('    4 -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting  ' + str(format_float(serf)) + ' USD')
                       #printed = ('    Fuck, we fucked up, we reached our Stop Loss, so to avoid complete disaster lets sell all this shit  ' + market + ' for this crappy price' + str(format_float(last)) + '  and lose  ' + str(format_float(procent_serf)) + ' % . Fuck fuck!! ' +' For more details go here: http://139.162.132.189')
                       try:
