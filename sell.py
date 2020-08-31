@@ -101,7 +101,7 @@ def Sell():
                        cursor.execute("update orders set percent_serf_min=%s where market = %s and active =1 and open_sell=0 ",(procent_serf, market))
                    else:
                        cursor.execute("update orders set percent_serf=%s where market = %s and active =1 and open_sell=0 ",(procent_serf, market))
-               print (procent_serf)
+               
                if percent_serf_min(market)<(-5):
                     cursor.execute("update orders set danger_order = %s where market = %s and active =1" , (1, market))
                if percent_serf_max(market)>2.5:
@@ -159,7 +159,7 @@ def Sell():
                     pass
                             # If curent balance of this currency more then zero
                elif bought_quantity_sql > 0:				  
-                 print (procent_serf)	  
+                 	  
 
                  
                  if ((2.0>procent_serf>=0.7 and danger_order==1 and max_percent_sql - procent_serf >= 0.3) or  (max_percent_sql - procent_serf >= 0.8 and 5>=max_percent_sql >= 2 and candle_direction=='D' )   or (max_percent_sql - procent_serf >= 1.5 and 9>=max_percent_sql >= 5 and candle_direction=='D' and hour_candle_direction=='D')):
@@ -241,7 +241,6 @@ def Sell():
                       print (response.json())
 
                  if  procent_serf<=-15.0:
-                      print ("TEST")
                       print ('    4 -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting  ' + str(format_float(serf)) + ' USD')
                       printed = ('    Fuck, we fucked up, we reached our Stop Loss, so to avoid complete disaster lets sell all this shit  ' + market + ' for this crappy price' + str(format_float(last)) + '  and lose  ' + str(format_float(procent_serf)) + ' % . Fuck fuck!! ' +' For more details go here: http://139.162.132.189')
                       try:
