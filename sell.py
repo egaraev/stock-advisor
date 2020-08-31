@@ -164,7 +164,7 @@ def Sell():
 #                 else:
 #                     print (float(procent_serf))                	  
 
-                 if  procent_serf<=-7  and  float(percent_serf_max)<0.5:
+                 if  procent_serf <= -7  and  percent_serf_max < 0.5:
                       print ('    2  -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting  ' + str(format_float(serf)) + ' USD')
                       #printed = ('  Lets sell all this shitty ' + market + ' for this current price ' + str(format_float(last)) + '  and we will lose only  ' + str(format_float(procent_serf)) + ' %, otherwise we can lose much more ' +' For more details go here: http://139.162.132.189')
                       try:
@@ -186,9 +186,9 @@ def Sell():
                       finally:
                           db.close()
                       #Mail("egaraev@gmail.com", "egaraev@gmail.com", "New sell", printed, "localhost")
-                      send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + printed
-                      response = requests.get(send_text)
-                      print (response.json())
+                      #send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + printed
+                      #response = requests.get(send_text)
+                      #print (response.json())
 		
                  if  procent_serf <= -15:
                       print ('    4 -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting  ' + str(format_float(serf)) + ' USD')
