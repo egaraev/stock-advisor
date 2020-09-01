@@ -216,7 +216,7 @@ def Sell():
                       response = requests.get(send_text)
                       print (response.json())
 
-                 if  procent_serf <= -7  and  percent_serf_max(market) < 0.1:
+                 if  procent_serf <= -7.5  and  percent_serf_max(market) < 0.1  and candle_direction=='D' and heikin_ashi!="UP" and heikin_ashi!="Revers-UP" and candle_score<=0:
                       print ('    2  -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting  ' + str(format_float(serf)) + ' USD')
                       printed = ('  Lets sell all this shitty ' + market + ' for this current price ' + str(format_float(last)) + '  and we will lose only  ' + str(format_float(procent_serf)) + ' %, otherwise we can lose much more ' +' For more details go here: http://139.162.132.189')
                       try:
