@@ -33,7 +33,9 @@ echo "<td>" . $row['predicted_price'] . "</td>";
 echo "<td>" . $row['candle_score'] . "</td>";
 echo "<td>" . $row['positive_tweets'] . "</td>";
 echo "<td>" . $row['negative_tweets'] . "</td>";
-echo "<td>" . $row['positive_tweets']/$row['negative_tweets'] . "</td>";        
+$tweet_ratio=($row['positive_tweets']/$row['negative_tweets'])
+$tweets_ratio = number_format($tweet_ratio, 2, '.', '');
+//echo "<td>" . $row['positive_tweets']/$row['negative_tweets'] . "</td>";        
 echo "<td>" . $row['news_score'] . "</td>";
 echo "</tr>";
 }
