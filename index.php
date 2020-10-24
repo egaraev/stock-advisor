@@ -29,7 +29,7 @@ table, th, td {
 </style>
 </head>
 <body bgcolor=#abcaf2><h2>Stock Advisor`s View Page</h2>
-<a href='stat.php'><font size='+2'><b>Link to candle analyze and history statistics page</b></font></a>
+<a href='stat.php'><font size='+2'><b>Link to candle analyze and history statistics page</b></font></a><br>
 <a href='history.php'><font size='+2'><b>Link to history statistics page</b></font></a>
 <br><b>Logs</b><br>";
 
