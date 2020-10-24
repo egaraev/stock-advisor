@@ -1,3 +1,4 @@
+<head><body bgcolor=#abcaf2></head>
 <?php
 $con=mysqli_connect("localhost", "stockuser", "123456", "stock_advisor");
 // Check connection
