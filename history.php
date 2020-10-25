@@ -7,6 +7,7 @@ if (mysqli_connect_errno())
 echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }
 $market=$_GET["symbol"];
+echo $market;
   
 $result = mysqli_query($con,"SELECT * FROM history order by date where symbol=$market");
 
