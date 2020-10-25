@@ -27,7 +27,7 @@ while($row = mysqli_fetch_array($result))
 echo "<tr>";
 echo "<td>" . $row['symbol'] . "</td>";
 echo "<td>" . $row['date'] . "</td>";
-echo "<td>" . $row['current_price'] . "</td>";
+echo "<td>" . $row['price'] . "</td>";
 echo "<td>" . $row['candle_score'] . "</td>";
 echo "<td>" . $row['positive_tweets'] . "</td>";
 echo "<td>" . $row['negative_tweets'] . "</td>";
