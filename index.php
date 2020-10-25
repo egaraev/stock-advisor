@@ -30,7 +30,6 @@ table, th, td {
 </head>
 <body bgcolor=#abcaf2><h2>Stock Advisor`s View Page</h2>
 <a href='stat.php'><font size='+2'><b>Link to candle analyze and history statistics page</b></font></a><br>
-<a href='history.php'><font size='+2'><b>Link to history statistics page</b></font></a>
 <br><b>Logs</b><br>";
 
 
@@ -79,7 +78,8 @@ echo "<table border='1'>
 while($row = mysqli_fetch_array($result2))
 {
 echo "<tr>";
-echo "<td>" . $row['name'] . "</td>";
+//echo "<td>" . $row['name'] . "</td>";
+echo "<td><a href='history.php?symbol=". $row['symbol'] ."'>. $row['symbol'] .</a></td>";
 echo "<td>" . $row['current_price'] . "</td>";
 echo "<td><a href='images/". $row['symbol'] ."_chart.png'><img src='images/". $row['symbol'] ."_chart.png' width='300px' height='250px'></td>";
 echo "<td><a href='images/". $row['symbol'] ."_tweets.png'><img src='images/". $row['symbol'] ."_tweets.png' width='250px' height='250px'></td>";
@@ -92,7 +92,6 @@ echo "<td>" . $row['candle_score'] . "</td>";
 echo "<td>" . $row['hour_candle_direction'] . "</td>";
 echo "<td><pre>" . $row['news'] . "</pre></td>";
 echo "<td><pre><p><a href='#". $row['symbol'] ."' rel='modal:open'>Open details</a></p></pre></td>";
-echo "<td><a href='history.php?symbol=". $row['symbol'] ."'>History</a></td>";
 echo "</tr>";
 }
 echo "</table>";
