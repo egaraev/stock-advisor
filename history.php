@@ -15,7 +15,6 @@ echo "<table border='1'>
 <th>Market</th>
 <th>Date</th>
 <th>Price</th>
-<th>AI Price</th>
 <th>Candle Score</th>
 <th>Pos.tweets</th>
 <th>Neg.tweets</th>
@@ -29,7 +28,6 @@ echo "<tr>";
 echo "<td>" . $row['symbol'] . "</td>";
 echo "<td>" . $row['date'] . "</td>";
 echo "<td>" . $row['current_price'] . "</td>";
-echo "<td>" . $row['predicted_price'] . "</td>";
 echo "<td>" . $row['candle_score'] . "</td>";
 echo "<td>" . $row['positive_tweets'] . "</td>";
 echo "<td>" . $row['negative_tweets'] . "</td>";
