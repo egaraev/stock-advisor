@@ -19,7 +19,7 @@ echo "<table border='1'>
 <th>Pos.tweets</th>
 <th>Neg.tweets</th>
 <th>Twitter ratio</th>
-<th>New score</th>
+<th>News score</th>
 </tr>";
 
 while($row = mysqli_fetch_array($result))
