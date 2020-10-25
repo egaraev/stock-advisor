@@ -93,7 +93,7 @@ echo "<td>" . $row['candle_score'] . "</td>";
 echo "<td>" . $row['hour_candle_direction'] . "</td>";
 echo "<td><pre>" . $row['news'] . "</pre></td>";
 echo "<td><pre><p><a href='#". $row['symbol'] ."' rel='modal:open'>Open details</a></p></pre></td>";
-echo "<td><a href='history.php?symbol=". $row['symbol'] .">History</a></td>";
+echo "<td><a href='history.php?symbol='". $row['symbol'] ."'>History</a></td>";
 echo "</tr>";
 }
 echo "</table>";
