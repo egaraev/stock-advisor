@@ -39,7 +39,7 @@ def Buy():
           stop_bot = parameters()[10]
           #print (stop_bot_force)
           currtime = int(time.time())
-          today = datetime.datetime.now().date()
+          today = str(datetime.datetime.now().date())
           debug_mode=parameters()[9]
           max_orders = parameters()[5]
           bot_token= parameters()[11]
@@ -78,7 +78,7 @@ def Buy():
           candle_score=market_values(market,17)
           news_score=market_values(market,20)
           candle_pattern=market_values(market,18)
-          previous_date = market_values(market,22)
+          previous_date = str(market_values(market,22))
           #print (heikin_ashi, candle_direction,tweet_positive,tweet_negative,tweet_polarity,tweet_score,candle_score )
           print (previous_date)
           print (today)
