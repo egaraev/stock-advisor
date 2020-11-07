@@ -80,10 +80,7 @@ def Buy():
           candle_pattern=market_values(market,18)
           previous_date = str(market_values(market,22))
           #print (heikin_ashi, candle_direction,tweet_positive,tweet_negative,tweet_polarity,tweet_score,candle_score )
-          print (previous_date)
-          print (today)
-          if today == '2020-11-07':
-              print ("ok")
+
 	
 	
 
