@@ -81,6 +81,7 @@ def Buy():
           previous_date = market_values(market,22)
           #print (heikin_ashi, candle_direction,tweet_positive,tweet_negative,tweet_polarity,tweet_score,candle_score )
           print (previous_date)
+          print (today)
 	
 	
 
