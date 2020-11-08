@@ -291,9 +291,9 @@ def Sell():
                       finally:
                           db.close()
                       #Mail("egaraev@gmail.com", "egaraev@gmail.com", "New sell, SL", printed, "localhost")
-                      #send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + printed
-                      #response = requests.get(send_text)
-                      #print (response.json())	
+                      send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + printed
+                      response = requests.get(send_text)
+                      print (response.json())	
 			
 
           else:
