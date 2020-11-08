@@ -270,6 +270,7 @@ def Sell():
 			
 
           else:
+              print ('ok')
               pass 
 		  
 		  
