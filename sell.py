@@ -266,11 +266,37 @@ def Sell():
                       #Mail("egaraev@gmail.com", "egaraev@gmail.com", "New sell, SL", printed, "localhost")
                       send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + printed
                       response = requests.get(send_text)
-                      print (response.json())				
+                      print (response.json())
+			
+			
+                 if  (1.0>procent_serf>=-5 and danger_order==1 and max_percent_sql - procent_serf >= 0.2 and percent_serf_min(market) <= -10 and timestamp-timestamp_old >=2500000):
+                      print ('    6 -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting  ' + str(format_float(serf)) + ' USD')
+                      printed = ('    We have this negative order for more then 1 month, so to avoid  disaster lets sell all this shit with small loses  ' + market + ' for this crappy price' + str(format_float(last)) + '  and lose  ' + str(format_float(procent_serf)) + ' % . Buying this shit was a mistake ' +' For more details go here: http://139.162.132.189')
+                      try:
+
+                          db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
+                          cursor = db.cursor()
+                          cursor.execute('insert into logs(date, entry) values("%s", "%s")' % (currenttime, printed))
+                          cursor.execute('update orders set reason_close =%s, sell_time=%s where active=1 and market =%s', ("6 , Long_lasting_SL p:    " + str(format_float(last)) + "    t:   " + str(currenttime)  +'  HA: ' + str(heikin_ashi) + '  Candle_direction: ' + str(candle_direction) + ' Candle_score: ' + str(candle_score) + ' AI_direction: ' + str(ai_direction) + ' Tweet_positive: ' + str(tweet_positive) + ' Tweet_negative: ' + str(tweet_negative) +' Tweet_ratio: ' +str(tweet_ratio) + ' Tweet_polarity: ' + str(tweet_polarity) + ' Tweet_score: ' + str(tweet_score)+ ' Candle_pattern: ' + str(candle_pattern)+ ' News_score: ' + str(news_score)+  ' H_candle_dir: ' + str(hour_candle_direction),currtime, market))
+                          cursor.execute('update orders set active = 0 where market =("%s")' % market)
+                          netto_value=format_float(procent_serf-0)
+                          cursor.execute('UPDATE orders SET percent_serf = %s WHERE active = 0 AND market =%s ORDER BY order_id DESC LIMIT 1', (netto_value,market))
+                          newvalue = format_float(summ_serf() + (procent_serf-0))					  
+                          cursor.execute('insert into statistics(date, serf, market) values("%s", "%s", "%s")' % (currenttime, newvalue, market))
+                          cursor.execute('update symbols set date = %s  where symbol = %s and active =1', (today, market))					  
+                          db.commit()
+                      except pymysql.Error as e:
+                          print ("Error %d: %s" % (e.args[0], e.args[1]))
+                          sys.exit(1)
+                      finally:
+                          db.close()
+                      #Mail("egaraev@gmail.com", "egaraev@gmail.com", "New sell, SL", printed, "localhost")
+                      send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + printed
+                      response = requests.get(send_text)
+                      print (response.json())	
 			
 
           else:
-              print ("ok")
               pass 
 		  
 		  
