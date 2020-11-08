@@ -269,7 +269,7 @@ def Sell():
                       print (response.json())
 			
 			
-                 if  (1.0>procent_serf>=-5 and danger_order==1 and hour_candle_direction=='D' and percent_serf_min(market) <= -10 and timestamp-timestamp_old >=2500000):
+                 if  (1.0>procent_serf>=-5 and danger_order==1 and candle_direction=='D' and percent_serf_min(market) <= -10 and timestamp-timestamp_old >=2500000):
                       print ('    6 -Selling ' + str(format_float(sell_quantity_sql)) + ' units of ' + market + ' for ' + str(format_float(last)) + '  and getting  ' + str(format_float(serf)) + ' USD')
                       printed = ('    We have this negative order for more then 1 month, so to avoid  disaster lets sell all this shit with small loses  ' + market + ' for this crappy price ' + str(format_float(last)) + '  and lose  ' + str(format_float(procent_serf)) + ' % . Buying this shit was a mistake ' +' For more details go here: http://139.162.132.189')
                       try:
