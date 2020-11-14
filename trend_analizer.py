@@ -28,11 +28,16 @@ def TA():
           symbol=(symbol[0])
           db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
           cursor = db.cursor()
-          cursor.execute("SELECT price FROM history WHERE symbol = '%s' and price !='None' order by id desc limit 5" % symbol)
+          cursor.execute("SELECT price FROM history WHERE symbol = '%s' and price !='None' order by id desc limit 6" % symbol)
           price=cursor.fetchall()
           print (symbol)
-          print (price[0][0])
-
+          currentprice = (price[0][0])
+          daybeforeprice = (price[1][0])
+          twodaysbeforeprice = (price[2][0])
+          threedaysbeforeprice = (price[3][0])
+          fourdaysbeforeprice = (price[4][0])
+          fivedaysbeforeprice = (price[5][0])
+          print (currentprice, daybeforeprice, twodaysbeforeprice, threedaysbeforeprice, fourdaysbeforeprice, fivedaysbeforeprice)
 
  #         try:
  #             db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
