@@ -38,25 +38,26 @@ def TA():
           fourdaysbeforeprice = (price[4][0])
           fivedaysbeforeprice = (price[5][0])
           prices= [currentprice, daybeforeprice, twodaysbeforeprice, threedaysbeforeprice, fourdaysbeforeprice, fivedaysbeforeprice]
-          print (prices)
-          print (max(prices))
           if (currentprice==max(prices)):
              print ("Peak")
+             trend = "Peak"
           elif (currentprice>fivedaysbeforeprice and daybeforeprice==max(prices)) or (currentprice>fivedaysbeforeprice and twodaysbeforeprice==max(prices)):
              print ("Afterpeak")
+             trend = "Afterpeak"
           else:
              print ("Fluctuating")
+             trend = "Fluctuating"
 
- #         try:
- #             db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
- #             cursor = db.cursor()
- #             cursor.execute("update symbols set advise='%s'  where symbol='%s'" % (postString, symbol))		  
- #             db.commit()
- #         except pymysql.Error as e:
- #             print ("Error %d: %s" % (e.args[0], e.args[1]))
- #             sys.exit(1)
- #         finally:
- #             db.close()
+          try:
+              db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
+              cursor = db.cursor()
+              cursor.execute("update symbols set trend='%s'  where symbol='%s'" % (trend, symbol))		  
+              db.commit()
+          except pymysql.Error as e:
+              print ("Error %d: %s" % (e.args[0], e.args[1]))
+              sys.exit(1)
+          finally:
+              db.close()
 
 
 
