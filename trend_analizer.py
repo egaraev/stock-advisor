@@ -44,6 +44,8 @@ def TA():
              print ("Peak")
           elif (currentprice>fivedaysbeforeprice and daybeforeprice==max(prices)) or (currentprice>fivedaysbeforeprice and twodaysbeforeprice==max(prices)):
              print ("Afterpeak")
+          else:
+             print ("Fluctuating")
 
  #         try:
  #             db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
