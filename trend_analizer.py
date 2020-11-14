@@ -27,8 +27,9 @@ def TA():
         try:
           symbol=(symbol[0])
           name=symbol_full_name(symbol, 3)
+          price=hist_price(symbol)
           print (symbol)
-          print (hist_price(symbol)) 
+          print (price) 
  #         try:
  #             db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
  #             cursor = db.cursor()
