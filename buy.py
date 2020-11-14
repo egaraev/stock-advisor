@@ -79,6 +79,7 @@ def Buy():
           news_score=market_values(market,20)
           candle_pattern=market_values(market,18)
           previous_date = str(market_values(market,22))
+          trend = str(market_values(market,23))
           #print (heikin_ashi, candle_direction,tweet_positive,tweet_negative,tweet_polarity,tweet_score,candle_score )
 
 	
@@ -128,7 +129,7 @@ def Buy():
           print ("Starting buying mechanizm for " , market)
 
 
-          if (stop_bot == 0)  and tweet_positive>tweet_negative and heikin_ashi!="DOWN" and heikin_ashi!="Revers-DOWN" and candle_score>=0 and tweet_polarity>0.14 and news_score>=0.9 and candle_direction=="U" and hour_candle_direction=="U" and today!=previous_date: # and ai_direction=="UP":
+          if (stop_bot == 0)  and tweet_positive>tweet_negative and heikin_ashi!="DOWN" and heikin_ashi!="Revers-DOWN" and candle_score>=0 and tweet_polarity>0.14 and news_score>=0.9 and candle_direction=="U" and hour_candle_direction=="U" and today!=previous_date and trend !="Peak": # and ai_direction=="UP":
 
               # If we have some currency on the balance
                   if bought_quantity_sql !=0.0:
@@ -166,7 +167,7 @@ def Buy():
                           db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
                           cursor = db.cursor()
                           cursor.execute('insert into logs(date, entry) values("%s", "%s")' % (currenttime, printed))
-                          cursor.execute('insert into orders(market, quantity, price, active, date, timestamp, params) values("%s", "%s", "%s", "%s", "%s", "%s", "%s")' % (market, buy_quantity, last, "1", currenttime, timestamp,  '  HA: ' + str(heikin_ashi) + '  Candle_direction: ' + str(candle_direction) + ' Candle_score: ' + str(candle_score) + ' AI_direction: ' + str(ai_direction) + ' Tweet_positive: ' + str(tweet_positive) + ' Tweet_negative: ' + str(tweet_negative) + ' Tweet_ratio: ' +str(tweet_ratio) + ' Tweet_polarity: ' + str(tweet_polarity) + ' Tweet_score: ' + str(tweet_score)+ ' Candle_pattern: ' + str(candle_pattern)+ ' News_score: ' + str(news_score)+ ' H_candle_dir: ' + str(hour_candle_direction) ))
+                          cursor.execute('insert into orders(market, quantity, price, active, date, timestamp, params) values("%s", "%s", "%s", "%s", "%s", "%s", "%s")' % (market, buy_quantity, last, "1", currenttime, timestamp,  '  HA: ' + str(heikin_ashi) + '  Candle_direction: ' + str(candle_direction) + ' Candle_score: ' + str(candle_score) + ' AI_direction: ' + str(ai_direction) + ' Tweet_positive: ' + str(tweet_positive) + ' Tweet_negative: ' + str(tweet_negative) + ' Tweet_ratio: ' +str(tweet_ratio) + ' Tweet_polarity: ' + str(tweet_polarity) + ' Tweet_score: ' + str(tweet_score)+ ' Candle_pattern: ' + str(candle_pattern)+ ' News_score: ' + str(news_score)+ ' H_candle_dir: ' + str(hour_candle_direction) + ' Trend: ' + str(trend) ))
                           cursor.execute("update orders set serf = %s where market = %s and active =1",(serf, market))
                           db.commit()
                       except pymysql.Error as e:
