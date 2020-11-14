@@ -23,7 +23,6 @@ echo "<table border='1'>
 <th>Neg.tweets</th>
 <th>Twitter ratio</th>
 <th>News score</th>
-<th>Trend</th>
 </tr>";
 
 while($row = mysqli_fetch_array($result))
@@ -39,7 +38,6 @@ $tweet_ratio=($row['positive_tweets']/$row['negative_tweets']);
 $tweets_ratio = number_format($tweet_ratio, 2, '.', '');
 echo "<td>" . $tweets_ratio . "</td>";        
 echo "<td>" . $row['news_score'] . "</td>";
-echo "<td>" . $row['trend'] . "</td>";
 echo "</tr>";
 }
 echo "</table>";
