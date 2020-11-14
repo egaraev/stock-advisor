@@ -68,6 +68,7 @@ echo "<table border='1'>
 <th>AI Predicted chart for 1 month</th>
 <th>Heikin_ashi direction chart</th>
 <th>Heikin_ashi direction</th>
+<th>Trend</th>
 <th>Candle pattern</th>
 <th>Candle score</th>
 <th>Hour candle</th>
@@ -87,6 +88,7 @@ echo "<td><b>" . $row['predicted_price'] . "</b></td>";
 echo "<td><a href='images/". $row['symbol'] ."_result.png'><img src='images/". $row['symbol'] ."_result.png' width='250px' height='250px'></td>";
 echo "<td><a href='images/". $row['symbol'] ."_hachart.png'><img src='images/". $row['symbol'] ."_hachart.png' width='280px' height='250px'></td>";
 echo "<td>" . $row['heikin_ashi'] . "</td>";
+echo "<td>" . $row['trend'] . "</td>";
 echo "<td>" . $row['candle_pattern'] . "</td>";
 echo "<td>" . $row['candle_score'] . "</td>";
 echo "<td>" . $row['hour_candle_direction'] . "</td>";
