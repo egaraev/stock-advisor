@@ -28,6 +28,7 @@ def TA():
           symbol=(symbol[0])
           name=symbol_full_name(symbol, 3)
           print (symbol)
+          print (hist_price(symbol)) 
  #         try:
  #             db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
  #             cursor = db.cursor()
@@ -56,6 +57,16 @@ def symbol_full_name(symbolname, value):
 
     return False
 
+
+def hist_price(marketname):
+    db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
+    cursor = db.cursor()
+    market=marketname
+    cursor.execute("SELECT price FROM history WHERE market = '%s' order by date desc limit 5" % market)
+    r = cursor.fetchall()
+    for row in r:
+        return float(row[0])
+    return 0
 
 if __name__ == "__main__":
     main()
