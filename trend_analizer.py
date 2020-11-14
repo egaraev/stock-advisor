@@ -39,6 +39,7 @@ def TA():
           fivedaysbeforeprice = (price[5][0])
           prices= [currentprice, daybeforeprice, twodaysbeforeprice, threedaysbeforeprice, fourdaysbeforeprice, fivedaysbeforeprice]
           print (prices)
+          print (max(prices))
 
  #         try:
  #             db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
