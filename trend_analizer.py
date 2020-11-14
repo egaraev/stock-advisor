@@ -40,6 +40,10 @@ def TA():
           prices= [currentprice, daybeforeprice, twodaysbeforeprice, threedaysbeforeprice, fourdaysbeforeprice, fivedaysbeforeprice]
           print (prices)
           print (max(prices))
+          if (currentprice==max(prices)):
+             print ("Peak")
+          elif (currentprice>fivedaysbeforeprice and daybeforeprice==max(prices)) or (currentprice>fivedaysbeforeprice and twodaysbeforeprice==max(prices)):
+             print ("Afterpeak")
 
  #         try:
  #             db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
