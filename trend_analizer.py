@@ -37,7 +37,8 @@ def TA():
           threedaysbeforeprice = (price[3][0])
           fourdaysbeforeprice = (price[4][0])
           fivedaysbeforeprice = (price[5][0])
-          print (currentprice, daybeforeprice, twodaysbeforeprice, threedaysbeforeprice, fourdaysbeforeprice, fivedaysbeforeprice)
+          prices= [currentprice, daybeforeprice, twodaysbeforeprice, threedaysbeforeprice, fourdaysbeforeprice, fivedaysbeforeprice]
+          print (prices)
 
  #         try:
  #             db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
