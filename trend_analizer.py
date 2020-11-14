@@ -62,7 +62,7 @@ def hist_price(marketname):
     db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
     cursor = db.cursor()
     market=marketname
-    cursor.execute("SELECT price FROM history WHERE market = '%s' order by date desc limit 5" % market)
+    cursor.execute("SELECT price FROM history WHERE symbol = '%s' order by date desc limit 5" % market)
     r = cursor.fetchall()
     for row in r:
         return float(row[0])
