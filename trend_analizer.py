@@ -31,7 +31,7 @@ def TA():
           cursor.execute("SELECT price FROM history WHERE symbol = '%s' and price !='None' order by id desc limit 5" % symbol)
           price=cursor.fetchall()
           print (symbol)
-          print (type(price[0]))
+          print (price[0][0])
 
 
  #         try:
