@@ -11,7 +11,7 @@ import datetime
 
 db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
 cursor = db.cursor()
-cursor.execute("SELECT symbol FROM symbols")
+cursor.execute("SELECT symbol FROM symbols WHERE active=1")
 symbols=cursor.fetchall()
 
 def main():
