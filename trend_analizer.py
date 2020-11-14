@@ -62,7 +62,7 @@ def symbol_full_name(symbolname, value):
 def hist_price(symbol):
     db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
     cursor = db.cursor()
-    cursor.execute("SELECT price FROM history WHERE symbol = '%s' order by date desc limit 5" % symbol)
+    cursor.execute("SELECT price FROM history WHERE symbol = '%s' order by date desc limit 2" % symbol)
     r = cursor.fetchall()
     for row in r:
         return float(row[0])
