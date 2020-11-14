@@ -28,7 +28,7 @@ def TA():
           symbol=(symbol[0])
           db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
           cursor = db.cursor()
-          cursor.execute("SELECT price FROM history WHERE symbol = '%s' and price !='None' order by id asc limit 5" % symbol)
+          cursor.execute("SELECT price FROM history WHERE symbol = '%s' and price !='None' order by id limit 5" % symbol)
           price=cursor.fetchall()
           print (symbol)
           print (price) 
