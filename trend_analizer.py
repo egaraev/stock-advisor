@@ -31,7 +31,7 @@ def TA():
           cursor.execute("SELECT price FROM history WHERE symbol = '%s' and price !='None' order by id desc limit 5" % symbol)
           price=cursor.fetchall()
           print (symbol)
-          print (price[0]) 
+          print (float(price[0])) 
  #         try:
  #             db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
  #             cursor = db.cursor()
