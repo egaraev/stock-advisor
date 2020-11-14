@@ -26,8 +26,10 @@ def TA():
     for symbol in symbols: #Loop trough the stock summary
         try:
           symbol=(symbol[0])
-          name=symbol_full_name(symbol, 3)
-          price=hist_price(symbol)
+          db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
+          cursor = db.cursor()
+          cursor.execute(""SELECT price FROM history WHERE symbol = '%s' order by date desc limit 5" % symbol)
+          price=cursor.fetchall()
           print (symbol)
           print (price) 
  #         try:
@@ -45,18 +47,6 @@ def TA():
 
         except:
             continue
-
-def symbol_full_name(symbolname, value):
-    db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
-    cursor = db.cursor()
-    symbol = symbolname
-    cursor.execute("SELECT * FROM symbols WHERE symbol = '%s'" % symbol)
-    r = cursor.fetchall()
-    for row in r:
-        if row[1] == symbolname:
-            return row[value]
-
-    return False
 
 
 def hist_price(symbolname):
