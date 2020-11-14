@@ -32,6 +32,7 @@ def TA():
           price=cursor.fetchall()
           print (symbol)
           int_price = int(price.replace(',',''))
+          print (int_price)
 
  #         try:
  #             db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
