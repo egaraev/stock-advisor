@@ -129,7 +129,7 @@ def Buy():
           print ("Starting buying mechanizm for " , market)
 
 
-          if (stop_bot == 0)  and tweet_positive>tweet_negative and heikin_ashi!="DOWN" and heikin_ashi!="Revers-DOWN" and candle_score>=0 and tweet_polarity>0.14 and news_score>=0.9 and candle_direction=="U" and hour_candle_direction=="U" and today!=previous_date and trend !="Peak": # and ai_direction=="UP":
+          if (stop_bot == 0)  and tweet_positive>tweet_negative and heikin_ashi!="DOWN" and heikin_ashi!="Revers-DOWN" and candle_score>=0 and tweet_polarity>0.14 and news_score>=0.9 and candle_direction=="U" and hour_candle_direction=="U":# and today!=previous_date and trend !="Peak" and ai_direction=="UP":
 
               # If we have some currency on the balance
                   if bought_quantity_sql !=0.0:
