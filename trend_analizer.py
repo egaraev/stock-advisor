@@ -66,8 +66,10 @@ def hist_price(symbolname):
     cursor.execute("SELECT price FROM history WHERE symbol = '%s' order by date desc limit 2" % symbol)
     r = cursor.fetchall()
     for row in r:
-        return float(row[0])
-    return 0
+        if row[1] == symbolname:
+            return row[value]
+
+    return False
 
 if __name__ == "__main__":
     main()
