@@ -41,13 +41,13 @@ def TA():
           percent_change = float("{0:.2f}".format(currentprice/min(prices)*100-100))
           print (percent_change)
           if (currentprice==max(prices) and percent_change>=5.0):
-             print ("Peak")
+             print ("Peak " + percent_change)
              trend = "Peak " + percent_change
           elif (currentprice>fivedaysbeforeprice and daybeforeprice==max(prices)) or (currentprice>fivedaysbeforeprice and twodaysbeforeprice==max(prices)):
-             print ("Afterpeak")
+             print ("Afterpeak " + percent_change)
              trend = "Afterpeak " + percent_change
           else:
-             print ("Fluctuating")
+             print ("Fluctuating " + percent_change)
              trend = "Fluctuating " + percent_change
 
           try:
