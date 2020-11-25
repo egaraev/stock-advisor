@@ -39,16 +39,15 @@ def TA():
           fivedaysbeforeprice = (price[5][0])
           prices= [currentprice, daybeforeprice, twodaysbeforeprice, threedaysbeforeprice, fourdaysbeforeprice, fivedaysbeforeprice]
           percent_change = float("{0:.2f}".format(currentprice/min(prices)*100-100))
-          print (percent_change)
           if (currentprice==max(prices) and percent_change>=5.0):
              print ("Peak " + str(percent_change))
-             trend = "Peak " + percent_change
+             trend = "Peak " + str(percent_change)
           elif (currentprice>fivedaysbeforeprice and daybeforeprice==max(prices)) or (currentprice>fivedaysbeforeprice and twodaysbeforeprice==max(prices)):
              print ("Afterpeak " + str(percent_change))
-             trend = "Afterpeak " + percent_change
+             trend = "Afterpeak " + str(percent_change)
           else:
              print ("Fluctuating " + str(percent_change))
-             trend = "Fluctuating " + percent_change
+             trend = "Fluctuating " + str(percent_change)
 
           try:
               db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
