@@ -39,7 +39,7 @@ def TA():
           fivedaysbeforeprice = (price[5][0])
           prices= [currentprice, daybeforeprice, twodaysbeforeprice, threedaysbeforeprice, fourdaysbeforeprice, fivedaysbeforeprice]
           percent_change = float("{0:.2f}".format(currentprice/min(prices)*100-100))
-          if (currentprice==max(prices) and percent_change>=5.0):
+          if (currentprice==max(prices) and percent_change>=4.0):
              print ("Peak " + str(percent_change))
              trend = "Peak " + str(percent_change)+" %"
           elif (currentprice>fivedaysbeforeprice and daybeforeprice==max(prices)) or (currentprice>fivedaysbeforeprice and twodaysbeforeprice==max(prices)):
