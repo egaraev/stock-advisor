@@ -54,7 +54,7 @@ def SL():
 
           fig = plt.figure(figsize=(15,10))
           plt.title(name)
-#          ax = fig.add_subplot(111)
+          ax = fig.add_subplot(111)
           
           series1=(df['price'])
           s1mask = np.isfinite(series1)
@@ -70,8 +70,8 @@ def SL():
           # added these three lines
           lns = lns1+lns2
           labs = [l.get_label() for l in lns]
- #         ax.legend(lns, labs, loc=0)
-
+          ax.legend(lns, labs, loc=0)
+          ax.set_xticklabels([])
   #        ax.grid()
   #        ax.set_xlabel("Date")
   #        ax.set_ylabel(r"Stock Price")
