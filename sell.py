@@ -68,12 +68,7 @@ def Sell():
           danger_order=status_orders(market, 29)
           
           ai_price=market_values(market,11)
-          if ai_price<last:
-             ai_direction="DOWN"
-          elif ai_price>last:
-             ai_direction="UP"
-          else:
-             ai_direction="NONE"
+          ai_direction=market_values(market,24)
              
           tweet_polarity=market_values(market,13)
           tweet_score=market_values(market,15)
