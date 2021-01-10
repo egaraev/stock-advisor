@@ -29,7 +29,7 @@ db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
 cursor = db.cursor()
 cursor.execute("SELECT symbol FROM symbols WHERE active=1")
 symbols=cursor.fetchall()
-days=30
+days=60
 
 
 def main():
