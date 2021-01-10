@@ -72,9 +72,9 @@ def SL():
           labs = [l.get_label() for l in lns]
           ax.legend(lns, labs, loc=0)
           ax.set_xticklabels([])
-  #        ax.grid()
-  #        ax.set_xlabel("Date")
-  #        ax.set_ylabel(r"Stock Price")
+          ax.grid()
+          ax.set_xlabel("Date")
+          ax.set_ylabel(r"Stock Price")
   #        plt.gcf().autofmt_xdate()   # Beautify the x-labels
 
 
