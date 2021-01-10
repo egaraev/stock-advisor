@@ -25,8 +25,8 @@ $result = mysqli_query($con,"SELECT * FROM symbols where active = 1");
 echo "<table border='1'>
 <tr>
 <th>Stock name</th>
-<th>Historical Chart</th>
-<th>AI Historical Chart</th>
+<th>Historical Chart for news, tweets, indicators</th>
+<th>AI Historical Chart for machine learning predictions</th>
 <th>Candle Patterns Chart</th>
 </tr>";
 
