@@ -51,6 +51,7 @@ def neural():
         try:
           symbol=(symbol[0])
           name=symbol_full_name(symbol, 3)
+          previous_predicted_price = symbol_full_name(symbol, 11)
           ticker= symbol
           print ("Now lets test the model")
           print (ticker, futuredate)
@@ -75,11 +76,15 @@ def neural():
           # predict the future price
           future_price = predict(model, data)
           print (future_price, futuredate)
+          if future_price<previous_predicted_price:
+             ai_direction="DOWN"
+          else:
+             ai_direction="UP"
           printed = (symbol, f"Future price after {LOOKUP_STEP} days is {future_price:.2f}$")
           try:
               db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
               cursor = db.cursor()
-              cursor.execute("update symbols set predicted_price='%s'  where symbol='%s'" % (future_price, symbol))
+              cursor.execute("update symbols set predicted_price='%s', ai_direction='%s'  where symbol='%s'" % (future_price, ai_direction, symbol))
               cursor.execute('insert into logs(date, entry) values("%s", "%s")', (currenttime, printed))			  
               db.commit()
           except pymysql.Error as e:
