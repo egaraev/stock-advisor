@@ -75,8 +75,8 @@ def SL():
           ax.grid()
           ax.set_xlabel("Date")
           ax.set_ylabel(r"Stock Price")
-          ax2.set_ylabel(r"Score")
-          ax2.set_ylim(-1, 4)
+ #         ax2.set_ylabel(r"Score")
+ #         ax2.set_ylim(-1, 4)
           plt.gcf().autofmt_xdate()   # Beautify the x-labels
 
 
