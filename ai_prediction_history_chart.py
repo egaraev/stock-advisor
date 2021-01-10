@@ -33,7 +33,7 @@ def SL():
           print (symbol)
           db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
           cursor = db.cursor()
-          cursor.execute("SELECT date, price, predicted_price FROM history WHERE symbol='%s' ORDER BY date DESC LIMIT 200" % symbol)
+          cursor.execute("SELECT date, price, predicted_price FROM history WHERE symbol='%s' ORDER BY date DESC LIMIT 300" % symbol)
           data=cursor.fetchall()
 
           df = pd.DataFrame(data)
@@ -73,11 +73,9 @@ def SL():
           ax.legend(lns, labs, loc=0)
 
           ax.grid()
-          ax.set_xlabel("Date")
+ #         ax.set_xlabel("Date")
           ax.set_ylabel(r"Stock Price")
- #         ax2.set_ylabel(r"Score")
- #         ax2.set_ylim(-1, 4)
-          plt.gcf().autofmt_xdate()   # Beautify the x-labels
+ #         plt.gcf().autofmt_xdate()   # Beautify the x-labels
 
 
           plt.savefig('/root/PycharmProjects/stock-advisor/images/ai_history.png')
