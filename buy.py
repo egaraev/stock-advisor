@@ -66,12 +66,8 @@ def Buy():
           tweet_ratio = float("{0:.2f}".format(tweet_positive/tweet_negative))
           #print (tweet_ratio)
           ai_price=market_values(market,11)
-          if ai_price<last:
-             ai_direction="DOWN"
-          elif ai_price>last:
-             ai_direction="UP"
-          else:
-             ai_direction="NONE"
+          ai_direction=str(market_values(market,24))
+
              
           tweet_polarity=market_values(market,13)
           tweet_score=market_values(market,15)
