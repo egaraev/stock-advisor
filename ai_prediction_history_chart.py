@@ -73,9 +73,9 @@ def SL():
           ax.legend(lns, labs, loc=0)
 
           ax.grid()
- #         ax.set_xlabel("Date")
+          ax.set_xlabel("Date")
           ax.set_ylabel(r"Stock Price")
- #         plt.gcf().autofmt_xdate()   # Beautify the x-labels
+          plt.gcf().autofmt_xdate()   # Beautify the x-labels
 
 
           plt.savefig('/root/PycharmProjects/stock-advisor/images/ai_history.png')
