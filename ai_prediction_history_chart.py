@@ -33,7 +33,7 @@ def SL():
           print (symbol)
           db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
           cursor = db.cursor()
-          cursor.execute("SELECT date, price, predicted_price FROM history WHERE symbol='%s' ORDER BY date DESC LIMIT 300" % symbol)
+          cursor.execute("SELECT date, price, predicted_price FROM history WHERE symbol='%s' ORDER BY date DESC LIMIT 250" % symbol)
           data=cursor.fetchall()
 
           df = pd.DataFrame(data)
