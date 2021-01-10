@@ -33,7 +33,7 @@ def SL():
           print (symbol)
           db = pymysql.connect("localhost", "stockuser", "123456", "stock_advisor")
           cursor = db.cursor()
-          cursor.execute("SELECT date, twitter_polarity, twitter_score, news_score, price, predicted_price, positive_tweets, negative_tweets, candle_score FROM history WHERE symbol='%s' ORDER BY date DESC LIMIT 200" % symbol)
+          cursor.execute("SELECT date, twitter_polarity, twitter_score, news_score, price, positive_tweets, negative_tweets, candle_score FROM history WHERE symbol='%s' ORDER BY date DESC LIMIT 30" % symbol)
           data=cursor.fetchall()
 
           df = pd.DataFrame(data)
@@ -42,17 +42,13 @@ def SL():
 		  
 		  
           #df.set_index('date')
-          df.columns = ['date', 'twitter_polarity', 'twitter_score', 'news_score', 'price', 'predicted_price', 'positive_tweets', 'negative_tweets', 'candle_score']
+          df.columns = ['date', 'twitter_polarity', 'twitter_score', 'news_score', 'price', 'positive_tweets', 'negative_tweets', 'candle_score']
 		  
           df['date_index'] = df['date']
-          #df['date_index'] = pd.to_datetime(df['date_index'])
-          #df['date_index'] = pd.to_datetime(df['date_index'], infer_datetime_format=True)
           df['date_index'] = pd.to_datetime(df['date_index'])
           df= df.set_index('date_index')
           df=df.sort_index()
           
-          #df.info()
-          #print (df)
 
           rc('mathtext', default='regular')
 
@@ -60,11 +56,9 @@ def SL():
           plt.title(name)
           ax = fig.add_subplot(111)
           
-          #s1mask = np.isfinite(series1)
+
           series1=(df['price'])
           s1mask = np.isfinite(series1)
-          series2=(df['predicted_price'])
-          s2mask = np.isfinite(series2)
 		  
           series3=(df['positive_tweets'])
           s3mask = np.isfinite(series3)
@@ -83,7 +77,6 @@ def SL():
 		  
 
           lns1 = ax.plot(df['date'][s1mask], series1[s1mask], linewidth = 3, label = 'Price')
-          lns2 = ax.plot(df['date'][s2mask], series2[s2mask], c='blue', linestyle = '--', linewidth = 3, label = 'Prediction')
           lns3 = ax.plot(df['date'][s3mask], series3[s3mask], c='magenta', linewidth = 3, label = 'Positive tweets')
           lns4 = ax.plot(df['date'][s4mask], series4[s4mask], c='sienna', linewidth = 3, label = 'Negative tweets')
           ax2 = ax.twinx()
@@ -94,7 +87,7 @@ def SL():
 		  
 
           # added these three lines
-          lns = lns1+lns2+lns3+lns4+lns5+lns6+lns7+lns8
+          lns = lns1+lns3+lns4+lns5+lns6+lns7+lns8
           labs = [l.get_label() for l in lns]
           ax.legend(lns, labs, loc=0)
 
