@@ -31,4 +31,4 @@ DROPOUT = 0.4
 LOSS = "mse"
 OPTIMIZER = "rmsprop"
 BATCH_SIZE = 64
-EPOCHS = 200
+EPOCHS = 300
