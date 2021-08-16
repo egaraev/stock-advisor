@@ -49,14 +49,11 @@ def prices():
         try:
           symbol=(symbol[0])
           name=symbol_full_name(symbol, 3)
-#          print (symbol)
           stock = yf.Ticker(symbol)
           hist = stock.history(period="{}d".format(days))
           df = pd.DataFrame(hist)
-          #print (df)
           hourhist = stock.history(interval="1h")
           hourdf=pd.DataFrame(hourhist)
-#          print (hourdf)
 	  
           hourcurentopen=(hourdf['Open'][-2].tolist())		
           hourcurentclose=(hourdf['Close'][-2].tolist())	
@@ -68,7 +65,7 @@ def prices():
           hourprevhigh=(hourdf['High'][-3].tolist())
 		  
 		  		  
-          last= (get_live_price(symbol))
+          last= (si.get_live_price(symbol))
           daycurrentopen = (df['Open'][14].tolist())
           daycurrentclose = (df['Close'][14].tolist())
           daycurrentlow = (df['Low'][14].tolist())
@@ -89,7 +86,7 @@ def prices():
           dayprevhigh4 = (df['High'][10].tolist())
           dayprevopen4 = (df['Open'][10].tolist())
           dayprevclose4 = (df['Close'][10].tolist())
-          #print (df['Open'][14].tolist())		  
+
 		  
           df = df.reset_index(level=['Date'])
 
@@ -113,9 +110,9 @@ def prices():
 		  
 		  
 		  
-#          print (df)
+#          print (df.info())
           heikin_ashi_df = heikin_ashi(df)
-	  
+#          print (heikin_ashi_df)
           
 		  
 	  
@@ -183,12 +180,13 @@ def prices():
           		  
 
           ohlc_df = ohlc_df[['Date', 'Open', 'High', 'Low', 'Close']]
-          #print (ohlc_df)
+          #print (ohlc_df.info())
 
 
 
          # Converting dates column to float values
           ohlc_df['Date'] = ohlc_df['Date'].map(mdates.date2num)
+          print (ohlc_df)
 
           fig, ax = plt.subplots(figsize=(8, 4))
           ax.xaxis_date()
