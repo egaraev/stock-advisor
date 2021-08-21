@@ -50,7 +50,9 @@ def prices():
           stock = yf.Ticker(symbol)
           hist = stock.history(period="{}d".format(days))
           df = pd.DataFrame(hist)
-          df = df.reset_index(level=['Date'])  
+#          print (df)
+          df = df.reset_index(level=['Date']) 
+#          print (df) 
           ohlc_df = df.copy()
           ohlc_df = ohlc_df[['Date', 'Open', 'High', 'Low', 'Close']]
           #last_pattern=''		  

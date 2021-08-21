@@ -31,7 +31,6 @@ def SL():
           aftercount_min=float(status_orders(market, 26))
           order_id = closed_orders_id(market)
           procent_serf = float("{0:.2f}".format(((last / bought_price_sql) - 1) * 100))
-          print ("Global buy parameters configured, moving to market loop")
           print (aftercount,  aftercount_min, order_id, procent_serf, min_percent )
 
           if order_id!=0 and currtime - close_date(market)<432000:
