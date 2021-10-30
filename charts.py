@@ -81,10 +81,10 @@ def prices():
 
           print (new_name)
 
-          src_dir = "/root/PycharmProjects/stock-advisor/images/"
-          dst_dir = "/var/www/html/images/"
-          for pngfile in glob.iglob(os.path.join(src_dir, "*.png")):
-            shutil.copy(pngfile, dst_dir)
+          # src_dir = "/root/PycharmProjects/stock-advisor/images/"
+          # dst_dir = "/var/www/html/images/"
+          # for pngfile in glob.iglob(os.path.join(src_dir, "*.png")):
+            # shutil.copy(pngfile, dst_dir)
 
 
 

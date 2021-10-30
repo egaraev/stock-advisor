@@ -67,11 +67,14 @@ echo "<table border='1'>
 <th>Predicted price</th>
 <th>AI Predicted chart for 1 month</th>
 <th>Heikin_ashi direction chart</th>
+<th>OBV chart</th>
 <th>Heikin_ashi direction</th>
 <th>Trend</th>
 <th>Candle pattern</th>
 <th>Candle score</th>
 <th>Hour candle</th>
+<th>MACD signal</th>
+<th>OBV signal</th>
 <th>News</th>
 <th>History</th>
 </tr>";
@@ -87,11 +90,14 @@ echo "<td><a href='images/". $row['symbol'] ."_tweets.png'><img src='images/". $
 echo "<td><b>" . $row['predicted_price'] . "</b></td>";
 echo "<td><a href='images/". $row['symbol'] ."_result.png'><img src='images/". $row['symbol'] ."_result.png' width='250px' height='250px'></td>";
 echo "<td><a href='images/". $row['symbol'] ."_hachart.png'><img src='images/". $row['symbol'] ."_hachart.png' width='280px' height='250px'></td>";
+echo "<td><a href='images/". $row['symbol'] ."_obv_results.png'><img src='images/". $row['symbol'] ."_obv_results.png' width='280px' height='250px'></td>";
 echo "<td>" . $row['heikin_ashi'] . "</td>";
 echo "<td>" . $row['trend'] . "</td>";
 echo "<td>" . $row['candle_pattern'] . "</td>";
 echo "<td>" . $row['candle_score'] . "</td>";
 echo "<td>" . $row['hour_candle_direction'] . "</td>";
+echo "<td>" . $row['macd_signal'] . "</td>";
+echo "<td>" . $row['obv_signal'] . "</td>";
 echo "<td><pre>" . $row['news'] . "</pre></td>";
 echo "<td><pre><p><a href='#". $row['symbol'] ."' rel='modal:open'>Open details</a></p></pre></td>";
 echo "</tr>";
@@ -127,7 +133,7 @@ while($row = mysqli_fetch_array($result3))
 {
 echo "<tr>";
 echo "<td>" . $row['date'] . "</td>";
-echo "<td>" . $row['market'] . "</td>";
+echo "<td>" . $row['symbol'] . "</td>";
 echo "<td>" . $row['price'] . "</td>";
 echo "<td><b>" . $row['percent_serf'] . "</b></td>";
 echo "<td>" . $row['percent_serf_max'] . "</td>";

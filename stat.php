@@ -25,6 +25,7 @@ $result = mysqli_query($con,"SELECT * FROM symbols where active = 1");
 echo "<table border='1'>
 <tr>
 <th>Stock name</th>
+<th>MACD indicator</th>
 <th>Historical Chart for news, tweets, indicators</th>
 <th>AI Historical Chart for machine learning predictions</th>
 <th>Candle Patterns Chart</th>
@@ -34,6 +35,7 @@ while($row = mysqli_fetch_array($result))
 {
 echo "<tr>";
 echo "<td>" . $row['name'] . "</td>";
+echo "<td><a href='images/". $row['symbol'] ."_macd_results.png'><img src='images/". $row['symbol'] ."_macd_results.png' width='1000px' height='700px'></td>";
 echo "<td><a href='images/". $row['symbol'] ."_history.png'><img src='images/". $row['symbol'] ."_history.png' width='1000px' height='700px'></td>";
 echo "<td><a href='images/". $row['symbol'] ."_ai_history.png'><img src='images/". $row['symbol'] ."_ai_history.png' width='1000px' height='700px'></td>";
 echo "<td><a href='images/". $row['symbol'] ."_candlesticks.png'><img src='images/". $row['symbol'] ."_candlesticks.png' width='1000px' height='700px'></td>";
