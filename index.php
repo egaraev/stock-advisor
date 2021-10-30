@@ -133,7 +133,7 @@ while($row = mysqli_fetch_array($result3))
 {
 echo "<tr>";
 echo "<td>" . $row['date'] . "</td>";
-echo "<td>" . $row['symbol'] . "</td>";
+echo "<td>" . $row['market'] . "</td>";
 echo "<td>" . $row['price'] . "</td>";
 echo "<td><b>" . $row['percent_serf'] . "</b></td>";
 echo "<td>" . $row['percent_serf_max'] . "</td>";
