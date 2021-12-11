@@ -4,6 +4,8 @@ import datetime
 import time 
 from datetime import timedelta, date
 import os, sys
+import glob
+import shutil
 import pandas as pd
 import numpy as np
 from math import floor
@@ -82,12 +84,17 @@ def obv_analyze():
 				 
            plt.legend(loc='upper right')
            #plt.show()
-           plt.savefig('/root/PycharmProjects/cryptobot/images/obv_results.png')
+           plt.savefig('/root/PycharmProjects/cryptobot/images/temp/obv_results.png')
            newfilename=("{}_obv_results.png".format(symbol))
-           my_path = "/root/PycharmProjects/cryptobot/images/obv_results.png"
+           my_path = "/root/PycharmProjects/cryptobot/images/temp/obv_results.png"
            new_name = os.path.join(os.path.dirname(my_path), newfilename)
            os.rename(my_path, new_name)
            print (new_name)
+
+           src_dir = "/root/PycharmProjects/cryptobot/images/temp"
+           dst_dir = "/root/PycharmProjects/stock-advisor/images/"
+           for pngfile in glob.iglob(os.path.join(src_dir, "*obv_results.png")):
+             shutil.copy(pngfile, dst_dir)
 
 
 

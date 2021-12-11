@@ -37,30 +37,28 @@ def SL():
           data=cursor.fetchall()
 
           df = pd.DataFrame(data)
+          #print (df)
 
-		  
-		  
-		  
           #df.set_index('date')
           df.columns = ['date',  'price', 'predicted_price']
-		  
+          #print (df)		  
           df['date_index'] = df['date']
           df['date_index'] = pd.to_datetime(df['date_index'])
           df= df.set_index('date_index')
           df=df.sort_index()
-          
+          #print (df)
+
 
           rc('mathtext', default='regular')
-
           fig = plt.figure(figsize=(30,20))
-          plt.title(name)
+          plt.title(symbol)
           ax = fig.add_subplot(111)
           
-          series1=(df['price'])
+          series1=(df['price'])		  
           s1mask = np.isfinite(series1)
           series2=(df['predicted_price'])
           s2mask = np.isfinite(series2)
-  
+
 
           lns1 = ax.plot(df['date'][s1mask], series1[s1mask], linewidth = 3, label = 'Price')
           lns2 = ax.plot(df['date'][s2mask], series2[s2mask], c='blue', linestyle = '--', linewidth = 3, label = 'Prediction')
@@ -71,26 +69,25 @@ def SL():
           lns = lns1+lns2
           labs = [l.get_label() for l in lns]
           ax.legend(lns, labs, loc=0)
- #         ax.set_xticklabels([])
           ax.grid()
           ax.set_xlabel("Date")
-          ax.set_ylabel(r"Stock Price")
+          ax.set_ylabel(r"Stock Prices")
           plt.gcf().autofmt_xdate()   # Beautify the x-labels
 
 
-          plt.savefig('/root/PycharmProjects/stock-advisor/images/ai_history.png')
+          plt.savefig('/root/PycharmProjects/stock-advisor/images/temp/ai_history.png')
 		  
           newfilename=("{}_ai_history.png".format(symbol))
-          my_path = "/root/PycharmProjects/stock-advisor/images/ai_history.png"
+          my_path = "/root/PycharmProjects/stock-advisor/images/temp/ai_history.png"     
           new_name = os.path.join(os.path.dirname(my_path), newfilename)
           os.rename(my_path, new_name)
 
           print (new_name)
 
-          # src_dir = "/root/PycharmProjects/stock-advisor/images/"
-          # dst_dir = "/var/www/html/images/"
-          # for pngfile in glob.iglob(os.path.join(src_dir, "*.png")):
-            # shutil.copy(pngfile, dst_dir)
+          src_dir = "/root/PycharmProjects/stock-advisor/images/temp"
+          dst_dir = "/root/PycharmProjects/cryptobot/images/"
+          for pngfile in glob.iglob(os.path.join(src_dir, "*_ai_history.png")):
+            shutil.copy(pngfile, dst_dir)
 
 
 
