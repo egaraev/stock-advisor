@@ -63,7 +63,7 @@ def obv_analyze():
 
 
            fig, ax = plt.subplots(figsize=(16, 8))
-           plt.title(symbol)
+           plt.title(name)
            plt.plot(df['date'], df['close'], label='Close', color='black')
            plt.plot(df['date'], buy_price, marker = '^', color = 'green', markersize = 8, label = 'BUY SIGNAL', linewidth = 0)
            plt.plot(df['date'], sell_price, marker = 'v', color = 'r', markersize = 8, label = 'SELL SIGNAL', linewidth = 0)
@@ -84,14 +84,14 @@ def obv_analyze():
 				 
            plt.legend(loc='upper right')
            #plt.show()
-           plt.savefig('/root/PycharmProjects/cryptobot/images/temp/obv_results.png')
+           plt.savefig('/root/PycharmProjects/stock-advisor/images/temp/obv_results.png')
            newfilename=("{}_obv_results.png".format(symbol))
-           my_path = "/root/PycharmProjects/cryptobot/images/temp/obv_results.png"
+           my_path = "/root/PycharmProjects/stock-advisor/images/temp/obv_results.png"
            new_name = os.path.join(os.path.dirname(my_path), newfilename)
            os.rename(my_path, new_name)
            print (new_name)
 
-           src_dir = "/root/PycharmProjects/cryptobot/images/temp"
+           src_dir = "/root/PycharmProjects/stock-advisor/images/temp"
            dst_dir = "/root/PycharmProjects/stock-advisor/images/"
            for pngfile in glob.iglob(os.path.join(src_dir, "*obv_results.png")):
              shutil.copy(pngfile, dst_dir)

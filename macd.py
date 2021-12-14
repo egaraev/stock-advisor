@@ -65,13 +65,13 @@ def macd_analyze():
                  ax2.bar(new_macd.index[i], new_macd['hist'][i], color = '#26a69a')
     
           plt.legend(loc = 'lower right')
-          plt.savefig('/root/PycharmProjects/cryptobot/images/temp/macd_results.png', bbox_inches='tight')    
+          plt.savefig('/root/PycharmProjects/stock-advisor/images/temp/macd_results.png', bbox_inches='tight')    
           newfilename=("{}_macd_results.png".format(symbol))
-          my_path = "/root/PycharmProjects/cryptobot/images/temp/macd_results.png"
+          my_path = "/root/PycharmProjects/stock-advisor/images/temp/macd_results.png"
           new_name = os.path.join(os.path.dirname(my_path), newfilename)
           os.rename(my_path, new_name)
 
-          src_dir = "/root/PycharmProjects/cryptobot/images/temp"
+          src_dir = "/root/PycharmProjects/stock-advisor/images/temp"
           dst_dir = "/root/PycharmProjects/stock-advisor/images/"
           for pngfile in glob.iglob(os.path.join(src_dir, "*macd_results.png")):
              shutil.copy(pngfile, dst_dir)
